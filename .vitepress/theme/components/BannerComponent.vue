@@ -20,7 +20,7 @@ watchEffect(() => {
   <div ref="el" class="banner">
     <div class="text">
       VM汉化组网站 v3 版正在制作测试中，发现任何问题请在<a
-        href="https://github.com/Wulian233/vmct-website/issues" target="_blank" rel="noopener noreferrer">Github汇报</a>。
+        href="https://github.com/Wulian233/vmct-website-beta//issues" target="_blank" rel="noopener noreferrer">Github汇报</a>。
     </div>
   </div>
 </template>

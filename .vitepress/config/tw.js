@@ -26,7 +26,7 @@ export const tw = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/Wulian233/vmct-website/edit/main/:path',
+      pattern: 'https://github.com/Wulian233/vmct-website-beta//edit/main/:path',
       text: '在 GitHub 上編輯此頁面'
     },
 

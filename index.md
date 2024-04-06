@@ -20,7 +20,7 @@ hero:
       link: https://vm-comment.pp.ua/
     - theme: alt
       text: GitHub
-      link: https://github.com/Wulian233/vmct-website
+      link: https://github.com/Wulian233/vmct-website-beta/
   image:
       src: ./img/vm.png
       alt: VM 汉化组

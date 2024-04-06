@@ -11,10 +11,6 @@ export default defineConfig({
     tw: { label: '繁體中文', ...tw }
   },
 
-  optimizeDeps: {
-    include: ['modpacks/**/*.html','modpacks/*.html']
-  },
-
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
@@ -33,7 +29,7 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://vmct-cn.top/',
+    hostname: 'https://beta.vmct-cn.top/',
     transformItems(items) {
       return items.filter((item) => !item.url.includes('migration'))
     }
@@ -43,7 +39,7 @@ export default defineConfig({
     logo: { src: './img/vm.png', width: 30, height: 45 },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Wulian233/vmct-website' }
+      { icon: 'github', link: 'https://github.com/Wulian233/vmct-website-beta/' }
     ]
   }
 })
