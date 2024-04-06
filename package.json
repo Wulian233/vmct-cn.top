@@ -1,0 +1,16 @@
+{
+  "name": "vmct-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.0.2",
+    "vue": "^3.4.21"
+  }
+}
