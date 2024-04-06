@@ -10,6 +10,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install Vitepress
+        run: npm install vitepress
       - name: Build and Deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
