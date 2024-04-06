@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+.temp
+.vite_opt_cache
+.vitepress/dist
+.vitepress/cache
+.vscode
+dist
+cache
+temp
+examples-temp
+node_modules
+package-lock.json
+pnpm-global
+pnpm-lock.yaml
+yarn.lock
