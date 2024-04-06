@@ -16,5 +16,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: Wulian233/vmct-website-beta
           TARGET_BRANCH: gh_pages
-          BUILD_SCRIPT: yarn && yarn build
+          BUILD_SCRIPT: npm build
           BUILD_DIR: .vitepress/dist/
