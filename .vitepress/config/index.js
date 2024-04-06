@@ -5,7 +5,7 @@ import { tw } from './tw'
 export default defineConfig({
   ...defineConfig,
 
-  base: "./",
+  base: "/vmct-website-beta/",
   locales: {
     root: { label: '简体中文', ...zh },
     tw: { label: '繁體中文', ...tw }
