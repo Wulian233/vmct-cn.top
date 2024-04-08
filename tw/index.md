@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 整合包漢化
-      link: ../modpacks/index.html
+      link: ../modpacks/
     - theme: brand
       text: 地圖漢化
-      link: ../map/
+      link: ./map/
     - theme: alt
       text: 問題交流
       link: https://vm-comment.pp.ua/
