@@ -95,7 +95,7 @@ function sidebarMap(){
         { text: '貝維爾小鎮', link: 'bayville' },
       ]
     },
-    { text: '返回首頁', base: '/', link: 'index' },
-    { text: '地圖漢化準則', base: '/', link: 'rule' }
+    { text: '返回首頁', base: '/', link: '/tw/' },
+    { text: '地圖漢化準則', base: '/', link: '/tw/rule' }
   ]
 }
