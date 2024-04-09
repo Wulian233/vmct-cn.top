@@ -2,56 +2,55 @@
 import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.vue'
 </script>
 
-# 神界陨落汉化下载
+# 神界隕落漢化下載
 <div style="display: flex">
   <img src="https://s11.ax1x.com/2024/02/25/pFalbNR.jpg" style="width:50%" alt="图片1">
   <img src="https://s11.ax1x.com/2024/02/25/pFaMYKe.png" style="width:50%" alt="图片2">
 </div>
 
-## 地图信息
+## 地圖資訊
 
 原名：Divinity's End
 
-神界陨落是一个史诗般规模的CTM类地图，是高版本CTM类地图的奠基之作。
+神界隕落是一個史詩般規模的CTM類地圖，是高版本CTM類地圖的奠基之作。
 
-游戏版本：MC原版 1.19.2
+遊戲版本：Minecraft原版1.19.2
 
 
-你准备好改变世界了吗？
+你準備好改變世界了嗎？
 
-你已经战胜了众神的残酷……
+你已經戰勝了眾神的殘酷……
 
-你已经征服了泰坦的领域……
+你已經征服了泰坦的領域……
 
-人类的时代已经来临……
+人類的時代已經來臨……
 
-你准备好改变世界了吗？你准备好面对神界陨落了吗？
+你準備好改變世界了嗎？ 
+
+你準備好面對神界隕落了嗎？
 
 <div style="display: flex;">
-  <ButtonComponent link="https://vmhanhuazu.lanzouo.com/s/divinity">下载地图和汉化</ButtonComponent>
-  <ButtonComponent buttonClass='button3' link="https://vm-comment.pp.ua/posts/19515.html">问题反馈评论区</ButtonComponent>
+  <ButtonComponent link="https://vmhanhuazu.lanzouo.com/s/divinity">下載地圖和漢化</ButtonComponent>
+  <ButtonComponent buttonClass='button3' link="https://vm-comment.pp.ua/posts/19515.html">漢化問題評論區</ButtonComponent>
 </div>
 
 
-### 地图下载与授权
+### 地圖下載與授權
 
-> [!IMPORTANT] 汉化方法
-> 你必须同时下载地图和汉化补丁，并把汉化资源包放在`resourcepacks`资源包文件夹。最后在游戏内启用资源包的方法完成汉化。
+> [!IMPORTANT] 漢化方法
+> 你必須同時下載地圖和漢化補丁，並把漢化資源包放在`resourcepacks`資源包資料夾。最後在遊戲內啟用資源包的方法完成漢化。
 
-**地图是原版MC的！无需模组，请把地图放进存档（saves）文件夹！**
+**地圖是原版Minecraft的！無需模組，請把地圖放進存檔（saves）資料夾！**
 
-本地图汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+本地圖漢化已獲得作者授權。本漢化補丁不違反任何社區規則。
 
-### 汉化者（排名不分先后）
+### 漢化者（排名不分先後）
 
-cat酱，X209，linyeyuyue，咕咕鱼 RCqaq_，Feathamity，DC10-10，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
+cat醬，X209，linyeyuyue，咕咕魚，RCqaq_，Feathamity，DC10-10，醉冰茶，望，阿鵡，荔枝，茫氪，NLG永不言弃，netizenxing，青嵐，Lims，Sy_Cr，Reset255，捂臉，逸晨
 
 ## 其他
 ### 一些需知
-如果有任何汉化问题，请在B站汉化组官号评论私信，或加入我们的QQ群告诉我们！汉化补丁禁止二次分发！所谓的懒人包违反EULA协议也禁止传播！具体请看汉化补丁内的协议内容和官号专栏。
+如果有任何漢化問題，請在B站漢化組官號評論私信告訴我們！漢化補丁禁止二次分發！具體請看漢化補丁內的協定內容和官號專欄。
 
-### 支持我们
-您的支持与鼓励是我们前进的动力！我们一直在用爱发电。如果在您条件允许的情况下，可以在爱发电支持我们！还可以在B站免费关注我们的账号！
-
-### 加入我们
-加入我们的QQ交流群，可以进一步了解制作进度，还可以游玩群内特供的整合包服务器！
+### 支持我們
+您的支持與鼓勵是我們前進的動力！我們一直在用愛發電。如果可以，您可以向他人推薦我們的漢化成果，十分感謝！還可以在B站免費訂閱我們的帳號！
