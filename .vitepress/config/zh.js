@@ -105,6 +105,7 @@ function sidebarMap(){
         { text: '最终悖论', link: 'final' },
         { text: '神界陨落', link: 'divinity' },
         { text: '贝维尔小镇', link: 'bayville' },
+        { text: '死亡竞速2', link: 'deathrunner' },
       ]
     },
     { text: '返回首页', base: '/', link: 'index' },

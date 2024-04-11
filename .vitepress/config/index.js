@@ -36,7 +36,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: { src: './img/vm.png', width: 30, height: 45 },
+    logo: { src: '/img/vm.png', width: 30, height: 45 },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Wulian233/vmct-website-beta/' }

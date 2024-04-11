@@ -15,6 +15,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 死亡竞速2是一个1.20.1版本的小游戏地图。玩家必须在时间耗尽之前到达赛道的尽头！
 
 游戏版本：MC原版 1.20.1
+
 玩家数量：1-32名
 
 <div style="display: flex;">
