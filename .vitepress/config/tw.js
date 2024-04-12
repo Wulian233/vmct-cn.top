@@ -94,6 +94,7 @@ function sidebarMap(){
         { text: '神界隕落', link: 'divinity' },
         { text: '貝維爾小鎮', link: 'bayville' },
         { text: '死亡競速2', link: 'deathrunner' },
+        { text: 'Would You Rather', link: 'wyr' },
       ]
     },
     { text: '返回首頁', base: '/', link: 'tw' },

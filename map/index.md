@@ -29,4 +29,9 @@ features:
     details: 死亡竞速2是MC 1.20.1版本的一个小游戏地图。玩家必须在时间耗尽之前到达赛道的尽头！
     link: ./deathrunner
     linkText: 前往下载
+  - icon: 🎮︎
+    title: Would You Rather
+    details: 一张小游戏地图。在两种游戏中选择其一进行游玩，比如成为一名矿工或者烹饪蘑菇汤。在规定的时间内完成挑战，可以获得分数。比赛结束时得分最多者将成为冠军！
+    link: ./wyr
+    linkText: 前往下载
 ---
