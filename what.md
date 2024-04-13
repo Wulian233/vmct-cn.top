@@ -34,7 +34,7 @@ import ButtonComponent from './.vitepress/theme/components/ButtonComponent.vue'
 首先，我们来看看bilibili汉化组官号的动态公告。
 
 # 公告
-::: 已折叠，点击查看
+::: details 已折叠，点击查看
 亲爱的玩家们：
 
 大家好，我是VM汉化组的创始人和前组长曲逸。首先，我要感谢大家对VM汉化组的支持和贡献，让我们能够为广大Minecraft爱好者提供优质的汉化作品。在过去的一年里，我们一起经历了许多欢乐和挑战，也收获了许多友情和成就。我为能够与你们并肩作战而感到无比荣幸和自豪。

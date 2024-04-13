@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "build": "vitepress build"
   },
   "dependencies": {
     "@vueuse/core": "^10.9.0",

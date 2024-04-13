@@ -19,7 +19,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 玩家数量：1-32名
 
 <div style="display: flex;">
-  <ButtonComponent link="https://www.mediafire.com/file/l6el23bvw6mrye1/Final_Paradox_v1.0.18.zip/file">下载地图和汉化</ButtonComponent>
+  <ButtonComponent link="../doing">下载地图和汉化</ButtonComponent>
 </div>
 
 

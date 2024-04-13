@@ -14,12 +14,12 @@ import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.v
 
 死亡競速2是一個1.20.1版本的小遊戲地圖。 玩家必須在時間耗盡之前到達賽道的盡頭！
 
-遊戲版本：MC原版 1.20.1
+遊戲版本：Minecraft原版 1.20.1
 
 玩家數量：1-32名
 
 <div style="display: flex;">
-  <ButtonComponent link="https://www.mediafire.com/file/l6el23bvw6mrye1/Final_Paradox_v1.0.18.zip/file">下载地图和汉化</ButtonComponent>
+  <ButtonComponent link="../doing">下載地圖和漢化</ButtonComponent>
 </div>
 
 ### 地圖下載

@@ -14,14 +14,15 @@ export const zh = defineConfig({
     ['meta', { property: 'og:title', content: 'VM汉化组 | 一个用爱发电专注于汉化MC整合包与地图的非盈利组织' }],
     ['meta', { property: 'og:site_name', content: 'VM汉化组' }],
     ['meta', { property: 'og:image', content: '/img/og_image.png' }],
-    ['meta', { property: 'og:url', content: 'https://vmct-cn.top/' }]
+    ['meta', { property: 'og:url', content: 'https://beta.vmct-cn.top/' }]
   ],
 
   themeConfig: {
     nav: nav(),
 
     sidebar: {
-      '/map/': { base: '/map/', items: sidebarMap() }
+      '/map/': { base: '/map/', items: sidebarMap() },
+      '/': { base: '/', items: sidebar() }
     },
 
     editLink: {
@@ -109,6 +110,14 @@ function sidebarMap(){
         { text: 'Would You Rather', link: 'wyr' },
       ]
     },
+    { text: '返回首页', base: '/', link: 'index' },
+    { text: '地图汉化准则', base: '/', link: 'rule' },
+    { text: '双十一事变', base: '/', link: 'what' }
+  ]
+}
+
+function sidebar(){
+  return [
     { text: '返回首页', base: '/', link: 'index' },
     { text: '地图汉化准则', base: '/', link: 'rule' },
     { text: '双十一事变', base: '/', link: 'what' }

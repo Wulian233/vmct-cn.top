@@ -4,10 +4,8 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 
 # Would You Rather汉化下载
 <div style="display: flex">
-  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791216_l.webp" style="width:50%" alt="图片1">
-  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791217_l.webp" style="width:50%" alt="图片2">
-  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791218_l.webp" style="width:50%" alt="图片3">
-  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791219_l.webp" style="width:50%" alt="图片4">
+  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791217_l.webp" style="width:50%" alt="图片1">
+  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791218_l.webp" style="width:50%" alt="图片2">
 </div>
 
 ## 地图信息
@@ -33,7 +31,7 @@ Would You Rather……？（你喜欢……？）
 详情查看下载内容中的“事项.txt”。
 
 <div style="display: flex;">
-  <ButtonComponent link=".">下载地图和汉化</ButtonComponent>
+  <ButtonComponent link="../doing">下载地图和汉化</ButtonComponent>
 </div>
 
 
