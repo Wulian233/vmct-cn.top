@@ -65,8 +65,8 @@ function nav(){
   return [
     {
       text: '網站監控',
-      link: '../jian/',
-      activeMatch: '../jian/'
+      link: 'https://vmct-cn.top/jian/',
+      activeMatch: 'https://vmct-cn.top/jian/'
     },
     {
       text: '社交媒體',
@@ -98,6 +98,7 @@ function sidebarMap(){
       ]
     },
     { text: '返回首頁', base: '/', link: 'tw' },
-    { text: '地圖漢化準則', base: '/', link: 'tw/rule' }
+    { text: '地圖漢化準則', base: '/', link: 'tw/rule' },
+    { text: '双十一事变', base: '/', link: 'what' }
   ]
 }

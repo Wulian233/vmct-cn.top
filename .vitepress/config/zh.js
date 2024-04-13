@@ -64,13 +64,13 @@ function nav(){
   return [
     {
       text: '爱发电',
-      link: '/api/',
-      activeMatch: '/api/'
+      link: 'https://vmct-cn.top/api/',
+      activeMatch: 'https://vmct-cn.top/api/'
     },
     {
       text: '网站监控',
-      link: '/jian/',
-      activeMatch: '/jian/'
+      link: 'https://vmct-cn.top/jian/',
+      activeMatch: 'https://vmct-cn.top/jian/'
     },
     {
       text: '社交媒体',
@@ -110,6 +110,7 @@ function sidebarMap(){
       ]
     },
     { text: '返回首页', base: '/', link: 'index' },
-    { text: '地图汉化准则', base: '/', link: 'rule' }
+    { text: '地图汉化准则', base: '/', link: 'rule' },
+    { text: '双十一事变', base: '/', link: 'what' }
   ]
 }
