@@ -3,7 +3,15 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 </script>
 
 # xxx汉化下载
-通过下载这里的汉化补丁包，可以汉化所有内容！从而达到更好的游戏体验。
+<div style="display: flex">
+  <img src="" style="width:50%" alt="图片1">
+  <img src="" style="width:50%" alt="图片2">
+</div>
+
+<div style="display: flex;">
+  <ButtonComponent link="">立即下载</ButtonComponent>
+  <ButtonComponent buttonClass='button2' link="">懒汉下载</ButtonComponent>
+</div>
 
 ## 其他
 ### 一些需知

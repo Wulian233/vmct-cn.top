@@ -21,6 +21,7 @@ export const zh = defineConfig({
     nav: nav(),
 
     sidebar: {
+      '/modpacks/': { base: '/modpacks/', items: sidebarModpacks() },
       '/map/': { base: '/map/', items: sidebarMap() },
       '/': { base: '/', items: sidebar() }
     },
@@ -97,8 +98,55 @@ function nav(){
   ]
 }
 
+function sidebarModpacks(){
+  return [
+    { text: '返回首页', base: '/', link: 'index' },
+    { text: '地图汉化', base: '/', link: 'map' },
+    { text: '地图汉化准则', base: '/', link: 'rule' },
+    { text: '双十一事变', base: '/', link: 'what' },
+    {
+      text: '整合包汉化',
+      collapsed: false,
+      items: [
+        { text: '奥术学院', link: 'arcanum' },
+        { text: '蜜蜂空岛2', link: 'bee' },
+        { text: '更好的空岛', link: 'bettermc' },
+        { text: '黑石世界', link: 'black' },
+        { text: 'Bliss', link: 'bliss' },
+        { text: '洞穴城', link: 'cave' },
+        { text: '春晓之巫', link: 'cottage' },
+        { text: '机械动力：星辰', link: 'create' },
+        { text: '破晓之界', link: 'dawn' },
+        { text: 'The Decursio Project Expert', link: 'decursio' },
+        { text: '幻想领域', link: 'fantasy' },
+        { text: '命运时代', link: 'fate' },
+        { text: '喂养奇点生存', link: 'feed' },
+        { text: '冰雪之域', link: 'frozenopolis' },
+        { text: '无限协会', link: 'if' },
+        { text: '喷气背包猫', link: 'jetpack' },
+        { text: '永恒的MC', link: 'mce' },
+        { text: '中世纪的MC 1.19 Fabric', link: 'mmc' },
+        { text: 'Muskteer', link: 'muskteer' },
+        { text: '核荒地', link: 'nuclear' },
+        { text: '天空奥德赛', link: 'odyssey' },
+        { text: 'Prey', link: 'prey' },
+        { text: 'Roguelike冒险与地牢（RAD）', link: 'rad' },
+        { text: '重生之夜', link: 'rotn' },
+        { text: '石头世界3', link: 'sb3' },
+        { text: '星辰工厂', link: 'star' },
+        { text: '宝藏猎人3', link: 'vault' },
+        { text: 'FTB Presents Direwolf20', link: 'wolf' },
+      ]
+    }
+  ]
+}
+
 function sidebarMap(){
   return [
+    { text: '返回首页', base: '/', link: 'index' },
+    { text: '整合包汉化', base: '/', link: 'modpacks' },
+    { text: '地图汉化准则', base: '/', link: 'rule' },
+    { text: '双十一事变', base: '/', link: 'what' },
     {
       text: '地图汉化',
       collapsed: false,
@@ -109,16 +157,15 @@ function sidebarMap(){
         { text: '死亡竞速2', link: 'deathrunner' },
         { text: 'Would You Rather', link: 'wyr' },
       ]
-    },
-    { text: '返回首页', base: '/', link: 'index' },
-    { text: '地图汉化准则', base: '/', link: 'rule' },
-    { text: '双十一事变', base: '/', link: 'what' }
+    }
   ]
 }
 
 function sidebar(){
   return [
     { text: '返回首页', base: '/', link: 'index' },
+    { text: '整合包汉化', base: '/', link: 'modpacks' },
+    { text: '地图汉化', base: '/', link: 'map' },
     { text: '地图汉化准则', base: '/', link: 'rule' },
     { text: '双十一事变', base: '/', link: 'what' }
   ]

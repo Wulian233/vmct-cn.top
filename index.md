@@ -22,7 +22,7 @@ hero:
       text: GitHub
       link: https://github.com/Wulian233/vmct-website-beta/
   image:
-      src: ./img/vm.png
+      src: /img/vm.png
       alt: VM 汉化组
 
 features:
