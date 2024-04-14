@@ -10,8 +10,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 </div>
 
 <div style="display: flex;">
-  <!-- 等待 SweetAlert 组件加载完成后再调用 lazyDownload 方法 -->
-  <ButtonComponent :clickEvent="swal.lazyDownload())">立即下载</ButtonComponent>
+  <ButtonComponent link="">立即下载</ButtonComponent>
   <ButtonComponent buttonClass='button2' link="">懒汉下载</ButtonComponent>
 </div>
 

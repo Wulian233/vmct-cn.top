@@ -18,18 +18,13 @@ export default {
     link: {
       type: String,
       default: '#' // 默认链接为空
-    },
-    clickEvent: Function
+    }
   },
   methods: {
     handleClick() {
-      if (this.clickEvent) {
-        this.clickEvent(); // 如果传递了点击事件函数，则执行该函数
-      } else {
-        setTimeout(() => {
-          window.location.href = this.link;
-        }, 400);
-      }
+      setTimeout(() => {
+        window.location.href = this.link;
+      }, 400);
     }
   }
 };
