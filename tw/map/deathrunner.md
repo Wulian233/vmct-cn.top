@@ -5,7 +5,7 @@ import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.v
 # 死亡競速2漢化下載
 <div style="display: flex">
   <img src="https://static.planetminecraft.com/files/image/minecraft/project/2023/121/17394690-screenshot_l.webp" style="width:50%" alt="图片1">
-  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2023/121/17394688-screenshot_l.webp" style="width:50%" alt="图片2">
+  <img src="/img/deathrunner.png" style="width:50%" alt="图片2">
 </div>
 
 ## 地圖資訊
@@ -19,7 +19,7 @@ import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.v
 玩家數量：1-32名
 
 <div style="display: flex;">
-  <ButtonComponent link="../doing">下載地圖和漢化</ButtonComponent>
+  <ButtonComponent link="https://vmhanhuazu.lanzouo.com/s/deathrunner">下載地圖和漢化</ButtonComponent>
 </div>
 
 ### 地圖下載
