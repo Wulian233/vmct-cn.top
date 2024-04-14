@@ -19,7 +19,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 玩家数量：1-32名
 
 <div style="display: flex;">
-  <ButtonComponent link="../doing">下载地图和汉化</ButtonComponent>
+  <ButtonComponent link="https://vmhanhuazu.lanzouo.com/s/deathrunner">下载地图和汉化</ButtonComponent>
 </div>
 
 
