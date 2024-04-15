@@ -1,5 +1,5 @@
 <script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
+import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.vue'
 </script>
 
 # 狂亂之境4漢化下載
