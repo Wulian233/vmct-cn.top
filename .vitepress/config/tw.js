@@ -144,6 +144,7 @@ function sidebarMap(){
         { text: '貝維爾小鎮', link: 'bayville' },
         { text: '死亡競速2', link: 'deathrunner' },
         { text: 'Would You Rather', link: 'wyr' },
+        { text: '狂亂之境4', link: 'rc4' },
       ]
     }
   ]

@@ -8,7 +8,7 @@ import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.v
   <img src="https://s11.ax1x.com/2024/02/25/pFa1Nb4.jpg" style="width:50%" alt="图片2">
 </div>
 
-## 地圖信息
+## 地圖資訊
 
 原名：Final Paradox
 
