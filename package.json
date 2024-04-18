@@ -9,7 +9,7 @@
   "dependencies": {
     "@vueuse/core": "^10.9.0",
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.1.0",
+    "vitepress": "^1.1.1",
     "vue": "^3.4.21"
   }
 }
