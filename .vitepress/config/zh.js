@@ -104,6 +104,7 @@ function sidebarModpacks(){
     { text: '地图汉化', base: '/', link: 'map' },
     { text: '地图汉化准则', base: '/', link: 'rule' },
     { text: '双十一事变', base: '/', link: 'what' },
+    { text: '使用条款', base: '/', link: 'terms' },
     {
       text: '整合包汉化',
       collapsed: false,
@@ -147,6 +148,7 @@ function sidebarMap(){
     { text: '整合包汉化', base: '/', link: 'modpacks' },
     { text: '地图汉化准则', base: '/', link: 'rule' },
     { text: '双十一事变', base: '/', link: 'what' },
+    { text: '使用条款', base: '/', link: 'terms' },
     {
       text: '地图汉化',
       collapsed: false,
@@ -168,6 +170,7 @@ function sidebar(){
     { text: '整合包汉化', base: '/', link: 'modpacks' },
     { text: '地图汉化', base: '/', link: 'map' },
     { text: '地图汉化准则', base: '/', link: 'rule' },
-    { text: '双十一事变', base: '/', link: 'what' }
+    { text: '双十一事变', base: '/', link: 'what' },
+    { text: '使用条款', base: '/', link: 'terms' },
   ]
 }
