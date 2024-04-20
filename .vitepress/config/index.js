@@ -16,7 +16,6 @@ export default defineConfig({
   metaChunk: true,
 
   markdown: {
-    math: true,
     image: { lazyLoading: true },
     codeTransformers: [
       // We use `[!!code` in demo to prevent transformation, here we revert it back.
