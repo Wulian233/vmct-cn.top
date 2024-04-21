@@ -4,8 +4,8 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 
 # 狂乱之境4汉化下载
 <div style="display: flex">
-  <img src="https://ctmrepository.com/map_img/6926650110728662.PNG" style="width:50%" alt="图片1">
-  <img src="https://ctmrepository.com/map_img/6926650110728662.PNG" style="width:50%" alt="图片2">
+  <img src="https://s21.ax1x.com/2024/04/21/pkpVQeg.jpg" style="width:50%" alt="图片1">
+  <img src="https://s21.ax1x.com/2024/04/21/pkpVKOS.jpg" style="width:50%" alt="图片2">
 </div>
 
 ## 地图信息
