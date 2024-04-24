@@ -2,7 +2,7 @@
 import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.vue'
 </script>
 
-# Would You Rather漢化下載
+# Would You Rather翻譯下載
 <div style="display: flex">
   <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791217_l.webp" style="width:50%" alt="图片1">
   <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791218_l.webp" style="width:50%" alt="图片2">
@@ -31,18 +31,18 @@ Would You Rather……？ （你喜歡……？）
 詳情查看下載內容中的“事項.txt”。
 
 <div style="display: flex;">
-  <ButtonComponent link="../doing">下載地圖和漢化</ButtonComponent>
+  <ButtonComponent link="../doing">下載地圖和翻譯</ButtonComponent>
 </div>
 
 
 ### 地圖下載
 
-> [!IMPORTANT] 漢化方法
+> [!IMPORTANT] 翻譯方法
 > 詳情查看下載內容中的“事項.txt”。
 
 **地圖是原版Minecraft的！無需模組，請把地圖放進存檔（saves）資料夾！**
 
-### 漢化者
+### 翻譯者
 
 按翻譯量排名：
 
@@ -51,7 +51,7 @@ X209、yinzi、咕咕魚、祝明宇、NLG、Tu0Maaa、醉冰茶、虛空、望�
 
 ## 其他
 ### 一些需知
-如果有任何漢化問題，請在B站漢化組官號評論私信告訴我們！漢化補丁禁止二次分發！具體請看漢化補丁內的協定內容和官號專欄。
+如果有任何翻譯問題，請在B站翻譯組官號留言或私訊告訴我們！中文化更新檔禁止二次分發！具體請看中文化更新檔內的協議內容和官號專欄。
 
 ### 支持我們
-您的支持與鼓勵是我們前進的動力！我們一直在用愛發電。如果可以，您可以向他人推薦我們的漢化成果，十分感謝！還可以在B站免費訂閱我們的帳號！
+您的支持與鼓勵是我們前進的動力！我們一直在用愛發電。如果可以，您可以向他人推薦我們的翻譯成果，十分感謝！還可以在B站免費訂閱我們的帳號！
