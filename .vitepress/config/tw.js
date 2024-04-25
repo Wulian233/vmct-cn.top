@@ -94,7 +94,7 @@ function sidebarModpacks(){
     { text: '双十一事变', base: '/', link: 'what' },
     { text: '使用條款', base: '/', link: 'tw/terms' },
     {
-      text: '整合包翻譯',
+      text: '模组包翻譯',
       collapsed: false,
       items: [
         { text: '奥术学院', link: 'arcanum' },
@@ -133,7 +133,7 @@ function sidebarModpacks(){
 function sidebarMap(){
   return [
     { text: '返回首頁', base: '/', link: 'tw' },
-    { text: '整合包翻譯', base: '/', link: 'modpacks' },
+    { text: '模组包翻譯', base: '/', link: 'modpacks' },
     { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
     { text: '双十一事变', base: '/', link: 'what' },
     { text: '使用條款', base: '/', link: 'tw/terms' },
@@ -155,7 +155,7 @@ function sidebarMap(){
 function sidebar(){
   return [
     { text: '返回首頁', base: '/', link: 'tw' },
-    { text: '整合包翻譯', base: '/', link: 'modpacks' },
+    { text: '模组包翻譯', base: '/', link: 'modpacks' },
     { text: '地圖翻譯', base: '/', link: 'tw/map' },
     { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
     { text: '双十一事变', base: '/', link: 'what' },

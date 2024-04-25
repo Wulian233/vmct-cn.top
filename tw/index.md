@@ -2,15 +2,15 @@
 layout: home
 
 title: VM 翻譯組
-titleTemplate: 一個用愛發電專注於翻譯MC整合包與地圖的非盈利組織
+titleTemplate: 一個用愛發電專注於翻譯MC模组包與地圖的非盈利組織
 
 hero:
   name: VM 翻譯組
-  text: 一個用愛發電專注於翻譯MC整合包與地圖的非盈利組織
+  text: 一個用愛發電專注於翻譯MC模组包與地圖的非盈利組織
   tagline: 我们以專業的翻譯态度，倾注无尽的心血，为你带来翻譯品質的极致体验。
   actions:
     - theme: brand
-      text: 整合包翻譯
+      text: 模组包翻譯
       link: ../modpacks/
     - theme: brand
       text: 地圖翻譯
