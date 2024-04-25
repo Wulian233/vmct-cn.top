@@ -12,7 +12,7 @@ export const tw = defineConfig({
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh-TW' }],
-    ['meta', { property: 'og:title', content: 'VM翻譯組 | 一個用愛發電專注於翻譯MC模组包與地圖的非盈利組織' }],
+    ['meta', { property: 'og:title', content: 'VM翻譯組 | 一個用愛發電專注於翻譯MC模組包與地圖的非盈利組織' }],
     ['meta', { property: 'og:site_name', content: 'VM翻譯組' }],
     ['meta', { property: 'og:image', content: '/img/og_image.png' }],
     ['meta', { property: 'og:url', content: 'https://beta.vmct-cn.top/' }]
@@ -94,7 +94,7 @@ function sidebarModpacks(){
     { text: '双十一事变', base: '/', link: 'what' },
     { text: '使用條款', base: '/', link: 'tw/terms' },
     {
-      text: '模组包翻譯',
+      text: '模組包翻譯',
       collapsed: false,
       items: [
         { text: '奥术学院', link: 'arcanum' },
@@ -133,7 +133,7 @@ function sidebarModpacks(){
 function sidebarMap(){
   return [
     { text: '返回首頁', base: '/', link: 'tw' },
-    { text: '模组包翻譯', base: '/', link: 'modpacks' },
+    { text: '模組包翻譯', base: '/', link: 'modpacks' },
     { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
     { text: '双十一事变', base: '/', link: 'what' },
     { text: '使用條款', base: '/', link: 'tw/terms' },
@@ -155,7 +155,7 @@ function sidebarMap(){
 function sidebar(){
   return [
     { text: '返回首頁', base: '/', link: 'tw' },
-    { text: '模组包翻譯', base: '/', link: 'modpacks' },
+    { text: '模組包翻譯', base: '/', link: 'modpacks' },
     { text: '地圖翻譯', base: '/', link: 'tw/map' },
     { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
     { text: '双十一事变', base: '/', link: 'what' },
