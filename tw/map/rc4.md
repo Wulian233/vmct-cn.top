@@ -18,7 +18,7 @@ import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.v
 
 玩家數量：1-3名
 
-這張大型的半開放世界CTM地圖提供了超過50小時的遊戲時間。 與獨特攻擊的自訂怪物搏鬥，打造强大的物品，並深入至暗深淵以獲取16顆水晶。
+這張大型的半開放世界CTM地圖提供了超過50小時的遊戲時間。 與獨特攻擊的自訂怪物搏鬥，打造強大的物品，並深入至暗深淵以獲取16顆水晶。
 
 <div style="display: flex;">
   <ButtonComponent link="../doing">下載地圖和翻譯</ButtonComponent>
