@@ -130,6 +130,7 @@ function sidebarModpacks(){
         { text: 'Muskteer', link: 'muskteer' },
         { text: '核荒地', link: 'nuclear' },
         { text: '天空奥德赛', link: 'odyssey' },
+        { text: 'FTB建筑师天堂2', link: 'paradise2' },
         { text: 'Prey', link: 'prey' },
         { text: 'Roguelike冒险与地牢（RAD）', link: 'rad' },
         { text: '重生之夜', link: 'rotn' },
