@@ -36,6 +36,9 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 
 X209，ChuijkYahus，RCqaq，yinzi，Kzlw5qf，Catcatpigeon，Cat酱，TianxinGstar，咕咕鱼，阿鹉，醉冰茶，望，Lims，McCutcheon10，FridayAnubis，荔枝，xhchi，wandouWD，冰琳，祝明宇，champsing
 
+### 特别鸣谢
+天佑，China_Danndy，1639，zhvsjia，doom，黑茶，云零
+
 ## 其他
 ### 一些需知
 如果有任何汉化问题，请在B站汉化组官号评论私信，或加入我们的QQ群告诉我们！汉化补丁禁止二次分发！所谓的懒人包违反EULA协议也禁止传播！具体请看汉化补丁内的协议内容和官号专栏。
