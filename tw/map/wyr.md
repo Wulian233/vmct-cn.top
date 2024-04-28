@@ -22,13 +22,13 @@ Would You Rather……？ （你喜歡……？）
 
 參加由Gene主持的遊戲節目《Would You Rather》！
 
-在兩種情景中進行選擇，比如成為一名礦工或者烹飪蘑菇湯。 在規定的時間內完成挑戰，就可以獲得分數。 比賽結束時得分最多的人將成為《Would You Rather》的冠軍！
+在兩種情景中選擇，比如成為一名礦工或者烹飪蘑菇湯。 在規定的時間內完成挑戰，就可以獲得分數。 比賽結束時得分最多的人將成為《Would You Rather》的冠軍！
 
 該地圖有20多個小遊戲出現在問題中，還有可解鎖的站臺、為你加油的粉絲，甚至還有一個額外的獎項展示！
 
 祝你在《Would You Rather》中取勝！
 
-詳情查看下載內容中的“事項.txt”。
+詳情查看下載內容中的「事項.txt」。
 
 <div style="display: flex;">
   <ButtonComponent link="../doing">下載地圖和翻譯</ButtonComponent>
@@ -38,7 +38,7 @@ Would You Rather……？ （你喜歡……？）
 ### 地圖下載
 
 > [!IMPORTANT] 翻譯方法
-> 詳情查看下載內容中的“事項.txt”。
+> 詳情查看下載內容中的「事項.txt」。
 
 **地圖是原版Minecraft的！無需模組，請把地圖放進存檔（saves）資料夾！**
 
