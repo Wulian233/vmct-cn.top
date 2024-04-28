@@ -31,7 +31,7 @@ import ButtonComponent from './.vitepress/theme/components/ButtonComponent.vue'
   <img src="https://s11.ax1x.com/2024/02/19/pFY8QtP.jpg" style="width:50%" alt="图片2">
 </div>
 
-首先，我们来看看bilibili汉化组官号的动态公告。
+首先，我们来看看B站汉化组官号的动态公告。
 
 # 公告
 ::: details 已折叠，点击查看
