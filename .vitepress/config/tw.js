@@ -5,7 +5,7 @@ export const tw = defineConfig({
   lang: 'zh-TW',
   title: 'VM翻譯組',
   
-  description: 'VM翻譯組是一個用愛發電專門於翻譯MC模組包與地圖的非盈利組織。我們製作的翻譯及相關技術最終目的是使公眾受益，翻譯組將尋求高品質永久免費翻譯包以造福玩家。翻譯組的成立不是為了任何人的私人利益。翻譯組產生的所有收益將「不可撤銷的」用於上述目的。',
+  description: 'VM翻譯組是一個用愛發電專門於翻譯MC模組包與地圖的非盈利組織。我們製作的翻譯及相關技術最終目的是使公眾受益，翻譯組將追求高品質永久免費翻譯包以造福玩家。翻譯組的成立不是為了任何人的私人利益。翻譯組產生的所有收益將「不可回復地」用於上開目的。',
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/img/vm.png' }],
@@ -43,7 +43,7 @@ export const tw = defineConfig({
     },
 
     outline: {
-      label: '頁面導航'
+      label: '頁面導覽'
     },
 
     lastUpdated: {
@@ -66,7 +66,7 @@ export const tw = defineConfig({
 function nav(){
   return [
     {
-      text: '網站監控',
+      text: '網站監視',
       link: 'https://vmct-cn.top/jian/',
       activeMatch: 'https://vmct-cn.top/jian/'
     },
@@ -78,7 +78,7 @@ function nav(){
           link: 'https://discord.gg/SvJM5d9S98'
         },
         {
-          text: 'B站官號',
+          text: 'bilibili官方帳號',
           link: 'https://space.bilibili.com/2085089798'
         }
       ]
@@ -91,40 +91,40 @@ function sidebarModpacks(){
     { text: '返回首頁', base: '/', link: 'tw' },
     { text: '地圖翻譯', base: '/', link: 'tw/map' },
     { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
-    { text: '双十一事变', base: '/', link: 'what' },
+    { text: '雙十一事變', base: '/', link: 'what' },
     { text: '使用條款', base: '/', link: 'tw/terms' },
     {
       text: '模組包翻譯',
       collapsed: false,
       items: [
-        { text: '奥术学院', link: 'arcanum' },
-        { text: '蜜蜂空岛2', link: 'bee' },
-        { text: '更好的空岛', link: 'bettermc' },
+        { text: '奧術學院', link: 'arcanum' },
+        { text: '蜜蜂空島2', link: 'bee' },
+        { text: '空島升級', link: 'bettermc' },
         { text: '黑石世界', link: 'black' },
         { text: 'Bliss', link: 'bliss' },
         { text: '洞穴城', link: 'cave' },
-        { text: '春晓之巫', link: 'cottage' },
-        { text: '机械动力：星辰', link: 'create' },
-        { text: '破晓之界', link: 'dawn' },
+        { text: '春曉之巫', link: 'cottage' },
+        { text: '機械動力：星辰', link: 'create' },
+        { text: '破曉之界', link: 'dawn' },
         { text: 'The Decursio Project Expert', link: 'decursio' },
-        { text: '幻想领域', link: 'fantasy' },
-        { text: '命运时代', link: 'fate' },
-        { text: '喂养奇点生存', link: 'feed' },
+        { text: '幻想領域', link: 'fantasy' },
+        { text: '命運時代', link: 'fate' },
+        { text: '飼養奇異點生存', link: 'feed' },
         { text: '冰雪之域', link: 'frozenopolis' },
-        { text: '无限协会', link: 'if' },
-        { text: '喷气背包猫', link: 'jetpack' },
-        { text: '永恒的MC', link: 'mce' },
+        { text: '無限協會', link: 'if' },
+        { text: '噴氣背包貓', link: 'jetpack' },
+        { text: '永恆的MC', link: 'mce' },
         { text: '中世纪的MC 1.19 Fabric', link: 'mmc' },
         { text: 'Muskteer', link: 'muskteer' },
         { text: '核荒地', link: 'nuclear' },
-        { text: '天空奥德赛', link: 'odyssey' },
-        { text: 'FTB建筑师天堂2', link: 'paradise2' },
+        { text: '天空奧德賽', link: 'odyssey' },
+        { text: 'FTB建築師天堂2', link: 'paradise2' },
         { text: 'Prey', link: 'prey' },
-        { text: 'Roguelike冒险与地牢（RAD）', link: 'rad' },
+        { text: 'Roguelike冒險與地牢（RAD）', link: 'rad' },
         { text: '重生之夜', link: 'rotn' },
-        { text: '石头世界3', link: 'sb3' },
-        { text: '星辰工厂', link: 'star' },
-        { text: '宝藏猎人3', link: 'vault' },
+        { text: '石頭世界3', link: 'sb3' },
+        { text: '星辰工廠', link: 'star' },
+        { text: '寶藏獵人3', link: 'vault' },
         { text: 'FTB Presents Direwolf20', link: 'wolf' },
       ]
     }
@@ -136,7 +136,7 @@ function sidebarMap(){
     { text: '返回首頁', base: '/', link: 'tw' },
     { text: '模組包翻譯', base: '/', link: 'modpacks' },
     { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
-    { text: '双十一事变', base: '/', link: 'what' },
+    { text: '雙十一事變', base: '/', link: 'what' },
     { text: '使用條款', base: '/', link: 'tw/terms' },
     {
       text: '地圖翻譯',
@@ -159,7 +159,7 @@ function sidebar(){
     { text: '模組包翻譯', base: '/', link: 'modpacks' },
     { text: '地圖翻譯', base: '/', link: 'tw/map' },
     { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
-    { text: '双十一事变', base: '/', link: 'what' },
+    { text: '雙十一事變', base: '/', link: 'what' },
     { text: '使用條款', base: '/', link: 'tw/terms' },
   ]
 }
