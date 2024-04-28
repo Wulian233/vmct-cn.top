@@ -4,7 +4,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 # 正在翻譯中
 
 > [!TIP] 提示
-> 這是一個正在進行中的項目。
+> 這是一個正在進行中的專案。
 
 我們正在努力翻譯，請耐心等待。
 
