@@ -54,7 +54,7 @@ export const tw = defineConfig({
       }
     },
 
-    langMenuLabel: '各國語言',
+    langMenuLabel: '多語言',
     returnToTopLabel: '回到頂部',
     sidebarMenuLabel: '選單',
     darkModeSwitchLabel: '主題',
