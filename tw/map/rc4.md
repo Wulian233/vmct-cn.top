@@ -34,7 +34,8 @@ import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.v
 地圖相容性：
 - 可以使用Fabric並安裝Sodium，這是官方唯一認證可使用的模組！
 - 可以嘗試安裝Fabric旗下的其他最佳化模組，但請不要嘗試安裝侵入性較強的模組（如Carpet），如果出現問題，概不負責！
-- 請勿安裝OptiFine！請勿安裝OptiFine！請勿安裝OptiFine！使用OptiFine遊玩本地圖將會導致嚴重錯誤，**請不要安裝OptiFine！**- 如果你想在伺服器上執行本地圖，請確保伺服器是使用原版jar客戶端！
+- 請勿安裝OptiFine！請勿安裝OptiFine！請勿安裝OptiFine！使用OptiFine遊玩本地圖將會導致嚴重錯誤，**請不要安裝OptiFine！**
+- 如果你想在伺服器上執行本地圖，請確保伺服器是使用原版jar客戶端！
     
 >  [!IMPORTANT] 安裝教學
 > 如果你是單人遊玩，請將下載好的壓縮檔解壓縮到一個單獨的資料夾（為了防止你意外覆蓋掉已有進度的原版世界，檔名有改過），複製到`.minecraft\saves`資料夾，啟動遊戲然後在單人模式選擇該地圖即可遊玩。
