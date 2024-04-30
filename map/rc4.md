@@ -22,7 +22,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 
 <div style="display: flex;">
   <ButtonComponent link="https://www.123pan.com/s/99kKVv-zYVQh.html">下载汉化</ButtonComponent>
-  <ButtonComponent buttonClass='button2' link="https://www.mediafire.com/folder/jurnv77qvvaf0">海外线路</ButtonComponent>
+  <ButtonComponent buttonClass='button2' link="https://www.mediafire.com/folder/jurnv77qvvaf0">备用下载</ButtonComponent>
 </div>
 
 ### 注意事项
