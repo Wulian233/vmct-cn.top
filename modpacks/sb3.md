@@ -12,14 +12,15 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 已获得FTB团队官方授权！著名的石头世界系列已经来到了第3代！
 
 <div style="display: flex;">
-  <ButtonComponent link="https://vmct-cn.top/modpacks/sb3/%E7%9F%B3%E5%A4%B4%E4%B8%96%E7%95%8C3%E5%AE%8C%E6%95%B4%E6%B1%89%E5%8C%96.zip">下载汉化</ButtonComponent>
+  <ButtonComponent link="https://wulian233.lanzouj.com/iwAZ61xg3yib">下载汉化</ButtonComponent>
   <ButtonComponent buttonClass='button2' link="https://gitee.com/flrscn/curse-the-beast/releases">整合包下载工具</ButtonComponent>
 </div>
 
 
 ## 更多信息
 ### 整合包下载与授权
-**本次汉化已取得官方授权，并且任务汉化已经入包，自带任务汉化。**这里的汉化包括kubejs魔改内容，图片和模组汉化等。
+**本次汉化已取得官方授权，并且任务汉化已经入包，自带任务汉化。**
+这里的汉化包括kubejs魔改内容，图片和模组汉化等。
 
 由于FTB的整合包没有上CurseForge，整合包一般只能通过他们非常恶心的App下载。
 
