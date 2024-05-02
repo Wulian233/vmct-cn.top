@@ -27,8 +27,11 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 你可以在FTB App内或使用下载工具下载整合包。下载汉化补丁后解压，解压到游戏文件夹，出现覆盖文件的提示即代表安装汉化操作正确。
 
 点击下载[FTB整合包下载工具Curse The Beast](https://gitee.com/flrscn/curse-the-beast/releases)
+
 点击下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/files/4975638)
+
 点击下载[帕秋莉手册翻译PRP-Arch模组](https://cdn.modrinth.com/data/AqeDdB2c/versions/msizLmQ2/PRP-Arch-Forge-1.0.1-Hotfix-1.18.x.jar)
+
 点击下载[硬编码汉化VP模组](https://cdn.modrinth.com/data/NLV0Mnpu/versions/uNa8iX2O/vaultpatcher-all-1.4.0%2B1.jar)
 
 ### 支持版本
