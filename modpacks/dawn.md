@@ -11,7 +11,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 ## 必须下载Vault Patcher（VP）模组才能完整汉化！
 
 <div style="display: flex;">
-  <ButtonComponent link="https://vmhanhuazu.lanzoui.com/s/DawnCraft-VMct">下载汉化</ButtonComponent>
+  <ButtonComponent link="https://vmhanhuazu.lanzouo.com/s/DawnCraft-VMct">下载汉化</ButtonComponent>
   <ButtonComponent buttonClass='button2' link="https://mediafilez.forgecdn.net/files/5095/219/vaultpatcher-all-1.4.0%2B1.jar">下载VP模组</ButtonComponent>
 </div>
 
