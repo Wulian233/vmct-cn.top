@@ -1,5 +1,5 @@
 <script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
+import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.vue'
 </script>
 # 正在翻譯中
 
@@ -11,5 +11,5 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 好吧，既然你來了，為什麼不看看我們的首頁呢？ 我們的其他翻譯作品也非常優質。
 
 <div style="display: flex;">
-  <ButtonComponent link="/">返回我們的首頁</ButtonComponent>
+  <ButtonComponent link="/tw/">返回我們的首頁</ButtonComponent>
 </div>

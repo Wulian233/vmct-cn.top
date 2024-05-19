@@ -28,7 +28,7 @@ export const tw = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/Wulian233/vmct-website-beta//edit/main/:path',
+      pattern: 'https://github.com/Wulian233/vmct-website-beta/edit/main/:path',
       text: '在 GitHub 上編輯此頁面'
     },
 
@@ -90,9 +90,9 @@ function sidebarModpacks(){
   return [
     { text: '返回首頁', base: '/', link: 'tw' },
     { text: '地圖翻譯', base: '/', link: 'tw/map' },
-    { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
+    { text: '地圖翻譯準則', base: '/', link: 'tw/others/rule' },
     { text: '雙十一事變', base: '/', link: 'what' },
-    { text: '使用條款', base: '/', link: 'tw/terms' },
+    { text: '使用條款', base: '/', link: 'tw/others/terms' },
     {
       text: '模組包翻譯',
       collapsed: false,
@@ -108,10 +108,10 @@ function sidebarModpacks(){
         { text: '破曉之界', link: 'dawn' },
         { text: 'The Decursio Project Expert', link: 'decursio' },
         { text: '幻想領域', link: 'fantasy' },
-        { text: '命運時代', link: 'fate' },
         { text: '飼養奇異點生存', link: 'feed' },
         { text: '冰雪之域', link: 'frozenopolis' },
         { text: '無限協會', link: 'if' },
+        { text: '地狱起源', link: 'infernal' },
         { text: '噴氣背包貓', link: 'jetpack' },
         { text: '永恆的MC', link: 'mce' },
         { text: '中世纪的MC 1.19 Fabric', link: 'mmc' },
@@ -135,9 +135,9 @@ function sidebarMap(){
   return [
     { text: '返回首頁', base: '/', link: 'tw' },
     { text: '模組包翻譯', base: '/', link: 'modpacks' },
-    { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
+    { text: '地圖翻譯準則', base: '/', link: 'tw/others/rule' },
     { text: '雙十一事變', base: '/', link: 'what' },
-    { text: '使用條款', base: '/', link: 'tw/terms' },
+    { text: '使用條款', base: '/', link: 'tw/others/terms' },
     {
       text: '地圖翻譯',
       collapsed: false,
@@ -158,8 +158,8 @@ function sidebar(){
     { text: '返回首頁', base: '/', link: 'tw' },
     { text: '模組包翻譯', base: '/', link: 'modpacks' },
     { text: '地圖翻譯', base: '/', link: 'tw/map' },
-    { text: '地圖翻譯準則', base: '/', link: 'tw/rule' },
+    { text: '地圖翻譯準則', base: '/', link: 'tw/others/rule' },
     { text: '雙十一事變', base: '/', link: 'what' },
-    { text: '使用條款', base: '/', link: 'tw/terms' },
+    { text: '使用條款', base: '/', link: 'tw/others/terms' },
   ]
 }

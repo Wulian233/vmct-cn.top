@@ -27,7 +27,7 @@ export const zh = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/Wulian233/vmct-website-beta//edit/main/:path',
+      pattern: 'https://github.com/Wulian233/vmct-website-beta/edit/main/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
@@ -102,9 +102,9 @@ function sidebarModpacks(){
   return [
     { text: '返回首页', base: '/', link: 'index' },
     { text: '地图汉化', base: '/', link: 'map' },
-    { text: '地图汉化准则', base: '/', link: 'rule' },
-    { text: '双十一事变', base: '/', link: 'what' },
-    { text: '使用条款', base: '/', link: 'terms' },
+    { text: '地图汉化准则', base: '/', link: 'others/rule' },
+    { text: '双十一事变', base: '/', link: 'others/what' },
+    { text: '使用条款', base: '/', link: 'others/terms' },
     {
       text: '整合包汉化',
       collapsed: false,
@@ -120,10 +120,10 @@ function sidebarModpacks(){
         { text: '破晓之界', link: 'dawn' },
         { text: 'The Decursio Project Expert', link: 'decursio' },
         { text: '幻想领域', link: 'fantasy' },
-        { text: '命运时代', link: 'fate' },
         { text: '喂养奇点生存', link: 'feed' },
         { text: '冰雪之域', link: 'frozenopolis' },
         { text: '无限协会', link: 'if' },
+        { text: '地狱起源', link: 'infernal' },
         { text: '喷气背包猫', link: 'jetpack' },
         { text: '永恒的MC', link: 'mce' },
         { text: '中世纪的MC 1.19 Fabric', link: 'mmc' },
@@ -147,9 +147,9 @@ function sidebarMap(){
   return [
     { text: '返回首页', base: '/', link: 'index' },
     { text: '整合包汉化', base: '/', link: 'modpacks' },
-    { text: '地图汉化准则', base: '/', link: 'rule' },
-    { text: '双十一事变', base: '/', link: 'what' },
-    { text: '使用条款', base: '/', link: 'terms' },
+    { text: '地图汉化准则', base: '/', link: 'others/rule' },
+    { text: '双十一事变', base: '/', link: 'others/what' },
+    { text: '使用条款', base: '/', link: 'others/terms' },
     {
       text: '地图汉化',
       collapsed: false,
@@ -170,8 +170,8 @@ function sidebar(){
     { text: '返回首页', base: '/', link: 'index' },
     { text: '整合包汉化', base: '/', link: 'modpacks' },
     { text: '地图汉化', base: '/', link: 'map' },
-    { text: '地图汉化准则', base: '/', link: 'rule' },
-    { text: '双十一事变', base: '/', link: 'what' },
-    { text: '使用条款', base: '/', link: 'terms' },
+    { text: '地图汉化准则', base: '/', link: 'others/rule' },
+    { text: '双十一事变', base: '/', link: 'others/what' },
+    { text: '使用条款', base: '/', link: 'others/terms' },
   ]
 }

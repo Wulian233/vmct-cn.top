@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.9.0",
-    "vitepress": "^1.1.4",
-    "vue": "^3.4.25"
+    "vitepress": "^1.2.0",
+    "vue": "^3.4.27"
   }
 }
