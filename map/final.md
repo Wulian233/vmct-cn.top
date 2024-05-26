@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 最终悖论汉化下载
 <div style="display: flex">
   <img src="https://s11.ax1x.com/2024/02/25/pFa1mDg.jpg" style="width:50%" alt="图片1">

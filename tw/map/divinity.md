@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 神界隕落翻譯下載
 <div style="display: flex">
   <img src="https://s11.ax1x.com/2024/02/25/pFalbNR.jpg" style="width:50%" alt="图片1">

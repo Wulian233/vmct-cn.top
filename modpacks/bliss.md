@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # Bliss汉化下载
 <div style="display: flex">
   <img src="https://media.forgecdn.net/attachments/465/302/2022-05-28_22.png" style="width:50%" alt="图片1">

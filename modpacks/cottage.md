@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 春晓之巫汉化下载
 <div style="display: flex">
   <img src="https://media.forgecdn.net/attachments/507/514/2022-10-18_16.png" style="width:50%" alt="图片1">

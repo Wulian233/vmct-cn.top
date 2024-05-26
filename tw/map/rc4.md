@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 狂亂之境4翻譯下載
 <div style="display: flex">
   <img src="https://s21.ax1x.com/2024/04/21/pkpVQeg.jpg" style="width:50%" alt="图片1">

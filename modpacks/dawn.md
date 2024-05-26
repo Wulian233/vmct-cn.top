@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 破晓之界汉化下载
 <div style="display: flex">
   <img src="https://media.forgecdn.net/attachments/634/417/fire-giant.png" style="width:50%" alt="图片1">

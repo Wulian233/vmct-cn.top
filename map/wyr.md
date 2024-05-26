@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # Would You Rather汉化下载
 <div style="display: flex">
   <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791217_l.webp" style="width:50%" alt="图片1">

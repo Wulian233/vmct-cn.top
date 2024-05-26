@@ -1,9 +1,7 @@
 <script setup>
 import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue';
 
-</script>
-
-# xxx汉化下载
+</script># xxx汉化下载
 <div style="display: flex">
   <img src="" style="width:50%" alt="图片1">
   <img src="" style="width:50%" alt="图片2">

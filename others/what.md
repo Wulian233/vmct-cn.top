@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 双十一事变
 ## VM汉化组发生了什么？
 
@@ -20,9 +16,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 
 <div style="display: flex;">
   <ButtonComponent link="/">返回官网主页</ButtonComponent>
-</div>
-
-# 秉笔直书
+</div># 秉笔直书
 
 这篇记录于2024年2月重新修订，我（捂脸）受限于当时（2023年11月）的外界因素影响，并没有将这次事件完整、清晰、准确的记录下来。回望历史，曾有崔杼弑君，秉笔直书的模范。我决定重新将这次转折点的标志性事件公正、完整的记录。聊天内容图片来自汉化组内群，部分聊天内容由于截断有节选，但未到断章取义的程度。鉴于这次事件发生于11月11日，我们不妨后文称为“**双十一事变**”。
 
@@ -31,9 +25,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
   <img src="https://s11.ax1x.com/2024/02/19/pFY8QtP.jpg" style="width:50%" alt="图片2">
 </div>
 
-首先，我们来看看bilibili汉化组官号的动态公告。
-
-# 公告
+首先，我们来看看bilibili汉化组官号的动态公告。# 公告
 ::: details 已折叠，点击查看
 亲爱的玩家们：
 
@@ -48,9 +40,7 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 VM汉化组创始人和前组长曲逸
 
 2023年11月11日
-:::
-
-# 为什么会这样？
+:::# 为什么会这样？
 首先，我（捂脸）需要清楚地说明，所有事情的发生都不是偶然的，而是矛盾的日积月累，最后才爆发。
 
 启初，玩家Annijiang向曲逸反馈了整合包任务的翻译错误和错别字问题。随后，sine在群内发送了一张截图，原图如下。

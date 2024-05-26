@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # FTB奥术学院汉化下载
 血魔法手册汉化由繁体中文转换为简体中文，由于两岸名词叫法有所不同，部分用词较为别扭，请见谅
 

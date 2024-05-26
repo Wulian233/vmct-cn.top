@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 黑石世界汉化下载
 <div style="display: flex">
   <img src="https://media.forgecdn.net/attachments/469/841/ultimate.png" style="width:50%" alt="图片1">

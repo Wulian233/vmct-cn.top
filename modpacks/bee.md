@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 蜜蜂空岛2汉化下载
 <div style="display: flex">
   <img src="https://s21.ax1x.com/2024/05/04/pkAVmV0.jpg" style="width:50%" alt="图片1">

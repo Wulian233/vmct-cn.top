@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # FTB建筑师天堂2汉化下载
 <div style="display: flex">
   <img src="https://s21.ax1x.com/2024/04/27/pkPqfFU.md.png" style="width:50%" alt="图片1">

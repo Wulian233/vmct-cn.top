@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # Prey汉化下载
 <div style="display: flex">
   <img src="https://media.forgecdn.net/attachments/759/888/2023-11-15_22.png" style="width:50%" alt="图片1">

@@ -1,7 +1,3 @@
-<script setup>
-import ButtonComponent from '../../.vitepress/theme/components/ButtonComponent.vue'
-</script>
-
 # 死亡競速2翻譯下載
 <div style="display: flex">
   <img src="https://static.planetminecraft.com/files/image/minecraft/project/2023/121/17394690-screenshot_l.webp" style="width:50%" alt="图片1">

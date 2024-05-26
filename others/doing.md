@@ -1,6 +1,3 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
-</script>
 # 正在汉化中
 
 > [!TIP] 提示
