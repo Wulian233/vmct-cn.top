@@ -1,7 +1,4 @@
-<script setup>
-import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue';
-
-</script># xxx汉化下载
+# xxx汉化下载
 <div style="display: flex">
   <img src="" style="width:50%" alt="图片1">
   <img src="" style="width:50%" alt="图片2">
@@ -9,7 +6,10 @@ import ButtonComponent from '../.vitepress/theme/components/ButtonComponent.vue'
 
 <div style="display: flex;">
   <ButtonComponent link="">立即下载</ButtonComponent>
-  <ButtonComponent buttonClass='button2' link="">懒汉下载</ButtonComponent>
+  <ModalComponent>
+    <template v-slot>
+    </template>
+  </ModalComponent>
 </div>
 
 ## 其他
