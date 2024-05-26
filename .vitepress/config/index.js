@@ -10,6 +10,7 @@ export default defineConfig({
     root: { label: '简体中文', ...zh },
     tw: { label: '繁體中文', ...tw }
   },
+  srcExclude: ['**/readme.md', '**/LICENSE', '**/.gitignore'],
 
   lastUpdated: true,
   cleanUrls: true,
