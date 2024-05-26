@@ -39,9 +39,9 @@ VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利�
 
 
 我们使用了一套完全免费的部署方案，可长期稳定运行：
-1. 使用[github action](https://github.com/Wulian233/vmct-website-beta/blob/main/.github/workflows/build.yaml)提交自动触发构建为github pages。
-2. 使用[CloudFlare](https://cloudflare.com/)作为免费CDN分发。
-3.使用[路过图床](https://imgse.com/)手动上传作为图片存储。
+1. 使用[github action](https://github.com/Wulian233/vmct-website-beta/blob/main/.github/workflows/build.yaml)提交自动触发构建为github pages并上传至gh-pages分支。
+2. 使用[CloudFlare](https://cloudflare.com/)自动拉取构建后代码，并作为服务器与免费CDN分发。
+3. 使用[路过图床](https://imgse.com/)手动上传作为图片存储。
 
 PS：域名在腾讯云购买
 
