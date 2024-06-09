@@ -24,6 +24,7 @@ export const tw = defineConfig({
     sidebar: {
       '/modpacks/': { base: '/modpacks/', items: sidebarModpacks() },
       '/tw/map/': { base: '/tw/map/', items: sidebarMap() },
+      '/tw/others/vmtu/': { base: '/tw/others/vmtu/', items: sidebarVMTU() },
       '/tw/': { base: '/tw/map/', items: sidebar() }
     },
 
@@ -148,6 +149,21 @@ function sidebarMap(){
         { text: '死亡競速2', link: 'deathrunner' },
         { text: 'Would You Rather', link: 'wyr' },
         { text: '狂亂之境4', link: 'rc4' },
+      ]
+    }
+  ]
+}
+
+function sidebarVMTU(){
+  return [
+    { text: 'VM翻譯組', base: '/', link: 'index' },
+    {
+      text: '入門',
+      collapsed: false,
+      items: [
+        { text: '功能介紹', base: '/', link: 'others/vmtu/' },
+        { text: '使用與設定檔', base: '/', link: 'others/vmtu/config' },
+        { text: '支援版本', base: '/', link: 'others/vmtu/support' },
       ]
     }
   ]

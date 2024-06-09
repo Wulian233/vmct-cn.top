@@ -23,6 +23,7 @@ export const zh = defineConfig({
     sidebar: {
       '/modpacks/': { base: '/modpacks/', items: sidebarModpacks() },
       '/map/': { base: '/map/', items: sidebarMap() },
+      '/others/vmtu/': { base: '/others/vmtu/', items: sidebarVMTU() },
       '/': { base: '/', items: sidebar() }
     },
 
@@ -160,6 +161,21 @@ function sidebarMap(){
         { text: '死亡竞速2', link: 'deathrunner' },
         { text: 'Would You Rather', link: 'wyr' },
         { text: '狂乱之境4', link: 'rc4' },
+      ]
+    }
+  ]
+}
+
+function sidebarVMTU(){
+  return [
+    { text: 'VM汉化组', base: '/', link: 'index' },
+    {
+      text: '入门',
+      collapsed: false,
+      items: [
+        { text: '功能介绍', base: '/', link: 'others/vmtu/' },
+        { text: '使用与配置文件', base: '/', link: 'others/vmtu/config' },
+        { text: '支持版本', base: '/', link: 'others/vmtu/support' },
       ]
     }
   ]
