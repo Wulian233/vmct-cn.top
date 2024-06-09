@@ -9,7 +9,7 @@ FTB建筑师天堂2延续了前代的传统，与近期以科技导向、目标�
 建筑师天堂2是一款注重创意和审美卓越的整合包续作。与通常以进度为重的整合包有所不同，这个包在熟悉的主世界环境中（或其他地方）注重建筑艺术的华丽，同时拥有丰富的设计灵感和乐趣的模组。
 
 <div style="display: flex;">
-  <ButtonComponent link="https://wulian233.lanzouj.com/ib5G81wnrpwbq">下载汉化</ButtonComponent>
+  <ButtonComponent link="https://wulian233.lanzouj.com/ib5G81wnrpwb">下载汉化</ButtonComponent>
 </div>
 
 
