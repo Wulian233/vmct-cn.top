@@ -129,6 +129,7 @@ function sidebarModpacks(){
         { text: '永恒的MC', link: 'mce' },
         { text: '中世纪的MC 1.19 Fabric', link: 'mmc' },
         { text: 'Muskteer', link: 'muskteer' },
+        { text: 'FTB Neotech', link: 'neotech' },
         { text: '核荒地', link: 'nuclear' },
         { text: '天空奥德赛', link: 'odyssey' },
         { text: 'FTB建筑师天堂2', link: 'paradise2' },

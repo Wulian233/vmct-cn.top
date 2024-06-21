@@ -13,9 +13,8 @@
 游戏版本：MC原版 1.16.5
 
 <div style="display: flex;">
-  <ButtonComponent link="https://www.mediafire.com/file/l6el23bvw6mrye1/Final_Paradox_v1.0.18.zip/file">下载地图</ButtonComponent>
+  <ButtonComponent link="https://www.mediafire.com/file/l6el23bvw6mrye1/Final_Paradox_v1.0.18.zip/file">下载地图（只要第一个）</ButtonComponent>
   <ButtonComponent buttonClass='button2' link="https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn">下载汉化</ButtonComponent>
-  <ButtonComponent buttonClass='button3' link="https://vm-comment.pp.ua/posts/39967.html">问题反馈</ButtonComponent>
 </div>
 
 

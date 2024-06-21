@@ -27,7 +27,7 @@ Would You Rather……？（你喜欢……？）
 详情查看下载内容中的“事项.txt”。
 
 <div style="display: flex;">
-  <ButtonComponent link="../doing">下载地图和汉化</ButtonComponent>
+  <ButtonComponent link="../others/doing">下载地图和汉化</ButtonComponent>
 </div>
 
 
