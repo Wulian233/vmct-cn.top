@@ -72,8 +72,8 @@ function nav(){
     },
     {
       text: '网站监控',
-      link: 'https://vmct-cn.top/jian/',
-      activeMatch: 'https://vmct-cn.top/jian/'
+      link: 'https://status.vmct-cn.top/',
+      activeMatch: 'https://status.vmct-cn.top/'
     },
     {
       text: '社交媒体',

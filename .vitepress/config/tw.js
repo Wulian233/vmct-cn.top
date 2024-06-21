@@ -68,8 +68,8 @@ function nav(){
   return [
     {
       text: '網站監視',
-      link: 'https://vmct-cn.top/jian/',
-      activeMatch: 'https://vmct-cn.top/jian/'
+      link: 'https://status.vmct-cn.top/',
+      activeMatch: 'https://status.vmct-cn.top/'
     },
     {
       text: '社群媒體',
