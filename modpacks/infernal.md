@@ -1,7 +1,6 @@
 # 地狱起源汉化下载
 <div style="display: flex">
   <img src="https://media.forgecdn.net/avatars/thumbnails/904/711/256/256/638355105225386236.png" style="width:50%" alt="图片1">
-  <img src="" style="width:50%" alt="图片2">
 </div>
 
 这是一个极具挑战性的整合包，从MMO游戏玩法中汲取了大量灵感。这里有大量的自定义起源、具有突袭机制的 Boss 和快节奏。还有大量专门为这个包定制的内容，你在其他任何地方都找不到。
@@ -12,9 +11,18 @@
 
 ### 整合包介绍
 
-整合包下载地址|加载器|整合包版本|MC版本|状态|汉化教程
-:-|:-|:-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/infernal-rpg)|Forge|v2.0.0-Patch 2|1.16.5|*翻译中*|[点我跳转](#1)|
+整合包下载地址|加载器|整合包版本|MC版本|状态
+:-|:-|:-|:-|:-
+[下载链接](https://www.curseforge.com/minecraft/modpacks/infernal-rpg)|Forge|v2.0.0-Patch 2|1.16.5|*维护中*|
+
+项目主管 [@Litchiiiiii](https://github.com/Litchiiiiii) [@PigeonFish](https://github.com/PigeonFish)
+
+技术规范修正：[@Wulian233](https://github.com/Wulian233)
+
+审核：[@Cactusstudent](https://github.com/Cactusstudent)
+
+---
+这是一个极具挑战性的整合包，从MMO游戏玩法中汲取了大量灵感。这里有大量的自定义起源、具有突袭机制的 Boss 和快节奏。还有大量专门为这个包定制的内容，你在其他任何地方都找不到。
 
 ## ⭐动态难度的Rogue-like整合包体验
 这个整合包最好是3名以上的玩家进行游玩，但如果你想的话，也可以单人游玩。由于它包含了随时间增加的难度调整，所以最好像玩rogue-like游戏那样来玩。如果你在进度上落后了，就和你的朋友们再进行一轮游戏，并利用你上一轮游戏中获得的经验！
@@ -94,13 +102,26 @@
 * 龙击：B键
 * 龙息：V键
 
+## 汉化教程
+把该CNPack文件夹下的所有文件复制于游戏.minecraft文件夹（未启用版本隔离）或version文件夹下的infernal Origins文件夹内（启用版本隔离）
 
-### 整合包下载
+若出现是否替换选项框请选择是（代表汉化成功）
+
+若未出现请认真按上述操作执行直至出现替换选项框
+
+注：若需完全汉化请下载i18n自动汉化更新模组、硬编码汉化VP模组(请下载最新版)补全汉化
+
+点击下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)
+
+点击下载[硬编码汉化VP模组](https://www.curseforge.com/minecraft/mc-mods/vault-patcher)
+
+## 译者名单
+
+Litchiiiiiii、PigeonFish、Cactusstudent、Wulian233、冰琳、3093FengMing、Crimvael、WsLhh、Cat酱、luyixs、望、kressety、Jh0v0、yinzi
+
+
+## 整合包下载
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/infernal-rpg)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-## 其他
-### 支持我们
+## 支持我们
 您的支持与鼓励是我们前进的动力！我们一直在用爱发电。如果在您条件允许的情况下，可以在爱发电支持我们！还可以在B站免费关注我们的账号！
-
-### 加入我们
-加入我们的QQ交流群，可以进一步了解制作进度，还可以游玩群内特供的整合包服务器！
