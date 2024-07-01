@@ -25,4 +25,4 @@ jobs:
           TARGET_REPO: Wulian233/vmct-website-beta
           TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: npm run build
-          BUILD_DIR: .vitepress/dist/
+          BUILD_DIR: .vitepress/
