@@ -3,12 +3,13 @@ name: Build Page
 on:
   push:
     paths-ignore:
-      - 'README.md'
+      - 'readme.md'
       - '.gitignore'
+      - 'LICENSE'
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -18,7 +19,7 @@ jobs:
         run: npm install vitepress
 
       - name: Build and Deploy
-        uses: jenkey2011/vuepress-deploy@master
+        uses: jenkey2011/vuepress-deploy@v1
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: Wulian233/vmct-website-beta
