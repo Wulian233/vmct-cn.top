@@ -67,8 +67,8 @@ function nav(){
   return [
     {
       text: '爱发电',
-      link: 'https://vmct-cn.top/api/',
-      activeMatch: 'https://vmct-cn.top/api/'
+      link: 'https://afdian.net/a/VMhanhuazu',
+      activeMatch: 'https://afdian.net/a/VMhanhuazu'
     },
     {
       text: '网站监控',
@@ -120,6 +120,7 @@ function sidebarModpacks(){
         { text: '机械动力：星辰', link: 'create' },
         { text: '破晓之界', link: 'dawn' },
         { text: 'The Decursio Project Expert', link: 'decursio' },
+        { text: 'Enigmatica 9: Expert E9E', link: 'e9e' },
         { text: '幻想领域', link: 'fantasy' },
         { text: '喂养奇点生存', link: 'feed' },
         { text: '冰雪之域', link: 'frozenopolis' },

@@ -108,6 +108,7 @@ function sidebarModpacks(){
         { text: '機械動力：星辰', link: 'create' },
         { text: '破曉之界', link: 'dawn' },
         { text: 'The Decursio Project Expert', link: 'decursio' },
+        { text: 'Enigmatica 9: Expert E9E', link: 'e9e' },
         { text: '幻想領域', link: 'fantasy' },
         { text: '飼養奇異點生存', link: 'feed' },
         { text: '冰雪之域', link: 'frozenopolis' },
