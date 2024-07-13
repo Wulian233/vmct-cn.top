@@ -1,7 +1,6 @@
 # Enigmatica 9: Expert E9E汉化下载
 <div style="display: flex">
   <img src="https://media.forgecdn.net/avatars/thumbnails/844/83/256/256/638240908112377505.jpeg" style="width:50%" alt="图片1">
-  <img src="https://user-images.githubusercontent.com/21295394/250969128-67bbafe6-368d-41be-90f5-4f5d86a34d90.png" style="width:50%" alt="图片2">
 </div>
 
 汉化下载链接（微云）：https://share.weiyun.com/4N6KKIcN
@@ -18,11 +17,6 @@
 整合包最新稳定版本：1.20.1
 
 汉化版本：1.20.0 ~ 1.20.1
-<div style="display: flex;">
-  <ButtonComponent link="https://vmhanhuazu.lanzoui.com/s/Muskteer-vmct-cn">下载汉化</ButtonComponent>
-  <ButtonComponent buttonClass='button2' link="https://b23.tv/SqwMd0R">专栏介绍</ButtonComponent>
-</div>
-
 
 ## 整合包介绍
 Enigmatica 9: Expert（简称 E9E）是一款 Minecraft 1.19.2 下的任务引导式整合包，由 NillerMedDild 为首的 Enigmatica 团队制作。
