@@ -67,8 +67,8 @@ function nav(){
   return [
     {
       text: '爱发电',
-      link: 'https://afdian.net/a/VMhanhuazu',
-      activeMatch: 'https://afdian.net/a/VMhanhuazu'
+      link: 'http://ifdian.net/a/VMhanhuazu',
+      activeMatch: 'http://ifdian.net/a/VMhanhuazu'
     },
     {
       text: '网站监控',
@@ -140,7 +140,7 @@ function sidebarModpacks(){
         { text: '石头世界3', link: 'sb3' },
         { text: '星辰工厂', link: 'star' },
         { text: '宝藏猎人3', link: 'vault' },
-        { text: 'FTB Presents Direwolf20', link: 'wolf' },
+        { text: 'FTB Presents Direwolf20 1.19', link: 'wolf' },
       ]
     }
   ]
