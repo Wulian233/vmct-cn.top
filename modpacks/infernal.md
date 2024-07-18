@@ -6,7 +6,7 @@
 这是一个极具挑战性的整合包，从MMO游戏玩法中汲取了大量灵感。这里有大量的自定义起源、具有突袭机制的 Boss 和快节奏。还有大量专门为这个包定制的内容，你在其他任何地方都找不到。
 
 <div style="display: flex;">
-  <ButtonComponent link="../others/doing">下载汉化</ButtonComponent>
+  <ButtonComponent link="https://vmhanhuazu.lanzouo.com/s/infernalorigin">下载汉化</ButtonComponent>
 </div>
 
 ### 整合包介绍
