@@ -47,7 +47,7 @@
 硬编码汉化模组提供和问题解答：3093FengMing
 
 ## 整合包下载
-你可以在[https://www.curseforge.com/minecraft/modpacks/jetpack-cat)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge网站内](https://www.curseforge.com/minecraft/modpacks/jetpack-cat)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 ## 支持我们
 您的支持与鼓励是我们前进的动力！我们一直在用爱发电。如果在您条件允许的情况下，可以在爱发电支持我们！还可以在B站免费关注我们的账号！
