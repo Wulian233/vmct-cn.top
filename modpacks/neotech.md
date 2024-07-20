@@ -6,8 +6,9 @@
 
 进入一个以科技为主宰的世界，体验精心设计的FTB Neotech整合包。无论你是经验丰富的工程师、足智多谋的冒险者，还是富有创意的建筑师，FTB Neotech都能为你带来数小时的模组娱乐时光。
 
-## PCL2不支持安装Neoforge整合包！
-**请使用[HMCL](http://mirrors.cloud.tencent.com/nexus/repository/maven-public/org/glavo/hmcl/hmcl-dev/3.5.8.249/hmcl-dev-3.5.8.249.exe)安装！**
+>  [!IMPORTANT] 重要提醒
+>  如果你使用PCL2启动器，请更新到最新版本。旧版本不支持启动Neoforge整合包，无法安装游戏！
+
 <div style="display: flex;">
   <ButtonComponent link="../others/doing">下载汉化</ButtonComponent>
 </div>
@@ -16,7 +17,7 @@
 ## 更多信息
 FTB官网|加载器|整合包版本|状态
 :-|:-|:-|:-
-[链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.2.1|*翻译中*|
+[链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.5.0|*翻译中*|
 
 ## 释放科技的力量
 通过现代工业化、应用能源和Mekanism等模组进入现代机械的领域。自动化任务，构建复杂系统，利用尖端科技。使用史蒂夫矿车打造树农场和矿井，Mekanism、沉浸工程、实用扩展和气动工艺则提供多样化的机械和机器，让你创新出全新的装置。
