@@ -67,8 +67,8 @@ function nav(){
   return [
     {
       text: '爱发电',
-      link: 'https://afdian.net/a/VMhanhuazu',
-      activeMatch: 'https://afdian.net/a/VMhanhuazu'
+      link: 'https://afdian.com/a/VMhanhuazu',
+      activeMatch: 'https://afdian.com/a/VMhanhuazu'
     },
     {
       text: '网站监控',
