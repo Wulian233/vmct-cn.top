@@ -39,4 +39,9 @@ features:
     details: 这张大型的半开放世界CTM地图提供了超过50小时的游戏时间。与独特攻击的定制怪物搏斗，打造强大的物品，并深入至暗深渊以获取16颗水晶。
     link: ./rc4
     linkText: 前往下载
+  - icon: 🎃
+    title: Lumina Complex
+    details: 在类银河恶魔城风格的冒险CTM地图中，探索二十世纪初的蒸汽朋克设施，揭秘流明综合体没落的原因。
+    link: ./lumina
+    linkText: 前往下载
 ---

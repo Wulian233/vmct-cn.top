@@ -161,8 +161,9 @@ function sidebarMap(){
         { text: '神界陨落', link: 'divinity' },
         { text: '贝维尔小镇', link: 'bayville' },
         { text: '死亡竞速2', link: 'deathrunner' },
-        { text: 'Would You Rather', link: 'wyr' },
+        { text: 'Lumina Complex', link: 'lumina' },
         { text: '狂乱之境4', link: 'rc4' },
+        { text: 'Would You Rather', link: 'wyr' },
       ]
     }
   ]
