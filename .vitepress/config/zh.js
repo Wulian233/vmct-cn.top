@@ -79,16 +79,16 @@ function nav(){
       text: '社交媒体',
       items: [
         {
-          text: 'QQ群',
+          text: '交流群',
           link: 'https://qm.qq.com/q/P1qgRl8iw8'
+        },
+        {
+          text: '外部翻译群',
+          link: 'https://qm.qq.com/q/VsS6kV6BCq'
         },
         {
           text: 'B站官号',
           link: 'https://space.bilibili.com/2085089798'
-        },
-        {
-          text: 'KOOK语音',
-          link: 'https://kaihei.co/qdbxlF'
         },
         {
           text: 'Discord（各显神通）',

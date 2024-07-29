@@ -6,14 +6,11 @@
 
 <div style="display: flex;">
   <ButtonComponent link="https://vmhanhuazu.lanzouo.com/i0VyZ1u4xhja">下载汉化</ButtonComponent>
-  <ButtonComponent buttonClass='button2' link="https://vm-comment.pp.ua/posts/63042.html">问题交流</ButtonComponent>
 </div>
 
-* Mac不要点上面下载，看下面。问题评论处于测试阶段，如果长时间进不去网站属于正常现象。同时qq登录评论无昵称和头像
 
 ## 更多信息
 ### 关于汉化
-
 由于本次安装换成了exe加载，Windows平台用户下载exe文件即可，非Windows平台请下载zip文件自行解压
 
 若是exe文件，只需运行后下一步，提示的安装模式（为所有用户安装/仅为我安装）随便选一个即可。请仔细阅读安装包中说明，路径选择默认即可，建议将三个模组汉化都勾选。
@@ -30,14 +27,15 @@
 支持最新版本1.16.3。
 
 ## 其他链接
-[蓝奏云全版本汉化下载](https://vmhanhuazu.lanzouo.com/s/witch) [Crowdin项目](https://zh.crowdin.com/project/cottage-witch-chinese) [汉化补丁源码](https://github.com/VM-Chinese-translate-group/Cottage-Witch)
+[蓝奏云全版本汉化下载](https://vmhanhuazu.lanzouo.com/s/witch) 
+
+[Crowdin项目](https://zh.crowdin.com/project/cottage-witch-chinese) 
+
+[汉化补丁源码](https://github.com/VM-Chinese-translate-group/Cottage-Witch)
 
 ## 其他
-### 一些需知
-如果有任何汉化问题，请在B站汉化组官号评论私信，或加入我们的QQ群告诉我们！汉化补丁禁止二次分发！所谓的懒人包违反EULA协议也禁止传播！具体请看汉化补丁内的协议内容和官号视频。 [汉化反馈交流群](https://qm.qq.com/q/P1qgRl8iw8)
-
 ### 支持我们
 您的支持与鼓励是我们前进的动力！我们一直在用爱发电。如果在您条件允许的情况下，可以在爱发电支持我们！还可以在B站免费关注我们的账号！
 
 ### 加入我们
-加入我们的QQ交流群，可以进一步了解制作进度，还可以游玩群内特供的整合包服务器！
+加入我们的QQ交流群，可以进一步了解翻译进度等最新消息。通过加入翻译外部志愿者群，可以参与最新的汉化项目，为翻译贡献自己的力量。质量优异表现突出的还有机会被正式邀请进VM汉化组！

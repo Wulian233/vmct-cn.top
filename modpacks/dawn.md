@@ -8,7 +8,7 @@
 
 <div style="display: flex;">
   <ButtonComponent link="https://vmhanhuazu.lanzouo.com/s/DawnCraft-VMct">下载汉化</ButtonComponent>
-  <ButtonComponent buttonClass='button2' link="https://mediafilez.forgecdn.net/files/5095/219/vaultpatcher-all-1.4.0%2B1.jar">下载VP模组</ButtonComponent>
+  <ButtonComponent buttonClass='button2' link="https://cdn.modrinth.com/data/NLV0Mnpu/versions/AfxwGce6/vaultpatcher-all-1.4.2%2B2.jar">下载VP模组</ButtonComponent>
 </div>
 
 
@@ -37,11 +37,8 @@
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
 ## 其他
-### 一些需知
-如果有任何汉化问题，请在B站汉化组官号评论私信，或加入我们的QQ群告诉我们！汉化补丁禁止二次分发！所谓的懒人包违反EULA协议也禁止传播！具体请看汉化补丁内的协议内容和官号视频。
-
 ### 支持我们
 您的支持与鼓励是我们前进的动力！我们一直在用爱发电。如果在您条件允许的情况下，可以在爱发电支持我们！还可以在B站免费关注我们的账号！
 
 ### 加入我们
-加入我们的QQ交流群，可以进一步了解制作进度，还可以游玩群内特供的整合包服务器！
+加入我们的QQ交流群，可以进一步了解翻译进度等最新消息。通过加入翻译外部志愿者群，可以参与最新的汉化项目，为翻译贡献自己的力量。质量优异表现突出的还有机会被正式邀请进VM汉化组！

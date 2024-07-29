@@ -25,7 +25,6 @@
 
 <div style="display: flex;">
   <ButtonComponent link="https://vmhanhuazu.lanzouo.com/s/divinity">下载地图和汉化</ButtonComponent>
-  <ButtonComponent buttonClass='button3' link="https://vm-comment.pp.ua/posts/19515.html">问题反馈评论区</ButtonComponent>
 </div>
 
 
@@ -43,11 +42,8 @@
 cat酱，X209，linyeyuyue，咕咕鱼 RCqaq_，Feathamity，DC10-10，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
 
 ## 其他
-### 一些需知
-如果有任何汉化问题，请在B站汉化组官号评论私信，或加入我们的QQ群告诉我们！汉化补丁禁止二次分发！所谓的懒人包违反EULA协议也禁止传播！具体请看汉化补丁内的协议内容和官号专栏。
-
 ### 支持我们
 您的支持与鼓励是我们前进的动力！我们一直在用爱发电。如果在您条件允许的情况下，可以在爱发电支持我们！还可以在B站免费关注我们的账号！
 
 ### 加入我们
-加入我们的QQ交流群，可以进一步了解制作进度，还可以游玩群内特供的整合包服务器！
+加入我们的QQ交流群，可以进一步了解翻译进度等最新消息。通过加入翻译外部志愿者群，可以参与最新的汉化项目，为翻译贡献自己的力量。质量优异表现突出的还有机会被正式邀请进VM汉化组！

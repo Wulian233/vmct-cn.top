@@ -5,8 +5,8 @@
 .vitepress/dist
 .vitepress/cache
 .vscode
-dist
 cache
+dist
 temp
 examples-temp
 node_modules

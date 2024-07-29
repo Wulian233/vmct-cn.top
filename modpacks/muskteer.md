@@ -8,15 +8,16 @@
 
 Muskteer是一个围绕小型多人游戏社区设计的整合包，玩家生活在一个普通的世界中，并且摒弃了原版Minecraft的一些玩法，更具创新。
 
-游戏版本：Forge 1.19.2
-
-## 支持版本
 不支持最新版本，支持beta7版本。
 
 <div style="display: flex;">
   <ButtonComponent link="https://vmhanhuazu.lanzoui.com/s/Muskteer-vmct-cn">下载汉化</ButtonComponent>
-  <ButtonComponent buttonClass='button2' link="https://b23.tv/SqwMd0R">专栏介绍</ButtonComponent>
+  <ButtonComponent buttonClass='button2' link="https://www.bilibili.com/read/cv18890616/">专栏介绍</ButtonComponent>
 </div>
+
+整合包下载地址|加载器|整合包版本|MC版本|状态
+:-|:-|:-|:-|:-
+[下载链接](https://www.curseforge.com/minecraft/modpacks/musketeer)|Forge|beta7|1.19.2|**停止维护**|
 
 ## 整合包下载
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/musketeer)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
@@ -42,11 +43,9 @@ Muskteer整合包中：
 ## 贡献者
 特别感谢仙人掌个人汉化。
 
-## 一些需知
-如果有任何汉化问题，请在B站汉化组官号评论私信，或加入我们的QQ群告诉我们！汉化补丁禁止二次分发！所谓的懒人包违反EULA协议也禁止传播！具体请看汉化补丁内的协议内容和官号视频。
-
-## 支持我们
+## 其他
+### 支持我们
 您的支持与鼓励是我们前进的动力！我们一直在用爱发电。如果在您条件允许的情况下，可以在爱发电支持我们！还可以在B站免费关注我们的账号！
 
-## 加入我们
-加入我们的QQ交流群，可以进一步了解汉化进度，还可以获取最新资讯！
+### 加入我们
+加入我们的QQ交流群，可以进一步了解翻译进度等最新消息。通过加入翻译外部志愿者群，可以参与最新的汉化项目，为翻译贡献自己的力量。质量优异表现突出的还有机会被正式邀请进VM汉化组！
