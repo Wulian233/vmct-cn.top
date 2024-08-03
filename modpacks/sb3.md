@@ -8,7 +8,7 @@
 已获得FTB团队官方授权！著名的石头世界系列已经来到了第3代！
 
 <div style="display: flex;">
-  <ButtonComponent link="https://wulian233.lanzouj.com/iwAZ61xg3yib">下载汉化</ButtonComponent>
+  <ButtonComponent link="https://wulian233.lanzouj.com/inn5F26dua8f">下载汉化</ButtonComponent>
   <ButtonComponent buttonClass='button2' link="https://www.bilibili.com/read/cv21772959/">专栏介绍</ButtonComponent>
 </div>
 
