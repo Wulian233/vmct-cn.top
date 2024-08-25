@@ -1,4 +1,4 @@
-<div align="center"><img src="src/public/imgs/logo/logo_256.png.png"/></div>
+<div align="center"><img src="src/public/imgs/logo/logo_256.png"/></div>
 
 # VM汉化组官方网站v3
 
