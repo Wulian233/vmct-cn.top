@@ -17,7 +17,7 @@ hero:
       link: ./map/
     - theme: alt
       text: GitHub
-      link: https://github.com/Wulian233/vmct-website-beta/
+      link: https://github.com/Wulian233/vmct-cn.top/
   image:
       src: /imgs/logo/logo_256.png
       alt: VM 翻譯組

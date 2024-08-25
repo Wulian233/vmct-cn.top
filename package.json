@@ -1,7 +1,12 @@
 {
+  "name": "vmct-cn.top",
   "private": "true",
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wulian233/vmct-cn.top"
+  },
   "scripts": {
     "build": "vitepress build --minify --base /",
     "dev": "vitepress",
