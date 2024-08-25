@@ -1,0 +1,37 @@
+# Jetbrains
+.idea
+
+# MacOS Desktop Services Store
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dist files
+lib
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build files
+dist
+
+# VitePress files
+.vitepress/cache/
+.vitepress/dist/
+.temp
+# Env files
+.env.*.local
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+

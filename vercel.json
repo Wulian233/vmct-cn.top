@@ -1,0 +1,35 @@
+{
+  "cleanUrls": true,
+  "framework": "vitepress",
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": ".vitepress/dist",
+  "headers": [
+    {
+      "source": "/imgs/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/modpacks/:modpack/update.txt",
+      "destination": "https://gitee.com/Wulian233/vmtu/raw/main/update/:modpack.txt",
+      "permanent": true
+    },
+    {
+      "source": "/name.json",
+      "destination": "https://gitee.com/Wulian233/vmtu/raw/main/name.json",
+      "permanent": true
+    },
+    {
+      "source": "/tips.txt",
+      "destination": "https://gitee.com/Wulian233/vmtu/raw/main/tips.txt",
+      "permanent": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ESnext",
+    "target": "ESnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "lib": ["ESNext", "DOM"],
+    "removeComments": false,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "paths": {
+      "vite": ["./node_modules/vite"]
+    }
+  },
+  "include": [
+    "**/.vitepress/**/*.ts",
+    "**/.vitepress/**/*.mts",
+    "**/.vitepress/**/*.vue",
+    "**/components/**/*.ts",
+    "**/components/**/*.tsx",
+    "**/components/**/*.vue"],
+  "exclude": ["**/node_modules/**", "**/dist/**", "unocss.config.ts"]
+}
