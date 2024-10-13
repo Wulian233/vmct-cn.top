@@ -149,6 +149,14 @@ export default defineConfig({
       Unocss(),
       GitChangelog({
         repoURL: () => "https://github.com/Wulian233/vmct-cn.top",
+        mapAuthors: [
+          {
+              name: "Wulian233",
+              username: "Wulian233",
+              mapByNameAliases: ["Wulian"],
+              avatar: generateAvatarUrl("Wulian233"),
+          },
+        ],
       }),
       GitChangelogMarkdownSection(),
     ],
