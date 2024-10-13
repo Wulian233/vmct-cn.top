@@ -17,7 +17,7 @@ title: 破晓之界汉化下载
 - 请确保已安装 Java 18 或 17，否则可能会导致崩溃
 - 如果你是MacOS用户，请[查看此文档](https://vmhanhuazu.lanzouo.com/Dawncraft-mac)
 
-整合包下载地址|加载器|支持整合包版本|状态
+整合包下载地址|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|Forge|1.18.2 2.0.9f3|**停止维护**|
 

@@ -29,21 +29,21 @@
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
     "qrcode": "^1.5.4",
-    "typescript": "^5.6.2",
-    "unocss": "^0.63.3",
-    "vitepress": "^1.4.0",
+    "typescript": "^5.6.3",
+    "unocss": "^0.63.4",
+    "vitepress": "^1.4.1",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
-    "vue": "^3.5.11",
+    "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@nolebase/vitepress-plugin-git-changelog": "^2.5.0",
-    "@unocss/extractor-mdc": "^0.63.3",
+    "@nolebase/vitepress-plugin-git-changelog": "^2.6.1",
+    "@unocss/extractor-mdc": "^0.63.4",
     "markdown-it": "^14.1.0",
     "markdown-it-container": "^4.0.0",
-    "pnpm": "^9.12.0",
+    "pnpm": "^9.12.1",
     "taze": "^0.17.2",
     "tsconfig-vuepress": "^5.2.0"
   },
-  "packageManager": "pnpm@9.12.0"
+  "packageManager": "pnpm@9.12.1"
 }

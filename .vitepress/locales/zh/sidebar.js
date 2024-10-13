@@ -16,6 +16,7 @@ const sidebar = {
         { text: '黑石世界', link: '/modpacks/black' },
         { text: 'Bliss', link: '/modpacks/bliss' },
         { text: '洞穴城', link: '/modpacks/cave' },
+        { text: 'Chunk Block', link: '/modpacks/chunk' },
         { text: '春晓之巫', link: '/modpacks/cottage' },
         { text: '机械动力：星辰', link: '/modpacks/create' },
         { text: '破晓之界', link: '/modpacks/dawn' },

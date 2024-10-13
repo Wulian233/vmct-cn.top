@@ -23,7 +23,7 @@ title: FTB Neotech汉化下载
 
 ## 更多信息
 
-FTB官网|加载器|整合包版本|状态
+FTB官网|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
 [链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.7.0|*维护中*|
 

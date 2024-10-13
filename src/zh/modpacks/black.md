@@ -18,7 +18,7 @@ title: 黑石世界汉化下载
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
-整合包下载地址|加载器|整合包版本|MC版本|状态
+整合包下载地址|加载器|整合包版本|MC版本|汉化维护状态
 :-|:-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/blackstone-block)|Forge|最新版|1.16.5|**停止维护**|
 

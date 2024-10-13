@@ -18,7 +18,7 @@ title: 地狱起源汉化下载
 
 ## 整合包介绍
 
-整合包下载地址|加载器|整合包版本|MC版本|状态
+整合包下载地址|加载器|整合包版本|MC版本|汉化维护状态
 :-|:-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/infernal-rpg)|Forge|v2.0.0-Patch 2|1.16.5|*维护中*|
 

@@ -3,10 +3,7 @@ layout: doc
 title: 春晓之巫汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/507/514/2022-10-18_16.png" style="width:50%" alt="图片1">
-  <img src="https://s11.ax1x.com/2024/02/04/pFlQgqU.png" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/507/514/2022-10-18_16.png)
 
 > [!WARNING] 重要提示
 > 汉化仅支持整合包版本1.16.10，**不支持最新版**，请留意下载的整合包版本！
@@ -18,7 +15,7 @@ title: 春晓之巫汉化下载
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
-整合包下载地址|加载器|汉化支持整合包版本|MC版本|状态
+整合包下载地址|加载器|汉化支持整合包版本|MC版本|汉化维护状态
 :-|:-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/cottage-witch)|Forge|1.16.10 **不支持最新版**|1.19.2|**翻译新版（维护）中**|
 
@@ -38,9 +35,11 @@ title: 春晓之巫汉化下载
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
+![授权](https://s11.ax1x.com/2024/02/04/pFlQgqU.png)
+
 ## 支持版本
 
-支持版本1.16.10，不支持最新版！。
+支持版本1.16.10，不支持最新版！
 
 ## 支持我们
 

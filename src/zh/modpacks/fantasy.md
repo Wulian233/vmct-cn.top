@@ -19,7 +19,7 @@ title: 幻想领域汉化下载
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv26403091/' }
 ]" />
 
-整合包下载地址|加载器|支持整合包版本|状态
+整合包下载地址|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/fantasy-realm/)|Forge|1.16.5 1.18.2 v3最新版|**停止维护**|
 

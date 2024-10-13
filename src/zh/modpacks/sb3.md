@@ -20,7 +20,7 @@ title: FTB石头世界3汉化下载
 
 ## 更多信息
 
-FTB官网|加载器|整合包版本|状态
+FTB官网|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
 [链接](https://www.feed-the-beast.com/modpacks/100-ftb-stoneblock-3)|Forge|mc1.18.2 最新版|**维护中**|
 

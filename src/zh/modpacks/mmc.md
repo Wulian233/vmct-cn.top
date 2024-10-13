@@ -15,7 +15,7 @@ title: 中世纪MC1.19.2fabric汉化下载
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
-整合包下载地址|加载器|支持整合包版本|状态
+整合包下载地址|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/medieval-mc-fabric-mmc1)|Fabric|1.19.2 最新版v24|**停止维护**|
 

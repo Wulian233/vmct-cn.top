@@ -16,7 +16,7 @@ title: FTB奥术学院汉化下载
 
 **奥术学院**整合包将带你踏上充满魔法力量、危险旅程和无畏精神的迷人故事！
 
-FTB官网|加载器|整合包版本|状态
+FTB官网|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
 [链接](https://www.feed-the-beast.com/modpacks/115-ftb-arcanum-institute)|Forge|mc1.18.2 1.4.0|**维护中**|
 

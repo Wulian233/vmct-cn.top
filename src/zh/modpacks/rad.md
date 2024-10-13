@@ -14,7 +14,7 @@ title: Roguelike冒险与地牢汉化下载
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
-整合包下载地址|加载器|支持整合包版本|状态
+整合包下载地址|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)|Forge|mc1.12.2 1.53|**停止维护**|
 

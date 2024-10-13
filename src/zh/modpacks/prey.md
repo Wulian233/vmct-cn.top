@@ -12,7 +12,7 @@ title: Prey汉化下载
 
 **“死亡是我们的债，不得不偿还的债”**
 
-整合包下载地址|加载器|支持整合包版本|状态
+整合包下载地址|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/prey-beta)|Forge|mc1.19.2 最新版|**停止维护**|
 

@@ -7,7 +7,7 @@ title: FTB Direwolf20 1.19汉化下载
 
 FTB和Direwolf20将带来一场新的刺激冒险！自2011年以来，FTB和Direwolf20提供了简单而独特的水槽类整合包，适合各种技能水平的玩家。现在，1.19 版本来袭，游戏变得更棒了！
 
-FTB官网|加载器|整合包版本|状态
+FTB官网|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
 [链接](https://www.feed-the-beast.com/modpacks/101-ftb-presents-direwolf20-119)|Forge|mc1.19.2 通用|**停止支持**|
 

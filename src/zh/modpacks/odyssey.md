@@ -18,7 +18,7 @@ title: 天空奥德赛汉化下载
 ]" />
 
 
-FTB官网|加载器|支持整合包版本|状态
+FTB官网|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
 [链接](https://www.feed-the-beast.com/modpacks/8-ftb-sky-odyssey)|Forge|mc1.12.2 1.3.0|**停止维护**|
 

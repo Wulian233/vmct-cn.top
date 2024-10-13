@@ -17,11 +17,6 @@
   ],
   "redirects": [
     {
-      "source": "/moon/",
-      "destination": "https://moon.vmct-cn.top",
-      "permanent": true
-    },
-    {
       "source": "/modpacks/:modpack/update.txt",
       "destination": "https://gitee.com/Wulian233/vmtu/raw/main/update/:modpack.txt",
       "permanent": true

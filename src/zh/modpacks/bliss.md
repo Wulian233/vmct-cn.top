@@ -10,7 +10,7 @@ title: Bliss汉化下载
 
 Vazkii继Crucial 2后的又一力作！Bliss是一款精心打造的和平向整合包，正如其名字一样旨在营造一种轻松舒适、幸福快乐的和平游戏模式。
 
-整合包下载地址|加载器|整合包版本|MC版本|状态
+整合包下载地址|加载器|整合包版本|MC版本|汉化维护状态
 :-|:-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/bliss/)|Forge|最新版|1.18.2|**停止维护**|
 
