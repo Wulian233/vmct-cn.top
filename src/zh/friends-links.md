@@ -3,7 +3,7 @@ title: 友情链接
 layout: doc
 ---
 
-## bilibili 知名UP
+## bilibili 知名UP主
 
 他们在视频中使用了我们的汉化并录制一系列视频，为我们做了宣传，感谢他们
 

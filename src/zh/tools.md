@@ -23,27 +23,6 @@ layout: doc
   { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/FeedTheForge/releases/' }
 ]" />
 
-## kubejs提取 <Badge type="warning" text="不推荐，放弃更新" />
-
-> [!TIP] 提示
-> 不推荐，只能处理很有限的内容。
-提取不全，放弃更新
-
-把整合包kubejs写的魔改内容文本提取为json语言文件，并在原本的位置自动填入本地化键值。
-
-由于js本身是编程语言，有极大的灵活性，工具只是列出了mc特有的Text.of词条，效果十分有限。
-
-还可以暴力提取所有字符串，但是动辄几千行，对翻译造成较大困扰，所以停止更新，不建议使用。
-
-还加入了对本地AI翻译的支持，使用XDawn制作的专用MC整合包调整翻译模型，品质较好。
-
-但由于工具是Python写的，模型是CPU运行（无论是否有英伟达显卡），效率也十分有限。
-
-<DownloadLinks :methods="[
-  { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/kubejs-translate' },
-  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/kubejs-translate/releases/tag/1.3' }
-]" />
-
 ## FTBQ颜色字符检查
 
 用于检查翻译后的语言文件中是否存在FTB任务&颜色字符后面的数字或字母丢失的问题。这会导致任务无法正常显示。
@@ -83,23 +62,12 @@ layout: doc
 ## 内容提取（WETM）
 
 > [!TIP] 提示
-> 这是原作WET的分支，此工具不支持1.21+，但有exe。
+> 这是原作WET的分支，此工具不支持1.21+，但提供exe文件，开箱即用。
 原作支持新版mc，但需要运行源代码，环境安装比较困难。
 
 <DownloadLinks :methods="[
   { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/3093FengMing/WorldTranslationExtractor' },
   { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/3093FengMing/WorldTranslationExtractor/releases' }
-]" />
-
-## 内容提取（WEH）
-
-> [!TIP] 提示
-> 这是WETM的分支，最终提取效果与功能完全相同，
-但大量改进了使用体验
-
-<DownloadLinks :methods="[
-  { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/WorldTranslationHelper' },
-  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/WorldTranslationHelper/releases/tag/1.0' }
 ]" />
 
 # Paratranz翻译平台解决方案

@@ -20,7 +20,7 @@ title: Chunk Block汉化下载
 
 整合包下载地址|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
-[链接](https://www.curseforge.com/minecraft/modpacks/chunk-block)|Forge|mc1.19.2 0.0.6|*翻译中*|
+[链接](https://www.curseforge.com/minecraft/modpacks/chunk-block)|Forge|mc1.19.2 0.0.6|*审核中*|
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/11916)
 

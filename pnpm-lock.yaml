@@ -70,14 +70,14 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       pnpm:
-        specifier: ^9.12.1
-        version: 9.12.1
+        specifier: ^9.12.2
+        version: 9.12.2
       taze:
         specifier: ^0.17.2
         version: 0.17.2
       tsconfig-vuepress:
-        specifier: ^5.2.0
-        version: 5.2.0
+        specifier: ^5.2.1
+        version: 5.2.1
 
 packages:
 
@@ -1519,8 +1519,8 @@ packages:
     resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
     engines: {node: '>=10.13.0'}
 
-  pnpm@9.12.1:
-    resolution: {integrity: sha512-5aflKkGDoC1ZMQV/eg2/+dXpzjFh4z+miuOSElt5KCqKikcKUd/IoO2GIhRC6y+1cBmwmQ7ST6tRm/DhvFzPxA==}
+  pnpm@9.12.2:
+    resolution: {integrity: sha512-InIbOhH4FmGuHsaM4ae4eUJaHKW5kcl1sHSsIgsYfOVscI/l22n0yWLJiUUu7nbIKHf07oD0dM69Ye4TRhtiKA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1714,8 +1714,8 @@ packages:
   trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==}
 
-  tsconfig-vuepress@5.2.0:
-    resolution: {integrity: sha512-0ohDT4VEeEtMQ3lXoaVr4J/SbP95dAaqPU92UgbTPX0g+JFrq/RVsFzNKMUwqKkPXGplUYB75Ux4l6sVNh+Gvg==}
+  tsconfig-vuepress@5.2.1:
+    resolution: {integrity: sha512-9JI4bozH9ISFRj0KIbSTpyk6Metl7rcICnCFcvdgWj+Hx4L8Z/VuWbAdgzNysiMafILfBLJrfsViEj6ZeW6fHQ==}
 
   tslib@2.7.0:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
@@ -3403,7 +3403,7 @@ snapshots:
 
   pngjs@5.0.0: {}
 
-  pnpm@9.12.1: {}
+  pnpm@9.12.2: {}
 
   postcss@8.4.47:
     dependencies:
@@ -3605,7 +3605,7 @@ snapshots:
 
   trim-lines@3.0.1: {}
 
-  tsconfig-vuepress@5.2.0: {}
+  tsconfig-vuepress@5.2.1: {}
 
   tslib@2.7.0: {}
 

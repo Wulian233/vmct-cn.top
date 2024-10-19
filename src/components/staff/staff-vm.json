@@ -23,6 +23,10 @@
     "title": "Wulian233"
   },
   {
+    "name": "sine",
+    "square": true
+  },
+  {
     "name": "墨应青（贪婪）",
     "title": "TANLAN13"
   },
@@ -63,7 +67,8 @@
   },
   {
     "name": "酷热火君",
-    "title": "Huo-jun0531"
+    "title": "Huo-jun0531",
+    "square": true
   },
   {
     "name": "烦应该是吧",
