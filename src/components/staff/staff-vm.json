@@ -100,7 +100,8 @@
   },
   {
     "name": "翰隶镇长",
-    "title": "Hanlizz"
+    "title": "Hanlizz",
+    "square": true
   },
   {
     "name": "仿生电子回收物",
