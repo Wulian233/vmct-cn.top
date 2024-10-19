@@ -38,7 +38,6 @@ const sortedMembers = computed(() => {
             v-for="(member, index) in sortedMembers"
             :key="member.name"
             class="member"
-            :class="{ 'black-box': member.square }"
           >
             <p class="member-name">{{ member.name }}</p>
             <p v-if="member?.title" class="member-title">{{ member.title }}</p>
@@ -182,10 +181,5 @@ const sortedMembers = computed(() => {
   flex-basis: 100%;
   width: 100%;
   box-sizing: border-box;
-}
-
-.black-box {
-  border: 2px solid black;
-  padding: 4px;
 }
 </style>

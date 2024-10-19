@@ -144,7 +144,7 @@ theme: medium
 
 ```yml
 ---
-footer: false #隐藏该页面的页脚
+footer: false # 隐藏该页面的页脚
 ---
 ```
 
@@ -159,7 +159,7 @@ footer: false #隐藏该页面的页脚
 
 ```yml
 ---
-docHeader: false #隐藏该页面的 docHeader
+docHeader: false # 隐藏该页面的 docHeader
 ---
 ```
 
@@ -172,7 +172,7 @@ docHeader: false #隐藏该页面的 docHeader
 
 ```yml
 ---
-comment: false #隐藏该页面的评论区
+comment: false # 隐藏该页面的评论区
 ---
 ```
 
@@ -185,6 +185,6 @@ comment: false #隐藏该页面的评论区
 
 ```yml
 ---
-gitChangelog: false #隐藏该页面的贡献者和页面历史
+gitChangelog: false # 隐藏该页面的贡献者和页面历史
 ---
 ```
