@@ -3,10 +3,7 @@ layout: doc
 title: 重生之夜汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/849/572/2021-03-10_12.png" style="width:50%" alt="图片1">
-  <img src="/imgs/rotn.png" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/849/572/2021-03-10_12.png)
 
 重生之夜通过全面革新Minecraft及其模组，重现了初次探索Minecraft时的兴奋感，并加入了动态世界、复杂战斗和丰富的背景故事，让每一次冒险都充满新鲜感和挑战。
 
@@ -41,6 +38,8 @@ title: 重生之夜汉化下载
 本地图汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+![](/imgs/rotn.png)
 
 ## 支持我们
 

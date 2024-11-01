@@ -15,13 +15,13 @@ title: 机械动力星辰汉化下载
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv26855184' },
-  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5335196' },
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
 整合包下载地址|加载器|MC版本|支持版本|汉化维护状态
 :-|:-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/create-astral)|Fabric|1.18.2|2.0.5b **不支持最新版**|**停止维护**|
+[下载链接](https://www.curseforge.com/minecraft/modpacks/create-astral)|Fabric|1.18.2|2.0.5b **不支持最新版**|**更新新版本中**|
 
 ## 注意事项
 

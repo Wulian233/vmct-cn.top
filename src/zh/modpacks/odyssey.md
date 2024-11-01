@@ -3,9 +3,7 @@ layout: doc
 title: 天空奥德赛汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/avatars/196/438/636885315245071486.png" style="width:40%" alt="图片1">
-</div>
+![](https://media.forgecdn.net/avatars/196/438/636885315245071486.png)
 
 > [!WARNING] 重要提示
 > **汉化支持整合包版本1.3.0，不支持最新版（新版安装后只有指南汉化，没有任务汉化）**
@@ -13,7 +11,7 @@ title: 天空奥德赛汉化下载
 <DownloadLinks :methods="[
   { id: 'github', text: '下载汉化', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Sky-Odyssey' },
   { id: 'gitee', text: 'FTB整合包下载工具', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/flrscn/curse-the-beast/releases' },
-  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5335196' },
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 

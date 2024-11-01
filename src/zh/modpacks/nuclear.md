@@ -3,10 +3,7 @@ layout: doc
 title: 核荒原汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/310/897/2020-09-01_22.png" style="width:50%" alt="图片1">
-  <img src="/imgs/nuclear.png" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/310/897/2020-09-01_22.png)
 
 探索广阔的核荒地，或在深处冒险并探索令人兴奋的新洞穴系统。但要小心在核破坏时到达的怪物，一些怪物受到辐射的严重感染并具有特殊的能力！使用炮塔和建造机器来建造基地，以促进你的生存。你越冒险进入荒地，你就会发现越多的怪物和物品。祝你好运。
 

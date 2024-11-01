@@ -16,11 +16,11 @@ title: Roguelike冒险与地牢汉化下载
 
 整合包下载地址|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)|Forge|mc1.12.2 1.53|**停止维护**|
+[下载链接](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)|Forge|mc1.12.2 1.53|**更新新版本中**|
 
 ## 重要说明
 
-1. 必须下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5335196)，否则翻译不全；
+1. 必须下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609)，否则翻译不全；
 
 2. 必须下载下面的模组来消除本地化冲突：
 

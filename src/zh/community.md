@@ -11,8 +11,8 @@ aside: true
 
 ## QQ 交流群
 
-- [**不知名汉化组交流群** 965207278](https://qm.qq.com/q/zfY3xUJ2YS)
-- [**VM猫咖（娱乐休闲）** 965207278](https://qm.qq.com/q/sKdqhf9fjy)
+- [**不知名汉化组交流群** 376139397](https://qm.qq.com/q/zfY3xUJ2YS)
+- [**VM猫咖（娱乐休闲）** 214620984](https://qm.qq.com/q/sKdqhf9fjy)
 
 :::details VM汉化组 • QQ 『交流群群规』
 
@@ -33,13 +33,12 @@ aside: true
 :arrow_forward: 违规者警告一次+禁言（时间看情节严重性），第二次犯飞机票。
 
 <br>
+
 『汉化组相关信息』
 
 汉化组官方B账号:arrow_forward: <https://space.bilibili.com/2085089798>
 
 汉化组官网:arrow_forward: <https://vmct-cn.top>
-
-群语音频道:arrow_forward: <https://kook.top/qdbxlF>
 
 爱发电:arrow_forward: <https://afdian.net/a/VMhanhuazu>
 
