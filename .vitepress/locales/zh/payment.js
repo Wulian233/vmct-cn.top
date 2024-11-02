@@ -1,7 +1,7 @@
 const payment = {
   bilibili: {
     name: 'bilibili',
-    address: 'https://space.bilibili.com/518076785',
+    address: 'https://space.bilibili.com/2085089798',
   },
   afdian: {
     name: '爱发电',

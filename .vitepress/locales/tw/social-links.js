@@ -7,7 +7,7 @@ const socialLinks = [
     icon: {
       svg: socialList.bilibili.icon,
     },
-    link: 'https://space.bilibili.com/518076785',
+    link: 'https://space.bilibili.com/2085089798',
     ariaLabel: 'bilibili',
   },
 ]

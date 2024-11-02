@@ -1,0 +1,192 @@
+.view-fade-y {
+  animation: fade linear both;
+  animation-timeline: view();
+  animation-range: entry 50% cover 50%;
+}
+
+.view-fade-title {
+  background: linear-gradient(90deg, var(--vp-c-text-1), transparent);
+  background-size: 200%;
+  animation: reveal both linear;
+  animation-timeline: view();
+  background-repeat: no-repeat;
+  animation-range: entry 50% cover 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.skeleton-animation::after {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    var(--skeleton-animation-gradient),
+    rgba(255, 255, 255, 0)
+  );
+  animation: skeleton-gradient 1.5s linear 2s infinite;
+}
+
+@keyframes slide-enter {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 100;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:not(.no-sliding) [slide-enter],
+  html:not(.no-sliding) .slide-enter,
+  html:not(.no-sliding) .main > div > *,
+  html:not(.no-sliding) #VPContent > div > div.VPFeatures.VPHomeFeatures > *,
+  html:not(.no-sliding) .TeamPage > *,
+  html:not(.no-sliding) .VPHomeHero > * {
+    --enter-stage: 0;
+    --enter-step: 90ms;
+    --enter-initial: 0ms;
+    animation: slide-enter 0.8s both 1;
+    animation-delay: calc(
+      var(--enter-initial) + var(--enter-stage) * var(--enter-step)
+    );
+    -webkit-animation-timing-function: cubic-bezier(0.333, 0, 0.667, 1), linear,
+      linear;
+  }
+
+  .main > div > *:nth-child(1) {
+    --enter-stage: 1;
+  }
+  .main > div > *:nth-child(2) {
+    --enter-stage: 2;
+  }
+  .main > div > *:nth-child(3) {
+    --enter-stage: 3;
+  }
+  .main > div > *:nth-child(4) {
+    --enter-stage: 4;
+  }
+  .main > div > *:nth-child(5) {
+    --enter-stage: 5;
+  }
+  .main > div > *:nth-child(6) {
+    --enter-stage: 6;
+  }
+  .main > div > *:nth-child(7) {
+    --enter-stage: 7;
+  }
+  .main > div > *:nth-child(8) {
+    --enter-stage: 8;
+  }
+  .main > div > *:nth-child(9) {
+    --enter-stage: 9;
+  }
+  .main > div > *:nth-child(10) {
+    --enter-stage: 10;
+  }
+  .main > div > *:nth-child(11) {
+    --enter-stage: 11;
+  }
+  .main > div > *:nth-child(12) {
+    --enter-stage: 12;
+  }
+  .main > div > *:nth-child(13) {
+    --enter-stage: 13;
+  }
+  .main > div > *:nth-child(14) {
+    --enter-stage: 14;
+  }
+  .main > div > *:nth-child(15) {
+    --enter-stage: 15;
+  }
+  .main > div > *:nth-child(16) {
+    --enter-stage: 16;
+  }
+  .main > div > *:nth-child(17) {
+    --enter-stage: 17;
+  }
+  .main > div > *:nth-child(18) {
+    --enter-stage: 18;
+  }
+  .main > div > *:nth-child(19) {
+    --enter-stage: 19;
+  }
+  .main > div > *:nth-child(20) {
+    --enter-stage: 20;
+  }
+
+  @keyframes slide-enter-left {
+    0% {
+      transform: translateX(-20px);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0);
+      opacity: 100;
+    }
+  }
+  @media (min-width: 960px) {
+    .VPSidebar {
+      animation: slide-enter-left 1s both 1;
+      -webkit-animation-timing-function: cubic-bezier(0.333, 0, 0.667, 1);
+    }
+  }
+}
+
+@keyframes skeleton-gradient {
+  0% {
+    transform: translate(-100%) skew(-15deg);
+  }
+
+  to {
+    transform: translate(100%) skew(-15deg);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  from {
+    background-position-x: 200%;
+  }
+  to {
+    background-position-x: 0%;
+  }
+}
+
+@keyframes skeleton-flashed {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    background-color: #e6e6e64d;
+    opacity: 0.3;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

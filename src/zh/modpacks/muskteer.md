@@ -3,12 +3,7 @@ layout: doc
 title: Muskteer汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/677/536/2023-05-31_10.png" style="width:50%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/24/pCL4Chd.jpg" style="width:50%" alt="图片2">
-</div>
-
-注：因为是公共聊天区，无关信息多，所以授权图经过裁剪。
+![](https://media.forgecdn.net/attachments/677/536/2023-05-31_10.png)
 
 Muskteer是一个围绕小型多人游戏社区设计的整合包，玩家生活在一个普通的世界中，并且摒弃了原版Minecraft的一些玩法，更具创新。
 
@@ -46,6 +41,16 @@ Muskteer整合包中：
 - 禁用TNT复制机
 
 [更多更改和详细介绍看专栏](https://www.bilibili.com/read/cv25168595/)
+
+## 整合包下载与授权
+
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/musketeer/files)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+注：因为是公共聊天区，无关信息多，所以授权图经过裁剪。
+
+![](https://s1.ax1x.com/2023/07/24/pCL4Chd.jpg)
 
 ## 贡献者
 

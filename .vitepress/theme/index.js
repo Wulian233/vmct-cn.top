@@ -18,7 +18,7 @@ import LinkGrid from '../theme/components/LinkGrid.vue'
 
 import "@nolebase/vitepress-plugin-git-changelog/client/style.css";
 import 'uno.css'
-import './styles/blur.css'
+import './styles/animation.css'
 import './styles/vars.css'
 import './styles/main.css'
 import './styles/ui.css'

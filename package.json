@@ -37,8 +37,8 @@
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@nolebase/vitepress-plugin-git-changelog": "^2.6.1",
-    "@unocss/extractor-mdc": "^0.63.4",
+    "@nolebase/vitepress-plugin-git-changelog": "^2.8.1",
+    "@unocss/extractor-mdc": "^0.63.6",
     "markdown-it": "^14.1.0",
     "markdown-it-container": "^4.0.0",
     "pnpm": "^9.12.3",

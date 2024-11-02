@@ -35,7 +35,7 @@ layout: doc
 
 按翻译量排名：
 
-yinzi3，nageih，fgt1t5y，NLGibson (NLG永不言弃)，WsLhh (-Lims)，Catcatpigeon，X209，咕咕鱼
+yinzi3，cat酱，fgt1t5y，NLGibson (NLG永不言弃)，WsLhh (-Lims)，Catcatpigeon，X209，咕咕鱼
 
 特别感谢醉冰茶制作字体，冰琳制作纹理
 
