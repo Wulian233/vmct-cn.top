@@ -3,10 +3,7 @@ layout: doc
 title: Bliss汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/465/302/2022-05-28_22.png" style="width:50%" alt="图片1">
-  <img src="https://s21.ax1x.com/2024/05/04/pkAVkvj.jpg" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/465/302/2022-05-28_22.png)
 
 Vazkii继Crucial 2后的又一力作！Bliss是一款精心打造的和平向整合包，正如其名字一样旨在营造一种轻松舒适、幸福快乐的和平游戏模式。
 
@@ -44,6 +41,10 @@ Vazkii继Crucial 2后的又一力作！Bliss是一款精心打造的和平向整
 ## 整合包下载
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/bliss/)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+![](https://s21.ax1x.com/2024/05/04/pkAVkvj.jpg)
 
 ## 贡献者
 

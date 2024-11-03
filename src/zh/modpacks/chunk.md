@@ -8,10 +8,10 @@ title: Chunk Block汉化下载
 ![](https://www.bisecthosting.com/images/CF/Chunk_Block/BH_NU_HEADER.png)
 
 >  [!IMPORTANT] 重要提醒
->  汉化覆盖安装完成后**并不是完成了汉化安装**，还需要手动在游戏`选项`->`资源包`中启用汉化资源包！否则汉化无效！
+>  汉化覆盖安装完成后**并不代表完成了汉化安装**，还需要手动在游戏`选项`->`资源包`中启用汉化资源包！否则汉化无效！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
+  { id: 'github', text: '下载汉化', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Chunk-Block/archive/refs/tags/0.0.6.zip' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
@@ -20,15 +20,13 @@ title: Chunk Block汉化下载
 
 整合包下载地址|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
-[链接](https://www.curseforge.com/minecraft/modpacks/chunk-block)|Forge|mc1.19.2 0.0.6|*审核中*|
+[链接](https://www.curseforge.com/minecraft/modpacks/chunk-block)|Forge|mc1.19.2 0.0.6|*维护中*|
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/11916)
 
-汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/chunk)
-
 项目主管 @[Wulian233](https://github.com/Wulian233)
 
-译者：[查看贡献者排行榜](https://paratranz.cn/projects/11916/leaderboard)
+译者：[查看贡献者排行榜](https://paratranz.cn/projects/11916/leaderboard)、Sine
 
 ## 整合包介绍
 
@@ -46,11 +44,11 @@ title: Chunk Block汉化下载
 
 - 没有无中生有模组！
 
-- 按步骤进行的任务书，满足你的所有需求
+- 按步骤进行的任务书，满足你的所有需求！
 
 - 虽然有世界生成模组，运行起来也小巧且流畅！
 
-## 授权
+## 整合包下载与授权
 
 **本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。**
 
@@ -61,10 +59,6 @@ title: Chunk Block汉化下载
 ## 支持版本
 
 支持整合包最新版本。
-
-## 贡献名单
-
-[查看贡献者排行榜](https://paratranz.cn/projects/11916/leaderboard)
 
 ## 支持我们
 

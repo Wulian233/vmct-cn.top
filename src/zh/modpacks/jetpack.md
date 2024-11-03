@@ -3,10 +3,7 @@ layout: doc
 title: 喷气背包猫汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/460/657/bosses1.jpg" style="width:50%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/28/pCx4alQ.jpg" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/460/657/bosses1.jpg)
 
 一款使用枪械战斗的世界探索冒险包，以12种不同的末影之眼为目标，探索不同维度，推动剧情的发展。
 此外作者制作了很多酷酷的东西，有超过1600种不同外观的生物，超过1300种不同的生物纹理，给你带来不同于其他整合包的冒险体验。
@@ -53,9 +50,13 @@ title: 喷气背包猫汉化下载
 
 硬编码汉化模组提供和问题解答：3093FengMing
 
-## 整合包下载
+## 整合包下载与授权
 
-你可以在[CurseForge网站内](https://www.curseforge.com/minecraft/modpacks/jetpack-cat)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/jetpack-cat)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+![](https://s1.ax1x.com/2023/07/28/pCx4alQ.jpg)
 
 ## 支持我们
 

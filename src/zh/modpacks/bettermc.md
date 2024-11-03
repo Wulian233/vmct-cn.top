@@ -3,18 +3,15 @@ layout: doc
 title: 更好的空岛汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/922/846/medievalmcnew2.png" style="width:50%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/28/pCx4USg.jpg" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/922/846/medievalmcnew2.png)
 
 还记得原版空岛的美好时光吗？对，就是这样，但更好！独特的刷石机，可创建混合矿石，以及用于玄武岩刷石机的新下界混合矿石！200多个Mod，为你的世界带来生机，大量新维度等你探索！
 
-**不知为何下方的链接换成了另一个整合包，可能原作者删了，玩不到了**
+**下方的链接换成了另一个整合包，原作者删了旧版，玩不到了**
 
 整合包下载地址|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/better-mc-skyblock)|Forge|最新版|**停止维护**|
+[下载链接](https://www.curseforge.com/minecraft/modpacks/better-mc-skyblock)|Forge|旧版已删除|**停止维护**|
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wwn.lanzouv.com/iWwLj0dpv02h' },
@@ -37,9 +34,11 @@ MC空岛的全新体验！
 
 ## 整合包下载与授权
 
-**本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。**
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/better-mc-skyblock)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/better-mc-skyblock)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+![](https://s1.ax1x.com/2023/07/28/pCx4USg.jpg)
 
 ## 贡献者
 

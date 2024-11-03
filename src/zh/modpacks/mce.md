@@ -3,10 +3,7 @@ layout: doc
 title: 永恒的MC汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://s1.ax1x.com/2023/07/22/pCqiHsK.jpg" style="width:50%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/22/pCqiLZD.jpg" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/266/930/2019-10-27_01.png)
 
 > [!WARNING] 重要提示
 > 汉化**不支持整合包最新版1.6.2.3，只支持1.6.1！**，请留意下载的整合包版本！
@@ -97,6 +94,10 @@ We have asked the authors many questions, and every time it is basically a secon
 你可以在[CurseForge网站内](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal/files)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本次汉化已取得官方授权，不违反任何社区规则。完整授权聊天记录可以[在此查看](https://discord.com/channels/640591918752858122/655858176608174090/105691817638390988)。
+
+![](https://s1.ax1x.com/2023/07/22/pCqiHsK.jpg)
+
+![](https://s1.ax1x.com/2023/07/22/pCqiLZD.jpg)
 
 ## 支持我们
 

@@ -4,10 +4,7 @@ title: 宝箱猎人3汉化下载
 aside: false
 ---
 
-<div style="display: flex">
-  <img src="https://www.bisecthosting.com/images/CF/Vault_Hunters/BH_VH_Screenshot4.webp" style="width:40%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/22/pCqiw5j.jpg" style="width:40%" alt="图片2">
-</div>
+![](https://www.bisecthosting.com/images/CF/Vault_Hunters/BH_VH_Screenshot4.webp)
 
 宝藏猎人3是一个基于RPG的整合包，讲述了一个名为宝库的维度的神秘和危险。它有许多宝藏猎人特有的物品和怪物，如盔甲、武器、图腾、货币和boss。玩家可以发展自己的天赋和能力，同时努力实现收集所有25件独特文物以解锁最终挑战的目标！你有能力吗？
 
@@ -41,9 +38,13 @@ aside: false
 
 点击下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)
 
-## 整合包下载
+## 整合包下载与授权
+
+**本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。**
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+![](https://s1.ax1x.com/2023/07/22/pCqiw5j.jpg)
 
 ## 支持我们
 

@@ -3,10 +3,7 @@ layout: doc
 title: 破晓之界汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/634/417/fire-giant.png" style="width:50%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/22/pCqigqU.jpg" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/634/417/fire-giant.png)
 
 > [!TIP] 提示
 > 必须下载Vault Patcher（VP）模组才能完整汉化！
@@ -48,6 +45,8 @@ title: 破晓之界汉化下载
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/dawn-craft)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+![](https://s1.ax1x.com/2023/07/22/pCqigqU.jpg)
 
 ## 支持我们
 
