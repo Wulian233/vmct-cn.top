@@ -27,13 +27,33 @@ layout: doc
 
 用于检查翻译后的语言文件中是否存在FTB任务&颜色字符后面的数字或字母丢失的问题。这会导致任务无法正常显示。
 
-输入一个json路径，会检查颜色字符是否合法。是唯一一个使用C++写的工具，秒出结果。
+输入一个json路径，会检查颜色字符是否合法。
 
-会输出错误的行数，启用详细错误信息后会显示对应的键值和译文。
+- 支持彩色提示信息。报错为红色，通过为绿色。
+- 支持导出错误报告为txt。
+- 可选是否在控制台打印详细信息
+1. 开启会在控制台显示具体译文内容
+2. 关闭会显示行号
+
+开启详细信息：
+```
+[CNPack\kubejs\assets\ftbquest\lang\zh_cn.json] SyntaxError: Invalid character '。' after '&' at line 2705
+    "不用末影龙，直接制造&6龙息&。",
+```
+
+关闭详细信息：
+
+```
+[CNPack\kubejs\assets\ftbquest\lang\zh_cn.json] SyntaxError: Invalid character after '&' at line 2705
+```
+注：无论选择什么，最终保存报错的文件永远为详细版本。
+
+- 支持检查单个或整个目录的json文件，更方便。
+- 支持检查json本身格式问题。
 
 <DownloadLinks :methods="[
-  { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/blob/main/ftbq_color_check/ftbq_color_check.cpp' },
-  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/releases/tag/0.1' }
+  { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/tree/main/ftbq_color_check' },
+  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/releases/tag/1.1' }
 ]" />
 
 ## 硬编码汉化模组
@@ -88,5 +108,5 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/tree/main/paratranz_sync' },
-  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/releases/tag/1.5.0' }
+  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/releases/tag/1.1' }
 ]" />

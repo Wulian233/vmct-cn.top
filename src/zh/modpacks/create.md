@@ -9,8 +9,8 @@ title: 机械动力星辰汉化下载
 
 齿轮缓缓转动。这颗星球不是你的边界：你必须走向那颗恒星。实现自动化、工业化，最终彻底改变太阳系。
 
-> [!WARNING] 重要提示
-> 汉化仅支持整合包版本2.0.5b，**不支持最新版**，请留意下载的整合包版本！
+> [!TIP] 重要提示
+> 最新版整合包（暂未发布）已经内置部分汉化，但仍需下载汉化补丁。请留意下载的整合包版本！
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' },
@@ -21,7 +21,7 @@ title: 机械动力星辰汉化下载
 
 整合包下载地址|加载器|MC版本|支持版本|汉化维护状态
 :-|:-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/create-astral)|Fabric|1.18.2|2.0.5b **不支持最新版**|**更新新版本中**|
+[下载链接](https://www.curseforge.com/minecraft/modpacks/create-astral)|Fabric|1.18.2|最新版|维护中|
 
 ## 注意事项
 
@@ -37,10 +37,6 @@ title: 机械动力星辰汉化下载
 1. 因为新版本更新，开发组一直在修改某些物品的合成表保证平衡性，有些有问题的合成我们在任务说明文本中都进行了详细标注。所有自动化产线流程以游戏内REI显示为准，任务说明仅供参考。
 
 2. 整合包开发组为这个整合包写了OST（音乐原声带），网易云音乐有人上传了：<https://music.163.com/#/album?id=158383486>（不鼓励盗传）
-
-## 支持版本
-
-**不支持最新版**，支持2.0.5b
 
 ## 翻译贡献
 
@@ -58,6 +54,8 @@ HS_花露水，
 [@safesaffawa](https://github.com/safesaffawa)
 
 2.0.5b版本译者：茫氪
+
+2.1.2版本译者：VM汉化组
 
 ## 整合包下载与授权
 
