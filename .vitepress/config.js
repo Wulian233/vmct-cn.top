@@ -5,6 +5,7 @@ import { defineConfig } from 'vitepress'
 import { colorPreviewPlugin } from './theme/markdown/colorPreview'
 import { cardPlugin } from './theme/markdown/card'
 import { imgSize, obsidianImageSize } from '@mdit/plugin-img-size'
+import { spoiler } from '@mdit/plugin-spoiler'
 import {
   GitChangelog,
   GitChangelogMarkdownSection,
@@ -171,6 +172,7 @@ export default defineConfig({
       md.use(cardPlugin)
       md.use(imgSize)
       md.use(obsidianImageSize)
+      md.use(spoiler)
     },
   },
 })

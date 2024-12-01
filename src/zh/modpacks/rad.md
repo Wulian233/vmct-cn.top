@@ -6,18 +6,19 @@ title: Roguelike冒险与地牢汉化下载
 ![](https://media.forgecdn.net/attachments/267/833/2019-09-30_23.png)
 
 > [!WARNING] 重要提示
-> 汉化仅支持整合包版本1.54，**不支持最新版1.55！**，请留意下载的整合包版本！
+> 汉化支持的整合包版本下载链接不同，请留意下载的整合包版本！
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载1.53汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/Rad-vmct-114' },
-  { id: 'github', text: '下载1.54汉化', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Roguelike-Adventures-and-Dungeons/archive/refs/tags/1.54v1.zip' },
+  { id: 'github', text: '下载1.54汉化', icon: '/imgs/svg/github.svg', link: 'https://gh.llkk.cc/https://github.com/VM-Chinese-translate-group/Roguelike-Adventures-and-Dungeons/archive/refs/tags/1.54v2.zip' },
+  { id: 'github', text: '下载1.55汉化', icon: '/imgs/svg/github.svg', link: 'https://gh.llkk.cc/https://github.com/VM-Chinese-translate-group/Roguelike-Adventures-and-Dungeons/archive/refs/tags/1.55v1.zip' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv25214830/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
 ]" />
 
 整合包下载地址|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)|Forge|mc1.12.2 1.54|**更新新版本中**|
+[下载链接](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons)|Forge|mc1.12.2 1.55最新版|**维护中**|
 
 ## 重要说明
 
@@ -47,10 +48,6 @@ title: Roguelike冒险与地牢汉化下载
 新的维度，各自拥有Boss和冒险。（暮色森林、天境、交错次元、洞穴II、深渊世界）；
 
 成为巫师！RPG风格的魔法系统融入Minecraft，目标是尽可能易于玩耍。没有复杂的构造，没有复杂的配方——只需找到魔法书，施展魔法，掌握奥术！
-
-## 支持版本
-
-**不支持最新版1.55，汉化支持1.54！**
 
 ## 整合包下载与授权
 

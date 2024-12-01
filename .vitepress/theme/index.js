@@ -10,7 +10,6 @@ import googleAnalytics from '../google-analytics'
 import MyLayout from './components/MyLayout.vue'
 
 import CommitsCounter from "./components/CommitsCounter.vue";
-import Link from './components/Link.vue'
 import Coins from './components/Coins.vue'
 import DownloadLinks from './components/DownloadLinks.vue'
 import Card from '../theme/components/Card.vue'
@@ -32,7 +31,7 @@ export default {
     googleAnalytics({ id: 'G-98VEMPQYQD', debug: false });
     app.use(NolebaseGitChangelogPlugin);
 
-    const components = { Link, Coins, Card, CommitsCounter, DownloadLinks, LinkGrid, VPBadge};
+    const components = { Coins, Card, CommitsCounter, DownloadLinks, LinkGrid, VPBadge};
     Object.entries(components).forEach(([name, component]) => {
       app.component(name, component);
     });

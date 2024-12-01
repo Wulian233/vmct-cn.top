@@ -65,8 +65,8 @@ gitChangelog: false
 | theme       | 卡片主题，非必填                                  | normal | `normal`or`media`|
 | color       | 卡片链颜色，非必填                                | normal |     `String`     |
 | cover       | 卡片封面链接，非必填。仅在normal主题生效           |   -    |     `String`     |
-| hoverShadow | 是否启用卡片 hover 时阴影效果，默认启用            |  true  |     `Boolean`    |
-| shadow      | 是否启用卡片阴影效果，默认启用                     |  true  |     `Boolean`    |
+| hoverShadow | 是否启用卡片 hover 时阴影效果，默认禁用            |  false |     `Boolean`    |
+| shadow      | 是否启用卡片阴影效果，默认禁用                     |  false |     `Boolean`    |
 
 ### Example {#card-example}
 

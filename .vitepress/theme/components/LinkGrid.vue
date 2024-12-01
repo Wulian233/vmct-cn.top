@@ -112,7 +112,6 @@ function closeModal() {
   text-decoration: none !important;
   border-radius: 12px;
   background-color: var(--vp-c-bg-soft);
-  box-shadow: var(--vp-shadow-1);
   transition: background-color 0.25s;
   cursor: pointer;
 }

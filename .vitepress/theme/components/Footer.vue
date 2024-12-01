@@ -5,13 +5,12 @@
         <h3 class="footer-title">{{ item.title }}</h3>
         <ul>
           <li v-for="ic in item.items">
-            <Link
+            <VPLink
               :href="ic.link"
               :title="ic.text + '（' + withBase(ic.link) + '）'"
-              :noIcon="true"
             >
               {{ ic.text }}
-            </Link>
+            </VPLink>
           </li>
         </ul>
       </div>
@@ -60,6 +59,7 @@
 <script setup>
 import { useQRCode } from '@vueuse/integrations/useQRCode'
 import { useData, withBase } from 'vitepress'
+import { VPLink } from 'vitepress/theme'
 import { socialList } from '../composables/socialList'
 
 const { frontmatter, theme } = useData()

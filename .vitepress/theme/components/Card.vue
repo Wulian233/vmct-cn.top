@@ -10,7 +10,7 @@
     }"
     :is-external-link="isExternal ? 'true' : 'false'"
   >
-    <div v-if="cover" class="card-cover-contanier">
+    <div v-if="cover" class="card-cover-container">
       <img
         class="card-cover-img no-zoomable skeleton-animation"
         @load="imgLoadHandler"
@@ -19,7 +19,7 @@
       />
     </div>
 
-    <div :class="`card-footer ${logoMissing && !icon ? 'no-logo' : ''}`">
+    <div :class="`card-footer ${logoMissing && !iconLink ? 'no-logo' : ''}`">
       <template v-if="iconLink">
         <label :class="`card-icon ${iconLink}`"></label>
       </template>
@@ -43,7 +43,7 @@
     </div>
   </a>
 
-  <!-- 在这里显式声明Logo，给Unocss识别导入 -->
+  <!-- 提前声明Logo，以便Unocss识别导入 -->
   <div v-once hidden>
     <span class="i-custom-123"></span>
     <span class="i-custom-afdian"></span>
@@ -66,68 +66,23 @@ import { computed } from 'vue'
 import '../styles/card.css'
 
 interface CardProps {
-  /**
-   * Card title
-   *
-   * 卡片标题，必填项
-   *
-   */
+  /** Card title */
   title: string
-
-  /**
-   * Card description
-   *
-   * 卡片描述，为空时默认显示为 link
-   */
+  /** Card description, default is link when empty */
   desc?: string
-
-  /**
-   * Card icon
-   *
-   * 卡片图标，默认为项目 Logo
-   */
+  /** Card icon, defaults to project Logo */
   logo?: string
-
-  /**
-   * Card link
-   *
-   * 卡片链接
-   */
+  /** Card link */
   link?: string
-
-  /**
-   * Card color
-   *
-   * 卡片链颜色
-   */
+  /** Card background color */
   color?: string
-
-  /**
-   * Card cover
-   *
-   * 卡片封面，Only NormalTheme
-   */
+  /** Card cover image, Only NormalTheme */
   cover?: string
-
-  /**
-   * Card hover shadow
-   *
-   * 是否启用卡片 hover 时阴影效果，默认启用
-   */
+  /** Enable hover shadow effect, defaults to false */
   hoverShadow?: boolean
-
-  /**
-   * Card shadow
-   *
-   * 是否启用卡片阴影效果，默认启用
-   */
+  /** Enable card shadow effect, defaults to false */
   shadow?: boolean
-
-  /**
-   * Card theme
-   *
-   * 卡片主题，默认 normal
-   */
+  /** Card theme, defaults to normal */
   theme?: 'normal' | 'medium'
 }
 
@@ -138,11 +93,11 @@ const props = withDefaults(defineProps<CardProps>(), {
   link: '',
   cover: '',
   theme: 'normal',
-  hoverShadow: true,
+  hoverShadow: false,
   shadow: false,
 })
 
-const iconMap = {
+const iconMap: Record<string, string> = {
   '123pan.com': 'i-custom-123',
   'afdian.com': 'i-custom-afdian',
   'afdian.net': 'i-custom-afdian',
@@ -156,19 +111,21 @@ const iconMap = {
   'qq.com': 'i-custom-qq',
 }
 
-const imgLoadHandler = (e: { target: any; }) => {
-  e.target!['classList'].remove('skeleton-animation')
+const imgLoadHandler = (e: Event) => {
+  const target = e.target as HTMLImageElement
+  target.classList.remove('skeleton-animation')
 }
 
-const imgErrorHandler = (e: { target: any; }) => {
-  e.target!['classList'].add('load-error')
-  e.target!['src'] = '/imgs/missing.png'
+const imgErrorHandler = (e: Event) => {
+  const target = e.target as HTMLImageElement
+  target.classList.add('load-error')
+  target.src = '/imgs/missing.png'
 }
 
 const iconLink = computed(() => {
   let icon = ''
 
-  if (props.logo === '' && props.link !== '') {
+  if (props.logo === '' && props.link) {
     const linkDomain = props.link.match(/(?:https?:\/\/)?(?:www\.)?([^\/]+)\//)
     if (linkDomain && linkDomain[1]) {
       const domain = linkDomain[1]
@@ -180,7 +137,6 @@ const iconLink = computed(() => {
       }
     }
   }
-
   return icon
 })
 
@@ -191,8 +147,9 @@ const logoLink = computed(() => {
     props.logo === 'self' ||
     props.logo.includes('vmct-cn.top') ||
     isRelativeLink(props.link)
-  )
+  ) {
     return withBase('/imgs/logo/logo_128.png')
+  }
   if (props.logo === '' && iconLink.value === '') return 'no-logo'
   return isRelativeLink(props.logo) ? withBase(props.logo) : props.logo
 })
@@ -209,10 +166,9 @@ const descText = computed(() => {
   } else if (isRelativeLink(props.link)) {
     const prefix: string = props.link.substring(0, 3).replace(/(\.\/|\/)/g, '')
     const suffix: string = props.link.substring(3)
-    console.log(location.href)
     return location.origin + withBase(`/${prefix}${suffix}`)
   } else {
-    return props.link
+    return props.link || ''
   }
 })
 </script>

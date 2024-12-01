@@ -50,6 +50,7 @@ html:not(.dark) {
   justify-content: flex-start;
   align-items: center;
   border-radius: 0.75rem;
+  border: 1px solid transparent;
   background-color: var(--vp-c-bg-alt);
   color: inherit;
   transition: all 0.5s, box-shadow 0.25s ease, border-color 0.25s ease !important;
@@ -191,8 +192,9 @@ html:not(.dark) {
   background-color: currentColor;
   width: 18px !important;
   height: 18px !important;
-  margin-top: 8px !important;
-  color: currentColor !important;
+  margin-top: -26px !important;
+  color: #ccc !important;
+  transform: scale(0.85);
 }
 
 .card-theme-medium[is-external-link='true']::after {
@@ -200,8 +202,7 @@ html:not(.dark) {
 }
 
 .card-theme-medium[is-external-link='false']::after {
-  margin-top: -30px !important;
-  transform: rotate(45deg);
+  display: none;
 }
 
 .card-theme-medium hr {

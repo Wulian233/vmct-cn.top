@@ -125,3 +125,16 @@ textarea {
 .edit-info {
   display: none !important;
 }
+
+.spoiler {
+  background-color: currentColor;
+  border-radius: 0.2em;
+  transition: background ease 0.5s;
+  cursor: help;
+  padding: 0 0.1em;
+}
+
+.spoiler:hover,
+.spoiler:focus {
+  background-color: transparent;
+}

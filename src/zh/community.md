@@ -12,7 +12,6 @@ aside: true
 ## QQ 交流群
 
 - [**不知名汉化组交流群** 376139397](https://qm.qq.com/q/zfY3xUJ2YS)
-- [**VM猫咖（娱乐休闲）** 214620984](https://qm.qq.com/q/sKdqhf9fjy)
 
 :::details VM汉化组 • QQ 『交流群群规』
 
@@ -40,7 +39,7 @@ aside: true
 
 汉化组官网:arrow_forward: <https://vmct-cn.top>
 
-爱发电:arrow_forward: <https://afdian.net/a/VMhanhuazu>
+爱发电:arrow_forward: <https://afdian.com/a/VMhanhuazu>
 
 :::
 

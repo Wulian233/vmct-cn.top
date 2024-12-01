@@ -37,7 +37,7 @@ Temple of the Art（TOTA）是一个受《Noita》启发的施法和魔杖制作
 
 ## 汉化者（按排名排序）
 
-cutecirno（天才少女琪露诺）、冰琳、Potato986 、terryaxe、X209、cat酱、
+琪露诺、冰琳、Potato986 、terryaxe、X209、cat酱、
 Crimvael0、子格Z、茫氪、fgt1t5y（望）、凛夜雨月、choko-takey、醉冰茶、
 荔枝、yinzi、WsLhh (-Lims)、OlderFox、青岚、NLG永不言弃、咕咕鱼、Zack_Z、
 Catcatpigeon、M-E-Rcy、捂脸、仙人掌、Rain_G

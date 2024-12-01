@@ -51,7 +51,7 @@ ul li a {
   opacity: 0.95;
   padding: 10px 16px;
   box-sizing: border-box;
-  transition: all 0.3s;
+  transition: all 0.25s ease;
   text-decoration: none !important;
   color: var(--vp-c-brand-2);
 }
