@@ -42,7 +42,7 @@ layout: doc
 
 本地图汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-## 汉化者（排名不分先后）
+## 汉化贡献（排名不分先后）
 
 cat酱，X209，凛夜雨月，咕咕鱼 RCqaq_，Feathamity，冰琳，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
 

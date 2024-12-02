@@ -1,5 +1,5 @@
 ---
-title: Temple of the Art翻譯下載
+title: 藝之神殿翻譯下載
 layout: doc
 ---
 
@@ -17,7 +17,7 @@ layout: doc
 
 玩家數量：1名
 
-Temple of the Art（TOTA）是一個受《Noita》啟發的施法和魔杖製作的地牢探險類Minecraft地圖。
+藝之神殿，原名Temple of the Art（TOTA）是一個受《Noita》啟發的施法和魔杖製作的地牢探險類Minecraft地圖。
 
 <DownloadLinks :methods="[
   { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing/' },
@@ -35,9 +35,9 @@ Temple of the Art（TOTA）是一個受《Noita》啟發的施法和魔杖製作
 
 ![](https://media.forgecdn.net/attachments/901/463/templeoftheart-9.jpg)
 
-## 漢化者（按排名排序）
+## 翻譯貢獻（按排名排序）
 
-cutecirno（天才少女琪露諾）、冰琳、Potato986 、terryaxe、X209、cat醬、
+天才少女琪露諾、冰琳、Potato986 、terryaxe、X209、cat醬、
 Crimvael0、子格Z、茫氪、fgt1t5y（望）、凜夜雨月、choko-takey、醉冰茶、
 荔枝、yinzi、WsLhh（-Lims）、OlderFox、青嵐、NLG永不言棄、咕咕魚、Zack_Z、
 Catcatpigeon、M-E-Rcy、捂臉、仙人掌、Rain_G

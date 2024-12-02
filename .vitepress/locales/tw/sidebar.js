@@ -62,8 +62,9 @@ const sidebar = {
         { text: '貝維爾小鎮', link: '/tw/map/bayville' },
         { text: '死亡競速2', link: '/tw/map/deathrunner' },
         { text: 'Lumina Complex', link: '/tw/map/lumina' },
+        { text: 'The Machine', link: '/tw/map/machine' },
         { text: '狂亂之境4', link: '/tw/map/rc4' },
-        { text: 'Temple of the Art', link: '/tw/map/tota' },
+        { text: '藝之神殿', link: '/tw/map/tota' },
         { text: 'Would You Rather', link: '/tw/map/wyr' },
       ]
     }

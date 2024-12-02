@@ -48,7 +48,12 @@ features:
     linkText: 前往下載
   - icon: 🔮
     title: Temple of the Art
-    details: Temple of the Art是一個受《Noita》啟發的施法和魔杖製作的地牢探險類Minecraft地圖。
+    details: 藝之神殿是一個受《Noita》啟發的施法和魔杖製作的地牢探險類Minecraft地圖。
     link: ./tota
+    linkText: 前往下載
+  - icon: 🔑
+    title: The Machine
+    details: WIP
+    link: ./machine
     linkText: 前往下載
 ---
