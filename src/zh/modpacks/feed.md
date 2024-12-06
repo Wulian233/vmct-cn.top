@@ -3,10 +3,7 @@ layout: doc
 title: 喂养奇点生存汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/376/106/knipsel7.PNG" style="width:50%" alt="图片1">
-  <img src="https://media.forgecdn.net/attachments/376/103/knipsel5.PNG" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/376/106/knipsel7.PNG)
 
 <DownloadLinks :methods="[
   { id: 'baidu-drive', text: '下载汉化', icon: '/imgs/svg/baidu-drive.svg', link: 'https://pan.baidu.com/s/1OI533N2IMHssFsoGm5o0lg?pwd=x068%C2%A0%20#list/path=%2F%E8%87%AA%E5%B0%8A%E5%AF%BA%E6%B1%89%E5%8C%96%E5%85%A8%E9%9B%86%2F1.16.x%2FFeed%20the%20Singularity' },

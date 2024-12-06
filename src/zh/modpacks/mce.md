@@ -3,7 +3,7 @@ layout: doc
 title: 永恒的MC汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/266/930/2019-10-27_01.png)
+![](https://media.forgecdn.net/attachments/266/930/2019-10-27_01.png =400x200)
 
 > [!WARNING] 重要提示
 > 汉化**不支持整合包最新版1.6.2.3，只支持1.6.1！**，请留意下载的整合包版本！

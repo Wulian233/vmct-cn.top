@@ -3,10 +3,7 @@ layout: doc
 title: 洞穴城汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://s1.ax1x.com/2023/07/22/pCqF9QP.jpg" style="width:50%" alt="图片1">
-  <img src="https://www.bisecthosting.com/images/CF/Caveopolis/BH_NU_HEADER.png" style="width:50%" alt="图片2">
-</div>
+![](https://s1.ax1x.com/2023/07/22/pCqF9QP.jpg =300x200)
 
 洞穴城是一个基于任务的1.18.2的整合包，沿着世界的旅程，沿途制造新的方块和机器，达到世界的不同层来获得新材料并解锁不同的模组。
 

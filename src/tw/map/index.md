@@ -53,7 +53,7 @@ features:
     linkText: 前往下載
   - icon: 🔑
     title: The Machine
-    details: WIP
+    details: 未完成
     link: ./machine
     linkText: 前往下載
 ---

@@ -52,8 +52,8 @@ features:
     link: ./tota
     linkText: 前往下载
   - icon: 🔑
-    title: The Machine
-    details: WIP
+    title: The Machin
+    details: 未完成
     link: ./machine
     linkText: 前往下载
 ---
