@@ -5,10 +5,7 @@ title: FTB奥术学院汉化下载
 
 血魔法手册汉化由繁体中文转换为简体中文，由于两岸名词叫法有所不同，部分用词较为别扭，请见谅
 
-<div style="display: flex">
-  <img src="https://dist.creeper.host/FTB2/cdn/packs/115-ftb-arcanum-institute/desc-image-3.webp" style="width:50%" alt="图片1">
-  <img src="https://dist.creeper.host/FTB2/cdn/packs/115-ftb-arcanum-institute/desc-image-2.webp" style="width:50%" alt="图片2">
-</div>
+![]("https://dist.creeper.host/FTB2/cdn/packs/115-ftb-arcanum-institute/desc-image-3.webp)
 
 在奥术学院迎接一场充满奇迹与巫术的旅程。探索神秘奥术，与神秘生物建立羁绊，迎接战胜古老黑暗的挑战。
 
@@ -36,6 +33,8 @@ FTB官网|加载器|整合包版本|汉化维护状态
 
 作为一名新入学的学徒，你将揭开传奇法师的遗产，亲身经历古老的战斗，置身于一个仍然活跃着过去力量的地方。
 
+![](https://dist.creeper.host/FTB2/cdn/packs/115-ftb-arcanum-institute/desc-image-2.webp)
+
 这款整合包融合了进阶系统和丰富的背景故事，介绍了独特的模组组合，提升了游戏体验。在你的旅途中，你将发掘被遗忘的遗物，与邪恶的灵体和怪物战斗，同时掌握创造的力量。在探索过程中，你将解开奥术长久守护的谜团，揭示威胁学院和所有居民的险恶秘密。
 
 你的命运将在**奥术学院**展开。在这里，像你这样的施法者将通过结构化的课程、经验丰富的巫师导师的指导以及设计精妙的任务来提升对元素魔法的掌控能力。
@@ -46,7 +45,7 @@ FTB官网|加载器|整合包版本|汉化维护状态
 
 ## 整合包下载
 
-由于FTB的整合包没有上CurseForge，整合包一般只能通过他们非常恶心的App下载。
+由于FTB的整合包没有上CurseForge，整合包一般只能通过他们的App下载。
 
 **由于FTB的程序下载非常恶心，推荐用下方的第三方工具下载**
 

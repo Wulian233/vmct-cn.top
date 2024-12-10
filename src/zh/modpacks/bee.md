@@ -3,10 +3,7 @@ layout: doc
 title: 蜜蜂空岛2汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://s21.ax1x.com/2024/05/04/pkAVmV0.jpg" style="width:50%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/28/pCx4JFf.jpg" style="width:50%" alt="图片2">
-</div>
+![](https://s21.ax1x.com/2024/05/04/pkAVmV0.jpg)
 
 这个包不是以往的mod开局，而是采用蜜蜂来获得在空岛中你需要的资源，你得到你的第一只蜜蜂后你就需要繁殖它们以此获得所有的蜜蜂。一些配方变得更加困难，更具有挑战性。
 
@@ -30,6 +27,8 @@ title: 蜜蜂空岛2汉化下载
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/sky-bees-2)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+![](https://s1.ax1x.com/2023/07/28/pCx4JFf.jpg)
 
 ## 整合包介绍
 
