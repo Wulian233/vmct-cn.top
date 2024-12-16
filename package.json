@@ -31,6 +31,7 @@
     "medium-zoom": "^1.1.0",
     "qrcode": "^1.5.4",
     "typescript": "^5.7.2",
+    "sweetalert2": "^11.15.0",
     "unocss": "^0.65.1",
     "vitepress": "^1.5.0",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
