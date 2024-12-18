@@ -11,6 +11,20 @@ import { nextTick, provide } from 'vue'
 const { isDark } = useData()
 
 provide('toggle-appearance', async ({ clientX: x, clientY: y }) => {
+  // https://caniuse.com/?search=startViewTransition
+  // 火狐浏览器不支持 startViewTransition，只能硬切，不然会报错
+  if (!document.startViewTransition) {
+    isDark.value = !isDark.value;
+
+    if (isDark.value) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+
+    return;
+  }
+
   const clipPath = [
     `circle(0px at ${x}px ${y}px)`,
     `circle(${Math.hypot(
