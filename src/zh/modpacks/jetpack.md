@@ -3,7 +3,7 @@ layout: doc
 title: 喷气背包猫汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/460/657/bosses1.jpg)
+![](https://media.forgecdn.net/attachments/460/657/bosses1.jpg =400x)
 
 一款使用枪械战斗的世界探索冒险包，以12种不同的末影之眼为目标，探索不同维度，推动剧情的发展。
 此外作者制作了很多酷酷的东西，有超过1600种不同外观的生物，超过1300种不同的生物纹理，给你带来不同于其他整合包的冒险体验。
@@ -11,10 +11,10 @@ title: 喷气背包猫汉化下载
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化 密码KparetR', icon: '/imgs/svg/lanzou.svg', link: 'https://paret.lanzoum.com/b031b2uad' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv17779343/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://paret.lanzoum.com/b031b2uad' }
 ]" />
 
-整合包下载地址|加载器|整合包版本|MC版本|汉化维护状态
+整合包下载地址|加载器|支持整合包版本|MC版本|汉化维护状态
 :-|:-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/jetpack-cat/files/all?page=1&pageSize=20)|Forge|最新版|1.16.5|*维护中*|
 
@@ -25,18 +25,6 @@ title: 喷气背包猫汉化下载
 有没有想过同时玩 Minecraft、Pokemon 和 Doom 会是什么样子？你马上就要知道了。喷气背包猫是一个集故事，探索，冒险于一身的整合包。有超过 1600 种不同外观的生物，1300 种不同生物纹理，而这仅仅是 Minecraft 生物。恐怖生物中的生物已经经过重新配置和添加，使得它们不仅在夜间生成，而且它们无处不在。拿出你的突击步枪射击，因为你的主要武器是枪。有大量强大的物品，你只能在箱子里找到它们。不过，你必须去探索，如果要到达末地与末影龙战斗，你需要收集遍布世界的 12 只不同的末影之眼。与此同时，只要确保生物的生命值低于 60%，你就可以捕捉这些生物到小罐子里，或将它们挂在墙上，运输它们。
 
 更多介绍请看[MC百科](https://www.mcmod.cn/modpack/482.html)
-
-## 汉化教程
-
-解压zip压缩包，把文件夹下的所有文件复制于游戏.minecraft文件夹（未启用版本隔离）或version文件夹下的游戏文件夹内（启用版本隔离）
-
-若出现是否替换选项框请选择是（代表汉化成功）
-
-若未出现请认真按上述操作执行直至出现替换选项框
-
-注：若需完全汉化请下载i18n自动汉化更新模组
-
-点击下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)
 
 ## 贡献者
 
@@ -56,7 +44,7 @@ title: 喷气背包猫汉化下载
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](https://s1.ax1x.com/2023/07/28/pCx4alQ.jpg)
+![](https://s1.ax1x.com/2023/07/28/pCx4alQ.jpg =400x)
 
 ## 支持我们
 

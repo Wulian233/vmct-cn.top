@@ -12,10 +12,10 @@ Muskteer是一个围绕小型多人游戏社区设计的整合包，玩家生活
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/Muskteer-vmct-cn' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv18890616/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/Muskteer-vmct-cn' }
 ]" />
 
-整合包下载地址|加载器|整合包版本|MC版本|汉化维护状态
+整合包下载地址|加载器|支持整合包版本|MC版本|汉化维护状态
 :-|:-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/musketeer)|Forge|beta7|1.19.2|**停止维护**|
 

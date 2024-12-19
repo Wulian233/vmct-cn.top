@@ -3,12 +3,12 @@ layout: doc
 title: 中世纪MC1.19.2fabric汉化下载
 ---
 
-![](https://s1.ax1x.com/2023/08/28/pPU44eJ.png")
+![](https://s1.ax1x.com/2023/08/28/pPU44eJ.png =500x)
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/mmc1-19-2-fabric-vmct' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv26040553' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/mmc1-19-2-fabric-vmct' }
 ]" />
 
 整合包下载地址|加载器|支持整合包版本|汉化维护状态
@@ -55,7 +55,7 @@ title: 中世纪MC1.19.2fabric汉化下载
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](/imgs/mmc.png)
+![](/imgs/mmc.png =400x)
 
 ## 支持我们
 

@@ -7,7 +7,7 @@ gitChangelog: false
 aside: false
 ---
 
-<script setup lang="ts">
+<script setup>
 import StaffPage from '../components/staff/StaffPage.vue'
 </script>
 

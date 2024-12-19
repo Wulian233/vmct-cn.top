@@ -11,17 +11,15 @@ title: 重生之夜汉化下载
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouv.com/Rotn-cn-4' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv18948397' },
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1jP4y1o7jy' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouv.com/Rotn-cn-4' }
 ]" />
 
 
 **不支持最新版！**
 
-整合包下载地址|加载器|整合包版本|MC版本|汉化维护状态
+整合包下载地址|加载器|支持整合包版本|MC版本|汉化维护状态
 :-|:-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night)|Forge|3.1.1|1.18.2|*放弃维护*|
-
----
 
 ## 整合包介绍
 

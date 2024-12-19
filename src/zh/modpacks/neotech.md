@@ -17,13 +17,13 @@ title: FTB Neotech汉化下载
   { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
   { id: 'modrinth', text: '下载拼音搜索模组', icon: '/imgs/svg/modrinth.svg', link: 'https://modrinth.com/mod/jechunofficial/version/1.20.4-0.1.2' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' },
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/neotech' },
   { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Neotech/' }
 ]" />
 
-## 更多信息
+---
 
-FTB官网|加载器|整合包版本|汉化维护状态
+FTB官网|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
 [链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.7.0|*维护中*|
 

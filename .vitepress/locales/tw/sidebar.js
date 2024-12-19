@@ -12,7 +12,6 @@ const sidebar = {
       items: [
         { text: '奧術學院', link: '/modpacks/arcanum' },
         { text: '蜜蜂空島2', link: '/modpacks/bee' },
-        { text: '空島升級', link: '/modpacks/bettermc' },
         { text: '黑石世界', link: '/modpacks/black' },
         { text: 'Bliss', link: '/modpacks/bliss' },
         { text: '洞穴城', link: '/modpacks/cave' },

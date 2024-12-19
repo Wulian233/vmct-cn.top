@@ -58,35 +58,14 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { withBase } from 'vitepress'
 import { isLinkExternal, isRelativeLink } from '../utils'
 import { computed } from 'vue'
 
 import '../styles/card.css'
 
-interface CardProps {
-  /** Card title */
-  title: string
-  /** Card description, default is link when empty */
-  desc?: string
-  /** Card icon, defaults to project Logo */
-  logo?: string
-  /** Card link */
-  link?: string
-  /** Card background color */
-  color?: string
-  /** Card cover image, Only NormalTheme */
-  cover?: string
-  /** Enable hover shadow effect, defaults to false */
-  hoverShadow?: boolean
-  /** Enable card shadow effect, defaults to false */
-  shadow?: boolean
-  /** Card theme, defaults to normal */
-  theme?: 'normal' | 'medium'
-}
-
-const props = withDefaults(defineProps<CardProps>(), {
+const props = withDefaults(defineProps(), {
   desc: '',
   logo: '',
   color: '',
@@ -97,7 +76,7 @@ const props = withDefaults(defineProps<CardProps>(), {
   shadow: false,
 })
 
-const iconMap: Record<string, string> = {
+const iconMap = {
   '123pan.com': 'i-custom-123',
   'afdian.com': 'i-custom-afdian',
   'afdian.net': 'i-custom-afdian',
@@ -111,13 +90,13 @@ const iconMap: Record<string, string> = {
   'qq.com': 'i-custom-qq',
 }
 
-const imgLoadHandler = (e: Event) => {
-  const target = e.target as HTMLImageElement
+const imgLoadHandler = (e) => {
+  const target = e.target
   target.classList.remove('skeleton-animation')
 }
 
-const imgErrorHandler = (e: Event) => {
-  const target = e.target as HTMLImageElement
+const imgErrorHandler = (e) => {
+  const target = e.target
   target.classList.add('load-error')
   target.src = '/imgs/missing.png'
 }
@@ -164,8 +143,8 @@ const descText = computed(() => {
   if (props.desc) {
     return props.desc
   } else if (isRelativeLink(props.link)) {
-    const prefix: string = props.link.substring(0, 3).replace(/(\.\/|\/)/g, '')
-    const suffix: string = props.link.substring(3)
+    const prefix = props.link.substring(0, 3).replace(/(\.\/|\/)/g, '')
+    const suffix = props.link.substring(3)
     return location.origin + withBase(`/${prefix}${suffix}`)
   } else {
     return props.link || ''

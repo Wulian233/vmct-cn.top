@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { useEventListener } from '@vueuse/core'
 import { nextTick, onMounted, watch } from 'vue'
 import { useRoute } from 'vitepress'
@@ -9,8 +9,6 @@ function handleHighlight() {
 
   const targetedHashId = decodeURIComponent(window.location.hash)
   if (!targetedHashId) return
-
-  let elem: HTMLElement | null
 
   try {
     elem = document.querySelector(targetedHashId)

@@ -5,7 +5,7 @@ layout: doc
 
 “隨著聲音的彙聚，心靈發現了更多的神祇。 光明與黑暗交匯，混亂必將席捲那些敢於反抗的人......”
 
-![](https://media.forgecdn.net/attachments/901/462/templeoftheart_logo.jpg)
+![](https://media.forgecdn.net/attachments/901/462/templeoftheart_logo.jpg =400x)
 
 ## 地图信息
 
@@ -22,7 +22,7 @@ layout: doc
 <DownloadLinks :methods="[
   { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing/' },
   { id: 'bilibili', text: '宣傳片與安裝教程', icon: '/imgs/svg/bilibili.svg', link: '/tw/doing/' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/tw/doing/' }
 ]" />
 
 ## 注意事項
@@ -33,7 +33,7 @@ layout: doc
 
 無限時長的遊戲內容，包括300多種法術、66件遺物、70種可解鎖內容、100個定製敵人和各種獨特的消耗品！
 
-![](https://media.forgecdn.net/attachments/901/463/templeoftheart-9.jpg)
+![](https://media.forgecdn.net/attachments/901/463/templeoftheart-9.jpg =400x)
 
 ## 翻譯貢獻（按排名排序）
 

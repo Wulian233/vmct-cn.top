@@ -5,7 +5,7 @@ title: FTB奥术学院汉化下载
 
 血魔法手册汉化由繁体中文转换为简体中文，由于两岸名词叫法有所不同，部分用词较为别扭，请见谅
 
-![](https://dist.creeper.host/FTB2/cdn/packs/115-ftb-arcanum-institute/desc-image-3.webp)
+![](https://dist.creeper.host/FTB2/cdn/packs/115-ftb-arcanum-institute/desc-image-3.webp =400x)
 
 在奥术学院迎接一场充满奇迹与巫术的旅程。探索神秘奥术，与神秘生物建立羁绊，迎接战胜古老黑暗的挑战。
 
@@ -13,7 +13,7 @@ title: FTB奥术学院汉化下载
 
 **奥术学院**整合包将带你踏上充满魔法力量、危险旅程和无畏精神的迷人故事！
 
-FTB官网|加载器|整合包版本|汉化维护状态
+FTB官网|加载器|支持整合包版本|汉化维护状态
 :-|:-|:-|:-
 [链接](https://www.feed-the-beast.com/modpacks/115-ftb-arcanum-institute)|Forge|mc1.18.2 1.4.0|**维护中**|
 
@@ -24,7 +24,7 @@ FTB官网|加载器|整合包版本|汉化维护状态
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
   { id: 'curseforge', text: '帕秋莉手册翻译PRP-Arch模组', icon: '/imgs/svg/curseforge.svg', link: 'https://cdn.modrinth.com/data/AqeDdB2c/versions/msizLmQ2/PRP-Arch-Forge-1.0.1-Hotfix-1.18.x.jar' },
   { id: 'curseforge', text: '硬编码汉化VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/asxy-vmct' }
 ]" />
 
 ## 整合包介绍
@@ -45,15 +45,7 @@ FTB官网|加载器|整合包版本|汉化维护状态
 
 ## 整合包下载
 
-由于FTB的整合包没有上CurseForge，整合包一般只能通过他们的App下载。
-
-**由于FTB的程序下载非常恶心，推荐用下方的第三方工具下载**
-
-你可以在FTB App内或使用下载工具下载整合包。下载汉化补丁后解压，解压到游戏文件夹，出现覆盖文件的提示即代表安装汉化操作正确。
-
-## 支持版本
-
-支持整合包版本最新版本。
+由于FTB的整合包没有上CurseForge，整合包一般只能通过他们的App或使用下载工具下载。
 
 ## 支持我们
 

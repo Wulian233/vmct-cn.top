@@ -8,13 +8,7 @@
 import { useUrlSearchParams } from '@vueuse/core'
 import { onMounted } from 'vue'
 
-function clientLink(
-  key,
-  text,
-  subText = '',
-  icon,
-  link
-) {
+function clientLink(key, text, subText = '', icon, link) {
   return {
     id: key,
     name: text,

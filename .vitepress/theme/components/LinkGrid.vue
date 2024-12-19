@@ -1,28 +1,162 @@
-<script setup lang="ts">
+<script setup>
 import Swal from 'sweetalert2'
 
-defineProps<{
-  items: Integration[]
-}>()
+const props = defineProps({
+  items: Array
+});
 
-interface Integration {
-  id: string
-  icon: string
-  name: string
-  link: string
-  target?: string
-  secondary?: string
-}
-
-function handleClick(item: Integration) {
+function handleClick(item) {
   if (item.id === 'lanzou') {
-    showModal(item)
+    showModal(item);
+  } else if (item.id === 'lazy') {
+    showRandomQuestion(item);
   } else {
-    window.open(item.link, item.target || '_self')
+    window.open(item.link, item.target || '_self');
   }
 }
 
-function showModal(item: Integration) {
+function showError() {
+  Swal.fire({
+    icon: 'error',
+    title: '回答错误',
+    html: `回答错误，不予下载。<br>
+           初中题目，实属不该。<br>
+           如欲下载，请看教程。<br>
+           或欲挑战，请君自便。`
+  });
+}
+
+
+function showQuestion(item, title, content, correctAnswer, imageUrl = null) {
+  let selectedAnswer = ''; // 用来存储语文题的输入答案
+
+  // 生成选项按钮HTML（仅用于非语文题）
+  const options = ['A', 'B', 'C', 'D'];
+  const optionButtons = options.map((option) => {
+    return `<button id="btn-${option}" class="swal2-confirm swal2-styled" style="margin: 5px; padding: 10px 20px; font-size: 18px;">
+              ${option}
+            </button>`;
+  }).join('');
+
+  const swalConfig = {
+    title,
+    html: `${content}<br>${imageUrl ? `<img src="${imageUrl}" style="max-width: 100%; height: auto;" />` : ''}
+           <div style="margin-top: 10px;">
+             ${title === '语文题' ?
+               `<input type="text" id="answer-input" style="width: 100%; padding: 10px; font-size: 18px;" placeholder="请输入答案（例如：AB）" />`
+               : optionButtons}
+           </div>`,
+    showCancelButton: false,
+    showConfirmButton: title === '语文题', // 只有语文题才显示提交按钮
+    confirmButtonText: '提交',
+    willOpen: () => {
+      if (title === '语文题') {
+        const input = document.getElementById('answer-input');
+        input.addEventListener('input', (event) => {
+          selectedAnswer = event.target.value.trim().toUpperCase();
+        });
+      } else {
+        options.forEach((option) => {
+          const button = document.getElementById(`btn-${option}`);
+          button.addEventListener('click', () => {
+            selectedAnswer = option;
+            Swal.close();
+            validateAnswer(selectedAnswer, correctAnswer, item);
+          });
+        });
+      }
+    },
+    preConfirm: () => {
+      return selectedAnswer;
+    }
+  };
+
+  Swal.fire(swalConfig).then((result) => {
+    // 如果是语文题，并且点击了提交按钮
+    if (result.isConfirmed && title === '语文题') {
+      validateAnswer(selectedAnswer, correctAnswer, item);
+    }
+  });
+}
+
+function validateAnswer(selectedAnswer, correctAnswer, item) {
+  if (Array.isArray(selectedAnswer)) {
+    // 语文题
+    const correctAnswers = correctAnswer.split(''); // 支持ABCD多个答案的情况
+    const isCorrect = selectedAnswer.every(a => correctAnswers.includes(a));
+    if (isCorrect) {
+      window.open(item.link, item.target || '_self');
+    } else {
+      showError();
+    }
+  } else {
+    if (selectedAnswer === correctAnswer) {
+      window.open(item.link, item.target || '_self');
+    } else {
+      showError();
+    }
+  }
+}
+
+const questions = [
+  {
+    title: '语文题',
+    content: '2023北京中考语文2、3。请用连续不加空格的字母作答，忽略大小写。比如AB。',
+    correctAnswer: 'DB',
+    imageUrl: 'https://s1.ax1x.com/2023/07/22/pCqStzT.png'
+  },
+  // {
+  //   title: '数学题',
+  //   content: '2023北京中考数学8',
+  //   correctAnswer: 'D',
+  //   imageUrl: 'https://s1.ax1x.com/2023/07/22/pCbzf5q.jpg'
+  // },
+  // {
+  //   title: '物理题',
+  //   content: '小瑶同学在一次实验中将定值电阻R两端的电压从2V增加到3V，她观察到和R串联的电流表的示数变化了0.1A。下列判断正确的是<br><br>A. 电阻R的阻值为20Ω<br>B. 电阻R的阻值从20Ω变为30Ω<br>C. 电阻R消耗的电功率增加了0.5W<br>D. 电阻R消耗的电功率从0.2W变为0.3W<br>（2023北京通州物理一模11 区得分率50.71%）',
+  //   correctAnswer: 'C'
+  // },
+  // {
+  //   title: '化学题',
+  //   content: '向分别盛有下列物质的点滴版孔穴中滴加足量稀硫酸，无明显现象的是<br><br>A. Fe₂O₃<br>B. Fe<br>C. 稀 NaOH 溶液<br>D. Na₂CO₃ 溶液<br>（2023北京中考化学17）',
+  //   correctAnswer: 'C'
+  // },
+  // {
+  //   title: '道德与法治题',
+  //   content: '2022年10月30日，第十三届全国人民代表大会常务委员会通过《中华人民共和国黄河保护法》，旨在通过立法加强黄河流域生态环境保护，保障黄河安澜，推进水资源节约利用，推动高质量发展。为了更好地落实该法，以下说法正确的是<br><br>A. 人大要组织力量加强对各地黄河生态保护的执法检查监督<br>B. 行政机关要积极履行监察职责，对黄河生态问题进行调查<br>C. 人民检察院公开审理污染黄河流域的案件，维护社会利益<br>D. 人民法院对污染黄河的行为提起公诉，保障法律正确实施<br>（2023北京顺义政治一模9）',
+  //   correctAnswer: 'A'
+  // },
+  // {
+  //   title: '历史题',
+  //   content: '随着西方列强的侵华，中国人民为救亡图存进行了不懈地抗争和探索。下列相关表述逻辑关系不正确的是<br><br>A. 英国为了打开中国市场→鸦片战争→《南京条约》→太平天国运动<br>B. 英法为了镇压太平天国运动→第二次鸦片战争→《辛丑条约》→新文化运动<br>C. 日本为了征服朝鲜、侵略中国、称霸世界→甲午中日战争→《马关条约》→公车上书<br>D. 帝国主义列强为了镇压义和团运动→八国联军侵华战争→《辛丑条约》→辛亥革命',
+  //   correctAnswer: 'B'
+  // },
+  // {
+  //   title: '地理题',
+  //   content: '小丽在终南山景区内看到一则标语“人杰地灵名胜迹，和合南北贯东西”，联想到地理课堂上学习的“秦岭一淮河”一线的地理意义是<br><br>A. 干旱区与半干旱区的分界线<br>B. 农耕区与畜牧区的分界线<br>C. 季风区与非季风区的分界线<br>D. 暖温带与亚热带的分界线<br>（2023陕西中考地理）',
+  //   correctAnswer: 'D'
+  // },
+  // {
+  //   title: '生物题',
+  //   content: '普世界上唯一一株完全野生的普陀鹅耳枥生长在浙江省普陀山上。科学家历经半个世纪成功培育了 108 粒种子，之后又成功地用枝条进行扦插繁殖，大大降低了普陀鹅耳枥灭绝的风险。关于其繁殖的叙述，正确的是<br><br>A. 只能进行无性生殖<br>B. 种子繁殖属于无性生殖<br>C. 扦插繁殖属于有性生殖<br>D. 可以进行有性生殖<br>（2023陕西中考生物）',
+  //   correctAnswer: 'D'
+  // },
+  {
+    title: '历史物理题',
+    content: '漂附在液体中的物体,在自身重力不变的情况下，外来的压力加重力小于浮力时，就会上浮，反之则会下沉。下面与图二的外力有关的史实是<br><br>',
+    correctAnswer: 'A',
+    imageUrl: 'https://s21.ax1x.com/2024/03/31/pFTxnD1.jpg'
+  }
+];
+
+function showRandomQuestion(item) {
+  const randomIndex = Math.floor(Math.random() * questions.length);
+  const question = questions[randomIndex];
+
+  showQuestion(item, question.title, question.content, question.correctAnswer, question.imageUrl);
+}
+
+function showModal(item) {
   Swal.fire({
     title: '在下载前，请您先阅读并接受',
     html: `

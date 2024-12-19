@@ -10,13 +10,13 @@ title: 机械动力星辰汉化下载
 齿轮缓缓转动。这颗星球不是你的边界：你必须走向那颗恒星。实现自动化、工业化，最终彻底改变太阳系。
 
 > [!TIP] 重要提示
-> 最新版整合包（暂未发布）已经内置部分汉化，但仍需下载汉化补丁。请留意下载的整合包版本！
+> 最新版整合包（暂未发布）已经内置部分汉化，但仍需下载汉化补丁。请留意下载的支持整合包版本！
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv26855184' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' }
 ]" />
 
 整合包下载地址|加载器|MC版本|支持版本|汉化维护状态

@@ -30,7 +30,7 @@ Would You Rather……？ （你喜歡……？）
 
 <DownloadLinks :methods="[
   { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing/' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/tw/doing/' }
 ]" />
 
 ## 地圖下載

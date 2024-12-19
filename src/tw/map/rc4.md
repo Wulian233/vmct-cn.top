@@ -23,7 +23,7 @@ layout: doc
 <DownloadLinks :methods="[
   { id: '123', text: '下載地圖和翻譯', icon: '/imgs/svg/123.svg', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' },
   { id: 'mediafire', text: '備用載點', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/folder/jurnv77qvvaf0' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' }
 ]" />
 
 ## 注意事項
@@ -38,7 +38,7 @@ layout: doc
     
 >  [!IMPORTANT] 安裝教學
 > 如果你是單人遊玩，請將下載好的壓縮檔解壓縮到一個單獨的資料夾（為了防止你意外覆蓋掉已有進度的原版世界，檔名有改過），複製到`.minecraft\saves`資料夾，啟動遊戲然後在單人模式選擇該地圖即可遊玩。
-> 如果你想要和朋友一起連線遊玩，請將地圖資料夾中的`resources.zip`取出，然後將其分發給所有跟你一起玩的玩家，資源包的安裝路徑是對應版本的`\.minecraft\resourcepacks`。地圖資料夾**不要有資源包**。安裝完之後請所有人進入遊戲，選取資源包並啟用。（白話文：叫每個人自己在電腦上裝材質包）
+> 如果你想要和朋友一起連線遊玩，請將地圖資料夾中的`resources.zip`取出，然後將其分發給所有跟你一起玩的玩家，資源包的安裝路徑是對應版本的`\.minecraft\resourcepacks`。地圖資料夾**不要有資源包**。安裝完之後請所有人進入遊戲，選取資源包並啟用。（白話文：叫每個人自己在電腦上裝資源包）
 > 請**不要**讓玩家連接伺服器的時候下載「伺服器資源包」(`server-resource-packs`)，因為這會導致進入遊戲之後部分翻譯鍵無法載入翻譯值。
 
 ## 地圖下載

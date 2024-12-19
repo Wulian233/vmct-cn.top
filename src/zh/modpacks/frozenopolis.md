@@ -14,7 +14,7 @@ title: 冰雪之域汉化下载
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wulian233.lanzouj.com/ibKuk1qy9rbe' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv33005621/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://wulian233.lanzouj.com/ibKuk1qy9rbe' }
 ]" />
 
 kubejs定制的流体和物品已汉化，包括冰碗、烹饪苹果、天气催化器等。定制方块（block.js）如各种矿石等为英文，无法汉化。

@@ -10,7 +10,6 @@
       {{ match }}
     </div>
     <div class="flex flex-col lg:flex-row items-start gap-6">
-      <!---->
       <div class="flex-1">
         <div
           class="flex flex-col lg:flex-row lg:items-center lg:justify-between"

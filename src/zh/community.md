@@ -2,7 +2,7 @@
 title: 加入社区
 description: 希望各位小伙伴能够在社区里友好交流，结识同好，收获成长！
 layout: doc
-aside: true
+aside: false
 ---
 
 ## 社区交流

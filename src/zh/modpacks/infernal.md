@@ -12,12 +12,12 @@ title: 地狱起源汉化下载
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1tx4y1s7E8/' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1nH4y1w7CQ' },
   { id: 'curseforge', text: '硬编码汉化VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/infernalorigin' }
 ]" />
 
 ## 整合包介绍
 
-整合包下载地址|加载器|整合包版本|MC版本|汉化维护状态
+整合包下载地址|加载器|支持整合包版本|MC版本|汉化维护状态
 :-|:-|:-|:-|:-
 [下载链接](https://www.curseforge.com/minecraft/modpacks/infernal-rpg)|Forge|v2.0.0-Patch 2|1.16.5|*维护中*|
 
