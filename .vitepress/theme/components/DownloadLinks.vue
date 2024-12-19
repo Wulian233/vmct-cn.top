@@ -20,6 +20,10 @@ function clientLink(key, text, subText = '', icon, link) {
 }
 
 function downloadJump(params, downloadMethod) {
+  if (!params.q) {
+    return
+  }
+
   const target = Array.isArray(params.q) ? params.q[0].toLowerCase() : params.q.toLowerCase()
 
   downloadMethod.forEach((val) => {
