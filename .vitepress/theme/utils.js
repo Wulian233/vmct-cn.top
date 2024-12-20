@@ -67,16 +67,11 @@ export const isLinkHttp = (link) =>
   /^(https?:)?\/\//.test(link)
 
 /**
- * Determine a link is ftp link or not
- */
-export const isLinkFtp = (link) => link.startsWith('ftp://')
-
-/**
  * Determine a link is external or not
  */
 export const isLinkExternal = (link, base = '/') => {
   // http link or ftp link
-  if (isLinkHttp(link) || isLinkFtp(link)) {
+  if (isLinkHttp(link)) {
     return true
   }
 

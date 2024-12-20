@@ -7,8 +7,12 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
-import path from 'path'
+import { fileURLToPath } from 'url'
+import { dirname, resolve } from 'path'
 import fs from 'fs'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 export default defineConfig({
   shortcuts: [
@@ -22,7 +26,6 @@ export default defineConfig({
     presetUno(),
     presetAttributify(),
     presetTypography(),
-
     presetIcons({
       scale: 1.2,
       warn: true,
@@ -44,10 +47,10 @@ function getCustomIcons() {
   const data = {}
 
   fs.readdirSync(
-    path.resolve(__dirname, './src/public/imgs/svg'),
+    resolve(__dirname, './src/public/imgs/svg'),
   ).forEach((val) => {
     data[val.replace('.svg', '')] = fs.readFileSync(
-      path.resolve(__dirname, './src/public/imgs/svg/' + val),
+      resolve(__dirname, './src/public/imgs/svg/' + val),
       'utf8',
     )
   })
