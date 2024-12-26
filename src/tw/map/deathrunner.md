@@ -19,7 +19,7 @@ layout: doc
 玩家數量：1-32名
 
 <DownloadLinks :methods="[
-  { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' },
+  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' }
 ]" />
 

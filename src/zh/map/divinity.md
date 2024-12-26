@@ -28,7 +28,7 @@ layout: doc
 你准备好改变世界了吗？你准备好面对神界陨落了吗？
 
 <DownloadLinks :methods="[
-  { id: 'dl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
+  { id: 'mapdl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
   { id: 'bilibili', text: '宣传片与汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1kx421C7ds' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' }
 ]" />

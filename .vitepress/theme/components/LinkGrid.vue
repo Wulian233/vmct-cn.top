@@ -10,6 +10,8 @@ function handleClick(item) {
     showModal(item);
   } else if (item.id === 'lazy') {
     showRandomQuestion(item);
+  } else if (item.id === 'mapdl') {
+    showMapModal(item)
   } else {
     window.open(item.link, item.target || '_self');
   }
@@ -158,10 +160,30 @@ function showRandomQuestion(item) {
 
 function showModal(item) {
   Swal.fire({
-    title: '在下载前，请您先阅读并接受',
+    title: '请您先阅读并接受',
     html: `
       <a href="/agreement/" target="_blank" style="color: blue; text-decoration: underline;">VM汉化组用户服务协议</a>，
       并仔细阅读 <a href="/modpacks/" target="_blank" style="color: blue; text-decoration: underline;">汉化补丁安装说明</a>。
+    `,
+    icon: 'info',
+    showCancelButton: true,
+    confirmButtonText: '确定',
+    cancelButtonText: '取消',
+    reverseButtons: true,
+    focusCancel: true,
+    preConfirm: () => {
+      if (item.link) {
+        window.open(item.link, item.target || '_self')
+      }
+    }
+  })
+}
+
+function showMapModal(item) {
+  Swal.fire({
+    title: '请您先阅读并接受',
+    html: `
+      <a href="/agreement/" target="_blank" style="color: blue; text-decoration: underline;">VM汉化组用户服务协议</a>。
     `,
     icon: 'info',
     showCancelButton: true,

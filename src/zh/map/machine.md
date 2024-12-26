@@ -8,7 +8,7 @@ layout: doc
 
 
 <DownloadLinks :methods="[
-  { id: 'dl', text: '下载地图与汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
+  { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing/' }
 ]" />
 

@@ -20,7 +20,7 @@ layout: doc
 藝之神殿，原名Temple of the Art（TOTA）是一個受《Noita》啟發的施法和魔杖製作的地牢探險類Minecraft地圖。
 
 <DownloadLinks :methods="[
-  { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/tota' },
+  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/tota' },
   { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1tek2YsEpZ/' },
   { id: 'bilibili', text: '地圖介紹視頻', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Kpq8YcEJw' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/tota' }

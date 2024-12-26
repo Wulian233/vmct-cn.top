@@ -30,7 +30,7 @@ layout: doc
 你準備好面對神界隕落了嗎？
 
 <DownloadLinks :methods="[
-  { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
+  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' }
 ]" />
 

@@ -12,7 +12,7 @@ MC，但是类银河恶魔城！Lumina Complex - CTM地图
 
 <DownloadLinks :methods="[
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1dW421X7Xo/' },
-  { id: 'dl', text: '下载地图', icon: 'https://ctmrepository.com/favicon.png', link: 'https://ctmrepository.com/index.php?action=viewMap&id=619' },
+  { id: 'mapdl', text: '下载地图', icon: 'https://ctmrepository.com/favicon.png', link: 'https://ctmrepository.com/index.php?action=viewMap&id=619' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://www.bilibili.com/video/BV1dW421X7Xo/' }
 ]" />
 
