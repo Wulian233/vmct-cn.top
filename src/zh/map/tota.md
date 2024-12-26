@@ -21,7 +21,8 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'dl', text: '下载地图与汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/tota' },
-  { id: 'bilibili', text: '宣传片与汉化教程', icon: '/imgs/svg/bilibili.svg', link: '/doing/' },
+  { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1tek2YsEpZ/' },
+  { id: 'bilibili', text: '地图介绍视频', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Kpq8YcEJw' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/tota' }
 ]" />
 

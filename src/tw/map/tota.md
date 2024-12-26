@@ -21,7 +21,8 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/tota' },
-  { id: 'bilibili', text: '宣傳片與安裝教程', icon: '/imgs/svg/bilibili.svg', link: '/tw/doing/' },
+  { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1tek2YsEpZ/' },
+  { id: 'bilibili', text: '地圖介紹視頻', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Kpq8YcEJw' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/tota' }
 ]" />
 
