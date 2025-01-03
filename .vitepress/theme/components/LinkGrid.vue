@@ -21,10 +21,7 @@ function showError() {
   Swal.fire({
     icon: 'error',
     title: '回答错误',
-    html: `回答错误，不予下载。<br>
-           初中题目，实属不该。<br>
-           如欲下载，请看教程。<br>
-           或欲挑战，请君自便。`
+    html: `emmm，看起来不太对哦，愿意的话你可以再试一次！<br>PS. 题目仅供娱乐，看一看有多少还给老师了呢awa
   });
 }
 
@@ -139,9 +136,9 @@ const questions = [
     correctAnswer: 'D'
   },
   {
-    title: '生物题',
-    content: '普世界上唯一一株完全野生的普陀鹅耳枥生长在浙江省普陀山上。科学家历经半个世纪成功培育了 108 粒种子，之后又成功地用枝条进行扦插繁殖，大大降低了普陀鹅耳枥灭绝的风险。关于其繁殖的叙述，正确的是<br><br>A. 只能进行无性生殖<br>B. 种子繁殖属于无性生殖<br>C. 扦插繁殖属于有性生殖<br>D. 可以进行有性生殖<br>（2023陕西中考生物）',
-    correctAnswer: 'D'
+    title: 'MC原版题',
+    content: '合成末地烛需要用到什么<br>A. 烈焰棒<br>B. 紫颂果C. 烈焰粉<br>D. 紫珀块',
+    correctAnswer: 'A'
   },
   {
     title: '历史物理题',

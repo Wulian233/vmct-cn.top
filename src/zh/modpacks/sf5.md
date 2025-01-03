@@ -3,7 +3,7 @@ layout: doc
 title: 天空工厂5汉化下载
 ---
 
-![](imgs/sf5.png =400x)
+![](/imgs/sf5.png =400x)
 
 **SkyFactory® 5：创意的重塑，迎来第五次飞跃！**
 
