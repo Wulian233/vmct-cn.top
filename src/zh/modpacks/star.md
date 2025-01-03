@@ -25,9 +25,9 @@ title: 星辰工厂汉化下载
 
 ## 整合包下载
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/star-factory)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/star-factory)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-## 贡献者
+## 贡献人员
 
 特别感谢自尊寺个人汉化。
 

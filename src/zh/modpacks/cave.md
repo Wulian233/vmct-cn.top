@@ -31,7 +31,7 @@ title: 洞穴城汉化下载
 
 ## 整合包下载
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/caveopolis)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/caveopolis)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 ## 支持我们
 

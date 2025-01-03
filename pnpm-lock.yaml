@@ -21,11 +21,11 @@ importers:
         specifier: ^0.14.0
         version: 0.14.0(markdown-it@14.1.0)
       '@vueuse/core':
-        specifier: ^12.0.0
-        version: 12.0.0(typescript@5.7.2)
+        specifier: ^12.3.0
+        version: 12.3.0(typescript@5.7.2)
       '@vueuse/integrations':
-        specifier: ^12.0.0
-        version: 12.0.0(axios@1.7.9)(focus-trap@7.6.0)(qrcode@1.5.4)(typescript@5.7.2)
+        specifier: ^12.3.0
+        version: 12.3.0(axios@1.7.9)(focus-trap@7.6.0)(qrcode@1.5.4)(typescript@5.7.2)
       axios:
         specifier: ^1.7.9
         version: 1.7.9
@@ -42,8 +42,8 @@ importers:
         specifier: ^1.5.4
         version: 1.5.4
       sweetalert2:
-        specifier: ^11.15.3
-        version: 11.15.3
+        specifier: ^11.15.9
+        version: 11.15.9
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -64,8 +64,8 @@ importers:
         version: 4.5.0(vue@3.5.13(typescript@5.7.2))
     devDependencies:
       '@nolebase/vitepress-plugin-git-changelog':
-        specifier: ^2.11.1
-        version: 2.11.1(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)
+        specifier: ^2.12.0
+        version: 2.12.0(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)
       '@unocss/extractor-mdc':
         specifier: ^0.65.3
         version: 0.65.3
@@ -76,8 +76,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       pnpm:
-        specifier: ^9.15.1
-        version: 9.15.1
+        specifier: ^9.15.2
+        version: 9.15.2
       taze:
         specifier: ^0.18.0
         version: 0.18.0
@@ -493,8 +493,8 @@ packages:
     peerDependencies:
       vue: '>=3.2.0'
 
-  '@iconify-json/octicon@1.2.1':
-    resolution: {integrity: sha512-4w7yMipQtp6s6aCHrSVlVXsf0OCBQ8CRmUTkMQUBexR42SXl4z5GnaUyaOMVoZttfgaBNnj0mlMB5T1cmRDgTg==}
+  '@iconify-json/octicon@1.2.2':
+    resolution: {integrity: sha512-qEPkP9DMMay5uILzyaSmVksSMxRw9i2wSDREfB8OK20mPdSadusjLqD/u69GzpFpw6894c+WNmoq7WzN5KAPeg==}
 
   '@iconify-json/simple-icons@1.2.11':
     resolution: {integrity: sha512-AHCGDtBRqP+JzAbBzgO8uN/08CXxEmuaC6lQQZ3b5burKhRU12AJnJczwbUw2K5Mb/U85EpSUNhYMG3F28b8NA==}
@@ -580,11 +580,11 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@nolebase/ui@2.11.1':
-    resolution: {integrity: sha512-J08bh8wd1AXYzgGJtnoo6ptr20W+P/JuLISm7HdOTLr5nmq/pKmygOYVx63zuDVskpd04/VwUEkzA5wVipozvg==}
+  '@nolebase/ui@2.12.0':
+    resolution: {integrity: sha512-QL2mXIIUE6uItO7MUJdIJsPqmTQkEI7Leah+i51WGEfouuvrBDgFnH2LEqhXh3fmO2Bu7HiVpUu3meduSrORLg==}
 
-  '@nolebase/vitepress-plugin-git-changelog@2.11.1':
-    resolution: {integrity: sha512-CppE+THHJimRODyoPtY7V5f2SF4fZfBUcKST0OOIb8H4Lk+56xhY7HKtq+XzOzdZGN9Q88tTfnPV26hdg+Iwgg==}
+  '@nolebase/vitepress-plugin-git-changelog@2.12.0':
+    resolution: {integrity: sha512-4zkzVo5gaqJaj40Q+8YVED04y7zcCeLL7/DWka900E4WQ3Z7So6Wnl/ZQZWLW0C/VGBDIZ0Tg91kfayT7fJnKA==}
 
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
@@ -886,8 +886,8 @@ packages:
   '@vueuse/core@11.2.0':
     resolution: {integrity: sha512-JIUwRcOqOWzcdu1dGlfW04kaJhW3EXnnjJJfLTtddJanymTL7lF1C0+dVVZ/siLfc73mWn+cGP1PE1PKPruRSA==}
 
-  '@vueuse/core@12.0.0':
-    resolution: {integrity: sha512-C12RukhXiJCbx4MGhjmd/gH52TjJsc3G0E0kQj/kb19H3Nt6n1CA4DRWuTdWWcaFRdlTe0npWDS942mvacvNBw==}
+  '@vueuse/core@12.3.0':
+    resolution: {integrity: sha512-cnV8QDKZrsyKC7tWjPbeEUz2cD9sa9faxF2YkR8QqNwfofgbOhmfIgvSYmkp+ttSvfOw4E6hLcQx15mRPr0yBA==}
 
   '@vueuse/integrations@11.2.0':
     resolution: {integrity: sha512-zGXz3dsxNHKwiD9jPMvR3DAxQEOV6VWIEYTGVSB9PNpk4pTWR+pXrHz9gvXWcP2sTk3W2oqqS6KwWDdntUvNVA==}
@@ -930,8 +930,8 @@ packages:
       universal-cookie:
         optional: true
 
-  '@vueuse/integrations@12.0.0':
-    resolution: {integrity: sha512-M16fkVp+i4je75I7uvifMbJKHFrjx2+0LuHEH9++iPJ11zc4SRy5NdRN0z2NR+a54eQ5Gs2Ds7pby5ST96zxCA==}
+  '@vueuse/integrations@12.3.0':
+    resolution: {integrity: sha512-Ha42DSxc87BIf4JONUNammWod5X7iaUVqpYohMgzpDYBjAxhmhWtsMCcFpfUMXZYiMaS2xltUEiRldSXC9kmGw==}
     peerDependencies:
       async-validator: ^4
       axios: ^1
@@ -974,14 +974,14 @@ packages:
   '@vueuse/metadata@11.2.0':
     resolution: {integrity: sha512-L0ZmtRmNx+ZW95DmrgD6vn484gSpVeRbgpWevFKXwqqQxW9hnSi2Ppuh2BzMjnbv4aJRiIw8tQatXT9uOB23dQ==}
 
-  '@vueuse/metadata@12.0.0':
-    resolution: {integrity: sha512-Yzimd1D3sjxTDOlF05HekU5aSGdKjxhuhRFHA7gDWLn57PRbBIh+SF5NmjhJ0WRgF3my7T8LBucyxdFJjIfRJQ==}
+  '@vueuse/metadata@12.3.0':
+    resolution: {integrity: sha512-M/iQHHjMffOv2npsw2ihlUx1CTiBwPEgb7DzByLq7zpg1+Ke8r7s9p5ybUWc5OIeGewtpY4Xy0R2cKqFqM8hFg==}
 
   '@vueuse/shared@11.2.0':
     resolution: {integrity: sha512-VxFjie0EanOudYSgMErxXfq6fo8vhr5ICI+BuE3I9FnX7ePllEsVrRQ7O6Q1TLgApeLuPKcHQxAXpP+KnlrJsg==}
 
-  '@vueuse/shared@12.0.0':
-    resolution: {integrity: sha512-3i6qtcq2PIio5i/vVYidkkcgvmTjCqrf26u+Fd4LhnbBmIT6FN8y6q/GJERp8lfcB9zVEfjdV0Br0443qZuJpw==}
+  '@vueuse/shared@12.3.0':
+    resolution: {integrity: sha512-X3YD35GUeW0d5Gajcwv9jdLAJTV2Jdb/Ll6Ii2JIYcKLYZqv5wxyLeKtiQkqWmHg3v0J0ZWjDUMVOw2E7RCXfA==}
 
   acorn@8.14.0:
     resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
@@ -1158,8 +1158,8 @@ packages:
     resolution: {integrity: sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A==}
     hasBin: true
 
-  es-toolkit@1.29.0:
-    resolution: {integrity: sha512-GjTll+E6APcfAQA09D89HdT8Qn2Yb+TeDSDBTMcxAo+V+w1amAtCI15LJu4YPH/UCPoSo/F47Gr1LIM0TE0lZA==}
+  es-toolkit@1.31.0:
+    resolution: {integrity: sha512-vwS0lv/tzjM2/t4aZZRAgN9I9TP0MSkWuvt6By+hEXfG/uLs8yg2S1/ayRXH/x3pinbLgVJYT+eppueg3cM6tg==}
 
   esbuild@0.21.5:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
@@ -1183,8 +1183,8 @@ packages:
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
-  execa@9.5.1:
-    resolution: {integrity: sha512-QY5PPtSonnGwhhHDNI7+3RvY285c7iuJFFB+lU+oEzMY/gEGJ808owqJsrr8Otd1E/x07po1LkUBmdAc5duPAg==}
+  execa@9.5.2:
+    resolution: {integrity: sha512-EHlpxMCpHWSAh1dgS6bVeoLAXGnJNdR93aabr4QCGbzOM73o5XmRfM/e5FUqsw3aagP8S8XEWUWFAxnRBnAF0Q==}
     engines: {node: ^18.19.0 || >=20.5.0}
 
   extend-shallow@2.0.1:
@@ -1589,8 +1589,8 @@ packages:
     resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
     engines: {node: '>=10.13.0'}
 
-  pnpm@9.15.1:
-    resolution: {integrity: sha512-GstWXmGT7769p3JwKVBGkVDPErzHZCYudYfnHRncmKQj3/lTblfqRMSb33kP9pToPCe+X6oj1n4MAztYO+S/zw==}
+  pnpm@9.15.2:
+    resolution: {integrity: sha512-k+V7ASbw33TOa/8paAOUwLpU7Ecka5zzIfASHY2bsD91CnBfJO3DwRgIU6/XwsO5QZbQo9U9PgadnieT7xHzIQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1754,8 +1754,8 @@ packages:
     resolution: {integrity: sha512-8iGv75BYOa0xRJHK5vRLEjE2H/i4lulTjzpUXic3Eg8akftYjkmQDa8JARQ42rlczXyFR3IeRoeFCc7RxHsYZA==}
     engines: {node: '>=16'}
 
-  sweetalert2@11.15.3:
-    resolution: {integrity: sha512-+0imNg+XYL8tKgx8hM0xoiXX3KfgxHDmiDc8nTJFO89fQEEhJlkecSdyYOZ3IhVMcUmoNte4fTIwWiugwkPU6w==}
+  sweetalert2@11.15.9:
+    resolution: {integrity: sha512-WjL1aLNtmbtPTeQRBCzIMMQ4hv2ePs705gwqkkMqwMso42bLv6mVTwNNCCzRy39OEOfbT/8N1KqEdaAxwmpGYg==}
 
   tabbable@6.2.0:
     resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==}
@@ -2288,7 +2288,7 @@ snapshots:
       giscus: 1.5.0
       vue: 3.5.13(typescript@5.7.2)
 
-  '@iconify-json/octicon@1.2.1':
+  '@iconify-json/octicon@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -2376,9 +2376,9 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@nolebase/ui@2.11.1(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)':
+  '@nolebase/ui@2.12.0(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)':
     dependencies:
-      '@iconify-json/octicon': 1.2.1
+      '@iconify-json/octicon': 1.2.2
       less: 4.2.1
       vitepress: 1.5.0(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(less@4.2.1)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)
       vue: 3.5.13(typescript@5.7.2)
@@ -2411,15 +2411,15 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@nolebase/vitepress-plugin-git-changelog@2.11.1(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)':
+  '@nolebase/vitepress-plugin-git-changelog@2.12.0(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)':
     dependencies:
-      '@iconify-json/octicon': 1.2.1
-      '@nolebase/ui': 2.11.1(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)
+      '@iconify-json/octicon': 1.2.2
+      '@nolebase/ui': 2.12.0(@algolia/client-search@4.24.0)(@types/node@22.5.0)(axios@1.7.9)(postcss@8.4.49)(qrcode@1.5.4)(sass@1.77.8)(search-insights@2.16.0)(terser@5.31.3)(typescript@5.7.2)
       colorette: 2.0.20
       date-fns: 4.1.0
       defu: 6.1.4
-      es-toolkit: 1.29.0
-      execa: 9.5.1
+      es-toolkit: 1.31.0
+      execa: 9.5.2
       globby: 14.0.2
       gray-matter: 4.0.3
       less: 4.2.1
@@ -2825,11 +2825,11 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/core@12.0.0(typescript@5.7.2)':
+  '@vueuse/core@12.3.0(typescript@5.7.2)':
     dependencies:
       '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 12.0.0
-      '@vueuse/shared': 12.0.0(typescript@5.7.2)
+      '@vueuse/metadata': 12.3.0
+      '@vueuse/shared': 12.3.0(typescript@5.7.2)
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
       - typescript
@@ -2847,10 +2847,10 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/integrations@12.0.0(axios@1.7.9)(focus-trap@7.6.0)(qrcode@1.5.4)(typescript@5.7.2)':
+  '@vueuse/integrations@12.3.0(axios@1.7.9)(focus-trap@7.6.0)(qrcode@1.5.4)(typescript@5.7.2)':
     dependencies:
-      '@vueuse/core': 12.0.0(typescript@5.7.2)
-      '@vueuse/shared': 12.0.0(typescript@5.7.2)
+      '@vueuse/core': 12.3.0(typescript@5.7.2)
+      '@vueuse/shared': 12.3.0(typescript@5.7.2)
       vue: 3.5.13(typescript@5.7.2)
     optionalDependencies:
       axios: 1.7.9
@@ -2861,7 +2861,7 @@ snapshots:
 
   '@vueuse/metadata@11.2.0': {}
 
-  '@vueuse/metadata@12.0.0': {}
+  '@vueuse/metadata@12.3.0': {}
 
   '@vueuse/shared@11.2.0(vue@3.5.13(typescript@5.7.2))':
     dependencies:
@@ -2870,7 +2870,7 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/shared@12.0.0(typescript@5.7.2)':
+  '@vueuse/shared@12.3.0(typescript@5.7.2)':
     dependencies:
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
@@ -3048,7 +3048,7 @@ snapshots:
       prr: 1.0.1
     optional: true
 
-  es-toolkit@1.29.0: {}
+  es-toolkit@1.31.0: {}
 
   esbuild@0.21.5:
     optionalDependencies:
@@ -3109,7 +3109,7 @@ snapshots:
 
   estree-walker@2.0.2: {}
 
-  execa@9.5.1:
+  execa@9.5.2:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       cross-spawn: 7.0.3
@@ -3521,7 +3521,7 @@ snapshots:
 
   pngjs@5.0.0: {}
 
-  pnpm@9.15.1: {}
+  pnpm@9.15.2: {}
 
   postcss@8.4.47:
     dependencies:
@@ -3690,7 +3690,7 @@ snapshots:
     dependencies:
       copy-anything: 3.0.5
 
-  sweetalert2@11.15.3: {}
+  sweetalert2@11.15.9: {}
 
   tabbable@6.2.0: {}
 

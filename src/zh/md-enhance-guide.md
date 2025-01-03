@@ -181,10 +181,10 @@ comment: false # 隐藏该页面的评论区
 - 类型：Boolean
 - 默认：true
 
-是否显示贡献者和页面历史
+是否显示贡献人员和页面历史
 
 ```yml
 ---
-gitChangelog: false # 隐藏该页面的贡献者和页面历史
+gitChangelog: false # 隐藏该页面的贡献人员和页面历史
 ---
 ```

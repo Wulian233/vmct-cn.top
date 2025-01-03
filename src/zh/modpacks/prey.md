@@ -76,13 +76,13 @@ title: Prey汉化下载
 
 ## 整合包下载
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/prey-beta)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/prey-beta)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-## 贡献者（排名不分先后）
+## 贡献人员（排名不分先后）
 
 Cat酱、荔枝、老本願、冰琳、虚空、kressety、luyixs、rcno6、X209
 
-特别鸣谢（外部贡献者）：ChuijkYahus、Kasualix
+特别鸣谢（外部贡献人员）：ChuijkYahus、Kasualix
 
 ## 支持我们
 

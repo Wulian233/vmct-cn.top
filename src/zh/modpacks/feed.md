@@ -37,7 +37,7 @@ title: 喂养奇点生存汉化下载
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/feed-the-singularity/files/)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-## 贡献者
+## 贡献人员
 
 特别感谢自尊寺个人汉化。
 

@@ -31,7 +31,7 @@ FTB官网|加载器|支持整合包版本|汉化维护状态
 
 技术支持：@[Litchiiiiii](https://github.com/Litchiiiiii)
 
-译者：[查看贡献者排行榜](https://paratranz.cn/projects/10719/leaderboard)
+译者：[查看贡献人员排行榜](https://paratranz.cn/projects/10719/leaderboard)
 
 ## 释放科技的力量
 

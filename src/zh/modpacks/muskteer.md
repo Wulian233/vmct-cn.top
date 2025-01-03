@@ -21,7 +21,7 @@ Muskteer是一个围绕小型多人游戏社区设计的整合包，玩家生活
 
 ## 整合包下载
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/musketeer)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/musketeer)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 ## 整合包介绍
 
@@ -52,7 +52,7 @@ Muskteer整合包中：
 
 ![](https://s1.ax1x.com/2023/07/24/pCL4Chd.jpg)
 
-## 贡献者
+## 贡献人员
 
 特别感谢仙人掌个人汉化。
 

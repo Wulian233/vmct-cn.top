@@ -40,13 +40,13 @@ Vazkii继Crucial 2后的又一力作！Bliss是一款精心打造的和平向整
 
 ## 整合包下载
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/bliss/)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/bliss/)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
 ![](https://s21.ax1x.com/2024/05/04/pkAVkvj.jpg)
 
-## 贡献者
+## 贡献人员
 
 特别感谢Cat酱个人汉化。
 

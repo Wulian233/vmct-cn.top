@@ -26,7 +26,7 @@ title: 喷气背包猫汉化下载
 
 更多介绍请看[MC百科](https://www.mcmod.cn/modpack/482.html)
 
-## 贡献者
+## 贡献人员
 
 由KlparetlR个人汉化
 

@@ -59,7 +59,7 @@ HS_花露水，
 
 ## 整合包下载与授权
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/create-astral)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/create-astral)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 

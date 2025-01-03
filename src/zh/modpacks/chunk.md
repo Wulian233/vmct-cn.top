@@ -26,7 +26,7 @@ title: Chunk Block汉化下载
 
 项目主管 @[Wulian233](https://github.com/Wulian233)
 
-译者：[查看贡献者排行榜](https://paratranz.cn/projects/11916/leaderboard)、Sine
+译者：[查看贡献人员排行榜](https://paratranz.cn/projects/11916/leaderboard)、Sine
 
 ## 整合包介绍
 
@@ -52,7 +52,7 @@ title: Chunk Block汉化下载
 
 **本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。**
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/chunk-block)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/chunk-block)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 ![授权](/imgs/chunk.png)
 

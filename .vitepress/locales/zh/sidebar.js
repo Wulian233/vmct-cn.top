@@ -39,6 +39,7 @@ const sidebar = {
         { text: 'Roguelike冒险与地牢（RAD）', link: '/modpacks/rad' },
         { text: '重生之夜', link: '/modpacks/rotn' },
         { text: '石头世界3', link: '/modpacks/sb3' },
+        { text: '天空工厂5', link: '/modpacks/sf5' },
         { text: '星辰工厂', link: '/modpacks/star' },
         { text: '宝藏猎人3', link: '/modpacks/vault' },
         { text: 'FTB Presents Direwolf20 1.19', link: '/modpacks/wolf' },
