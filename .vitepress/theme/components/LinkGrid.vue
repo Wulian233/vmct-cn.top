@@ -137,7 +137,7 @@ const questions = [
   },
   {
     title: 'MC原版题',
-    content: '合成末地烛需要用到什么<br>A. 烈焰棒<br>B. 紫颂果C. 烈焰粉<br>D. 紫珀块',
+    content: '合成末地烛需要用到什么<br>A. 烈焰棒<br>B. 紫颂果<br>C. 烈焰粉<br>D. 紫珀块',
     correctAnswer: 'A'
   },
   {
