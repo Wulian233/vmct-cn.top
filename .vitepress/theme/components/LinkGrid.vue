@@ -21,7 +21,7 @@ function showError() {
   Swal.fire({
     icon: 'error',
     title: '回答错误',
-    html: `emmm，看起来不太对哦，愿意的话你可以再试一次！<br>PS. 题目仅供娱乐，看一看有多少还给老师了呢awa
+    html: `emmm，看起来不太对哦，愿意的话你可以再试一次！<br>PS. 题目仅供娱乐，看一看有多少还给老师了呢awa`
   });
 }
 
