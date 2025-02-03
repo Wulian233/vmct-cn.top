@@ -1,12 +1,14 @@
 .vp-raw {
   padding: 0 28px 24px 28px;
-  box-shadow: var(--vp-shadow-2);
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-bottom: 36px;
   font-size: 15px;
-  transition: all 0.5s, box-shadow 0.25s ease, border-color 0.25s ease;
+  transition:
+    all 0.5s,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
   border-radius: 6px;
   background-color: var(--vp-custom-block-info-bg);
   margin-top: 2rem;
@@ -20,8 +22,8 @@
 }
 
 .vp-raw:hover {
-  transform: translate3d(0, -8px, 0);
-  box-shadow: var(--vp-shadow-3);
+  transform: translate3d(0, -2px, 0);
+  box-shadow: var(--vp-shadow-1);
 }
 
 .vp-raw .header-anchor {
@@ -66,7 +68,10 @@
   text-align: center;
   font-weight: 600;
   white-space: nowrap;
-  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+  transition:
+    color 0.25s,
+    border-color 0.25s,
+    background-color 0.25s;
   text-decoration: none;
 }
 

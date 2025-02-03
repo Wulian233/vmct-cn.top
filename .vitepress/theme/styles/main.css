@@ -47,23 +47,6 @@ html.dark .vp-doc figure figcaption {
   margin-top: var(--vp-layout-top-height);
 }
 
-.banner > .text > a {
-  color: var(--vp-c-brand-1);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  transition:
-    color 0.25s,
-    opacity 0.25s;
-}
-
-.reached-top {
-  top: var(--vp-layout-top-height) !important;
-}
-
-.banner ~ .reached-top {
-  top: 0px !important;
-}
-
 .VPNav {
   transition:
     background-color 0.5s,
@@ -76,7 +59,7 @@ textarea {
 
 #app a:focus-visible,
 #app button:focus-visible,
-#app input[type='checkbox']:focus-visible {
+#app input[type="checkbox"]:focus-visible {
   --at-apply: outline-1 outline-primary ring-2 ring-primary;
 }
 
@@ -120,27 +103,11 @@ textarea {
 }
 
 .load-error::after {
-  content: '图片被我们吃掉了！' !important;
+  content: "图片被我们吃掉了！" !important;
   text-align: center;
   line-height: 10;
   background-color: var(--vp-c-bg-alt) !important;
   animation: none !important;
-}
-
-.skeleton-animation::after {
-  content: ' ';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0),
-    var(--skeleton-animation-gradient),
-    rgba(255, 255, 255, 0)
-  );
-  animation: skeleton--gradient 1.5s linear 2s infinite;
 }
 
 .medium-zoom-overlay {
@@ -159,124 +126,15 @@ textarea {
   display: none !important;
 }
 
-@keyframes slide-enter {
-  0% {
-    transform: translateY(10px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 100;
-  }
+.spoiler {
+  background-color: currentColor;
+  border-radius: 0.2em;
+  transition: background ease 0.5s;
+  cursor: help;
+  padding: 0 0.1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  html:not(.no-sliding) [slide-enter],
-  html:not(.no-sliding) .slide-enter,
-  html:not(.no-sliding) .main > div > *,
-  html:not(.no-sliding) #VPContent > div > div.VPFeatures.VPHomeFeatures > *,
-  html:not(.no-sliding) .VPHomeHero > * {
-    --enter-stage: 0;
-    --enter-step: 90ms;
-    --enter-initial: 0ms;
-    animation: slide-enter 1s both 1;
-    animation-delay: calc(
-      var(--enter-initial) + var(--enter-stage) * var(--enter-step)
-    );
-    animation-timing-function: cubic-bezier(0.333, 0, 0.667, 1), linear, linear;
-    -webkit-animation-timing-function: cubic-bezier(0.333, 0, 0.667, 1), linear, linear;
-  }
-
-  .main > div > *:nth-child(1) {
-    --enter-stage: 1;
-  }
-  .main > div > *:nth-child(2) {
-    --enter-stage: 2;
-  }
-  .main > div > *:nth-child(3) {
-    --enter-stage: 3;
-  }
-  .main > div > *:nth-child(4) {
-    --enter-stage: 4;
-  }
-  .main > div > *:nth-child(5) {
-    --enter-stage: 5;
-  }
-  .main > div > *:nth-child(6) {
-    --enter-stage: 6;
-  }
-  .main > div > *:nth-child(7) {
-    --enter-stage: 7;
-  }
-  .main > div > *:nth-child(8) {
-    --enter-stage: 8;
-  }
-  .main > div > *:nth-child(9) {
-    --enter-stage: 9;
-  }
-  .main > div > *:nth-child(10) {
-    --enter-stage: 10;
-  }
-  .main > div > *:nth-child(11) {
-    --enter-stage: 11;
-  }
-  .main > div > *:nth-child(12) {
-    --enter-stage: 12;
-  }
-  .main > div > *:nth-child(13) {
-    --enter-stage: 13;
-  }
-  .main > div > *:nth-child(14) {
-    --enter-stage: 14;
-  }
-  .main > div > *:nth-child(15) {
-    --enter-stage: 15;
-  }
-  .main > div > *:nth-child(16) {
-    --enter-stage: 16;
-  }
-  .main > div > *:nth-child(17) {
-    --enter-stage: 17;
-  }
-  .main > div > *:nth-child(18) {
-    --enter-stage: 18;
-  }
-  .main > div > *:nth-child(19) {
-    --enter-stage: 19;
-  }
-  .main > div > *:nth-child(20) {
-    --enter-stage: 20;
-  }
-
-  @keyframes slide-enter-left {
-    0% {
-      transform: translateX(-20px);
-      opacity: 0;
-    }
-
-    to {
-      transform: translateY(0);
-      opacity: 100;
-    }
-  }
-  @media (min-width: 960px) {
-    .VPSidebar {
-      animation: slide-enter-left 1s both 1;
-      -webkit-animation-timing-function: cubic-bezier(0.333, 0, 0.667, 1);
-      -moz-animation-timing-function: cubic-bezier(0.333, 0, 0.667, 1);
-      -o-animation-timing-function: cubic-bezier(0.333, 0, 0.667, 1);
-      animation-timing-function: cubic-bezier(0.333, 0, 0.667, 1);
-    }
-  }
-}
-
-@keyframes skeleton--gradient {
-  0% {
-    transform: translate(-100%) skew(-15deg);
-  }
-
-  to {
-    transform: translate(100%) skew(-15deg);
-  }
+.spoiler:hover,
+.spoiler:focus {
+  background-color: transparent;
 }

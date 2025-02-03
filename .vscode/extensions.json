@@ -1,7 +1,8 @@
 {
   "recommendations": [
-    "vue.volar",
+    "esbenp.prettier-vscode",
     "editorconfig.editorconfig",
-    "pkief.material-icon-theme"
+    "pkief.material-icon-theme",
+    "vue.volar"
   ]
 }

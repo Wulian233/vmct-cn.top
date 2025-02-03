@@ -1,0 +1,14 @@
+{
+  "vue.codeActions.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "markdown.validate.enabled": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/src/_data":true,
+    "**/.vitepress/.cache/**": true,
+    "**/.vitepress/.temp/**": true,
+    "**/dist/**": true,
+    "packages/*/lib/**": true
+  },
+  "prettier.prettierPath": "./node_modules/prettier",
+}

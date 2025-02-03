@@ -1,32 +1,32 @@
 <script setup>
-import { computed } from 'vue'
+import { computed } from "vue";
 
 const props = defineProps({
-  members: Array
-})
+  members: Array,
+});
 
 const sortedMembers = computed(() => {
-  const sorted = [...props.members]
+  const sorted = [...props.members];
 
   sorted.sort((a, b) => {
-    const orderA = a.order !== undefined ? a.order : Number.MIN_SAFE_INTEGER
-    const orderB = b.order !== undefined ? a.order : Number.MIN_SAFE_INTEGER
+    const orderA = a.order !== undefined ? a.order : Number.MIN_SAFE_INTEGER;
+    const orderB = b.order !== undefined ? a.order : Number.MIN_SAFE_INTEGER;
 
-    return orderA - orderB
-  })
+    return orderA - orderB;
+  });
 
-  return sorted
-})
+  return sorted;
+});
 </script>
 
 <template>
   <section class="staffList">
     <div class="container">
       <div class="info">
-        <h2 class="title">
+        <h2 class="title" view-fade-title>
           <slot name="title" />
         </h2>
-        <p class="lead">
+        <p class="lead" view-fade-title>
           <slot name="lead" />
         </p>
       </div>
@@ -39,8 +39,10 @@ const sortedMembers = computed(() => {
             :key="member.name"
             class="member"
           >
-            <p class="member-name">{{ member.name }}</p>
-            <p v-if="member?.title" class="member-title">{{ member.title }}</p>
+            <p class="member-name view-fade-y">{{ member.name }}</p>
+            <p v-if="member?.title" class="member-title view-fade-y">
+              {{ member.title }}
+            </p>
             <div
               v-if="
                 member.title === undefined &&
@@ -94,10 +96,6 @@ const sortedMembers = computed(() => {
     padding: 0 24px 0 0;
     width: 128px;
   }
-
-  html.banner-dismissed .info {
-    top: 32px;
-  }
 }
 
 @media (min-width: 960px) {
@@ -106,14 +104,10 @@ const sortedMembers = computed(() => {
     padding: 0 64px 0 0;
     width: 290px;
   }
-
-  html.banner-dismissed .info {
-    top: 88px;
-  }
 }
 
 .title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
 }
 
@@ -132,7 +126,7 @@ const sortedMembers = computed(() => {
 @media (min-width: 768px) {
   .members {
     flex-grow: 1;
-    padding-top: 16px;
+    padding-top: 52px;
   }
 }
 
@@ -153,6 +147,7 @@ const sortedMembers = computed(() => {
     max-width: 100%;
   }
 }
+
 .members {
   display: flex;
   flex-wrap: wrap;
@@ -177,6 +172,8 @@ const sortedMembers = computed(() => {
 .member-name {
   font-size: 16px; /* Adjust the font size as needed */
   font-weight: bold;
+  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .member-title {

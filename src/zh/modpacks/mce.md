@@ -3,24 +3,21 @@ layout: doc
 title: 永恒的MC汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://s1.ax1x.com/2023/07/22/pCqiHsK.jpg" style="width:50%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/22/pCqiLZD.jpg" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/266/930/2019-10-27_01.png =400x200)
 
 > [!WARNING] 重要提示
-> 汉化**不支持整合包最新版1.6.2.3，只支持1.6.1！**，请留意下载的整合包版本！
+> 汉化**不支持整合包最新版1.6.2.3，只支持1.6.1！**，请留意下载的支持整合包版本！
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/MCE-VMCT' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1FD4y1p79N' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv21193646' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/MCE-VMCT' }
 ]" />
 
-整合包下载地址|加载器|整合包版本|MC版本|状态
-:-|:-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal/files)|Forge|1.6.1|1.12.2|*停止维护*|
+| 整合包下载地址                                                                    | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
+| :-------------------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal/files) | Forge  | 1.6.1          | 1.12.2 | _停止维护_   |
 
 ---
 
@@ -74,7 +71,7 @@ title: 永恒的MC汉化下载
 
 总而言之，让你在整合包内获得更多的快乐！不会让你感到无所事事或者无聊！
 
-感谢所有的mod作者，如果没有他们，这个整合包将会胎死腹中，一辈子无法和各位见面了！你可以为你喜欢的作者赞助一下，买杯咖啡？~~我觉得不错……我强烈建议给译者买杯咖啡~~
+感谢所有的mod作者，如果没有他们，这个整合包将会胎死腹中，一辈子无法和各位见面了！
 
 请至少分配8G内存游玩哦！（10G更好）
 
@@ -97,6 +94,10 @@ We have asked the authors many questions, and every time it is basically a secon
 你可以在[CurseForge网站内](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal/files)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本次汉化已取得官方授权，不违反任何社区规则。完整授权聊天记录可以[在此查看](https://discord.com/channels/640591918752858122/655858176608174090/105691817638390988)。
+
+![](https://s1.ax1x.com/2023/07/22/pCqiHsK.jpg)
+
+![](https://s1.ax1x.com/2023/07/22/pCqiLZD.jpg)
 
 ## 支持我们
 

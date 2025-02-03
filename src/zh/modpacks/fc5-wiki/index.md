@@ -1,0 +1,287 @@
+![Farming Crossing 5 Icon](https://media.forgecdn.net/attachments/994/209/icon_hires.jpg =200x)
+
+# Farming Crossing 5: Made to Order! v1.1.9
+
+## Core mechanics
+
+- Collection quests for flora, animals, minerals, cooking, and fishing
+- Building prompts with given block palettes
+- Complete quests to invite 5 modpack specific npc's to your world
+- [Eat food that satisfy your cravings to get random potion buffs.](https://github.com/khazenor/farming-crossing-5/wiki/Farming-Crossing-Craving-Mechanic)
+- Customized Market from FarmingForBlockheads with many things to purchase with Miles Tickets
+- Hostile mobs do not spawn outside of spawners in overworld under normal difficulty
+
+## Earning Tickets
+
+- [Selling meals directly to villagers](https://github.com/khazenor/farming-crossing-5/wiki/Miles-Tickets#cooking)
+- [Selling Fishes for Miles Tickets](https://github.com/khazenor/farming-crossing-5/wiki/Miles-Tickets#fishing)
+
+## Quality of life
+
+- Building material duplication with Miles Tickets
+- [Convert building materials to other building materials you have already collected.](https://github.com/khazenor/farming-crossing-5/wiki/Modpack-Exclusive-Features#Building-Material-Exchange-with-Ren)
+- Flora duplication with bone meal
+- All modpack related texts are located in translation files for easy translation.
+- Ability to craft all wooden furniture using the log or planks and convert those furniture to other furniture with the same wood type in a sawmill or a stonecutter
+- Ability to craft many lighting blocks using the torch using a sawmill or a stonecutter
+- Ability to smith non-diamond tools and armors to diamond tier
+- [Mushroom can be used a meat replacement](https://github.com/khazenor/farming-crossing-5/wiki/Modpack-Exclusive-Features#Mushroom-as-meat-replacement)
+
+## Visual
+
+- Minecraft villagers look like animal villagers
+
+## Links
+
+- If you enjoy my modpacks and want to support me. I accept donations here: https://ko-fi.com/khazenorsmodpacks
+- You can join my modpack discord ([Link](https://discord.gg/B34WW6b8X2)) if you are interested
+
+## Known Issues
+
+- Recipes from MrCrayfish's Stoves from causes the client to crash. Please avoid clicking on the recipes in the recipe book while inside the stove's GUI.
+- Tom's simple storage controller does not seem to work well with extra storage double chests. If you want to use them together you would want to stick to single chests
+
+## Translations
+
+### This modpack supports the following language using Google Translate:
+
+- French (fr_fr)
+- German (de_de)
+- Japanese (ja_jp)
+- Korean (ko_kr) (with additional contributions)
+- Portuguese (pt_br)
+- Simplified Chinese (zh_cn)
+- Spanish (es_mx)
+- Thai (lo_la)
+- Traditional Chinese (zh_tw)
+
+### Translation Contributions:
+
+- 실명전사강명원: Korean (ko_kr) contribution
+
+### If you want to suggest translation improvements, see the instructions [here](https://github.com/khazenor/farming-crossing-5/wiki/Suggest-Translation-Improvements)
+
+## Credits
+
+- Opening panorama and music customization credits to Az
+- Animal Villagers textures adopted with permission from [Farming Crossing 4 made by lackygirlmoon](https://www.curseforge.com/minecraft/texture-packs/farming-crossing-4)
+- Background music are royalty free and composed by [Oneul](https://www.youtube.com/channel/UCM4rFS9nLw2AiBNiDWBNChg)
+
+### Datapacks
+
+- Crafting Tweaks and unlock all recipes from [Vanilla Tweaks](https://vanillatweaks.net/)
+
+### Mods
+
+- [[EMF] Entity Model Features [Fabric & Forge] (by traben_0)](https://www.curseforge.com/minecraft/mc-mods/entity-model-features)
+- [[ETF] Entity Texture Features - [Fabric & Forge] (by traben_0)](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric)
+- [AC Digspot Suspicious Sand and Gravel (by LucitheAndroid)](https://www.curseforge.com/minecraft/texture-packs/ac-digspot-suspicious-sand-and-gravel)
+- [Additional Lanterns (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/additional-lanterns)
+- [AdoraBuild: Structures (by AdoraBuild)](https://www.curseforge.com/minecraft/mc-mods/adorabuild-structures)
+- [Advanced Netherite (Forge / NeoForge) (by AutovwDev)](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite)
+- [AI Improvements (by QueenOfMissiles)](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
+- [Almanac Lib (by frikinjay)](https://www.curseforge.com/minecraft/mc-mods/almanac-lib)
+- [Alternate Current (by SpaceWalkerRS)](https://www.curseforge.com/minecraft/mc-mods/alternate-current)
+- [Amendments (by plantspookable)](https://www.curseforge.com/minecraft/mc-mods/amendments)
+- [AppleSkin (by squeek502)](https://www.curseforge.com/minecraft/mc-mods/appleskin)
+- [Aquaculture 2 (by Shadow)](https://www.curseforge.com/minecraft/mc-mods/aquaculture)
+- [Architectury API (Fabric/Forge/NeoForge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/architectury-api)
+- [Artifacts (by ochotonida)](https://www.curseforge.com/minecraft/mc-mods/artifacts)
+- [Athena (by CodexAdrian)](https://www.curseforge.com/minecraft/mc-mods/athena)
+- [Bad Horse Fix (by HiiJax)](https://www.curseforge.com/minecraft/mc-mods/bad-horse-fix)
+- [Balm (Forge Edition) (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/balm)
+- [Better chunk loading[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/better-chunk-loading-forge-fabric)
+- [Better Fps - Render Distance[Forge] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance)
+- [Better Title Screen (by Girafi)](https://www.curseforge.com/minecraft/mc-mods/better-title-screen)
+- [Better Tridents [Forge & Fabric] (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/better-tridents)
+- [Biome Music[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/biome-music)
+- [BlockUI (by Raycoms)](https://www.curseforge.com/minecraft/mc-mods/blockui)
+- [Bridging Mod (by CG360)](https://www.curseforge.com/minecraft/mc-mods/bridging-mod)
+- [Caelus API (Forge/NeoForge) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/caelus)
+- [Camera Mod (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/camera-mod)
+- [CB: Compressed Blocks (by sashiro)](https://www.curseforge.com/minecraft/mc-mods/cb-compressed-blocks)
+- [Charm of Undying (Fabric/Forge/Quilt) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying)
+- [Chipped (by terrariumearth)](https://www.curseforge.com/minecraft/mc-mods/chipped)
+- [ChoiceTheorem's Overhauled Village (by ChoiceTheorem)](https://www.curseforge.com/minecraft/mc-mods/choicetheorems-overhauled-village)
+- [Chunk Sending[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/chunk-sending-forge-fabric)
+- [Client Crafting (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/client-crafting)
+- [Cloth Config API (Fabric/Forge/NeoForge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
+- [Clumps (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/clumps)
+- [Collective (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/collective)
+- [Comforts (Fabric/Forge/Quilt) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/comforts)
+- [Complementary Shaders - Reimagined (by EminGT)](https://www.curseforge.com/minecraft/shaders/complementary-reimagined)
+- [Compost Bag (by Dhyces)](https://www.curseforge.com/minecraft/mc-mods/compost-bag)
+- [Connected Glass (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/connected-glass)
+- [Connectivity[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/connectivity)
+- [Controlling (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/controlling)
+- [Convenient Curios Container (by LeoBeliik)](https://www.curseforge.com/minecraft/mc-mods/convenient-curios-container)
+- [Cooking for Blockheads (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads)
+- [Corail Woodcutter (by Corail_31)](https://www.curseforge.com/minecraft/mc-mods/corail-woodcutter)
+- [Cosmetic Armor Reworked (by LainMI)](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked)
+- [Crafting on a stick (by OfekN\_)](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick)
+- [CraftTweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/crafttweaker)
+- [Crate Delight (Forge & Neoforge) (by axperty)](https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge)
+- [CreativeCore (by CreativeMD)](https://www.curseforge.com/minecraft/mc-mods/creativecore)
+- [Cristel Lib (by Cristelknight)](https://www.curseforge.com/minecraft/mc-mods/cristel-lib)
+- [Cupboard (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/cupboard)
+- [Curios API Continuation (by SSKirillSS)](https://www.curseforge.com/minecraft/mc-mods/curios-continuation)
+- [Cycle Paintings (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/cycle-paintings)
+- [Diagonal Fences [Forge & Fabric] (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/diagonal-fences)
+- [Diagonal Walls (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/diagonal-walls)
+- [Diagonal Windows [Forge & Fabric] (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/diagonal-windows)
+- [Dis-Enchanting Table (by Lupin)](https://www.curseforge.com/minecraft/mc-mods/dis-enchanting-table)
+- [Dismount Entity (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/dismount-entity)
+- [Display Case (by ChappiePie)](https://www.curseforge.com/minecraft/mc-mods/displaycase)
+- [Domum Ornamentum (by OrionOnline)](https://www.curseforge.com/minecraft/mc-mods/domum-ornamentum)
+- [Double Doors (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/double-doors)
+- [Dumplings Delight Rewrapped (by Joshcraft2002)](https://www.curseforge.com/minecraft/mc-mods/dumplings-delight-rewrapped)
+- [Dynamic Lights (by atomicstrykergrumpy)](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights)
+- [Dynamic View[Forge] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/dynamic-view)
+- [Easy NPC (by Kaworru)](https://www.curseforge.com/minecraft/mc-mods/easy-npc)
+- [Elytra Slot (Fabric/Forge/Quilt) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/elytra-slot)
+- [Entity Culling Fabric/Forge (by tr7zw)](https://www.curseforge.com/minecraft/mc-mods/entityculling)
+- [Everything is Copper (by LobsterJonn)](https://www.curseforge.com/minecraft/mc-mods/everythingcopper)
+- [Expanded Storage (by Quinn451)](https://www.curseforge.com/minecraft/mc-mods/expanded-storage)
+- [Explorer's Compass (by Chaosyr)](https://www.curseforge.com/minecraft/mc-mods/explorers-compass)
+- [Extreme sound muffler - (Neo)Forge (by LeoBeliik)](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler)
+- [Farmer's Delight (by vectorwing)](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
+- [Farmers Structures (by BlackAuresArt)](https://www.curseforge.com/minecraft/mc-mods/farmers-structures)
+- [Farming for Blockheads (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads)
+- [Farsight [Forge/Neo] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/farsight)
+- [Fast Async World Save[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/fast-async-world-save-forge-fabric)
+- [FerriteCore ((Neo)Forge) (by malte0811)](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
+- [Fish On The Line (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/fish-on-the-line)
+- [fix GPU memory leak[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/fix-gpu-memory-leak)
+- [Forge Config API Port (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric)
+- [Forgiving Void (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/forgiving-void)
+- [FramedBlocks (by XFactHD)](https://www.curseforge.com/minecraft/mc-mods/framedblocks)
+- [Framework (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/framework)
+- [Fruits Delight (by lcy0x1)](https://www.curseforge.com/minecraft/mc-mods/fruits-delight)
+- [FTB Essentials (Forge & Fabric) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-essentials)
+- [FTB Filter System (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-filter-system)
+- [FTB Library (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
+- [FTB Quests (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge)
+- [FTB Teams (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
+- [FTB XMod Compat (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat)
+- [Fusion (Connected Textures) (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures)
+- [GeckoLib (by Gecko)](https://www.curseforge.com/minecraft/mc-mods/geckolib)
+- [Get It Together, Drops! (by bl4ckscor3)](https://www.curseforge.com/minecraft/mc-mods/get-it-together-drops)
+- [Glass Breaker (by unilock)](https://www.curseforge.com/minecraft/mc-mods/glass-breaker)
+- [Glassential Renewed (Fabric/NeoForge) (by big_energy)](https://www.curseforge.com/minecraft/mc-mods/glassential-renewed)
+- [Global Packs (by JTK222)](https://www.curseforge.com/minecraft/mc-mods/drp-global-datapack)
+- [Golden Hopper (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/golden-hopper)
+- [GraveStone Mod (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
+- [Hand Over Your Items (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/hand-over-your-items)
+- [Handcrafted (by terrariumearth)](https://www.curseforge.com/minecraft/mc-mods/handcrafted)
+- [Hang Glider [Forge & Fabric] (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/hang-glider)
+- [Horizontal Glass Panes (by witchica)](https://www.curseforge.com/minecraft/mc-mods/horizontal-glass-panes)
+- [Horse Expert (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/horse-expert)
+- [HorseInBoat (by legosteenjaap)](https://www.curseforge.com/minecraft/mc-mods/horseinboat)
+- [Horses can Swim (by gohkenytp)](https://www.curseforge.com/minecraft/mc-mods/horses-can-swim)
+- [In Control! (by McJty)](https://www.curseforge.com/minecraft/mc-mods/in-control)
+- [Inventory Profiles Next (by mirinimi)](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next)
+- [Inventory Totem (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/inventory-totem)
+- [Iris Shaders (by coderbot)](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
+- [Item placer (by Akicater)](https://www.curseforge.com/minecraft/mc-mods/item-placer)
+- [Jade 🔍 (by Snownee)](https://www.curseforge.com/minecraft/mc-mods/jade)
+- [JamLib (by jamalam360)](https://www.curseforge.com/minecraft/mc-mods/jamlib)
+- [Just Another Rotten Flesh to Leather Mod (by alexdaum1)](https://www.curseforge.com/minecraft/mc-mods/just-another-rotten-flesh-to-leather-mod)
+- [Just Enough Archaeology (by LobsterJonn)](https://www.curseforge.com/minecraft/mc-mods/just-enough-archaeology)
+- [Just Enough Effect Descriptions (JEED) (by MehVahdJukaar)](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed)
+- [Just Enough Items (JEI) (by mezz)](https://www.curseforge.com/minecraft/mc-mods/jei)
+- [Kotlin for Forge (by thedarkcolour)](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge)
+- [Ksyxis (by VidTu)](https://www.curseforge.com/minecraft/mc-mods/ksyxis)
+- [KubeJS (by LatvianModder)](https://www.curseforge.com/minecraft/mc-mods/kubejs)
+- [Let Me Despawn (by frikinjay)](https://www.curseforge.com/minecraft/mc-mods/let-me-despawn)
+- [libIPN (by mirinimi)](https://www.curseforge.com/minecraft/mc-mods/libipn)
+- [Light Overlay (Rift/Forge/Fabric) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/light-overlay)
+- [Lithostitched (by Apollo)](https://www.curseforge.com/minecraft/mc-mods/lithostitched)
+- [Living Things (by Buecher_wurm)](https://www.curseforge.com/minecraft/mc-mods/living-things)
+- [Loot Integrations[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/loot-integrations)
+- [Lootr (Forge & NeoForge) (by Noobanidus)](https://www.curseforge.com/minecraft/mc-mods/lootr)
+- [Macaw's Bridges (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges)
+- [Macaw's Doors (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-doors)
+- [Macaw's Fences and Walls (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls)
+- [Macaw's Furniture (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-furniture)
+- [Macaw's Lights and Lamps (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps)
+- [Macaw's Paintings (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-paintings)
+- [Macaw's Paths and Pavings (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings)
+- [Macaw's Roofs (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs)
+- [Macaw's Trapdoors (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors)
+- [Macaw's Windows (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-windows)
+- [Measurements (by Mrbysco)](https://www.curseforge.com/minecraft/mc-mods/measurements)
+- [MidnightControls (by Motschen)](https://www.curseforge.com/minecraft/mc-mods/midnightcontrols)
+- [Mob Capturing Tool (by matyrobbrt)](https://www.curseforge.com/minecraft/mc-mods/mob-capturing-tool)
+- [ModernFix (by embeddedt)](https://www.curseforge.com/minecraft/mc-mods/modernfix)
+- [MonoLib (by jason13official)](https://www.curseforge.com/minecraft/mc-mods/monolib)
+- [Moonlight Lib (by MehVahdJukaar)](https://www.curseforge.com/minecraft/mc-mods/selene)
+- [Mouse Tweaks (by YaLTeR)](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
+- [MrCrayfish's Furniture Mod: Refurbished (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture)
+- [Multi-Piston (by Raycoms)](https://www.curseforge.com/minecraft/mc-mods/multi-piston)
+- [Nature's Compass (by Chaosyr)](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
+- [OctoLib (by SSKirillSS)](https://www.curseforge.com/minecraft/mc-mods/octo-lib)
+- [Open Parties and Claims (by xaero96)](https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims)
+- [OpenBlocks Elevator (by vsngarcia)](https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator)
+- [Packing Tape (by gigaherz)](https://www.curseforge.com/minecraft/mc-mods/packing-tape)
+- [Panda's Falling Tree's (by ThePandaOliver)](https://www.curseforge.com/minecraft/mc-mods/pandas-falling-trees)
+- [PandaLib (by ThePandaOliver)](https://www.curseforge.com/minecraft/mc-mods/pandalib)
+- [Polymorph (Fabric/Forge/Quilt) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/polymorph)
+- [Puzzles Lib [Forge & Fabric] (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib)
+- [Rechiseled (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/rechiseled)
+- [Rechiseled: Chipped (by the_iwolfking)](https://www.curseforge.com/minecraft/mc-mods/rechiseled-chipped)
+- [Recipe Essentials[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/recipe-essentials-forge-fabric)
+- [Regions Unexplored (forge/fabric) (by UHQ_GAMES)](https://www.curseforge.com/minecraft/mc-mods/regions-unexplored)
+- [Relics (by SSKirillSS)](https://www.curseforge.com/minecraft/mc-mods/relics-mod)
+- [Repurposed Structures (Neoforge/Forge) (by telepathicgrunt)](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures)
+- [Resourceful Lib (by ThatGravyBoat)](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib)
+- [Rhino (by LatvianModder)](https://www.curseforge.com/minecraft/mc-mods/rhino)
+- [RightClickHarvest (by jamalam360)](https://www.curseforge.com/minecraft/mc-mods/rightclickharvest)
+- [Searchables (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/searchables)
+- [Server Performance - Smooth Chunk Save[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save)
+- [Simple Magnets (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/simple-magnets)
+- [Skinned Carts (by Mrbysco)](https://www.curseforge.com/minecraft/mc-mods/skinned-carts)
+- [Snow Under Trees (by bl4ckscor3)](https://www.curseforge.com/minecraft/mc-mods/snow-under-trees)
+- [Sodium (by JellySquid)](https://www.curseforge.com/minecraft/mc-mods/sodium)
+- [Sophisticated Backpacks (by P3pp3rF1y)](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
+- [Sophisticated Core (by P3pp3rF1y)](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core)
+- [Sophisticated Storage (by P3pp3rF1y)](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage)
+- [Spyglass Improvements: Zoom, Quick Access... [Fabric/Forge] (by Im_JC52)](https://www.curseforge.com/minecraft/mc-mods/spyglass-improvements)
+- [Stackable127 (by linkachugaming0)](https://www.curseforge.com/minecraft/mc-mods/stackable127)
+- [Storage Delight (Forge & Neoforge) (by axperty)](https://www.curseforge.com/minecraft/mc-mods/storage-delight-forge)
+- [Storage Drawers (by Texelsaur)](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
+- [Structory (by botanydev)](https://www.curseforge.com/minecraft/mc-mods/structory)
+- [Structory: Towers (by botanydev)](https://www.curseforge.com/minecraft/mc-mods/structory-towers)
+- [Structure Essentials[Forge/Fabric] (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/structure-essentials-forge-fabric)
+- [Structurize (by Raycoms)](https://www.curseforge.com/minecraft/mc-mods/structurize)
+- [SuperMartijn642's Config Lib (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib)
+- [SuperMartijn642's Core Lib (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib)
+- [TerraBlender (NeoForge) (by TheAdubbz)](https://www.curseforge.com/minecraft/mc-mods/terrablender-neoforge)
+- [Tiny Coal (by AzureDoomC)](https://www.curseforge.com/minecraft/mc-mods/tiny-coal)
+- [Tom's Simple Storage Mod (by tom54541)](https://www.curseforge.com/minecraft/mc-mods/toms-storage)
+- [Too Many Paintings! (by axperty)](https://www.curseforge.com/minecraft/mc-mods/too-many-paintings-forge-fabric)
+- [Tool Belt (by gigaherz)](https://www.curseforge.com/minecraft/mc-mods/tool-belt)
+- [Towns and Towers (by Biban_Auriu)](https://www.curseforge.com/minecraft/mc-mods/towns-and-towers)
+- [Trade Cycling (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/trade-cycling)
+- [Trading Post [Forge & Fabric] (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/trading-post)
+- [Trash Cans (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/trash-cans)
+- [Traveler's Titles (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/travelers-titles-neoforge)
+- [Uppers (by vadis365)](https://www.curseforge.com/minecraft/mc-mods/uppers)
+- [Useful Hats (by thecech12)](https://www.curseforge.com/minecraft/mc-mods/useful-hats)
+- [Villager Names (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/villager-names)
+- [Waystones (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/waystones)
+- [Xaero's Minimap (by xaero96)](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
+- [Xaero's World Map (by xaero96)](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
+- [XaeroPlus (by CoinRS)](https://www.curseforge.com/minecraft/mc-mods/xaeroplus)
+- [Yung Structures Addon for Loot Integrations (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/yung-structures-addon-for-loot-integrations)
+- [YUNG's API (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge)
+- [YUNG's Better Desert Temples (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-neoforge)
+- [YUNG's Better Dungeons (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons-neoforge)
+- [YUNG's Better End Island (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-neoforge)
+- [YUNG's Better Jungle Temples (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-neoforge)
+- [YUNG's Better Mineshafts (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-neoforge)
+- [YUNG's Better Nether Fortresses (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-neoforge)
+- [YUNG's Better Ocean Monuments (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-neoforge)
+- [YUNG's Better Strongholds (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-neoforge)
+- [YUNG's Better Witch Huts (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-neoforge)
+- [YUNG's Bridges (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges-neoforge)
+- [YUNG's Extras (NeoForge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-extras-neoforge)

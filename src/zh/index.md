@@ -1,5 +1,7 @@
 ---
 layout: home
+comment: false
+gitChangelog: false
 
 title: VM 汉化组
 titleTemplate: 一个用爱发电专注于汉化MC整合包与地图的非盈利组织
@@ -19,8 +21,8 @@ hero:
       text: GitHub
       link: https://github.com/Wulian233/vmct-cn.top/
   image:
-      src: /imgs/logo/logo_256.png
-      alt: VM 汉化组
+    src: /imgs/logo/logo_256.png
+    alt: VM 汉化组
 
 features:
   - icon: 📝
@@ -37,3 +39,9 @@ features:
     title: 尊重版权️
     details: 我们深知作者的付出和保护知识产权的重要性。绝大多数翻译都经过作者官方授权，不分发游戏本体。仅提供汉化补丁下载，尽最大化保证作者权益得到保障。
 ---
+
+<commitsCounter
+  username="Wulian233"
+  repoName="vmct-cn.top"
+  :daysToFetch="60"
+/>

@@ -18,8 +18,8 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'mediafire', text: '下載地圖', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/l6el23bvw6mrye1/Final_Paradox_v1.0.18.zip/file' },
-  { id: 'lanzou', text: '下載翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'mapdl', text: '下載翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn' },
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn' }
 ]" />
 
 ## 地圖下載與授權

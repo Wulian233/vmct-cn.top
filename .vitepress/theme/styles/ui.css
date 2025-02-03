@@ -8,7 +8,11 @@
       no-repeat,
     conic-gradient(#0000 30%, var(--vp-c-brand-1));
   -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
-  mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);         /* Standard */
+  mask: radial-gradient(
+    farthest-side,
+    #0000 calc(100% - 8px),
+    #000 0
+  ); /* Standard */
   animation: l13 1s infinite linear;
 }
 
@@ -26,7 +30,7 @@
 
 [tooltip]:hover::before,
 .tooltip:hover::before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   bottom: 0;
@@ -55,7 +59,7 @@
 }
 
 [tooltip]:hover::after {
-  content: attr(tooltip) ' ';
+  content: attr(tooltip) " ";
 }
 
 .tooltip:hover::after {

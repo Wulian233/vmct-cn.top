@@ -19,8 +19,8 @@ layout: doc
 玩家數量：1-32名
 
 <DownloadLinks :methods="[
-  { id: 'dl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' },
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' }
 ]" />
 
 ## 地圖下載
@@ -34,7 +34,7 @@ layout: doc
 
 按翻譯量排名：
 
-yinzi3，nageih，fgt1t5y，NLGibson (NLG永不言棄)，WsLhh (-Lims)，Catcatpigeon，X209，咕咕魚
+yinzi3，cat醬，fgt1t5y，NLGibson (NLG永不言棄)，WsLhh (-Lims)，Catcatpigeon，X209，咕咕魚
 
 特別感謝醉冰茶製作字體，冰琳製作紋理
 

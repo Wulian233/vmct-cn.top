@@ -3,13 +3,7 @@ layout: doc
 title: 幻想领域汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/471/884/fantasy-realm-2.png" style="width:50%" alt="图片1">
-</div>
-
-:::details 授权图
-<img src="/imgs/fantasy.png" style="width:50%" alt="图片2">
-:::
+![](https://media.forgecdn.net/attachments/471/884/fantasy-realm-2.png)
 
 幻想领域是一个注重质量的RPG冒险和探索整合包！
 
@@ -19,13 +13,13 @@ title: 幻想领域汉化下载
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv26403091/' }
 ]" />
 
-整合包下载地址|加载器|支持整合包版本|状态
-:-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/fantasy-realm/)|Forge|1.16.5 1.18.2 v3最新版|**停止维护**|
+| 整合包下载地址                                                           | 加载器 | 支持整合包版本         | 汉化维护状态 |
+| :----------------------------------------------------------------------- | :----- | :--------------------- | :----------- |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/fantasy-realm/) | Forge  | 1.16.5 1.18.2 v3最新版 | **停止维护** |
 
 ## 整合包介绍
 
-Fantasy Realm是一个注重质量的RPG冒险和探索整合包! 
+Fantasy Realm是一个注重质量的RPG冒险和探索整合包!
 
 🍀 5个全新的维度和100+主世界中的全新生物群系
 
@@ -65,9 +59,11 @@ cat酱，荔枝，火君，青岚，橡树树苗，冰琳，x209，凛夜雨月�
 
 ## 整合包下载与授权
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/fantasy-realm/files)下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/fantasy-realm/files)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+![](/imgs/fantasy.png)
 
 ## 支持我们
 

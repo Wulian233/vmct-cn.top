@@ -1,5 +1,7 @@
 ---
 layout: home
+comment: false
+gitChangelog: false
 
 title: VM 翻譯組
 titleTemplate: 一個用愛發電專門翻譯MC模組包與地圖的非盈利組織
@@ -19,8 +21,8 @@ hero:
       text: GitHub
       link: https://github.com/Wulian233/vmct-cn.top/
   image:
-      src: /imgs/logo/logo_256.png
-      alt: VM 翻譯組
+    src: /imgs/logo/logo_256.png
+    alt: VM 翻譯組
 
 features:
   - icon: 📝
@@ -37,3 +39,9 @@ features:
     title: 尊重版權️
     details: 我們深知作者的付出和保護智慧財產權的重要性。絕大多數翻譯都經過作者官方授權，不分發遊戲本體。僅提供中文化更新檔下載，最大程度保證作者權益得到保障。
 ---
+
+<commitsCounter
+  username="Wulian233"
+  repoName="vmct-cn.top"
+  :daysToFetch="60"
+/>

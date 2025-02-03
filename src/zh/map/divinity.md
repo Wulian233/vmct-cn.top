@@ -16,7 +16,6 @@ layout: doc
 
 游戏版本：MC原版 1.19.2
 
-
 你准备好改变世界了吗？
 
 你已经战胜了众神的残酷……
@@ -28,9 +27,9 @@ layout: doc
 你准备好改变世界了吗？你准备好面对神界陨落了吗？
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
+  { id: 'mapdl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
   { id: 'bilibili', text: '宣传片与汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1kx421C7ds' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' }
 ]" />
 
 ## 地图下载与授权
@@ -42,9 +41,9 @@ layout: doc
 
 本地图汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-## 汉化者（排名不分先后）
+## 汉化贡献（排名不分先后）
 
-cat酱，X209，linyeyuyue，咕咕鱼 RCqaq_，Feathamity，DC10-10，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
+cat酱，X209，凛夜雨月，咕咕鱼 RCqaq\_，Feathamity，冰琳，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
 
 ## 支持我们
 

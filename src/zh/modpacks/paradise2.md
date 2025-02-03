@@ -3,10 +3,7 @@ layout: doc
 title: FTB建筑师天堂2汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://s21.ax1x.com/2024/04/27/pkPqfFU.md.png" style="width:50%" alt="图片1">
-  <img src="https://s21.ax1x.com/2024/04/27/pkPq0Jg.md.png" style="width:50%" alt="图片2">
-</div>
+![](https://s21.ax1x.com/2024/04/27/pkPqfFU.md.png =500x300)
 
 FTB建筑师天堂2延续了前代的传统，与近期以科技导向、目标明确的空岛包形成鲜明对比。FTB自豪地呈现了一个美丽、自由与宏伟的小型整合包。
 
@@ -15,14 +12,14 @@ FTB建筑师天堂2延续了前代的传统，与近期以科技导向、目标�
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wulian233.lanzouj.com/ib5G81wnrpwb' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv34152267' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://wulian233.lanzouj.com/ib5G81wnrpwb' }
 ]" />
 
 ## 更多信息
 
-FTB官网|加载器|整合包版本|状态
-:-|:-|:-|:-
-[链接](https://www.feed-the-beast.com/modpacks/122-ftb-builders-paradise-2)|Forge|mc1.20.1|**维护中**|
+| FTB官网                                                                     | 加载器 | 支持整合包版本 | 汉化维护状态 |
+| :-------------------------------------------------------------------------- | :----- | :------------- | :----------- |
+| [链接](https://www.feed-the-beast.com/modpacks/122-ftb-builders-paradise-2) | Forge  | mc1.20.1       | **维护中**   |
 
 ## 整合包介绍
 

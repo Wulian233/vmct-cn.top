@@ -12,8 +12,8 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1dW421X7Xo/' },
-  { id: 'ctm', text: '下載地圖', icon: 'https://ctmrepository.com/favicon.png', link: 'https://ctmrepository.com/index.php?action=viewMap&id=619' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'mapdl', text: '下載地圖', icon: 'https://ctmrepository.com/favicon.png', link: 'https://ctmrepository.com/index.php?action=viewMap&id=619' },
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://ctmrepository.com/index.php?action=viewMap&id=619' }
 ]" />
 
 ## 地圖資訊
@@ -37,4 +37,3 @@ Link2012 和 Mowse 為您獻上：
 多人遊玩：建議單人或雙人遊玩，上限為四名玩家。
 
 語言：**自帶繁體中文等七種語言**
-

@@ -3,20 +3,17 @@ layout: doc
 title: 喂养奇点生存汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/376/106/knipsel7.PNG" style="width:50%" alt="图片1">
-  <img src="https://media.forgecdn.net/attachments/376/103/knipsel5.PNG" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/376/106/knipsel7.PNG)
 
 <DownloadLinks :methods="[
   { id: 'baidu-drive', text: '下载汉化', icon: '/imgs/svg/baidu-drive.svg', link: 'https://pan.baidu.com/s/1OI533N2IMHssFsoGm5o0lg?pwd=x068%C2%A0%20#list/path=%2F%E8%87%AA%E5%B0%8A%E5%AF%BA%E6%B1%89%E5%8C%96%E5%85%A8%E9%9B%86%2F1.16.x%2FFeed%20the%20Singularity' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv23974249' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://pan.baidu.com/s/1OI533N2IMHssFsoGm5o0lg?pwd=x068%C2%A0%20#list/path=%2F%E8%87%AA%E5%B0%8A%E5%AF%BA%E6%B1%89%E5%8C%96%E5%85%A8%E9%9B%86%2F1.16.x%2FFeed%20the%20Singularity' }
 ]" />
 
-整合包下载地址|加载器|整合包版本|MC版本|状态
-:-|:-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/feed-the-singularity)|Forge|最新版|1.18.2|**停止维护**|
+| 整合包下载地址                                                                 | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
+| :----------------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/feed-the-singularity) | Forge  | 最新版         | 1.18.2 | **停止维护** |
 
 ---
 
@@ -40,7 +37,7 @@ title: 喂养奇点生存汉化下载
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/feed-the-singularity/files/)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-## 贡献者
+## 贡献人员
 
 特别感谢自尊寺个人汉化。
 

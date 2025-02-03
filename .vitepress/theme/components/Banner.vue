@@ -1,79 +1,51 @@
-<script setup lang="ts">
-import { useElementSize } from '@vueuse/core'
-import { ref, computed, onMounted, watchEffect } from 'vue'
-import { useData } from 'vitepress'
-import { hash } from '../utils'
-import dayjs from 'dayjs'
+<script setup>
+import { useElementSize } from "@vueuse/core";
+import { computed, onMounted, ref, watchEffect } from "vue";
+import { useData } from "vitepress";
 
-const banner = ref<HTMLElement>()
-const { height } = useElementSize(banner)
-const { frontmatter, page, theme } = useData()
-const storeKey = `banner-${page.value.relativePath}`
-const canBannerVisible = computed(
-  () => frontmatter.value.wip || typeof frontmatter.value.banner === 'string',
-)
-const isBannerVisible = ref(canBannerVisible.value)
-const dismissExpiryTime = computed(() => (Date.now() + 8.64e7 * 1).toString()) // current time + 1 day
-const inExpiryDate = computed(() => {
-  if (!frontmatter.value.bannerExpiryDate) return false
-  if (!dayjs(frontmatter.value.bannerExpiryDate).isValid())
-    console.error(
-      `The ${page.value.relativePath} of ${frontmatter.value.bannerExpiryDate} is an invalid date`,
-    )
-  if (dayjs().isBefore(dayjs(frontmatter.value.bannerExpiryDate))) return false
-  return true
-})
-const bannerText = computed(() => {
-  return frontmatter.value.wip
-    ? theme.value.ui?.banner?.wip ?? ''
-    : frontmatter.value.banner
-})
-const bannerHash = computed(() => hash(bannerText.value))
+const banner = ref();
+const { height } = useElementSize(banner);
+const { theme } = useData();
+const storeKey = "banner-global";
+
+const isBannerVisible = ref(true);
+const bannerText = computed(() => theme.value.ui?.banner?.recruitment ?? "");
 
 watchEffect(() => {
   if (height.value) {
     document.documentElement.style.setProperty(
-      '--vp-layout-top-height',
+      "--vp-layout-top-height",
       `${height.value + 16}px`,
-    )
+    );
   }
-})
+});
 
-const restore = (key: string, def = false) => {
-  const saved = localStorage.getItem(key)
-  const bannerData = JSON.parse(saved!)
-  if (!canBannerVisible.value) return hideBanner()
-  if (
-    saved
-      ? bannerHash.value === bannerData.hash && Date.now() < bannerData.time
-      : def
-  ) {
-    hideBanner()
-  } else if (inExpiryDate.value) hideBanner()
-}
+const restore = (key) => {
+  const saved = localStorage.getItem(key);
+  if (saved === "hidden") {
+    hideBanner();
+  }
+};
 
-onMounted(() => restore(storeKey))
+onMounted(() => {
+  restore(storeKey);
+});
 
 const dismiss = () => {
-  const bannerData = {
-    time: dismissExpiryTime.value,
-    hash: bannerHash.value,
-  }
-  localStorage.setItem(storeKey, JSON.stringify(bannerData))
-  hideBanner()
-}
+  localStorage.setItem(storeKey, "hidden");
+  hideBanner();
+};
 
 const hideBanner = () => {
-  isBannerVisible.value = false
-  document.documentElement.style.setProperty('--vp-layout-top-height', '0.1px')
-}
+  isBannerVisible.value = false;
+  document.documentElement.style.setProperty("--vp-layout-top-height", "0.1px");
+};
 </script>
 
 <template>
   <ClientOnly>
     <div v-show="isBannerVisible" ref="banner" class="banner">
       <div class="text" v-html="bannerText"></div>
-
       <button type="button" @click="dismiss">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +61,7 @@ const hideBanner = () => {
   </ClientOnly>
 </template>
 
-<style scoped>
+<style>
 .banner {
   position: fixed;
   top: 0;
@@ -110,10 +82,6 @@ const hideBanner = () => {
   flex: 1;
 }
 
-.banner-dismissed {
-  --vp-layout-top-height: 0px !important;
-}
-
 .banner > button {
   opacity: 0.7;
   transition: opacity cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
@@ -123,7 +91,7 @@ const hideBanner = () => {
   opacity: 1;
 }
 
-a {
+.banner > a {
   text-decoration: underline;
 }
 

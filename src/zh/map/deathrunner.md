@@ -19,9 +19,9 @@ layout: doc
 玩家数量：1-32名
 
 <DownloadLinks :methods="[
-  { id: 'dl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' },
+  { id: 'mapdl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' },
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1rT42117ZF' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' }
 ]" />
 
 ## 地图下载
@@ -31,11 +31,11 @@ layout: doc
 
 **地图是原版MC的！无需模组，请把地图放进存档（saves）文件夹！**
 
-## 汉化者
+## 汉化贡献
 
 按翻译量排名：
 
-yinzi3，nageih，fgt1t5y，NLGibson (NLG永不言弃)，WsLhh (-Lims)，Catcatpigeon，X209，咕咕鱼
+yinzi3，cat酱，fgt1t5y，NLGibson (NLG永不言弃)，WsLhh (-Lims)，Catcatpigeon，X209，咕咕鱼
 
 特别感谢醉冰茶制作字体，冰琳制作纹理
 

@@ -10,11 +10,9 @@ layout: doc
 
 ## 地圖資訊
 
-原名：Would You Rather
-
-原帖：https://www.planetminecraft.com/project/would-you-rather-4897801/
-
-遊戲版本：Minecraft原版 1.20.1
+| 原帖發佈連結                                                              | 原名             | 地图版本      | 翻譯維護狀態 |
+| :------------------------------------------------------------------------ | :--------------- | :------------ | :----------- |
+| [链接](https://www.planetminecraft.com/project/would-you-rather-4897801/) | Would You Rather | MC原版 1.20.1 | 翻譯中       |
 
 玩家數量：1-50名
 
@@ -29,8 +27,8 @@ Would You Rather……？ （你喜歡……？）
 祝你在《Would You Rather》中取勝！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing/' },
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/tw/doing/' }
 ]" />
 
 ## 地圖下載

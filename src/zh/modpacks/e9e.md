@@ -10,7 +10,7 @@ aside: false
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/opus/889340731749040214' },
   { id: 'curseforge', text: '整合包链接', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/modpacks/enigmatica9expert' },
   { id: 'curseforge', text: '自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://share.weiyun.com/4N6KKIcN' }
 ]" />
 
 ## 支持版本
@@ -34,12 +34,13 @@ Enigmatica 9: Expert（简称 E9E）是一款 Minecraft 1.19.2 下的任务引�
 准备好你的镐，撸起袖子，深入地底采掘矿石，并将它们放入复杂系统中处理，以获取大量的金属。高度自定义的矿石处理系统能让你有效的处理每一种矿石，并获得极高的增益。
 
 ---
+
 更多请见作者专栏：https://www.bilibili.com/read/cv29907734
 
 ## 翻译贡献
 
-由RCqaq_ 个人汉化
+由RCqaq\_ 个人汉化
 
 ## 使用协议
 
-本汉化采用 CC-BY-NC-SA 4.0 协议。 
+本汉化采用 CC-BY-NC-SA 4.0 协议。

@@ -3,32 +3,34 @@ layout: doc
 title: FTB Neotech汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://feed-the-beast.com/_next/image?url=https%3A%2F%2Fapps.modpacks.ch%2Fmodpacks%2Fart%2F112%2Fneotechx512.png&w=640&q=75" style="width:30%" alt="图片1">
-</div>
+![](https://feed-the-beast.com/_next/image?url=https%3A%2F%2Fcdn.feed-the-beast.com%2Fblob%2Fc8%2Fc853e9a0534b3e83a2b2dc90fd439db77b8094c5f6b06e92d8e0072212d89bb6.png&w=256&q=75)
 
 进入一个以科技为主宰的世界，体验精心设计的FTB Neotech整合包。无论你是经验丰富的工程师、足智多谋的冒险者，还是富有创意的建筑师，FTB Neotech都能为你带来数小时的模组娱乐时光。
 
->  [!IMPORTANT] 重要提醒
->  如果你使用PCL2启动器，请更新到最新版本。旧版本不支持启动Neoforge整合包，无法安装游戏！
+> [!IMPORTANT] 重要提醒
+> 完整汉化体验请下载下方的下载i18n和VP模组，并放在`mods`文件夹！推荐加入拼音搜索模组。
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
-  { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: '/doing' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/neotech' },
+  { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1xgsuesEEi/' },
+  { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
+  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
+  { id: 'modrinth', text: '下载拼音搜索模组', icon: '/imgs/svg/modrinth.svg', link: 'https://modrinth.com/mod/jechunofficial/version/1.20.4-0.1.2' },
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/neotech' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Neotech/' }
 ]" />
 
-## 更多信息
+---
 
-FTB官网|加载器|整合包版本|状态
-:-|:-|:-|:-
-[链接](https://feed-the-beast.com/modpacks/123-ftb-neotech)|Neoforge|mc1.20.4 1.7.0|*审核中*|
+| FTB官网                                                     | 加载器   | 支持整合包版本 | 汉化维护状态 |
+| :---------------------------------------------------------- | :------- | :------------- | :----------- |
+| [链接](https://feed-the-beast.com/modpacks/123-ftb-neotech) | Neoforge | mc1.20.4 1.8.1 | 维护中       |
 
 项目主管 @[Cactusstudent](https://github.com/Cactusstudent) @[Wulian233](https://github.com/Wulian233)
 
 技术支持：@[Litchiiiiii](https://github.com/Litchiiiiii)
 
-译者：[查看贡献者排行榜](https://paratranz.cn/projects/10719/leaderboard)
+译者：[查看贡献人员排行榜](https://paratranz.cn/projects/10719/leaderboard)
 
 ## 释放科技的力量
 

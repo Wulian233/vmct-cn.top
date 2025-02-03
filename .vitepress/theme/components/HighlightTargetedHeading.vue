@@ -1,44 +1,42 @@
-<script setup lang="ts">
-import { useEventListener } from '@vueuse/core'
-import { nextTick, onMounted, watch } from 'vue'
-import { useRoute } from 'vitepress'
+<script setup>
+import { useEventListener } from "@vueuse/core";
+import { nextTick, onMounted, watch } from "vue";
+import { useRoute } from "vitepress";
 
 function handleHighlight() {
-  if (!window || !window.location) return
-  if (!window.location.hash) return
+  if (!window || !window.location) return;
+  if (!window.location.hash) return;
 
-  const targetedHashId = decodeURIComponent(window.location.hash)
-  if (!targetedHashId) return
-
-  let elem: HTMLElement | null
+  const targetedHashId = decodeURIComponent(window.location.hash);
+  if (!targetedHashId) return;
 
   try {
-    elem = document.querySelector(targetedHashId)
+    elem = document.querySelector(targetedHashId);
   } catch (e) {
-    console.error(e)
-    return
+    console.error(e);
+    return;
   }
-  if (!elem) return
+  if (!elem) return;
 
-  if (!elem.classList.contains('HighlightTargetedHeading'))
-    elem.classList.add('HighlightTargetedHeading')
+  if (!elem.classList.contains("HighlightTargetedHeading"))
+    elem.classList.add("HighlightTargetedHeading");
 
-  elem.classList.remove('HighlightTargetedHeadingAnimated')
+  elem.classList.remove("HighlightTargetedHeadingAnimated");
   setTimeout(() => {
-    if (elem) elem.classList.add('HighlightTargetedHeadingAnimated')
-  }, 10)
+    if (elem) elem.classList.add("HighlightTargetedHeadingAnimated");
+  }, 10);
 }
 
-const route = useRoute()
+const route = useRoute();
 
-onMounted(handleHighlight)
+onMounted(handleHighlight);
 
 watch(route, async () => {
-  await nextTick()
-  handleHighlight()
-})
+  await nextTick();
+  handleHighlight();
+});
 
-useEventListener('hashchange', handleHighlight)
+useEventListener("hashchange", handleHighlight);
 </script>
 
 <template>

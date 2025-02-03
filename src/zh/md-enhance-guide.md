@@ -3,6 +3,8 @@ title: Markdown 增强语法指南
 description: 本项目文档页面使用Markdown语法进行编写，除了 Vitepress 支持的 Markdown 基础组件之外我们额外添加和实现了一些特有语法和组件并在此演示
 layout: doc
 search: false
+comment: false
+gitChangelog: false
 ---
 
 ## 目录 {#toc}
@@ -49,24 +51,21 @@ search: false
 [^second]: 脚注文字。
 ```
 
-
 ## Card 卡片 {#card}
 
 ### Props {#card-props}
 
-| 接口        | 描述                                             | 默认值 |       类型        |
-| ----------- | :----------------------------------------------- | :----: | :---------------: |
-| title       | 卡片标题，必填项                                 |   -    |     `String`      |
-| desc        | 卡片描述，为空时默认显示为 link                  |  link  |     `String`      |
-| link        | 卡片跳转链接，非必填                             |   -    |     `String`      |
+| 接口        | 描述                                           | 默认值 |       类型        |
+| ----------- | :--------------------------------------------- | :----: | :---------------: |
+| title       | 卡片标题，必填项                               |   -    |     `String`      |
+| desc        | 卡片描述，为空时默认显示为 link                |  link  |     `String`      |
+| link        | 卡片跳转链接，非必填                           |   -    |     `String`      |
 | logo        | 卡片下方Logo的链接，非比填。填self默认为VMlogo |   -    |     `String`      |
-| theme       | 卡片主题，非必填                                 | normal | `normal`or`media` |
-| color       | 卡片链颜色，非必填                               | normal |     `String`      |
-| cover       | 卡片封面链接，非必填。仅在normal主题生效         |   -    |     `String`      |
-| hoverShadow | 是否启用卡片 hover 时阴影效果，默认启用          |  true  |     `Boolean`     |
-| shadow      | 是否启用卡片阴影效果，默认启用                   |  true  |     `Boolean`     |
-
-> B站，QQ，B站的链接可以自动识别，无需手动填写logo
+| theme       | 卡片主题，非必填                               | normal | `normal`or`media` |
+| color       | 卡片链颜色，非必填                             | normal |     `String`      |
+| cover       | 卡片封面链接，非必填。仅在normal主题生效       |   -    |     `String`      |
+| hoverShadow | 是否启用卡片 hover 时阴影效果，默认禁用        | false  |     `Boolean`     |
+| shadow      | 是否启用卡片阴影效果，默认禁用                 | false  |     `Boolean`     |
 
 ### Example {#card-example}
 
@@ -103,14 +102,14 @@ description: i am description
 > Medium Theme
 
 ```card
-title: 观看客户端基础使用教程
-link: https://www.bilibili.com/video/BV1uU4y157Te
+title: 观看官网宣传片
+link: https://www.bilibili.com/video/BV1hm411C7ex
 theme: medium
 ```
 
 ```card
-title: 网页版地图
-link: https://yuanshen.site/
+title: VM汉化组官网
+link: https://vmct-cn.top/
 logo: self
 desc: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 theme: medium
@@ -118,14 +117,14 @@ theme: medium
 
 ````md
 ```card
-title: 观看客户端基础使用教程
-link: https://www.bilibili.com/video/BV1uU4y157Te
+title: 观看官网宣传片
+link: https://www.bilibili.com/video/BV1hm411C7ex
 theme: medium
 ```
 
 ```card
-title: 网页版地图
-link: https://yuanshen.site/
+title: VM汉化组官网
+link: https://vmct-cn.top/
 desc: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 theme: medium
 ```
@@ -133,7 +132,7 @@ theme: medium
 
 ---
 
-## Frontmatter Config {#frontmatter}
+## Frontmatter 配置 {#frontmatter}
 
 ### footer {#fm-footer}
 
@@ -144,45 +143,7 @@ theme: medium
 
 ```yml
 ---
-footer: false #隐藏该页面的页脚
----
-```
-
-### wip {#fm-wip}
-
-- 类型：Boolean
-- 默认：false
-
-配置页面顶部显示“施工中”的横幅，会覆盖 `banner` 配置
-
-```yml
----
-wip: true #显示施工中横幅
----
-```
-
-### banner {#fm-banner}
-
-- 类型：String
-
-配置页面的顶部的横幅内容，支持输入HTML不支持Markdown。默认隐藏
-
-```yml
----
-banner: 我是Banner
----
-```
-
-### bannerExpiryDate {#fm-banner-expiry-date}
-
-- 类型：Date
-
-配置页面顶部的横幅关闭日期，默认无
-
-```yml
----
-banner: 服务器维护公告
-bannerExpiryDate: 2025-2-1
+footer: false # 隐藏该页面的页脚
 ---
 ```
 
@@ -197,6 +158,32 @@ bannerExpiryDate: 2025-2-1
 
 ```yml
 ---
-docHeader: false #隐藏该页面的 docHeader
+docHeader: false # 隐藏该页面的 docHeader
+---
+```
+
+### comment {#fm-comment}
+
+- 类型：Boolean
+- 默认：true
+
+是否显示评论区
+
+```yml
+---
+comment: false # 隐藏该页面的评论区
+---
+```
+
+### gitChangelog {#fm-git-changelog}
+
+- 类型：Boolean
+- 默认：true
+
+是否显示贡献人员和页面历史
+
+```yml
+---
+gitChangelog: false # 隐藏该页面的贡献人员和页面历史
 ---
 ```

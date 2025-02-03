@@ -3,10 +3,7 @@ layout: doc
 title: 喷气背包猫汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/460/657/bosses1.jpg" style="width:50%" alt="图片1">
-  <img src="https://s1.ax1x.com/2023/07/28/pCx4alQ.jpg" style="width:50%" alt="图片2">
-</div>
+![](https://media.forgecdn.net/attachments/460/657/bosses1.jpg =400x)
 
 一款使用枪械战斗的世界探索冒险包，以12种不同的末影之眼为目标，探索不同维度，推动剧情的发展。
 此外作者制作了很多酷酷的东西，有超过1600种不同外观的生物，超过1300种不同的生物纹理，给你带来不同于其他整合包的冒险体验。
@@ -14,12 +11,12 @@ title: 喷气背包猫汉化下载
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化 密码KparetR', icon: '/imgs/svg/lanzou.svg', link: 'https://paret.lanzoum.com/b031b2uad' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv17779343/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://paret.lanzoum.com/b031b2uad' }
 ]" />
 
-整合包下载地址|加载器|整合包版本|MC版本|状态
-:-|:-|:-|:-|:-
-[下载链接](https://www.curseforge.com/minecraft/modpacks/jetpack-cat/files/all?page=1&pageSize=20)|Forge|最新版|1.16.5|*维护中*|
+| 整合包下载地址                                                                                     | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
+| :------------------------------------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/jetpack-cat/files/all?page=1&pageSize=20) | Forge  | 最新版         | 1.16.5 | _维护中_     |
 
 ---
 
@@ -29,19 +26,7 @@ title: 喷气背包猫汉化下载
 
 更多介绍请看[MC百科](https://www.mcmod.cn/modpack/482.html)
 
-## 汉化教程
-
-解压zip压缩包，把文件夹下的所有文件复制于游戏.minecraft文件夹（未启用版本隔离）或version文件夹下的游戏文件夹内（启用版本隔离）
-
-若出现是否替换选项框请选择是（代表汉化成功）
-
-若未出现请认真按上述操作执行直至出现替换选项框
-
-注：若需完全汉化请下载i18n自动汉化更新模组
-
-点击下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)
-
-## 贡献者
+## 贡献人员
 
 由KlparetlR个人汉化
 
@@ -53,9 +38,13 @@ title: 喷气背包猫汉化下载
 
 硬编码汉化模组提供和问题解答：3093FengMing
 
-## 整合包下载
+## 整合包下载与授权
 
-你可以在[CurseForge网站内](https://www.curseforge.com/minecraft/modpacks/jetpack-cat)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/jetpack-cat)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
+
+![](https://s1.ax1x.com/2023/07/28/pCx4alQ.jpg =400x)
 
 ## 支持我们
 

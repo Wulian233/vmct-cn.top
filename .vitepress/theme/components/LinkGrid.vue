@@ -1,52 +1,232 @@
-<script setup lang="ts">
-import { withBase } from 'vitepress'
-import { ref } from 'vue'
+<script setup>
+import Swal from "sweetalert2";
 
-defineProps<{
-  items: Integration[]
-}>()
+const props = defineProps({
+  items: Array,
+});
 
-interface Integration {
-  id: string
-  icon: string
-  name: string
-  link: string
-  target?: string
-  secondary?: string
-}
-
-const showModal = ref(false)
-const currentItem = ref<Integration | null>(null)
-
-function handleClick(item: Integration) {
-  if (item.id === 'lanzou') {
-    currentItem.value = item
-    showModal.value = true
-    setTimeout(() => {
-      document.querySelector('.modal')?.classList.add('show')
-    }, 10) // 延迟显示以触发动画
+function handleClick(item) {
+  if (item.id === "lanzou") {
+    showModal(item);
+  } else if (item.id === "lazy") {
+    showRandomQuestion(item);
+  } else if (item.id === "mapdl") {
+    showMapModal(item);
   } else {
-    window.open(item.link, item.target || '_self')
+    window.open(item.link, item.target || "_self");
   }
 }
 
-function confirmNavigation() {
-  if (currentItem.value) {
-    window.open(currentItem.value.link, currentItem.value.target || '_self')
-    closeModal()
+function showError() {
+  Swal.fire({
+    icon: "error",
+    title: "回答错误",
+    html: `emmm，看起来不太对哦，愿意的话你可以再试一次！<br>PS. 题目仅供娱乐，看一看有多少还给老师了呢awa`,
+  });
+}
+
+function showQuestion(item, title, content, correctAnswer, imageUrl = null) {
+  let selectedAnswer = ""; // 用来存储语文题的输入答案
+
+  // 生成选项按钮HTML（仅用于非语文题）
+  const options = ["A", "B", "C", "D"];
+  const optionButtons = options
+    .map((option) => {
+      return `<button id="btn-${option}" class="swal2-confirm swal2-styled" style="margin: 5px; padding: 10px 20px; font-size: 18px;">
+              ${option}
+            </button>`;
+    })
+    .join("");
+
+  const swalConfig = {
+    title,
+    html: `${content}<br>${imageUrl ? `<img src="${imageUrl}" style="max-width: 100%; height: auto;" />` : ""}
+           <div style="margin-top: 10px;">
+             ${
+               title === "语文题"
+                 ? `<input type="text" id="answer-input" style="width: 100%; padding: 10px; font-size: 18px;" placeholder="请输入答案（例如：AB）" />`
+                 : optionButtons
+             }
+           </div>`,
+    showCancelButton: false,
+    showConfirmButton: title === "语文题", // 只有语文题才显示提交按钮
+    confirmButtonText: "提交",
+    willOpen: () => {
+      if (title === "语文题") {
+        const input = document.getElementById("answer-input");
+        input.addEventListener("input", (event) => {
+          selectedAnswer = event.target.value.trim().toUpperCase();
+        });
+      } else {
+        options.forEach((option) => {
+          const button = document.getElementById(`btn-${option}`);
+          button.addEventListener("click", () => {
+            selectedAnswer = option;
+            Swal.close();
+            validateAnswer(selectedAnswer, correctAnswer, item);
+          });
+        });
+      }
+    },
+    preConfirm: () => {
+      return selectedAnswer;
+    },
+  };
+
+  Swal.fire(swalConfig).then((result) => {
+    // 如果是语文题，并且点击了提交按钮
+    if (result.isConfirmed && title === "语文题") {
+      validateAnswer(selectedAnswer, correctAnswer, item);
+    }
+  });
+}
+
+function validateAnswer(selectedAnswer, correctAnswer, item) {
+  if (Array.isArray(selectedAnswer)) {
+    // 语文题
+    const correctAnswers = correctAnswer.split(""); // 支持ABCD多个答案的情况
+    const isCorrect = selectedAnswer.every((a) => correctAnswers.includes(a));
+    if (isCorrect) {
+      window.open(item.link, item.target || "_self");
+    } else {
+      showError();
+    }
+  } else {
+    if (selectedAnswer === correctAnswer) {
+      window.open(item.link, item.target || "_self");
+    } else {
+      showError();
+    }
   }
 }
 
-function closeModal() {
-  const modalElement = document.querySelector('.modal')
-  if (modalElement) {
-    modalElement.classList.add('hide')
-    setTimeout(() => {
-      showModal.value = false
-      currentItem.value = null
-      modalElement.classList.remove('show', 'hide')
-    }, 500) // 等待动画结束再关闭
-  }
+const questions = [
+  {
+    title: "语文题",
+    content:
+      "2023北京中考语文2、3。请用连续不加空格的字母作答，忽略大小写。比如AB。",
+    correctAnswer: "DB",
+    imageUrl: "https://s1.ax1x.com/2023/07/22/pCqStzT.png",
+  },
+  {
+    title: "数学题",
+    content: "2023北京中考数学8",
+    correctAnswer: "D",
+    imageUrl: "https://s1.ax1x.com/2023/07/22/pCbzf5q.jpg",
+  },
+  {
+    title: "物理题",
+    content:
+      "小瑶同学在一次实验中将定值电阻R两端的电压从2V增加到3V，她观察到和R串联的电流表的示数变化了0.1A。下列判断正确的是<br><br>A. 电阻R的阻值为20Ω<br>B. 电阻R的阻值从20Ω变为30Ω<br>C. 电阻R消耗的电功率增加了0.5W<br>D. 电阻R消耗的电功率从0.2W变为0.3W<br>（2023北京通州物理一模11 区得分率50.71%）",
+    correctAnswer: "C",
+  },
+  {
+    title: "MC科技模组题",
+    content:
+      "以下哪个能量单位没有被科技模组使用过？<br><br>A. LU<br>B. EU<br>C. RF<br>D. PT",
+    correctAnswer: "D",
+  },
+  {
+    title: "MC原版译名题",
+    content:
+      "____（Warden）是一种高大而危险的敌对生物，会根据振动和气息判断生物的位置。下列选项为其现行标准译名的一项是<br><br>A. 循声守卫<br>B. 寻声守卫<br>C. 坚守者<br>D. 监守者",
+    correctAnswer: "D",
+  },
+  {
+    title: "MC原版译名题",
+    content:
+      "____（Hay Bale）方块能减少80%的摔落伤害，下列选项为其现行标准译名的一项是<br><br>A. 干草捆<br>B. 干草块<br>C. 干草堆<br>D. 干草垛",
+    correctAnswer: "A",
+  },
+  {
+    title: "MC原版题",
+    content:
+      "合成末地烛需要用到什么<br>A. 烈焰棒<br>B. 紫颂果<br>C. 烈焰粉<br>D. 紫珀块",
+    correctAnswer: "A",
+  },
+  {
+    title: "历史物理题",
+    content:
+      "漂附在液体中的物体,在自身重力不变的情况下，外来的压力加重力小于浮力时，就会上浮，反之则会下沉。下面与图二的外力有关的史实是<br><br>",
+    correctAnswer: "A",
+    imageUrl: "https://s21.ax1x.com/2024/03/31/pFTxnD1.jpg",
+  },
+];
+
+function showRandomQuestion(item) {
+  const randomIndex = Math.floor(Math.random() * questions.length);
+  const question = questions[randomIndex];
+
+  showQuestion(
+    item,
+    question.title,
+    question.content,
+    question.correctAnswer,
+    question.imageUrl,
+  );
+}
+
+function showModal(item) {
+  Swal.fire({
+    title: "请您先阅读并接受",
+    html: `
+      <a href="/agreement/" target="_blank" style="color: blue; text-decoration: underline;">VM汉化组用户服务协议</a>，
+      并仔细阅读 <a href="/modpacks/" target="_blank" style="color: blue; text-decoration: underline;">汉化补丁安装说明</a>。
+    `,
+    icon: "info",
+    showCancelButton: true,
+    confirmButtonText: "确定",
+    cancelButtonText: "取消",
+    reverseButtons: true,
+    focusCancel: true,
+    preConfirm: () => {
+      if (item.link) {
+        window.open(item.link, item.target || "_self");
+      }
+    },
+    willOpen: () => {
+      // 在弹窗显示后，延迟3秒启用确认按钮
+      setTimeout(() => {
+        const confirmButton = Swal.getConfirmButton();
+        confirmButton.disabled = false;
+      }, 3000);
+    },
+    didOpen: () => {
+      const confirmButton = Swal.getConfirmButton();
+      confirmButton.disabled = true;
+    },
+  });
+}
+
+function showMapModal(item) {
+  Swal.fire({
+    title: "请您先阅读并接受",
+    html: `
+      <a href="/agreement/" target="_blank" style="color: blue; text-decoration: underline;">VM汉化组用户服务协议</a>。
+    `,
+    icon: "info",
+    showCancelButton: true,
+    confirmButtonText: "确定",
+    cancelButtonText: "取消",
+    reverseButtons: true,
+    focusCancel: true,
+    preConfirm: () => {
+      if (item.link) {
+        window.open(item.link, item.target || "_self");
+      }
+    },
+    willOpen: () => {
+      // 在弹窗显示后，延迟3秒启用确认按钮
+      setTimeout(() => {
+        const confirmButton = Swal.getConfirmButton();
+        confirmButton.disabled = false;
+      }, 3000);
+    },
+    didOpen: () => {
+      const confirmButton = Swal.getConfirmButton();
+      confirmButton.disabled = true;
+    },
+  });
 }
 </script>
 
@@ -60,59 +240,33 @@ function closeModal() {
       @click="handleClick(item)"
     >
       <div
-        v-if="item.icon.startsWith('i')"
+        v-if="
+          item.icon &&
+          typeof item.icon === 'string' &&
+          item.icon.startsWith('i')
+        "
         :class="item.icon"
         class="w-10 h-10 mb2"
       />
-      <img
-        v-else
-        :src="withBase(item.icon)"
-        class="w-10 h-10 mb-2 no-zoomable"
-      />
+
+      <!-- <div
+        v-if="item.icon.startsWith('i')"
+        :class="item.icon"
+        class="w-10 h-10 mb2"
+      /> -->
+      <img v-else :src="item.icon" class="w-10 h-10 mb-2 no-zoomable" />
       <span class="text-sm">{{ item.name }}</span>
       <span class="text-xs opacity-50">{{ item.secondary }}</span>
-    </div>
-  </div>
-
-  <div v-if="showModal" class="modal">
-    <p class="agreement-text">
-    在开始下载汉化前，请您先阅读并接受
-    <a href="/agreement/" target="_blank" class="link">VM汉化组用户服务协议</a>
-    ，并仔细阅读
-    <a href="/modpacks/" target="_blank" class="link">汉化补丁安装说明</a>
-    。
-    </p>
-    <div class="modal-buttons">
-      <button class="modal-button confirm" @click="confirmNavigation">确定</button>
-      <button class="modal-button cancel" @click="closeModal">取消</button>
     </div>
   </div>
 </template>
 
 <style scoped>
-.agreement-text {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-  color: #555;
-}
-
-.agreement-text .link {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.agreement-text .link:hover {
-  color: #0056b3;
-}
-
 .Link {
   color: inherit !important;
   text-decoration: none !important;
   border-radius: 12px;
   background-color: var(--vp-c-bg-soft);
-  box-shadow: var(--vp-shadow-1);
   transition: background-color 0.25s;
   cursor: pointer;
 }
@@ -124,93 +278,6 @@ function closeModal() {
 .lazy-text .text-sm,
 .lazy-text .text-xs {
   animation: textFlow 2s linear infinite;
-}
-
-.modal {
-  position: fixed;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: white;
-  padding: 20px 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-  opacity: 0;
-  animation: fadeIn 0.5s forwards;
-  max-width: 90%;
-  text-align: center;
-  box-sizing: border-box;
-  visibility: hidden;
-}
-
-.modal.show {
-  visibility: visible;
-}
-
-.modal.hide {
-  animation: fadeOut 0.5s forwards;
-}
-
-.modal p {
-  margin-bottom: 20px;
-  font-size: 16px;
-  color: #333;
-}
-
-.modal-buttons {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.modal-button {
-  padding: 10px 20px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.2s, color 0.2s;
-}
-
-.modal-button.confirm {
-  background-color: #007bff;
-  color: white;
-}
-
-.modal-button.confirm:hover {
-  background-color: #0056b3;
-}
-
-.modal-button.cancel {
-  background-color: #f44336;
-  color: white;
-}
-
-.modal-button.cancel:hover {
-  background-color: #d32f2f;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translate(-50%, -60%);
-  }
-  to {
-    opacity: 1;
-    transform: translate(-50%, -50%);
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-    transform: translate(-50%, -50%);
-  }
-  to {
-    opacity: 0;
-    transform: translate(-50%, -60%);
-  }
 }
 
 @keyframes textFlow {

@@ -20,7 +20,7 @@
     >
       <p>
         <span ref="icon"></span>
-        {{ coins[selectedPayment].name }}地址:<br /><a
+        {{ coins[selectedPayment].name }}：<br /><a
           :href="coins[selectedPayment].address"
           :title="coins[selectedPayment].name"
           target="_blank"
@@ -40,36 +40,36 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, nextTick } from 'vue'
-import { useQRCode } from '@vueuse/integrations/useQRCode'
-import { useData } from 'vitepress'
+import { ref, onMounted, onBeforeUnmount, nextTick } from "vue";
+import { useQRCode } from "@vueuse/integrations/useQRCode";
+import { useData } from "vitepress";
 
-const { theme } = useData()
-let qrcode = ref()
+const { theme } = useData();
+let qrcode = ref();
 
-const icon = ref()
-const selectedPayment = ref()
-const coins = ref(theme.value.payment)
+const icon = ref();
+const selectedPayment = ref();
+const coins = ref(theme.value.payment);
 
 const updatePaymentType = () => {
-  const hash = window.location.hash.slice(1)
+  const hash = window.location.hash.slice(1);
   if (hash && coins.value[hash]?.address) {
-    selectedPayment.value = hash
-    qrcode = useQRCode(coins.value[hash].address)
+    selectedPayment.value = hash;
+    qrcode = useQRCode(coins.value[hash].address);
     nextTick(() => {
-      icon.value.className = `i-custom-${hash}`
-    })
+      icon.value.className = `i-custom-${hash}`;
+    });
   }
-}
+};
 
 onMounted(() => {
-  updatePaymentType()
-  window.addEventListener('hashchange', updatePaymentType)
-})
+  updatePaymentType();
+  window.addEventListener("hashchange", updatePaymentType);
+});
 
 onBeforeUnmount(() => {
-  window.removeEventListener('hashchange', updatePaymentType)
-})
+  window.removeEventListener("hashchange", updatePaymentType);
+});
 </script>
 
 <style scoped>

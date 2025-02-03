@@ -3,22 +3,21 @@ layout: doc
 title: 天空奥德赛汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/avatars/196/438/636885315245071486.png" style="width:40%" alt="图片1">
-</div>
+![](https://media.forgecdn.net/avatars/196/438/636885315245071486.png =300x300)
 
 > [!WARNING] 重要提示
-> **汉化支持整合包版本1.3.0，不支持最新版（新版安装后只有指南汉化，没有任务汉化）**
+> **汉化支持支持整合包版本1.3.0，不支持最新版（新版安装后只有指南汉化，没有任务汉化）**
 
 <DownloadLinks :methods="[
   { id: 'github', text: '下载汉化', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Sky-Odyssey' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'gitee', text: 'FTB整合包下载工具', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/flrscn/curse-the-beast/releases' },
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://github.com/VM-Chinese-translate-group/FTB-Sky-Odyssey' }
 ]" />
 
-
-FTB官网|加载器|支持整合包版本|状态
-:-|:-|:-|:-
-[链接](https://www.feed-the-beast.com/modpacks/8-ftb-sky-odyssey)|Forge|mc1.12.2 1.3.0|**停止维护**|
+| FTB官网                                                           | 加载器 | 支持整合包版本 | 汉化维护状态 |
+| :---------------------------------------------------------------- | :----- | :------------- | :----------- |
+| [链接](https://www.feed-the-beast.com/modpacks/8-ftb-sky-odyssey) | Forge  | mc1.12.2 1.3.0 | **停止维护** |
 
 ## 整合包介绍
 
@@ -30,23 +29,11 @@ FTB官网|加载器|支持整合包版本|状态
 
 ## 整合包下载
 
-由于FTB的新版整合包没有上CurseForge，整合包一般只能通过他们非常恶心的App下载。
+由于FTB的整合包没有上CurseForge，整合包一般只能通过他们的App或使用下载工具下载。
 
-**由于FTB的程序下载非常恶心，推荐用下方的第三方工具下载**
-
-你可以在FTB App内或使用下载工具下载整合包。下载汉化补丁后解压，解压到游戏文件夹，出现覆盖文件的提示即代表安装汉化操作正确。
-
-点击下载[FTB整合包下载工具Curse The Beast](https://gitee.com/flrscn/curse-the-beast/releases)
-
-点击下载[i18n自动汉化更新模组](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/files/4975638)
-
-## 贡献者
+## 贡献人员
 
 特别感谢捂脸祖个人汉化。
-
-## 支持版本
-
-1.3.0
 
 ## 支持我们
 

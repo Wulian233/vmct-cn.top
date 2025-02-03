@@ -51,7 +51,7 @@ ul li a {
   opacity: 0.95;
   padding: 10px 16px;
   box-sizing: border-box;
-  transition: all 0.3s;
+  transition: all 0.25s ease;
   text-decoration: none !important;
   color: var(--vp-c-brand-2);
 }
@@ -77,11 +77,30 @@ ul > li {
   padding: 4px 0;
 }
 
-#VPContent > div > div > div.content > div > main > div > div > details:nth-child(5) ol {
+#VPContent
+  > div
+  > div
+  > div.content
+  > div
+  > main
+  > div
+  > div
+  > details:nth-child(5)
+  ol {
   display: inherit !important;
 }
 
-#VPContent > div > div > div.content > div > main > div > div > details:nth-child(5) ol li {
+#VPContent
+  > div
+  > div
+  > div.content
+  > div
+  > main
+  > div
+  > div
+  > details:nth-child(5)
+  ol
+  li {
   text-align: left !important;
   border: none !important;
   font-size: 14px !important;

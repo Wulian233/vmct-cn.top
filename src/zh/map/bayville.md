@@ -18,8 +18,8 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/w9gwytz72hbtdyf/Bayville_-_realistic_roleplay_town_v7.2.zip/file' },
-  { id: 'dl', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/lazy/' }
+  { id: 'mapdl', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' },
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' }
 ]" />
 
 ## 地图下载与授权
@@ -37,7 +37,7 @@ layout: doc
 - |玩家：1-8
 - |资源包：Bayville资源包v7.2
 
-## 汉化者（排名不分先后）
+## 汉化贡献（排名不分先后）
 
 火君，翰隶镇长，青岚，逸晨，虚空，paret，逸晨
 

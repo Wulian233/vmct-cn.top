@@ -10,7 +10,6 @@
       {{ match }}
     </div>
     <div class="flex flex-col lg:flex-row items-start gap-6">
-      <!---->
       <div class="flex-1">
         <div
           class="flex flex-col lg:flex-row lg:items-center lg:justify-between"
@@ -31,27 +30,27 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { useData } from 'vitepress'
-import { ref, watchEffect, computed } from 'vue'
+<script setup>
+import { useData } from "vitepress";
+import { ref, watchEffect, computed } from "vue";
 
-const { frontmatter, page } = useData()
+const { frontmatter, page } = useData();
 
-const match = ref<string | boolean>(false)
+const match = ref(false);
 const title = computed(
   () =>
     frontmatter.value.title ||
     page.value.title ||
-    page.value.relativePath.replace('.md', ''),
-)
+    page.value.relativePath.replace(".md", ""),
+);
 
 watchEffect(() => {
-  if (!frontmatter.value.titleTemplate) return (match.value = false)
-  const str = frontmatter.value.titleTemplate.match(/-(.*?)\|/)
+  if (!frontmatter.value.titleTemplate) return (match.value = false);
+  const str = frontmatter.value.titleTemplate.match(/-(.*?)\|/);
   if (str && str.length >= 1) {
-    match.value = str[1].trim()
+    match.value = str[1].trim();
   } else {
-    match.value = false
+    match.value = false;
   }
-})
+});
 </script>
