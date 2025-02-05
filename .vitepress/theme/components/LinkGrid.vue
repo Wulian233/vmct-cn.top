@@ -106,13 +106,13 @@ const questions = [
     content:
       "2023北京中考语文2、3。请用连续不加空格的字母作答，忽略大小写。比如AB。",
     correctAnswer: "DB",
-    imageUrl: "https://s1.ax1x.com/2023/07/22/pCqStzT.png",
+    imageUrl: "https://vmct-cn.top/imgs/questions/chinese.png",
   },
   {
     title: "数学题",
     content: "2023北京中考数学8",
     correctAnswer: "D",
-    imageUrl: "https://s1.ax1x.com/2023/07/22/pCbzf5q.jpg",
+    imageUrl: "https://vmct-cn.top/imgs/questions/math.jpg",
   },
   {
     title: "物理题",
@@ -149,7 +149,7 @@ const questions = [
     content:
       "漂附在液体中的物体,在自身重力不变的情况下，外来的压力加重力小于浮力时，就会上浮，反之则会下沉。下面与图二的外力有关的史实是<br><br>",
     correctAnswer: "A",
-    imageUrl: "https://s21.ax1x.com/2024/03/31/pFTxnD1.jpg",
+    imageUrl: "https://vmct-cn.top/imgs/questions/history.jpg",
   },
 ];
 

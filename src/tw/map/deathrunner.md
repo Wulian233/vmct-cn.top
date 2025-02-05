@@ -3,10 +3,7 @@ title: 死亡競速2翻譯下載
 layout: doc
 ---
 
-<div style="display: flex">
-  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2023/121/17394690-screenshot_l.webp" style="width:50%" alt="图片1">
-  <img src="/imgs/deathrunner.png" style="width:50%" alt="图片2">
-</div>
+![](https://static.planetminecraft.com/files/image/minecraft/project/2023/121/17394690-screenshot_l.webp)
 
 ## 地圖資訊
 
@@ -23,12 +20,16 @@ layout: doc
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' }
 ]" />
 
-## 地圖下載
+## 地圖下載與授權
 
 > [!IMPORTANT] 翻譯方法
 > 你必須同時下載地圖和中文化更新檔，並把翻譯資源包放在`resourcepacks`資源包資料夾。最後在遊戲內啟用資源包。
 
 **地圖是原版Minecraft的！無需模組，請把地圖放進存檔（saves）資料夾！**
+
+本次翻譯已取得官方授權，不違反任何社區規則
+
+![](/imgs/authorization/deathrunner.png =400x)
 
 ## 翻譯者
 

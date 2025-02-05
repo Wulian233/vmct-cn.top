@@ -23,7 +23,7 @@ title: FTB石头世界3汉化下载
 
 **本次汉化已取得官方授权，并且任务汉化已经入包，自带任务汉化。**
 
-![](https://s1.ax1x.com/2023/07/22/pCqFVij.jpg =400x)
+![](/imgs/authorization/sb3.jpg =400x)
 
 这里的汉化包括kubejs魔改内容，图片和模组汉化等。
 

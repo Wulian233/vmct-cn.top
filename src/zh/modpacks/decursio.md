@@ -3,7 +3,7 @@ layout: doc
 title: The Decursio Project Expert汉化下载
 ---
 
-![](https://s21.ax1x.com/2024/05/12/pke0BCt.png)
+![](/imgs/decursio.png)
 
 这个整合包为各种各样的玩家提供了机会。新玩家将一直受到任务的帮助，而高玩将面临大量魔改合成表和机制的挑战。
 
@@ -39,8 +39,6 @@ title: The Decursio Project Expert汉化下载
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/decursio-project)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
-
-![](https://z1.ax1x.com/2023/09/28/pPbghl9.png)
 
 ## 支持我们
 

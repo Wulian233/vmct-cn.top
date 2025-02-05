@@ -7,7 +7,7 @@ title: Project Architect 2汉化下载
 在任务的引导下，通过工业先锋、龙之进化、热力系列、通用机械和 RF 工具：维度自动化资源采集、加工与合成，减少枯燥刷取，提升游戏体验。
 从复杂机械到神秘炼成，这款整合包完美融合科技与魔法，为创新与高效提供无限可能。
 
-![](https://media.forgecdn.net/attachments/918/742/2024-07-17_23.png =500x)
+![](https://media.forgecdn.net/attachments/918/742/2024-07-17_23.png =450x)
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
@@ -49,9 +49,13 @@ RF工具：维度：探索和利用自定义维度以获得独特的资源和机
 
 创新与效率：探索无尽的机会，实现创意解决方案和高效游戏。
 
-## 整合包下载
+## 整合包下载与授权
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/project-architect-2)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+**本次汉化已取得官方授权，不违反任何社区规则**
+
+![](/imgs/authorization/architect2.png)
 
 ## 支持版本
 

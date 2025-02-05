@@ -3,7 +3,7 @@ layout: doc
 title: 机械动力星辰汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/613/543/astralpromo.png)
+![](https://media.forgecdn.net/attachments/613/543/astralpromo.png =400x)
 
 一觉醒来，你发现自己躺在一个奇怪的星球，它的卫星已经破碎，一切都是那样的不同。在旅途中你发现了一个古老的文明的痕迹并开始发掘它曾存在的神秘技术。
 
@@ -63,7 +63,7 @@ HS\_花露水，
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![授权](/imgs/create.png)
+![授权](/imgs/authorization/create.png)
 
 ## 支持我们
 

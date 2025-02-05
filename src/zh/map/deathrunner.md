@@ -3,10 +3,7 @@ title: 死亡竞速2汉化下载
 layout: doc
 ---
 
-<div style="display: flex">
-  <img src="/imgs/deathrunner.webp" style="width:50%" alt="图片1">
-  <img src="/imgs/deathrunner.png" style="width:50%" alt="图片2">
-</div>
+![](/imgs/deathrunner.webp)
 
 ## 地图信息
 
@@ -24,12 +21,16 @@ layout: doc
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' }
 ]" />
 
-## 地图下载
+## 地图下载与授权
 
 > [!IMPORTANT] 汉化方法
 > 你必须同时下载地图和汉化补丁，并把汉化资源包放在`resourcepacks`资源包文件夹。最后在游戏内启用资源包的方法完成汉化。
 
 **地图是原版MC的！无需模组，请把地图放进存档（saves）文件夹！**
+
+本次汉化已取得官方授权，不违反任何社区规则
+
+![](/imgs/authorization/deathrunner.png =400x)
 
 ## 汉化贡献
 

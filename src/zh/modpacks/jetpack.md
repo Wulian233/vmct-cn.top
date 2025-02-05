@@ -44,7 +44,7 @@ title: 喷气背包猫汉化下载
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](https://s1.ax1x.com/2023/07/28/pCx4alQ.jpg =400x)
+![](/imgs/authorization/jetpack.jpg =400x)
 
 ## 支持我们
 

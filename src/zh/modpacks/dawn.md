@@ -3,7 +3,7 @@ layout: doc
 title: 破晓之界汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/634/417/fire-giant.png)
+![](https://media.forgecdn.net/attachments/634/417/fire-giant.png =400x)
 
 > [!TIP] 提示
 > 必须下载Vault Patcher（VP）模组才能完整汉化！
@@ -45,7 +45,7 @@ title: 破晓之界汉化下载
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](https://s1.ax1x.com/2023/07/22/pCqigqU.jpg)
+![授权](/imgs/authorization/dawn.jpg =500x)
 
 ## 支持我们
 

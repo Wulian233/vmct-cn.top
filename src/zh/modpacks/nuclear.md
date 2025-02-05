@@ -3,7 +3,7 @@ layout: doc
 title: 核荒原汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/310/897/2020-09-01_22.png)
+![](https://media.forgecdn.net/attachments/310/897/2020-09-01_22.png =400x)
 
 探索广阔的核荒地，或在深处冒险并探索令人兴奋的新洞穴系统。但要小心在核破坏时到达的怪物，一些怪物受到辐射的严重感染并具有特殊的能力！使用炮塔和建造机器来建造基地，以促进你的生存。你越冒险进入荒地，你就会发现越多的怪物和物品。祝你好运。
 
@@ -21,11 +21,9 @@ title: 核荒原汉化下载
 
 目前支持最新版本，即0.2.5版本
 
-## 整合包下载与授权
+## 整合包下载
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/the-nuclear-wasteland)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
-
-本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
 ## 贡献人员
 

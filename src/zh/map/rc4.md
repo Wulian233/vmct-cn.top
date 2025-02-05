@@ -3,10 +3,7 @@ title: 狂乱之境4汉化下载
 layout: doc
 ---
 
-<div style="display: flex">
-  <img src="https://s21.ax1x.com/2024/04/21/pkpVQeg.jpg" style="width:50%" alt="图片1">
-  <img src="https://s21.ax1x.com/2024/04/21/pkpVKOS.jpg" style="width:50%" alt="图片2">
-</div>
+![](/imgs/rc4.jpg =400x)
 
 ## 地图信息
 

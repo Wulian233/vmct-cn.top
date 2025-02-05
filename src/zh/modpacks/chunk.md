@@ -55,7 +55,7 @@ title: Chunk Block汉化下载
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/chunk-block)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-![授权](/imgs/chunk.png)
+![授权](/imgs/authorization/chunk.png)
 
 ## 支持版本
 

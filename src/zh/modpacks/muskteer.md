@@ -3,7 +3,7 @@ layout: doc
 title: Muskteer汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/677/536/2023-05-31_10.png)
+![](https://media.forgecdn.net/attachments/677/536/2023-05-31_10.png =400x)
 
 Muskteer是一个围绕小型多人游戏社区设计的整合包，玩家生活在一个普通的世界中，并且摒弃了原版Minecraft的一些玩法，更具创新。
 
@@ -25,7 +25,7 @@ Muskteer是一个围绕小型多人游戏社区设计的整合包，玩家生活
 
 ## 整合包介绍
 
-**这是一款实验性“轻量原版”整合包 Muskteer是一个围绕小型多人游戏社区设计的整合包，玩家生活在一个普通的世界中，并且摒弃了原版Minecraft的一些玩法，更具创新。**
+**这是一款实验性“轻量原版”整合包。Muskteer是一个围绕小型多人游戏社区设计的整合包，玩家生活在一个普通的世界中，并且摒弃了原版Minecraft的一些玩法，更具创新。**
 
 整合包的名字来自《三个火枪手》的“One for all, and all for one”，正如同我们所说的“One world, for all players”。
 
@@ -51,7 +51,7 @@ Muskteer整合包中：
 
 注：因为是公共聊天区，无关信息多，所以授权图经过裁剪。
 
-![](https://s1.ax1x.com/2023/07/24/pCL4Chd.jpg)
+![](/imgs/authorization/muskteer.jpg =450x)
 
 ## 贡献人员
 

@@ -3,7 +3,7 @@ layout: doc
 title: 幻想领域汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/471/884/fantasy-realm-2.png)
+![](https://media.forgecdn.net/attachments/471/884/fantasy-realm-2.png =400x)
 
 幻想领域是一个注重质量的RPG冒险和探索整合包！
 
@@ -53,9 +53,7 @@ Fantasy Realm是一个注重质量的RPG冒险和探索整合包!
 
 1.16.5：cat酱
 
-1.18.2：
-
-cat酱，荔枝，火君，青岚，橡树树苗，冰琳，x209，凛夜雨月，NLG，虚空，尧尧，502y
+1.18.2：cat酱，荔枝，火君，青岚，橡树树苗，冰琳，x209，凛夜雨月，NLG，虚空，尧尧，502y
 
 ## 整合包下载与授权
 
@@ -63,7 +61,7 @@ cat酱，荔枝，火君，青岚，橡树树苗，冰琳，x209，凛夜雨月�
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](/imgs/fantasy.png)
+![](/imgs/authorization/fantasy.png =400x)
 
 ## 支持我们
 

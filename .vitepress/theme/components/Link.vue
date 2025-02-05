@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { withBase } from 'vitepress'
+import { computed } from "vue";
+import { withBase } from "vitepress";
 
 const props = defineProps<{
-  href?: string
-  noIcon?: boolean
-  title?: string
-}>()
+  href?: string;
+  noIcon?: boolean;
+  title?: string;
+}>();
 
-const isExternal = computed(() => props.href && /^[a-z]+:/i.test(props.href))
+const isExternal = computed(() => props.href && /^[a-z]+:/i.test(props.href));
 </script>
 
 <template>

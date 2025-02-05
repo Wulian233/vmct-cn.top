@@ -3,7 +3,7 @@ layout: doc
 title: 重生之夜汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/849/572/2021-03-10_12.png)
+![](https://media.forgecdn.net/attachments/849/572/2021-03-10_12.png =400x)
 
 重生之夜通过全面革新Minecraft及其模组，重现了初次探索Minecraft时的兴奋感，并加入了动态世界、复杂战斗和丰富的背景故事，让每一次冒险都充满新鲜感和挑战。
 
@@ -18,7 +18,7 @@ title: 重生之夜汉化下载
 
 | 整合包下载地址                                                                 | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :----------------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) | Forge  | 3.1.1          | 1.18.2 | _放弃维护_   |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) | Forge  | 3.1.1          | 1.18.2 | 停止维护     |
 
 ## 整合包介绍
 
@@ -36,7 +36,7 @@ title: 重生之夜汉化下载
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-![](/imgs/rotn.png)
+![](/imgs/authorization/rotn.png =500x)
 
 ## 支持我们
 

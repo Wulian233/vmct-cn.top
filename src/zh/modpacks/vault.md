@@ -29,7 +29,7 @@ aside: false
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
-![](https://s1.ax1x.com/2023/07/22/pCqiw5j.jpg =400x)
+![](/imgs/authorization/vault.jpg =400x)
 
 ## 支持我们
 
