@@ -10,9 +10,9 @@ title: Project Architect 2汉化下载
 ![](https://media.forgecdn.net/attachments/918/742/2024-07-17_23.png =450x)
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/pa2' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/pa2' }
 ]" />
 
 ## 更多信息
