@@ -19,7 +19,7 @@ title: Project Architect 2汉化下载
 
 | 整合包下载地址                                                            | 加载器 | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------------------ | :----- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/project-architect-2) | Forge  | mc1.20.1 4.8   | _翻译中_     |
+| [链接](https://www.curseforge.com/minecraft/modpacks/project-architect-2) | Forge  | mc1.20.1 4.8   | _维护中_     |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13302)
 
