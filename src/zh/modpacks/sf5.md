@@ -12,7 +12,7 @@ title: 天空工厂5汉化下载
   { id: 'bilibili', text: '安装教程视频', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1m4rsYdEu1/' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
   { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/SkyFactory-5' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/sf5' }
 ]" />
 
 ---
