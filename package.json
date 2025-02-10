@@ -33,7 +33,7 @@
     "medium-zoom": "^1.1.0",
     "typescript": "^5.7.3",
     "qrcode": "^1.5.4",
-    "sweetalert2": "^11.15.10",
+    "sweetalert2": "^11.16.0",
     "unocss": "^65.4.3",
     "vitepress": "^1.6.1",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
@@ -45,11 +45,11 @@
     "@unocss/extractor-mdc": "^65.4.2",
     "markdown-it": "^14.1.0",
     "markdown-it-container": "^4.0.0",
-    "pnpm": "^10.2.0",
+    "pnpm": "^10.2.1",
     "prettier": "^3.4.2",
     "prettier-config-vuepress": "^5.0.0",
     "taze": "^18.3.0",
     "tsconfig-vuepress": "^5.2.1"
   },
-  "packageManager": "pnpm@10.2.0"
+  "packageManager": "pnpm@10.2.1"
 }
