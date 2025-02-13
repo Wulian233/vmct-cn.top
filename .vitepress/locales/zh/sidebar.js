@@ -36,6 +36,7 @@ const sidebar = {
         { text: "Muskteer", link: "/modpacks/muskteer" },
         { text: "FTB Neotech", link: "/modpacks/neotech" },
         { text: "核荒地", link: "/modpacks/nuclear" },
+        { text: "FTB Oceanblock 2", link: "/modpacks/oceanblock2" },
         { text: "天空奥德赛", link: "/modpacks/odyssey" },
         { text: "FTB建筑师天堂2", link: "/modpacks/paradise2" },
         { text: "Prey", link: "/modpacks/prey" },
