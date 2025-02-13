@@ -4,7 +4,6 @@ import BackToTop from "./BackToTop.vue";
 import Comment from "./Comment.vue";
 import { defineAsyncComponent } from "vue";
 import DocHeader from "./DocHeader.vue";
-import HighlightTargetedHeading from "./HighlightTargetedHeading.vue";
 
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
