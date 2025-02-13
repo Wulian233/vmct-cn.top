@@ -37,6 +37,8 @@ PS：域名在腾讯云购买
 
 ## 👀 协议
 
-本项目使用自由的[MIT协议](LICENSE)开源。
+本项目使用[MIT协议](LICENSE)开源。
 
 特别感谢[空荧酒馆文档](https://github.com/kongying-tavern/docs)项目，本项目基于它进行开发。
+
+特别感谢CrychicTeam的[CrychicDoc项目](https://github.com/CrychicTeam/CrychicDoc/blob/main/.vitepress/theme/components/comment.vue)，评论区部分代码来自于此项目并进行部分修改。

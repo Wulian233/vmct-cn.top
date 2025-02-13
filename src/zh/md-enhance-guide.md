@@ -3,7 +3,7 @@ title: Markdown 增强语法指南
 description: 本项目文档页面使用Markdown语法进行编写，除了 Vitepress 支持的 Markdown 基础组件之外我们额外添加和实现了一些特有语法和组件并在此演示
 layout: doc
 search: false
-comment: false
+showComment: false
 gitChangelog: false
 ---
 
@@ -162,7 +162,7 @@ docHeader: false # 隐藏该页面的 docHeader
 ---
 ```
 
-### comment {#fm-comment}
+### showComment {#fm-showComment}
 
 - 类型：Boolean
 - 默认：true
@@ -171,7 +171,7 @@ docHeader: false # 隐藏该页面的 docHeader
 
 ```yml
 ---
-comment: false # 隐藏该页面的评论区
+showComment: false # 隐藏该页面的评论区
 ---
 ```
 

@@ -2,7 +2,7 @@
 title: 隱私政策
 description: 隱私是每個人的基本權利，我們非常尊重你的隱私。
 layout: doc
-comment: false
+showComment: false
 gitChangelog: false
 ---
 

@@ -1,6 +1,7 @@
 <script setup>
 import Banner from "./Banner.vue";
 import BackToTop from "./BackToTop.vue";
+import Comment from "./Comment.vue";
 import { defineAsyncComponent } from "vue";
 import DocHeader from "./DocHeader.vue";
 import HighlightTargetedHeading from "./HighlightTargetedHeading.vue";
@@ -55,14 +56,14 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }) => {
     <template #layout-top>
       <Banner />
     </template>
-    <template #layout-bottom>
-      <HighlightTargetedHeading />
-    </template>
     <template #doc-footer-before>
       <BackToTop />
     </template>
     <template #doc-before>
       <DocHeader />
+    </template>
+    <template #doc-after>
+      <Comment />
     </template>
   </DefaultTheme.Layout>
 </template>

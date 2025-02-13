@@ -4,13 +4,12 @@ import DefaultTheme, { VPBadge } from "vitepress/theme-without-fonts";
 
 import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-changelog/client";
 import mediumZoom from "medium-zoom";
-import giscusTalk from "vitepress-plugin-comment-with-giscus";
 import googleAnalytics from "../google-analytics";
 
 import MyLayout from "./components/MyLayout.vue";
 
-import CommitsCounter from "./components/CommitsCounter.vue";
 import Coins from "./components/Coins.vue";
+import Comment from "./components/Comment.vue";
 import DownloadLinks from "./components/DownloadLinks.vue";
 import Card from "../theme/components/Card.vue";
 import LinkGrid from "../theme/components/LinkGrid.vue";
@@ -34,7 +33,7 @@ export default {
     const components = {
       Coins,
       Card,
-      CommitsCounter,
+      Comment,
       DownloadLinks,
       LinkGrid,
       VPBadge,
@@ -46,7 +45,6 @@ export default {
 
   setup() {
     const route = useRoute();
-    const { frontmatter } = useData();
     const handleRouteChange = () => nextTick(initZoom);
 
     onMounted(initZoom);
@@ -64,22 +62,6 @@ export default {
       y = l.getElementsByTagName(r)[0];
       y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "nllu2xu38c");
-
-    giscusTalk(
-      {
-        repo: "Wulian233/vmct-cn.top",
-        repoId: "R_kgDOLqlXFw",
-        category: "Announcements",
-        categoryId: "DIC_kwDOLqlXF84CigPB",
-        mapping: "pathname",
-        inputPosition: "bottom",
-        lang: "zh-CN",
-      },
-      {
-        frontmatter,
-        route,
-      },
-    );
   },
 };
 

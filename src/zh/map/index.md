@@ -1,6 +1,6 @@
 ---
 layout: home
-comment: false
+showComment: false
 gitChangelog: false
 
 title: VM 汉化组

@@ -2,7 +2,7 @@
 title: 支持我们
 layout: doc
 aside: false
-comment: false
+showComment: false
 gitChangelog: false
 ---
 

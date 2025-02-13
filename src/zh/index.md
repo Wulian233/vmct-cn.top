@@ -1,6 +1,6 @@
 ---
 layout: home
-comment: false
+showComment: false
 gitChangelog: false
 
 title: VM 汉化组
@@ -39,9 +39,3 @@ features:
     title: 尊重版权️
     details: 我们深知作者的付出和保护知识产权的重要性。绝大多数翻译都经过作者官方授权，不分发游戏本体。仅提供汉化补丁下载，尽最大化保证作者权益得到保障。
 ---
-
-<commitsCounter
-  username="Wulian233"
-  repoName="vmct-cn.top"
-  :daysToFetch="60"
-/>

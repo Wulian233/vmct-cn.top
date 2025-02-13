@@ -2,7 +2,7 @@
 title: 正在翻譯中
 description: 這是一個正在進行中的項目
 layout: doc
-comment: false
+showComment: false
 gitChangelog: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: home
-comment: false
+showComment: false
 gitChangelog: false
 
 title: VM 翻譯組
@@ -39,9 +39,3 @@ features:
     title: 尊重版權️
     details: 我們深知作者的付出和保護智慧財產權的重要性。絕大多數翻譯都經過作者官方授權，不分發遊戲本體。僅提供中文化更新檔下載，最大程度保證作者權益得到保障。
 ---
-
-<commitsCounter
-  username="Wulian233"
-  repoName="vmct-cn.top"
-  :daysToFetch="60"
-/>

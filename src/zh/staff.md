@@ -2,7 +2,7 @@
 title: 贡献名单
 description: VM汉化组全部项目的贡献名单
 layout: page
-comment: false
+showComment: false
 gitChangelog: false
 aside: false
 ---

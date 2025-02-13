@@ -1,7 +1,7 @@
 ---
 title: 地图汉化准则
 layout: doc
-comment: false
+showComment: false
 ---
 
 > [!IMPORTANT] 前言
