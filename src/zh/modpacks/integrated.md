@@ -10,9 +10,9 @@ Integrated MC 是[地牢建筑统合（IDAS）系列](https://www.mcmod.cn/class
 ![](https://media.forgecdn.net/attachments/934/485/tremozilla_dread_citadel.png =500x)
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing' }
 ]" />
 
 ## 更多信息
@@ -59,5 +59,5 @@ Integrated MC 是[地牢建筑统合（IDAS）系列](https://www.mcmod.cn/class
 
 ## 加入我们
 
-通过加入我们的[QQ交流群](/community/)，可以进一步了解翻译进度等最新消息。
-我们诚招各位小伙伴加入我们一起参与贡献，您可以通过加入我们的[审核群](/join/)并填写申请表单加入VM汉化组！
+通过加入我们的[QQ交流群](/community)，可以进一步了解翻译进度等最新消息。
+我们诚招各位小伙伴加入我们一起参与贡献，您可以通过加入我们的[审核群](/join)并填写申请表单加入VM汉化组！

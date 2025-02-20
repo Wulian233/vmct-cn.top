@@ -11,10 +11,10 @@ title: FTB Oceanblock 2汉化下载
 > 完整汉化体验请下载下方的下载i18n模组，并放在`mods`文件夹！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
   { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Oceanblock-2-Chinese' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing/' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing' }
 ]" />
 
 ---
@@ -95,5 +95,5 @@ title: FTB Oceanblock 2汉化下载
 
 ## 加入我们
 
-通过加入我们的[QQ交流群](/community/)，可以进一步了解翻译进度等最新消息。
-我们诚招各位小伙伴加入我们一起参与贡献，您可以通过加入我们的[审核群](/join/)并填写申请表单加入VM汉化组！
+通过加入我们的[QQ交流群](/community)，可以进一步了解翻译进度等最新消息。
+我们诚招各位小伙伴加入我们一起参与贡献，您可以通过加入我们的[审核群](/join)并填写申请表单加入VM汉化组！

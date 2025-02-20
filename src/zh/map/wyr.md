@@ -27,8 +27,8 @@ Would You Rather……？（你喜欢……？）
 祝你在《Would You Rather》中取胜！
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing/' }
+  { id: 'mapdl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing' }
 ]" />
 
 ## 地图下载
@@ -47,5 +47,5 @@ X209、yinzi、咕咕鱼、祝明宇、NLG、Tu0Maaa、醉冰茶、虚空
 
 ## 加入我们
 
-通过加入我们的[QQ交流群](/community/)，可以进一步了解翻译进度等最新消息。
-我们诚招各位小伙伴加入我们一起参与贡献，您可以通过加入我们的[审核群](/join/)并填写申请表单加入VM汉化组！
+通过加入我们的[QQ交流群](/community)，可以进一步了解翻译进度等最新消息。
+我们诚招各位小伙伴加入我们一起参与贡献，您可以通过加入我们的[审核群](/join)并填写申请表单加入VM汉化组！
