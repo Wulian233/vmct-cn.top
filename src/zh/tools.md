@@ -8,51 +8,25 @@ layout: doc
 
 # 整合包翻译工具
 
-## FTB整合包下载
-
-受CurseTheBeast下载工具启发，本工具对普通玩家更加友好，基本功能全覆盖，下载速度更快。
-
-对于存在人工汉化补丁的整合包，支持自动下载并应用汉化，开箱即用，无需任何汉化操作。
-
-对服务端下载（开服）支持有限，此需求推荐使用CurseTheBeast。
-
-支持搜索、输入id、查看流行整合包等多种方式下载。支持Windows、MacOS、Linux系统。
-
-<DownloadLinks :methods="[
-  { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/FeedTheForge' },
-  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/FeedTheForge/releases/' }
-]" />
-
 ## FTBQ颜色字符检查
 
 用于检查翻译后的语言文件中是否存在FTB任务&颜色字符后面的数字或字母丢失的问题。这会导致任务无法正常显示。
 
-输入一个json路径，会检查颜色字符是否合法。
+输入一个json文件路径或目录，会检查所有json文件内的颜色字符是否合法。
 
-- 支持彩色提示信息。报错为红色，通过为绿色。
-- 支持导出错误报告为txt。
-- 可选是否在控制台打印详细信息
+- 支持彩色提示信息。报错为红色，通过为绿色
+- 支持排除各类转义符，精准检查到真正的错误
+- 支持导出错误报告为txt
+- 支持检查单个或整个目录的json文件
+- 支持检查json本身格式问题
+- 错误会显示具体译文内容，出错位置和对应的键名
 
-1. 开启会在控制台显示具体译文内容
-2. 关闭会显示行号
-
-开启详细信息：
-
+效果预览：
 ```
-[CNPack\kubejs\assets\ftbquest\lang\zh_cn.json] SyntaxError: Invalid character '。' after '&' at line 2705
-    "不用末影龙，直接制造&6龙息&。",
+[zh_cn.json] SyntaxError: Invalid character '才' after '&'
+    Value: &6暗影之书：&r这本书必须在制作后&e放置在一个暗影书坛上&才能阅读。它包含有关&e魔法巫师&r模组的信息，如飞天扫帚和混合锅。
+    Key: ftbquests.chapter.pack_introduction.quest25.description2
 ```
-
-关闭详细信息：
-
-```
-[CNPack\kubejs\assets\ftbquest\lang\zh_cn.json] SyntaxError: Invalid character after '&' at line 2705
-```
-
-注：无论选择什么，最终保存报错的文件永远为详细版本。
-
-- 支持检查单个或整个目录的json文件，更方便。
-- 支持检查json本身格式问题。
 
 <DownloadLinks :methods="[
   { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/tree/main/ftbq_color_check' },
