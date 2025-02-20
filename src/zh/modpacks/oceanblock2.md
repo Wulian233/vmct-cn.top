@@ -13,6 +13,7 @@ title: FTB Oceanblock 2汉化下载
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing/' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Oceanblock-2-Chinese' }
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing/' }
 ]" />
 
@@ -20,7 +21,7 @@ title: FTB Oceanblock 2汉化下载
 
 | FTB官网                                                        | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------- | :------- | :------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.0.0 | 翻译中       |
+| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.2.0 | 翻译中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13486)
 
@@ -94,4 +95,5 @@ title: FTB Oceanblock 2汉化下载
 
 ## 加入我们
 
-加入我们的QQ交流群，可以进一步了解翻译进度等最新消息。通过加入翻译外部志愿者群，可以参与最新的汉化项目，为翻译贡献自己的力量。质量优异表现突出的还有机会被正式邀请进VM汉化组！
+通过加入我们的[QQ交流群](/community/)，可以进一步了解翻译进度等最新消息。
+我们诚招各位小伙伴加入我们一起参与贡献，您可以通过加入我们的[审核群](/join/)并填写申请表单加入VM汉化组！

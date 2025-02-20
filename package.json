@@ -23,16 +23,16 @@
   "dependencies": {
     "@mdit/plugin-container": "^0.16.0",
     "@mdit/plugin-img-mark": "^0.16.0",
-    "@mdit/plugin-spoiler": "^0.16.0",
     "@mdit/plugin-img-size": "^0.16.0",
+    "@mdit/plugin-spoiler": "^0.16.0",
     "@vueuse/core": "^12.6.1",
     "@vueuse/integrations": "^12.6.1",
     "js-yaml": "^4.1.0",
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
-    "typescript": "^5.7.3",
     "qrcode": "^1.5.4",
     "sweetalert2": "^11.16.1",
+    "typescript": "^5.7.3",
     "unocss": "^65.4.3",
     "vitepress": "1.6.1",
     "vue": "^3.5.13",
@@ -43,11 +43,11 @@
     "@unocss/extractor-mdc": "^65.4.3",
     "markdown-it": "^14.1.0",
     "markdown-it-container": "^4.0.0",
-    "pnpm": "^10.4.0",
+    "pnpm": "^10.4.1",
     "prettier": "^3.5.1",
     "prettier-config-vuepress": "^5.0.0",
     "taze": "^18.5.0",
     "tsconfig-vuepress": "^5.2.1"
   },
-  "packageManager": "pnpm@10.4.0"
+  "packageManager": "pnpm@10.4.1"
 }

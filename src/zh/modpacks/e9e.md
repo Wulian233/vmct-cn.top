@@ -35,7 +35,7 @@ Enigmatica 9: Expert（简称 E9E）是一款 Minecraft 1.19.2 下的任务引�
 
 ---
 
-更多请见作者专栏：https://www.bilibili.com/read/cv29907734
+更多请见作者专栏：<https://www.bilibili.com/read/cv29907734>
 
 ## 翻译贡献
 
