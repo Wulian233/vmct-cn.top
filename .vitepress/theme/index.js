@@ -2,7 +2,7 @@ import { onMounted, watch, nextTick } from "vue";
 import { useRoute } from "vitepress";
 import DefaultTheme, { VPBadge } from "vitepress/theme-without-fonts";
 
-import { NolebaseGitChangelog } from "@nolebase/vitepress-plugin-git-changelog/client";
+import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-changelog/client";
 import mediumZoom from "medium-zoom";
 import googleAnalytics from "../google-analytics";
 
@@ -28,7 +28,33 @@ export default {
   enhanceApp({ app }) {
     googleAnalytics({ id: "G-98VEMPQYQD", debug: false });
 
-    app.use(NolebaseGitChangelog);
+    app.use(NolebaseGitChangelogPlugin, {
+      locales: {
+        "zh-CN": {
+          contributors: {
+            title: "本页编辑",
+            titleId: "本页编辑",
+            noData: "暂无相关编辑",
+          },
+        },
+        "zh-TW": {
+          contributors: {
+            title: "本頁編輯",
+            titleId: "本頁編輯",
+            noData: "暫無相關編輯",
+          },
+          changelog: {
+            title: "頁面歷史",
+            titleId: "頁面歷史",
+            noData: "暫無最近變更歷史",
+            lastEdited: "最後編輯於 {{daysAgo}}",
+            lastEditedDateFnsLocaleName: "zhTW",
+            viewFullHistory: "查看完整歷史",
+            committedOn: " 於 {{date}}",
+          },
+        },
+      },
+    });
 
     const components = {
       Coins,
