@@ -7,7 +7,7 @@ title: FTB Oceanblock 2汉化下载
 发现遍布无尽海洋的定制建筑。深入探索将你困在这颗星球上的黑暗传说。沉浸在引导你完成模组进度的沉浸式任务线中。
 击败深渊中的怪物，找到回家的路！
 
-> [!TIP] 提示
+> [!IMPORTANT] 重要提示
 > 完整汉化体验请下载下方的下载i18n模组，并放在`mods`文件夹！
 
 <DownloadLinks :methods="[
@@ -21,7 +21,7 @@ title: FTB Oceanblock 2汉化下载
 
 | FTB官网                                                        | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------- | :------- | :------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.2.0 | 翻译中       |
+| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.3.2 | 翻译中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13486)
 

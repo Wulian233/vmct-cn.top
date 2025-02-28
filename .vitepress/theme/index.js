@@ -1,8 +1,8 @@
 import { onMounted, watch, nextTick } from "vue";
-import { useData, useRoute } from "vitepress";
+import { useRoute } from "vitepress";
 import DefaultTheme, { VPBadge } from "vitepress/theme-without-fonts";
 
-import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-changelog/client";
+import { NolebaseGitChangelog } from "@nolebase/vitepress-plugin-git-changelog/client";
 import mediumZoom from "medium-zoom";
 import googleAnalytics from "../google-analytics";
 
@@ -28,7 +28,7 @@ export default {
   enhanceApp({ app }) {
     googleAnalytics({ id: "G-98VEMPQYQD", debug: false });
 
-    app.use(NolebaseGitChangelogPlugin);
+    app.use(NolebaseGitChangelog);
 
     const components = {
       Coins,

@@ -22,6 +22,7 @@ layout: doc
 - 错误会显示具体译文内容，出错位置和对应的键名
 
 效果预览：
+
 ```
 [zh_cn.json] SyntaxError: Invalid character '才' after '&'
     Value: &6暗影之书：&r这本书必须在制作后&e放置在一个暗影书坛上&才能阅读。它包含有关&e魔法巫师&r模组的信息，如飞天扫帚和混合锅。

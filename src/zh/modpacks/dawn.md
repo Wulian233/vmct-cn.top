@@ -5,7 +5,7 @@ title: 破晓之界汉化下载
 
 ![](https://media.forgecdn.net/attachments/634/417/fire-giant.png =400x)
 
-> [!TIP] 提示
+> [!IMPORTANT] 重要提示
 > 必须下载Vault Patcher（VP）模组才能完整汉化！
 
 - 需要为DawnCraft分配至少6GB运行内存，建议8-12G

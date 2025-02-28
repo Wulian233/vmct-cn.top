@@ -5,8 +5,8 @@ title: 天空奥德赛汉化下载
 
 ![](https://media.forgecdn.net/avatars/196/438/636885315245071486.png =300x300)
 
-> [!WARNING] 重要提示
-> **汉化支持支持整合包版本1.3.0，不支持最新版（新版安装后只有指南汉化，没有任务汉化）**
+> [!IMPORTANT] 重要提示
+> 汉化支持整合包版本1.3.0，不支持最新版（新版安装后只有指南汉化，没有任务汉化）。请留意下载的支持整合包版本！
 
 <DownloadLinks :methods="[
   { id: 'github', text: '下载汉化', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Sky-Odyssey' },

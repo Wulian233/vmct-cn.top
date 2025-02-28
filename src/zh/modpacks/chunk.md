@@ -7,7 +7,7 @@ title: Chunk Block汉化下载
 
 ![](https://www.bisecthosting.com/images/CF/Chunk_Block/BH_NU_HEADER.png)
 
-> [!IMPORTANT] 重要提醒
+> [!IMPORTANT] 重要提示
 > 汉化覆盖安装完成后**并不代表完成了汉化安装**，还需要手动在游戏`选项`->`资源包`中启用汉化资源包！否则汉化无效！
 
 <DownloadLinks :methods="[

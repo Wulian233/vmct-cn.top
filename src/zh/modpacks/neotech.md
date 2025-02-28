@@ -7,7 +7,7 @@ title: FTB Neotech汉化下载
 
 进入一个以科技为主宰的世界，体验精心设计的FTB Neotech整合包。无论你是经验丰富的工程师、足智多谋的冒险者，还是富有创意的建筑师，FTB Neotech都能为你带来数小时的模组娱乐时光。
 
-> [!IMPORTANT] 重要提醒
+> [!IMPORTANT] 重要提示
 > 完整汉化体验请下载下方的下载i18n和VP模组，并放在`mods`文件夹！推荐加入拼音搜索模组。
 
 <DownloadLinks :methods="[
