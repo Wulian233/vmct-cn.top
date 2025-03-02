@@ -43,10 +43,4 @@ Crimvael0、子格Z、茫氪、fgt1t5y（望）、凜夜雨月、choko-takey、�
 荔枝、yinzi、WsLhh（-Lims）、OlderFox、青嵐、NLG永不言棄、咕咕魚、Zack_Z、
 Catcatpigeon、M-E-Rcy、捂臉、仙人掌、Rain_G
 
-## 一些需知
-
-如果有任何翻譯問題，請在bilibili翻譯組官方帳號留言或私訊告訴我們！中文化更新檔禁止二次分發！具體請看中文化更新檔內的協議內容和官方帳號專欄。
-
-### 支持我們
-
-您的支持與鼓勵是我們前進的動力！我們一直在用愛發電。如果可以，請您向他人推薦我們的翻譯作品，十分感謝！
+<DocSupport />

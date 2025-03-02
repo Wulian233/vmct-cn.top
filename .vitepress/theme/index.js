@@ -10,6 +10,7 @@ import MyLayout from "./components/MyLayout.vue";
 
 import Coins from "./components/Coins.vue";
 import Comment from "./components/Comment.vue";
+import DocSupport from "./components/DocSupport.vue";
 import DownloadLinks from "./components/DownloadLinks.vue";
 import Card from "../theme/components/Card.vue";
 import LinkGrid from "../theme/components/LinkGrid.vue";
@@ -60,6 +61,7 @@ export default {
       Coins,
       Card,
       Comment,
+      DocSupport,
       DownloadLinks,
       LinkGrid,
       VPBadge,
