@@ -103,7 +103,7 @@ const iconMap: Record<string, string> = {
   "afdian.net": "i-custom-afdian",
   "bilibili.com": "i-custom-bilibili",
   "curseforge.com": "i-custom-curseforge",
-  "discord": "i-custom-discord",
+  discord: "i-custom-discord",
   "gitee.com": "i-custom-gitee",
   "github.com": "i-custom-github",
   "mediafire.com": "i-custom-mediafire",

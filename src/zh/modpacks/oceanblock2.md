@@ -21,7 +21,7 @@ title: FTB Oceanblock 2汉化下载
 
 | FTB官网                                                        | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------- | :------- | :------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.3.3 | 翻译中       |
+| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.4.2 | 审核中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13486)
 
@@ -85,8 +85,12 @@ title: FTB Oceanblock 2汉化下载
 
 你可能会变得越来越技术先进，但为了维持自己，你需要精通种植，这种种植解锁了更多工具、材料和魔法进步的可能性！
 
-## 整合包下载
+## 整合包下载与授权
 
-你可以在[FTB的启动器](https://feed-the-beast.com/ftb-app)内或FTB整合包下载工具（[具体看教程](https://www.bilibili.com/read/cv24344019)）下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-oceanblock-2)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+**本次汉化已取得官方授权，并且任务汉化已经入包，自带任务汉化。**
+
+这里的汉化包括大量模组，任务和主页面按钮图片汉化等。
 
 <DocSupport />

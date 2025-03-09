@@ -8,5 +8,4 @@ import { useData } from "vitepress";
 
 const { theme } = useData();
 const supportText = computed(() => theme.value.ui?.supportUs?.text ?? "");
-
 </script>
