@@ -16,10 +16,18 @@ theme: medium
 ```
 
 ```card
+title: Pinkfish粉鱼
+link: https://space.bilibili.com/2388153
+logo: /imgs/friend-links/pinkfish.webp
+desc: bilibili 知名游戏UP主
+theme: medium
+```
+
+```card
 title: Sweet秋明
 link: https://space.bilibili.com/32796946
 logo: /imgs/friend-links/qiuming.jpg
-desc: 知名游戏UP主
+desc: bilibili 知名游戏UP主
 theme: medium
 ```
 
@@ -32,6 +40,14 @@ theme: medium
 ```
 
 ## 人工高质量汉化推荐 {#recommend}
+
+```card
+title: 安逸菌汉化补丁
+link: https://www.anyijun.com/zhcn/
+logo: https://www.anyijun.com/favicon.ico
+desc: 来自安逸汉化组的汉化
+theme: medium
+```
 
 ```card
 title: Modpack汉化合集
