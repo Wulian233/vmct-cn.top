@@ -12,7 +12,7 @@ title: 冰雪之域汉化下载
 | [下载链接](https://www.curseforge.com/minecraft/modpacks/frozenopolis) | Forge 1.19.2 | 最新版         | **停止维护** |
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wulian233.lanzouu.com/iA4zM2qqtk1a' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wulian233.lanzouu.com/ifSib2qrvq4h' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv33005621/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://wulian233.lanzouj.com/ibKuk1qy9rbe' }
 ]" />

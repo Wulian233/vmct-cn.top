@@ -3,7 +3,7 @@ title: 友情链接
 layout: doc
 ---
 
-## bilibili 知名UP主
+## Bilibili UP主
 
 他们在视频中使用了我们的汉化并录制一系列视频，为我们做了宣传，感谢他们
 
@@ -11,7 +11,7 @@ layout: doc
 title: 籽岷
 link: https://space.bilibili.com/686127
 logo: /imgs/friend-links/zimin.webp
-desc: 使用我们的FTB OceanBlock2、石头世界3、ROTN、永恒的MC等整合包和狂乱之境4地图汉化
+desc: 使用我们的FTB OceanBlock2、石头世界3、ROTN、永恒的MC、狂乱之境4等整合包与地图汉化
 theme: medium
 ```
 
@@ -36,6 +36,14 @@ title: 沝沝DjKO
 link: https://space.bilibili.com/108078209
 logo: /imgs/friend-links/djk.jpg
 desc: 使用我们的宝藏猎人3整合包和狂乱之境4地图汉化
+theme: medium
+```
+
+```card
+title: 泡芙有点懒
+link: https://space.bilibili.com/3493116407449603
+logo: /imgs/friend-links/djk.jpg
+desc: desc: 使用我们的春晓之巫整合包汉化
 theme: medium
 ```
 
