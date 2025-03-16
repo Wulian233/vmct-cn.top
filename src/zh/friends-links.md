@@ -11,7 +11,7 @@ layout: doc
 title: 籽岷
 link: https://space.bilibili.com/686127
 logo: /imgs/friend-links/zimin.webp
-desc: 2023百大UP主、知名游戏UP主
+desc: 使用我们的FTB OceanBlock2、石头世界3、ROTN、永恒的MC等整合包和狂乱之境4地图汉化
 theme: medium
 ```
 
@@ -19,7 +19,7 @@ theme: medium
 title: Pinkfish粉鱼
 link: https://space.bilibili.com/2388153
 logo: /imgs/friend-links/pinkfish.webp
-desc: bilibili 知名游戏UP主
+desc: 使用我们的FTB OceanBlock2整合包汉化
 theme: medium
 ```
 
@@ -27,7 +27,7 @@ theme: medium
 title: Sweet秋明
 link: https://space.bilibili.com/32796946
 logo: /imgs/friend-links/qiuming.jpg
-desc: bilibili 知名游戏UP主
+desc: 使用我们的FTB石头世界3整合包汉化
 theme: medium
 ```
 
@@ -35,7 +35,7 @@ theme: medium
 title: 沝沝DjKO
 link: https://space.bilibili.com/108078209
 logo: /imgs/friend-links/djk.jpg
-desc: 知名UP主、直播高能主播
+desc: 使用我们的宝藏猎人3整合包和狂乱之境4地图汉化
 theme: medium
 ```
 

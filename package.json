@@ -25,14 +25,14 @@
     "@mdit/plugin-img-mark": "^0.16.0",
     "@mdit/plugin-img-size": "^0.16.0",
     "@mdit/plugin-spoiler": "^0.16.0",
-    "@nolebase/vitepress-plugin-git-changelog": "^2.13.7",
+    "@nolebase/vitepress-plugin-git-changelog": "^2.15.1",
     "@vueuse/core": "^13.0.0",
     "@vueuse/integrations": "^13.0.0",
     "js-yaml": "^4.1.0",
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
     "qrcode": "^1.5.4",
-    "sweetalert2": "^11.16.1",
+    "sweetalert2": "^11.17.2",
     "typescript": "^5.7.3",
     "unocss": "^65.4.3",
     "vitepress": "1.6.1",
@@ -42,11 +42,11 @@
   "devDependencies": {
     "@unocss/extractor-mdc": "^65.4.3",
     "markdown-it": "^14.1.0",
-    "pnpm": "^10.6.2",
+    "pnpm": "^10.6.3",
     "prettier": "^3.5.1",
     "prettier-config-vuepress": "^5.0.0",
     "taze": "^18.5.0",
     "tsconfig-vuepress": "^5.2.1"
   },
-  "packageManager": "pnpm@10.6.2"
+  "packageManager": "pnpm@10.6.3"
 }
