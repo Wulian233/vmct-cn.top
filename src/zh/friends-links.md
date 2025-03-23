@@ -5,13 +5,15 @@ layout: doc
 
 ## Bilibili UP主
 
-他们在视频中使用了我们的汉化并录制一系列视频，为我们做了宣传，感谢他们
+他/她们在视频中使用了我们的汉化并录制了一系列视频，为我们做了宣传。
+
+非常感谢！(*´∀`)~♥
 
 ```card
 title: 籽岷
 link: https://space.bilibili.com/686127
 logo: /imgs/friend-links/zimin.webp
-desc: 使用我们的FTB OceanBlock2、石头世界3、ROTN、永恒的MC、狂乱之境4等整合包与地图汉化
+desc: 使用我们的FTB OceanBlock2、石头世界3、ROTN、永恒的MC、狂乱之境4等汉化
 theme: medium
 ```
 
@@ -19,6 +21,22 @@ theme: medium
 title: Pinkfish粉鱼
 link: https://space.bilibili.com/2388153
 logo: /imgs/friend-links/pinkfish.webp
+desc: 使用我们的FTB OceanBlock2整合包汉化
+theme: medium
+```
+
+```card
+title: 大橙橙橙子
+link: https://space.bilibili.com/1691347
+logo: /imgs/friend-links/dachengzi.webp
+desc: 使用我们的FTB OceanBlock2整合包汉化
+theme: medium
+```
+
+```card
+title: 少年五之歌
+link: https://space.bilibili.com/860464
+logo: /imgs/friend-links/5ge.webp
 desc: 使用我们的FTB OceanBlock2整合包汉化
 theme: medium
 ```
@@ -42,8 +60,8 @@ theme: medium
 ```card
 title: 泡芙有点懒
 link: https://space.bilibili.com/3493116407449603
-logo: /imgs/friend-links/djk.jpg
-desc: desc: 使用我们的春晓之巫整合包汉化
+logo: /imgs/friend-links/puff.webp
+desc: 使用我们的春晓之巫整合包汉化
 theme: medium
 ```
 
