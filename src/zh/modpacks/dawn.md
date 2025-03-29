@@ -12,10 +12,6 @@ title: 破晓之界汉化下载
 - 请确保已安装 Java 18 或 17，否则可能会导致崩溃
 - 如果你是MacOS用户，请[查看此文档](https://vmhanhuazu.lanzouo.com/Dawncraft-mac)
 
-| 整合包下载地址                                                       | 加载器 | 支持整合包版本 | 汉化维护状态 |
-| :------------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/dawn-craft) | Forge  | 1.18.2 最新版  | 维护中       |
-
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/DawnCraft-VMct' },
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Ju4m1T719/' },
@@ -23,6 +19,10 @@ title: 破晓之界汉化下载
   { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vault-patcher/download/5472024' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/DawnCraft-VMct' }
 ]" />
+
+| 整合包下载地址                                                       | 加载器 | 支持整合包版本 | 汉化维护状态 |
+| :------------------------------------------------------------------- | :----- | :------------- | :----------- |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/dawn-craft) | Forge  | 1.18.2 最新版  | 维护中       |
 
 ## 整合包介绍
 
