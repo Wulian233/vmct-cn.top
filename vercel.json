@@ -31,5 +31,10 @@
       "destination": "https://gitee.com/Wulian233/vmtu/raw/main/tips.txt",
       "permanent": true
     }
-  ]
+  ],
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.3.5"
+    }
+}
 }
