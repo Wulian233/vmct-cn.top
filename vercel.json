@@ -36,5 +36,5 @@
     "api/*.php": {
       "runtime": "vercel-php@0.3.5"
     }
-}
+  }
 }

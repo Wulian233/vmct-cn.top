@@ -6,6 +6,27 @@ layout: doc
 
 [[toc]]
 
+# 模组翻译工具
+
+## MC模组翻译参考词典
+
+基于 CFPA 数据源的模组翻译查询网站，支持以中文和英文互相检索翻译条目，便于译者翻译模组之用。
+
+### 功能特色
+
+- 智能搜索，智能划分单词，同时搜索结果按输入匹配度排序
+- 多种模式，支持英查中和中查英两种模式译文互查
+- 智能合并，智能识别同一模组的不同版本译文并统一展示
+- 自动分页，一页50条结果，网页下方支持快速跳转首页/尾页
+- 记录键名，鼠标悬停在所属模组条目上方会显示译文对应的键名
+- 及时更新的数据源
+- 现代化的页面，支持暗色模式
+
+<DownloadLinks :methods="[
+  { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/mcmod-translation-dict' },
+  { id: 'dl', text: '网站链接', icon: 'https://dict.vmct-cn.top/favicon.ico', link: 'https://dict.vmct-cn.top/' }
+]" />
+
 # 整合包翻译工具
 
 ## FTB任务颜色字符合法检查

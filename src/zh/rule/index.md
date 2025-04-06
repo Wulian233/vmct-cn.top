@@ -163,9 +163,10 @@ layout: doc
 
 ## 10.相关工具和网站
 
-- 由MC百科制作的[模组翻译参考词典](https://dict.mcmod.cn/)，数据源来自[CFPA](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)。
-- 由VM汉化组捂脸编写的[snbt-json 互转工具](https://github.com/VM-Chinese-translate-group/translate-tools/blob/main/snbt_json_converter/main.py)，下载可在[Release](https://github.com/VM-Chinese-translate-group/translate-tools/releases)页面找到对应系统的版本。
-- 由VM汉化组捂脸编写的[FTB任务颜色字符检查工具](https://github.com/VM-Chinese-translate-group/translate-tools/blob/main/ftbq_color_check/main.py)，下载可在[Release](https://github.com/VM-Chinese-translate-group/translate-tools/releases)页面找到对应系统的版本。
+- 由MC百科版的 [Minecraft 模组翻译参考词典](https://dict.mcmod.cn/)，数据库更新较慢。数据源来自[CFPA](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)。
+- 由捂脸制作的[MC模组翻译参考词典](https://dict.vmct-cn.top/)，数据库更新更及时，功能更多，并且在[Github开源](https://github.com/Wulian233/mcmod-translation-dict)。数据源来自[CFPA](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)。
+- 由捂脸编写的[snbt-json互转工具](https://github.com/VM-Chinese-translate-group/translate-tools/blob/main/snbt_json_converter/main.py)，下载可在[Release](https://github.com/VM-Chinese-translate-group/translate-tools/releases)页面找到对应系统的版本。
+- 由捂脸编写的[FTB任务颜色字符检查工具](https://github.com/VM-Chinese-translate-group/translate-tools/blob/main/ftbq_color_check/main.py)，下载可在[Release](https://github.com/VM-Chinese-translate-group/translate-tools/releases)页面找到对应系统的版本。
 - Tryanks 编写的适用于 Minecraft 1.16+ 版本的 Minecraft [模组翻译器](https://github.com/CFPATools/Minecraft-Mods-Translator)（**已归档**）
 - Snownee 编写的一个[在线网页工具](https://snownee.github.io/l10n-tools/update.html)
 - crafteverywhere 之前写的一个[文本更新检测工具](https://github.com/crafteverywhere/Craft_Minecraft_Mod_Localization/blob/master/lang_checker.py)（运行需要 Python 3+ 环境）
