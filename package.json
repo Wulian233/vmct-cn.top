@@ -27,7 +27,7 @@
     "@mdit/plugin-spoiler": "^0.16.0",
     "@nolebase/vitepress-plugin-git-changelog": "^2.16.0",
     "@vueuse/core": "^13.1.0",
-    "@vueuse/integrations": "^13.0.0",
+    "@vueuse/integrations": "^13.1.0",
     "js-yaml": "^4.1.0",
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",

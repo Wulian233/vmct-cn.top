@@ -8,7 +8,6 @@ title: FTB Oceanblock 2汉化下载
 击败深渊中的怪物，找到回家的路！
 
 > [!IMPORTANT] 重要提示
-> 汉化补丁不支持最新版本1.7.0，预计周末更新汉化！当前支持1.6.1版本，请留意下载的整合包版本！
 > 完整汉化体验请下载下方的下载i18n模组，并放在`mods`文件夹！
 
 <DownloadLinks :methods="[
@@ -22,7 +21,7 @@ title: FTB Oceanblock 2汉化下载
 
 | FTB官网                                                        | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------- | :------- | :------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.6.1 | 维护中       |
+| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.7.0 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13486)
 

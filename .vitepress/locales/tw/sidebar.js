@@ -17,6 +17,7 @@ const sidebar = {
         { text: "Integrated MC", link: "/modpacks/imc" },
         { text: "Bliss", link: "/modpacks/bliss" },
         { text: "Chunk Block", link: "/modpacks/chunk" },
+        { text: "Cosmic Frontiers", link: "/modpacks/cosmic-frontiers" },
         { text: "FTB Evolution", link: "/modpacks/ftbe" },
         { text: "FTB天空奧德賽", link: "/modpacks/odyssey" },
         { text: "FTB建築師天堂2", link: "/modpacks/paradise2" },

@@ -20,7 +20,7 @@ Integrated MC 是[地牢建筑统合（IDAS）系列](https://www.mcmod.cn/class
 
 | 整合包下载地址                                                             | 加载器 | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/integrated-minecraft) | Forge  | mc1.20.1 1.5.0 | 审核中       |
+| [链接](https://www.curseforge.com/minecraft/modpacks/integrated-minecraft) | Forge  | mc1.20.1 1.5.1 | 审核中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13091)
 
