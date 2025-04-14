@@ -3,8 +3,9 @@ layout: doc
 title: Cosmic Frontiers汉化下载
 ---
 
-A minecraft 1.20.1 Modpack centered around Arcane & Sci-fi themes.
-Tired of GregTech Modpacks all doing the same thing? Want to have a splash of magic and utter nonsense thrown into your game play without needing a PHD in chemistry?
+这只是一个Minecraft 1.20.1整合包而已，但它的主题是科幻，还有魔法！
+
+厌倦了格雷科技整合包千篇一律的玩法？想为游戏增添魔幻色彩和无厘头乐子，又不想被化工生产逼成化学学霸？
 
 ![](https://github.com/user-attachments/assets/50ef7a63-93c7-4e9b-88a4-d474d8f9ad95 =500x)
 
@@ -23,15 +24,15 @@ Tired of GregTech Modpacks all doing the same thing? Want to have a splash of ma
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/14073)
 
-译者：[查看贡献人员排行榜](https://paratranz.cn/projects/14073/leaderboard)
+译者：琪露诺
 
 ## 特色
 
-1. An in-depth quest book to help you along your way.
-2. Entirely Overhauled Gregtech progression, Mixing Themes of Magic and Other nonsense together to make an unforgettable experience.
-3. Plenty of Worldgen overhauls to make each world feel alive and varied. Featuring Mods like Tectonic, Teralith, Biomes We've Gone, and Biomes O plenty!
-4. Dimensional Travel to the Stars and the Depths deep below - Explore the Aether, Undergarden, and many more environments with their own unique exploration hazards!
-5. Custom Shader Support Via "CosmicBliss" - A Modified Version of Bliss Shaders with the goal of enabling colored lighting for everything in frontiers (With More shaders to come with support eventually)
+1. 有一本无微不至的任务书指导你的游玩旅途。
+2. 经过大改过的格雷科技游戏内容，魔法科技和其它一些乱七八糟的东西之间的摩擦碰撞为你带来难忘的游玩体验。
+3. 对世界生成方式进行了许多大改动，让你的每个世界都栩栩如生。用于修改世界生成的模组有：Tectonic、Teralith、我们走过的生物群系（BWG）以及超多生物群系（BOP）！
+4. 前往天空繁星与地幔之下的维度旅行：探索天境，造访深暗之园，还有许多在探险途中具有独特危险的环境！
+5. 自定义的光影支持：“CosmicBliss”，这个版本的Bliss光源旨在为了让该整合包的方块支持彩色光源！（以后还会支持更多光源的）
 
 ## 整合包下载
 
