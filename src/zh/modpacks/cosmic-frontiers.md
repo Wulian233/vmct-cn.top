@@ -3,7 +3,7 @@ layout: doc
 title: Cosmic Frontiers汉化下载
 ---
 
-只是一个我的世界1.20.1整合包而已，但是它的主题是科幻，还有魔法！
+这只是一个Minecraft 1.20.1整合包而已，但它的主题是科幻，还有魔法！
 天天玩千篇一律的格雷整合包玩累了？不想天天摆弄化工游戏毕业化学博士也毕业，想要让魔法的激情和别的乱七八糟的玩意进入你的游戏吗？
 
 ![](https://github.com/user-attachments/assets/50ef7a63-93c7-4e9b-88a4-d474d8f9ad95 =500x)
