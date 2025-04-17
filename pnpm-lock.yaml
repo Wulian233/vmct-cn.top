@@ -42,8 +42,8 @@ importers:
         specifier: ^1.5.4
         version: 1.5.4
       sweetalert2:
-        specifier: ^11.17.2
-        version: 11.17.2
+        specifier: ^11.19.1
+        version: 11.19.1
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -67,8 +67,8 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0
       pnpm:
-        specifier: ^10.8.0
-        version: 10.8.0
+        specifier: ^10.8.1
+        version: 10.8.1
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -1645,8 +1645,8 @@ packages:
   pnpm-workspace-yaml@0.3.1:
     resolution: {integrity: sha512-3nW5RLmREmZ8Pm8MbPsO2RM+99RRjYd25ynj3NV0cFsN7CcEl4sDFzgoFmSyduFwxFQ2Qbu3y2UdCh6HlyUOeA==}
 
-  pnpm@10.8.0:
-    resolution: {integrity: sha512-DoJxTRtbQ8dGEBk8sgc0iXwdAN6J0OGEIK68WXf6E9eAqcsFc0Yk6B69gcyHbNRkeUhQZBxIuVRDJrViLKKZcQ==}
+  pnpm@10.8.1:
+    resolution: {integrity: sha512-xQCIupmMZ7jKjJnfil4C/Sri4rKaryOP6qnhJCSNP0j5+22yQklJ/5Ac/7teDwzBrWrttgLNKUUHUdEcNQI2dw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1831,8 +1831,8 @@ packages:
     resolution: {integrity: sha512-8iGv75BYOa0xRJHK5vRLEjE2H/i4lulTjzpUXic3Eg8akftYjkmQDa8JARQ42rlczXyFR3IeRoeFCc7RxHsYZA==}
     engines: {node: '>=16'}
 
-  sweetalert2@11.17.2:
-    resolution: {integrity: sha512-HKxDr1IyV3Lxr3W6sb61qm/p2epFIEdr5EKwteRFHnIg6f8nHFl2kX++DBVz16Mac+fFiU3hMpjq1L6yE2Ge5w==}
+  sweetalert2@11.19.1:
+    resolution: {integrity: sha512-+8yws3Sc1srAZbrgdhmEIZny1I1UOYhJOIOdtOlv4TYaP5kkwQ9Zm8/BT23Qg+KdByCNOazltxEJAHzXVu8mhA==}
 
   tabbable@6.2.0:
     resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==}
@@ -3545,7 +3545,7 @@ snapshots:
     dependencies:
       yaml: 2.7.0
 
-  pnpm@10.8.0: {}
+  pnpm@10.8.1: {}
 
   postcss@8.4.49:
     dependencies:
@@ -3740,7 +3740,7 @@ snapshots:
     dependencies:
       copy-anything: 3.0.5
 
-  sweetalert2@11.17.2: {}
+  sweetalert2@11.19.1: {}
 
   tabbable@6.2.0: {}
 

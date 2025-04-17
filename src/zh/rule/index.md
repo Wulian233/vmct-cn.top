@@ -29,7 +29,7 @@ layout: doc
 - 此前版本的翻译**可以**作为参考但**不是**唯一参考
 - 对于那些没有翻译的条目，或者翻译与原文完全一致，则可以直接复制英文原文
 - 对于不知道怎么翻译，提交时有暂未翻译的条目，请直接跳过这些条目，不要复制英文原文
-- 如果是通过 GitHub 提交，请注意语言文件应当为 `UTF-8 without BOM` 的编码
+- 如果是通过 Github 提交，请注意语言文件应当为 `UTF-8 without BOM` 的编码
 
 ## 02.保留字符（串）
 
@@ -170,7 +170,7 @@ layout: doc
 - Tryanks 编写的适用于 Minecraft 1.16+ 版本的 Minecraft [模组翻译器](https://github.com/CFPATools/Minecraft-Mods-Translator)（**已归档**）
 - Snownee 编写的一个[在线网页工具](https://snownee.github.io/l10n-tools/update.html)
 - crafteverywhere 之前写的一个[文本更新检测工具](https://github.com/crafteverywhere/Craft_Minecraft_Mod_Localization/blob/master/lang_checker.py)（运行需要 Python 3+ 环境）
-- GitHub [语言文件关键字查询](https://github.com/Meow-J/Mod-Translation-Styleguide/blob/master/tools/GithubKeywordQuery.py)（需要 Python 3.4+ 环境）
+- Github [语言文件关键字查询](https://github.com/Meow-J/Mod-Translation-Styleguide/blob/master/tools/GithubKeywordQuery.py)（需要 Python 3.4+ 环境）
 
 ## 11.参考资料
 

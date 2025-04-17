@@ -17,7 +17,7 @@ title: FTB Neotech汉化下载
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/5841609' },
   { id: 'modrinth', text: '下载拼音搜索模组', icon: '/imgs/svg/modrinth.svg', link: 'https://modrinth.com/mod/jechunofficial/version/1.20.4-0.1.2' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/neotech' },
-  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Neotech/' }
+  { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Neotech/' }
 ]" />
 
 ---

@@ -6,7 +6,7 @@ aside: false
 
 <DownloadLinks :methods="[
   { id: 'weiyun', text: '下载汉化', icon: '/imgs/svg/weiyun.svg', link: 'https://share.weiyun.com/4N6KKIcN' },
-  { id: 'github', text: 'GitHub', icon: '/imgs/svg/github.svg', link: 'https://github.com/RCqaq/Enigmatica-9-Expert-E9E-Translation' },
+  { id: 'github', text: 'Github', icon: '/imgs/svg/github.svg', link: 'https://github.com/RCqaq/Enigmatica-9-Expert-E9E-Translation' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/opus/889340731749040214' },
   { id: 'curseforge', text: '整合包链接', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/modpacks/enigmatica9expert' },
   { id: 'curseforge', text: '自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod' },
