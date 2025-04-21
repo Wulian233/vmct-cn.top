@@ -17,6 +17,11 @@
   ],
   "redirects": [
     {
+      "source": "/modpacks/cosmic-frontiers",
+      "destination": "https://www.bilibili.com/video/BV1GJ411x7h7/",
+      "permanent": false
+    },
+    {
       "source": "/modpacks/:modpack/update.txt",
       "destination": "https://gitee.com/Wulian233/vmtu/raw/main/update/:modpack.txt",
       "permanent": true
