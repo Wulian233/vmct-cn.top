@@ -73,14 +73,14 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3
       prettier-config-vuepress:
-        specifier: ^5.0.0
-        version: 5.0.0
+        specifier: ^6.0.0
+        version: 6.0.0
       taze:
         specifier: ^19.0.4
         version: 19.0.4
       tsconfig-vuepress:
-        specifier: ^5.2.1
-        version: 5.2.1
+        specifier: ^6.0.0
+        version: 6.0.0
 
 packages:
 
@@ -1661,8 +1661,8 @@ packages:
   preact@10.24.2:
     resolution: {integrity: sha512-1cSoF0aCC8uaARATfrlz4VCBqE8LwZwRfLgkxJOQwAlQt6ayTmi0D9OF7nXid1POI5SZidFuG9CnlXbDfLqY/Q==}
 
-  prettier-config-vuepress@5.0.0:
-    resolution: {integrity: sha512-Q7zeehclvi/UYkLvzR1ef0N6FxUEuUFVy4zjpXrZ3VVHpJ2PR8/Z9g+iEJhjdu/Vfa5HnmCCpH8Wswn/U05n7w==}
+  prettier-config-vuepress@6.0.0:
+    resolution: {integrity: sha512-ixVbo9BVwGS36rpfefmETdYpopEBYCQGx+HLJ/Sm8JWJ72aZ9rVBBZj8LuFOMpX422w5dp+9YedfkPPOF/Tfkw==}
 
   prettier@3.5.3:
     resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
@@ -1875,8 +1875,8 @@ packages:
   trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==}
 
-  tsconfig-vuepress@5.2.1:
-    resolution: {integrity: sha512-9JI4bozH9ISFRj0KIbSTpyk6Metl7rcICnCFcvdgWj+Hx4L8Z/VuWbAdgzNysiMafILfBLJrfsViEj6ZeW6fHQ==}
+  tsconfig-vuepress@6.0.0:
+    resolution: {integrity: sha512-4K+EQPvu+jxio1QRMie0kV5++qKM42+MuddoVSR6LVBMu2n7d224Q8U1UPBYxhCALPmyUCGRbytKfmpeyqXg2w==}
 
   tslib@2.7.0:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
@@ -3561,7 +3561,7 @@ snapshots:
 
   preact@10.24.2: {}
 
-  prettier-config-vuepress@5.0.0: {}
+  prettier-config-vuepress@6.0.0: {}
 
   prettier@3.5.3: {}
 
@@ -3791,7 +3791,7 @@ snapshots:
 
   trim-lines@3.0.1: {}
 
-  tsconfig-vuepress@5.2.1: {}
+  tsconfig-vuepress@6.0.0: {}
 
   tslib@2.7.0: {}
 

@@ -3,7 +3,7 @@ title: 死亡競速2翻譯下載
 layout: doc
 ---
 
-![](https://static.planetminecraft.com/files/image/minecraft/project/2023/121/17394690-screenshot_l.webp)
+![](/imgs/maps/deathrunner.webp)
 
 ## 地圖資訊
 

@@ -52,8 +52,18 @@ features:
     link: ./tota
     linkText: 前往下載
   - icon: 🔑
-    title: The Machine
-    details: 未完成
+    title: THE MACHINE
+    details: 樞機迷城是一張歷時三年打磨的精美解謎地圖。 它不只是地圖，更是一個巨集大的機械謎題世界，一段跌宕起伏的末世寓言。
     link: ./machine
+    linkText: 前往下載
+  - icon: 🔐
+    title: Evergrowth
+    details: Evergrowth是一張以推動方塊、燒腦解謎為核心的解謎地圖。
+    link: ./evergrowth
+    linkText: 前往下載
+  - icon: ☀️
+    title: ？？？
+    details: xxxxxxxxx
+    link: /tw/doing
     linkText: 前往下載
 ---

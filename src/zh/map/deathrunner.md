@@ -3,7 +3,7 @@ title: 死亡竞速2汉化下载
 layout: doc
 ---
 
-![](/imgs/deathrunner.webp)
+![](/imgs/maps/deathrunner.webp)
 
 ## 地图信息
 

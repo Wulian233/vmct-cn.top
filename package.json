@@ -44,9 +44,9 @@
     "markdown-it": "^14.1.0",
     "pnpm": "^10.9.0",
     "prettier": "^3.5.3",
-    "prettier-config-vuepress": "^5.0.0",
+    "prettier-config-vuepress": "^6.0.0",
     "taze": "^19.0.4",
-    "tsconfig-vuepress": "^5.2.1"
+    "tsconfig-vuepress": "^6.0.0"
   },
   "packageManager": "pnpm@10.9.0"
 }

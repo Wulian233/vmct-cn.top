@@ -4,8 +4,8 @@ layout: doc
 ---
 
 <div style="display: flex">
-  <img src="https://ctmrepository.com/map_img/6129484106231584.jpg" style="width:50%" alt="图片1">
-  <img src="/imgs/lumina2.png" style="width:50%" alt="图片2">
+  <img src="/imgs/maps/lumina1.png" style="width:50%" alt="图片1">
+  <img src="/imgs/maps/lumina2.png" style="width:50%" alt="图片2">
 </div>
 
 在類銀河戰士惡魔城風格的冒險CTM地圖中，探索二十世紀初期遺留的蒸氣龐克設施，挖掘該設施沒落的原因。

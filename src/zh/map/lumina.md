@@ -4,8 +4,8 @@ layout: doc
 ---
 
 <div style="display: flex">
-  <img src="/imgs/lumina1.png" style="width:50%" alt="图片1">
-  <img src="/imgs/lumina2.png" style="width:50%" alt="图片2">
+  <img src="/imgs/maps/lumina1.png" style="width:50%" alt="图片1">
+  <img src="/imgs/maps/lumina2.png" style="width:50%" alt="图片2">
 </div>
 
 MC，但是类银河恶魔城！Lumina Complex - CTM地图

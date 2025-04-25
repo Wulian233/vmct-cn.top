@@ -52,8 +52,18 @@ features:
     link: ./tota
     linkText: 前往下载
   - icon: 🔑
-    title: The Machin
-    details: 未完成
+    title: THE MACHINE
+    details: 枢机是一张历时三年打磨的精美解谜地图。它不只是地图，更是一个宏大的机械谜题世界，一段跌宕起伏的末世寓言。
     link: ./machine
+    linkText: 前往下载
+  - icon: 🔐
+    title: Evergrowth
+    details: Evergrowth是一张以推动方块、烧脑解谜为核心的解谜地图。
+    link: ./evergrowth
+    linkText: 前往下载
+  - icon: ☀️
+    title: ？？？
+    details: xxxxxxxxx
+    link: /doing
     linkText: 前往下载
 ---

@@ -3,7 +3,7 @@ title: 狂亂之境4翻譯下載
 layout: doc
 ---
 
-![](/imgs/rc4.jpg =400x)
+![](/imgs/maps/rc4.jpg =400x)
 
 ## 地圖資訊
 

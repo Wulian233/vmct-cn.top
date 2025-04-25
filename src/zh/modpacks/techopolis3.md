@@ -3,11 +3,10 @@ layout: doc
 title: 科技城3汉化下载
 ---
 
+![](https://media.forgecdn.net/attachments/description/null/description_973d4137-c897-4749-a023-6a81edb8f0ae.png)
+
 欢迎来到**科技城3**——一个以科技为核心、囊括顶级科技模组的整合包。
 在这里，你的目标异常明确：**制造出科技锭**。听起来并不难，对吧？
-
-![](https://media.forgecdn.net/attachments/description/null/description_973d4137-c897-4749-a023-6a81edb8f0ae.png
-=500x)
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
