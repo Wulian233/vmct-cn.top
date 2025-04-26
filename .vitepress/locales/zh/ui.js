@@ -8,10 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `VM 汉化组正在招新！欢迎各路大佬的加入！详情请看
-      <a href="https://www.bilibili.com/opus/1022228377095897092" target="_blank" rel="noopener noreferrer">B站动态</a>
-      和
-      <a href="/join" target="_blank" rel="noopener noreferrer">官网页面（点我）</a>。`,
+    recruitment: `最新预热：我们将于五一假期发布RAD1整合包最新版的汉化！
+      欢迎查看<a href="/modpacks/rad" target="_blank" rel="noopener noreferrer">官网页面（点我）</a>了解详情。`,
   },
   supportUs: {
     text: `<div>

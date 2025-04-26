@@ -17,9 +17,9 @@
   ],
   "redirects": [
     {
-      "source": "/modpacks/cosmic-frontiers",
-      "destination": "https://www.bilibili.com/video/BV1GJ411x7h7/",
-      "permanent": false
+      "source": "/sb3",
+      "destination": "/modpacks/sb3",
+      "permanent": true
     },
     {
       "source": "/modpacks/:modpack/update.txt",
@@ -39,7 +39,7 @@
   ],
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.3.5"
+      "runtime": "vercel-php@0.7.3"
     }
   }
 }

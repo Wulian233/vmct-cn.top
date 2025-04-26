@@ -1,31 +1,32 @@
 <?php
-    $_AFDIAN = array(
+    $_AFDIAN = [
         'pageTitle' => '为汉化组发电',
         'userName'  => 'VMhanhuazu',
         'userId'    => '4938bb3487ec11ebb3a152540025c377',
         'token'     => 'NnYJW7wEpKUrAdaTPxQXC85sFbBStcDM'
-    );
-    $currentPage = !empty($_POST['page']) ? $_POST['page'] : 1;
+    ];
+    $currentPage = $_POST['page'] ?? 1;
 
-    $data = array();
+    $data = [];
     $data['user_id'] = $_AFDIAN['userId'];
-    $data['params']  = json_encode(array('page' => $currentPage));
+    $data['params']  = json_encode(['page' => $currentPage], JSON_THROW_ON_ERROR);
     $data['ts']      = time();
     $data['sign']    = SignAfdian($_AFDIAN['token'], $data['params'], $_AFDIAN['userId']);
 
     $result = HttpGet('https://afdian.com/api/open/query-sponsor?' . http_build_query($data));
-    $result = json_decode($result, true);
+    $result = json_decode($result, true, 512, JSON_THROW_ON_ERROR);
 
-    $donator['total']     = $result['data']['total_count'];
-    $donator['totalPage'] = $result['data']['total_page'];
-    $donator['list']      = $result['data']['list'];
+    $donator = [
+        'total'     => $result['data']['total_count'],
+        'totalPage' => $result['data']['total_page'],
+        'list'      => $result['data']['list']
+    ];
 
     $donatorsHTML = '';
-    for ($i = 0; $i < count($donator['list']); $i++) {
-        $_donator = $donator['list'][$i];
-        $_donator['last_sponsor'] = (empty(end($_donator['sponsor_plans'])['name']) ?
-            (empty($_donator['current_plan']['name']) ? array('name' => '') : $_donator['current_plan']) :
-            end($_donator['sponsor_plans']));
+    foreach ($donator['list'] as $_donator) {
+        $_donator['last_sponsor'] = empty(end($_donator['sponsor_plans'])['name']) ?
+            ($_donator['current_plan']['name'] ?? ['name' => '']) :
+            end($_donator['sponsor_plans']);
 
         $donatorsHTML .= '<div class="mdui-col-xs-12 mdui-col-md-6 mdui-m-b-2">
             <div class="mdui-card">
@@ -39,13 +40,12 @@
                         $_donator['last_sponsor']['name'] . '&nbsp;&nbsp;' . $_donator['last_sponsor']['show_price'] . '元，于 ' . date('Y-m-d H:i:s', $_donator['last_pay_time'])) .
                     '</div>
                 </div>' .
-                (!empty($_donator['last_sponsor']['pi   c']) ? '
+                (!empty($_donator['last_sponsor']['pic']) ? '
                     <div class="mdui-card-media">
                         <img src="' . $_donator['last_sponsor']['pic'] . '"/>
                     </div>' :
                     '') .
             '</div></div>';
-
     }
 
     $pageControlHTML = '<div class="mdui-row">
@@ -143,7 +143,7 @@ $html = <<< HTML
         }
     });
 }</script>
-        <title>${_AFDIAN['pageTitle']}</title>
+        <title>{$_AFDIAN['pageTitle']}</title>
     </head>
     <body class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-red mdui-theme-layout-auto">
         <header class="mdui-appbar mdui-appbar-fixed">
@@ -151,21 +151,21 @@ $html = <<< HTML
                 <div class="mdui-progress-indeterminate" style="background-color:white"></div>
             </div>
             <div class="mdui-toolbar mdui-color-theme">
-                <a href="javascript:;" class="mdui-typo-headline">${_AFDIAN['pageTitle']}</a>
+                <a href="javascript:;" class="mdui-typo-headline">{$_AFDIAN['pageTitle']}</a>
             </div>
         </header>
 
         <main class="mdui-container mdui-typo">
             <h1 class="mdui-text-center">支持汉化组，为我们发电</h1>
-            <iframe id="afdian_leaflet" class="mdui-center" src="https://afdian.com/leaflet?slug=${_AFDIAN['userName']}" scrolling="no" frameborder="0"></iframe>
+            <iframe id="afdian_leaflet" class="mdui-center" src="https://afdian.com/leaflet?slug={$_AFDIAN['userName']}" scrolling="no" frameborder="0"></iframe>
             <div class="mdui-divider mdui-m-t-5"></div>
             <h2 class="mdui-text-center">感谢以下小伙伴的发电支持！</h2>
 
             <div class="mdui-m-b-2" id="afdian_sponsors">
                 <div class="mdui-row">
-                    ${donatorsHTML}
+                    {$donatorsHTML}
                 </div>
-                ${pageControlHTML}
+                {$pageControlHTML}
             </div>
         </main>
 
@@ -176,26 +176,25 @@ HTML;
 
         echo $html;
     } else {
-        $return = array();
-        $return['code'] = $result['ec'];
-        $return['msg']  = $result['em'];
-        $return['html'] = (!empty($donatorsHTML) ? '<div class="mdui-row">' . $donatorsHTML . "</div>" . $pageControlHTML : '');
+        $return = [
+            'code' => $result['ec'],
+            'msg'  => $result['em'],
+            'html' => !empty($donatorsHTML) ? '<div class="mdui-row">' . $donatorsHTML . "</div>" . $pageControlHTML : ''
+        ];
 
-        echo json_encode($return);
+        echo json_encode($return, JSON_THROW_ON_ERROR);
     }
 
-    function SignAfdian ($token, $params, $userId) {
-        $sign = $token;
-        $sign .= 'params' . $params;
-        $sign .= 'ts' . time();
-        $sign .= 'user_id' . $userId;
+    function SignAfdian(string $token, string $params, string $userId): string {
+        $ts = time();
+        $sign = $token . 'params' . $params . 'ts' . $ts . 'user_id' . $userId;
         return md5($sign, false);
     }
 
-    function HttpGet ($url, $method = 'GET', $data = '', $contentType = '', $timeout = 10) {
+    function HttpGet(string $url, string $method = 'GET', string $data = '', string|array $contentType = '', int $timeout = 10): string {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
-        if ($method == 'POST') {
+        if ($method === 'POST') {
             curl_setopt($ch, CURLOPT_URL, $url);
             curl_setopt($ch, CURLOPT_POST, 1);
             curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
@@ -203,7 +202,7 @@ HTML;
             curl_setopt($ch, CURLOPT_URL, $url);
         }
         if (!empty($contentType)) {
-            curl_setopt($ch, CURLOPT_HTTPHEADER, $contentType);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, is_array($contentType) ? $contentType : [$contentType]);
         }
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HEADER, 0);
@@ -211,6 +210,6 @@ HTML;
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         $output = curl_exec($ch);
         curl_close($ch);
-        return $output;
+        return $output ?: '';
     }
 ?>

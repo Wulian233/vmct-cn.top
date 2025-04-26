@@ -11,6 +11,7 @@ const sidebar = {
       collapsed: false,
       items: [
         { text: "Roguelike冒险与地牢（RAD1）", link: "/modpacks/rad" },
+        { text: "异域征途", link: "/modpacks/prodigium-reforged" },
         { text: "FTB Neotech", link: "/modpacks/neotech" },
         { text: "FTB Oceanblock 2", link: "/modpacks/oceanblock2" },
         { text: "FTB石头世界3", link: "/modpacks/sb3" },
