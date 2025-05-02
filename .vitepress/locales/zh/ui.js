@@ -8,7 +8,7 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `最新预热：我们将于五一假期发布RAD1整合包最新版的汉化！
+    recruitment: `最新成果：RAD1整合包最新版汉化已发布！
       欢迎查看<a href="/modpacks/rad" target="_blank" rel="noopener noreferrer">官网页面（点我）</a>了解详情。`,
   },
   supportUs: {

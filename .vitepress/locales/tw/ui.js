@@ -8,7 +8,7 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `最新預熱：我們將於五一發佈RAD1整合包最新版的翻譯！
+    recruitment: `最新成果：RAD1模組包最新版翻譯已發佈！
       歡迎查看<a href="/modpacks/rad" target="_blank" rel="noopener noreferrer">官網頁面（點我）</a>了解詳情。`,
   },
   supportUs: {
