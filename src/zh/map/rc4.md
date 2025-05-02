@@ -3,7 +3,7 @@ title: 狂乱之境4汉化下载
 layout: doc
 ---
 
-![](/imgs/maps/rc4.jpg =400x)
+![图片 =400x](/imgs/maps/rc4.jpg)
 
 ## 地图信息
 

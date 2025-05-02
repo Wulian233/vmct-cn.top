@@ -3,29 +3,10 @@ layout: doc
 title: 农业森友会5汉化下载
 ---
 
+![图片 =300x](https://media.forgecdn.net/attachments/994/212/title_transparent.png)
+
 > [!IMPORTANT] 提示
 > 本整合包汉化从1.1.11版本起已被合并入包，无需安装汉化补丁！自带汉化！
-
-![](https://media.forgecdn.net/attachments/994/212/title_transparent.png =300x)
-
-**小广告【联机开服请看】**
-
-推介服务商，整合包开服包搭建和汉化，五分钟完成开服！联系客服发送口令「 VM汉化组 」有优惠和福利！
-300+热门整合包支持无缝切换，全部可玩
-
----
-
-1. 面板服推介（新手开服必备）
-
-购买地址：<http://tb2.i9idc.com>
-
-性价比高，低至8元/月！支持所有整合包开服
-
-2. 专业联机服务器（适合高级玩家开服）
-
-购买地址：<http://tb.i9idc.com>
-
-性能更高，Windows操作系统流畅开服，支持所有整合包
 
 <DownloadLinks :methods="[
   { id: 'curseforge', text: '下载整合包', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/modpacks/farming-crossing-5-made-to-order' },

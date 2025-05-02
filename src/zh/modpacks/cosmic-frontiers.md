@@ -7,7 +7,7 @@ title: Cosmic Frontiers汉化下载
 
 厌倦了格雷科技整合包千篇一律的玩法？想为游戏增添魔幻色彩和无厘头乐子，又不想被化工生产逼成化学学霸？
 
-![](https://github.com/user-attachments/assets/50ef7a63-93c7-4e9b-88a4-d474d8f9ad95 =500x)
+![图片 =500x](https://github.com/user-attachments/assets/50ef7a63-93c7-4e9b-88a4-d474d8f9ad95)
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },

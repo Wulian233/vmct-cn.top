@@ -5,7 +5,7 @@ layout: doc
 
 “隨著聲音的彙聚，心靈發現了更多的神祇。 光明與黑暗交匯，混亂必將席捲那些敢於反抗的人......”
 
-![](https://media.forgecdn.net/attachments/901/462/templeoftheart_logo.jpg =400x)
+![图片 =400x](https://media.forgecdn.net/attachments/901/462/templeoftheart_logo.jpg)
 
 ## 地图信息
 
@@ -34,7 +34,7 @@ layout: doc
 
 無限時長的遊戲內容，包括300多種法術、66件遺物、70種可解鎖內容、100個定製敵人和各種獨特的消耗品！
 
-![](https://media.forgecdn.net/attachments/901/463/templeoftheart-9.jpg =400x)
+![图片 =400x](https://media.forgecdn.net/attachments/901/463/templeoftheart-9.jpg)
 
 ## 翻譯貢獻（按排名排序）
 

@@ -3,7 +3,7 @@ layout: doc
 title: 异域征途汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/812/397/3cf.png =300x)
+![图片 =300x](https://media.forgecdn.net/attachments/812/397/3cf.png)
 
 受《泰拉瑞亚》深度启发，体验一套独特的成长系统：击败Boss以解锁新的矿物、新的怪物，甚至是新的NPC！
 随着探索的深入，你将变得更强，踏遍世界，发现庞大的地牢与专属结构。
@@ -30,7 +30,7 @@ title: 异域征途汉化下载
 
 ## 🌱 成长系统
 
-![](https://media.forgecdn.net/attachments/description/700732/description_c1de9fc0-3e76-4363-ae6c-0ff8dc699d48.png =400x)
+![图片 =400x](https://media.forgecdn.net/attachments/description/700732/description_c1de9fc0-3e76-4363-ae6c-0ff8dc699d48.png)
 
 ✔️ 主线任务系统引导你的冒险旅程。
 
@@ -72,7 +72,7 @@ title: 异域征途汉化下载
 
 ✔️ 各类地牢，从简易高塔、飞艇，到恢弘宫殿，甚至为模组深度整合而量身打造的专属副本。
 
-![](https://media.forgecdn.net/attachments/812/398/cff.png =500x)
+![图片 =500x](https://media.forgecdn.net/attachments/812/398/cff.png)
 
 ✔️ 借助 Terralith、未至之地及其他生物群系模组，生成大量全新地貌。
 
@@ -82,7 +82,7 @@ title: 异域征途汉化下载
 
 ✔️ 支线任务设计旨在激发玩家对世界的深入探索欲望。
 
-![](https://media.forgecdn.net/attachments/812/445/cfffffffffff.png =500x)
+![图片 =500x](https://media.forgecdn.net/attachments/812/445/cfffffffffff.png)
 
 ## 🏰 地牢机制
 

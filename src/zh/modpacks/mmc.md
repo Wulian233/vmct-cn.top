@@ -56,6 +56,6 @@ title: 中世纪的MC 1.19.2 Fabric汉化下载
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](/imgs/authorization/mmc.png =500x)
+![图片 =500x](/imgs/authorization/mmc.png)
 
 <DocSupport />

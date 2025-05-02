@@ -3,7 +3,7 @@ layout: doc
 title: 冰雪之域汉化下载
 ---
 
-![](/imgs/frozenopolis2.jpg =500x)
+![图片 =500x](/imgs/frozenopolis2.jpg)
 
 冰雪之域是一个以冰雪为主题的整合包。世界变成了一个冬季仙境，充满了冰冻的生物群落、冰冻的湖泊和具有挑战性的生物。
 

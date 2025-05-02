@@ -30,7 +30,7 @@ layout: doc
 
 本次汉化已取得官方授权，不违反任何社区规则
 
-![](/imgs/authorization/deathrunner.png =400x)
+![图片 =400x](/imgs/authorization/deathrunner.png)
 
 ## 汉化贡献
 

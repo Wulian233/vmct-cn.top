@@ -1,4 +1,4 @@
-![Farming Crossing 5 Icon](https://media.forgecdn.net/attachments/994/209/icon_hires.jpg =200x)
+![Farming Crossing 5 Icon =200x](https://media.forgecdn.net/attachments/994/209/icon_hires.jpg)
 
 # Farming Crossing 5: Made to Order! v1.1.9
 

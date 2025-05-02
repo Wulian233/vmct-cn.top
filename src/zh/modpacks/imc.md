@@ -7,7 +7,7 @@ Integrated MC 是[地牢建筑统合（IDAS）系列](https://www.mcmod.cn/class
 通过任务、配方、背景故事、战利品以及各种精心设计的建筑，本整合包将每一个模组巧妙融合在一起，不再让模组显得像单独的支线任务，
 而是呈现出一款浑然一体的游戏。
 
-![](https://media.forgecdn.net/attachments/934/485/tremozilla_dread_citadel.png =500x)
+![图片 =500x](https://media.forgecdn.net/attachments/934/485/tremozilla_dread_citadel.png)
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },

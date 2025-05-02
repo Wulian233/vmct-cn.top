@@ -5,7 +5,7 @@ title: FTB奥术学院汉化下载
 
 血魔法手册汉化由繁体中文转换为简体中文，由于两岸名词叫法有所不同，部分用词较为别扭，请见谅
 
-![](https://dist.creeper.host/FTB2/cdn/packs/115-ftb-arcanum-institute/desc-image-3.webp =400x)
+![图片 =400x](https://dist.creeper.host/FTB2/cdn/packs/115-ftb-arcanum-institute/desc-image-3.webp)
 
 在奥术学院迎接一场充满奇迹与巫术的旅程。探索神秘奥术，与神秘生物建立羁绊，迎接战胜古老黑暗的挑战。
 

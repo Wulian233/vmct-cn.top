@@ -29,7 +29,7 @@ layout: doc
 
 本次翻譯已取得官方授權，不違反任何社區規則
 
-![](/imgs/authorization/deathrunner.png =400x)
+![img =400x](/imgs/authorization/deathrunner.png)
 
 ## 翻譯者
 

@@ -3,7 +3,7 @@ layout: doc
 title: 幻想领域汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/471/884/fantasy-realm-2.png =400x)
+![图片 =400x](https://media.forgecdn.net/attachments/471/884/fantasy-realm-2.png)
 
 幻想领域是一个注重质量的RPG冒险和探索整合包！
 
@@ -61,6 +61,6 @@ Fantasy Realm是一个注重质量的RPG冒险和探索整合包!
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](/imgs/authorization/fantasy.png =400x)
+![图片 =400x](/imgs/authorization/fantasy.png)
 
 <DocSupport />

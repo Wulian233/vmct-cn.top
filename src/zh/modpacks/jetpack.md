@@ -3,7 +3,7 @@ layout: doc
 title: 喷气背包猫汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/460/657/bosses1.jpg =400x)
+![图片 =400x](https://media.forgecdn.net/attachments/460/657/bosses1.jpg)
 
 一款使用枪械战斗的世界探索冒险包，以12种不同的末影之眼为目标，探索不同维度，推动剧情的发展。
 此外作者制作了很多酷酷的东西，有超过1600种不同外观的生物，超过1300种不同的生物纹理，给你带来不同于其他整合包的冒险体验。
@@ -44,6 +44,6 @@ title: 喷气背包猫汉化下载
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](/imgs/authorization/jetpack.jpg =400x)
+![图片 =400x](/imgs/authorization/jetpack.jpg)
 
 <DocSupport />

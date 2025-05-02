@@ -3,7 +3,7 @@ layout: doc
 title: 机械动力星辰汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/613/543/astralpromo.png =400x)
+![图片 =400x](https://media.forgecdn.net/attachments/613/543/astralpromo.png)
 
 一觉醒来，你发现自己躺在一个奇怪的星球，它的卫星已经破碎，一切都是那样的不同。在旅途中你发现了一个古老的文明的痕迹并开始发掘它曾存在的神秘技术。
 
