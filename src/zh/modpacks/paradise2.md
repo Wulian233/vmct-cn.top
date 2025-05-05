@@ -3,7 +3,7 @@ layout: doc
 title: FTB建筑师天堂2汉化下载
 ---
 
-![](/imgs/paradise2.png =500x300)
+![图片 =500x](/imgs/paradise2.png)
 
 FTB建筑师天堂2延续了前代的传统，与近期以科技导向、目标明确的空岛包形成鲜明对比。FTB自豪地呈现了一个美丽、自由与宏伟的小型整合包。
 

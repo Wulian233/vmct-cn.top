@@ -121,6 +121,7 @@ const sidebar = {
       items: [
         { text: "功能介紹", link: "/vmtu/" },
         { text: "使用與設定檔", link: "/vmtu/config" },
+        { text: "版本支援概況", link: "/vmtu/version" },
       ],
     },
   ],

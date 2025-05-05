@@ -1,6 +1,7 @@
 ---
 layout: doc
-title: VM汉化更新模组文档 3.0 未完成
+title: VM汉化更新模组文档 3.0
+gitChangelog: false
 ---
 
 <div align="center">
@@ -11,9 +12,16 @@ title: VM汉化更新模组文档 3.0 未完成
 VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉化管理工具，涵盖了绝大部分汉化相关的使用场景。
 目前主要为VM汉化组内部使用。
 
+<DownloadLinks :methods="[
+  { id: 'curseforge', text: 'CurseForge', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vmtranslationupdate' },
+  { id: 'modrinth', text: 'Modrinth', icon: '/imgs/svg/modrinth.svg', link: 'https://modrinth.com/mod/vmupdate' },
+  { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTranslationUpdateMod' },
+  { id: 'gitee', text: 'Gitee元数据', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/Wulian233/vmtu' }
+]" />
+
 作者：捂脸、TexTrue
 
-开源协议：MIT
+开源协议：MIT（主）、AGPL（资源包下载核心）
 
 ## 🎯 功能
 
@@ -25,21 +33,5 @@ VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉�
 - 📦 指定整合包配置文件，支持每个包指定自身翻译策略
 - 🔍 检测 I18nUpdateMod 和 VaultPatcher 补全汉化模组是否缺失。如未安装将弹出提示页面引导下载（可按esc退出）
 
-其中，自动下载并激活翻译资源包功能源于i18nUpdateMod3模组代码，使用AGPL协议。
+其中，自动下载并激活翻译资源包功能（VMTUCore）的代码源于i18nUpdateMod3模组代码，按照上游协议规定使用AGPL协议。
 
-## 🧭 支持版本
-
-本模组除1.12版本外，均需要Cloth Config API模组作为前置依赖。
-
-| 模组加载器            | 支持的Minecraft版本             |
-| --------------------- | ------------------------------- |
-| Forge                 | 1.12/1.16.5/1.18~1.20.4[^first] |
-| NeoForge              | 1.20~1.21.4                     |
-| Fabric/Quilt[^second] | 1.16.5~1.21.4                   |
-
-其中，Forge 1.12版本由于年代久远已不再维护，永久的停留在2.x阶段，其配置文件与功能与3.x版本完全不兼容。
-而鉴于VM汉化组已经不再汉化1.12的整合包，本文档也将不再介绍旧版本的使用及配置，烦请有兴趣的玩家自行探索。
-
-对于1.21.5及以上版本，至今为止整合包和模组生态尚未健全，VM汉化组也没有项目处于此版本范围，故暂未适配。
-
-[^first]: 注：对于Forge在1.20.5及以上，由于模组依赖Cloth config API已不支持，故本模组也不支持。

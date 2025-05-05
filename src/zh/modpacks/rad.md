@@ -6,8 +6,6 @@ title: Roguelike冒险与地牢汉化下载
 ![图片 =400x](https://media.forgecdn.net/attachments/267/833/2019-09-30_23.png)
 
 > [!WARNING] 重要提示
-> 汉化支持的支持整合包版本下载链接不同，请留意下载的支持整合包版本！
->
 > 必须下载[i18n自动汉化更新模组](https://www.curseforge.com/api/v1/mods/297404/files/6351071/download)，否则翻译不全！
 
 <DownloadLinks :methods="[

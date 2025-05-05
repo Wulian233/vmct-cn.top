@@ -80,8 +80,8 @@ title: Prey汉化下载
 
 ## 贡献人员（排名不分先后）
 
-Cat酱、荔枝、老本願、冰琳、虚空、kressety、luyixs、rcno6、X209
+Cat酱、荔枝、冰琳、虚空、kressety、luyixs、X209
 
-特别鸣谢（外部贡献人员）：ChuijkYahus、Kasualix
+特别鸣谢（外部贡献人员）：ChuijkYahus、Kasualix、老本願、rcno6
 
 <DocSupport />
