@@ -18,9 +18,9 @@ layout: doc
 - 多种模式，支持英查中和中查英两种模式译文互查
 - 智能合并，智能识别同一模组的不同版本译文并统一展示
 - 自动分页，一页50条结果，网页下方支持快速跳转首页/尾页
-- 记录键名，鼠标悬停在所属模组条目上方会显示译文对应的键名
+- 记录键名，鼠标悬停在`所属模组`条目上方会显示译文对应的键名
 - 及时更新的数据源
-- 现代化的页面，支持暗色模式
+- 页面美观，支持暗色模式，并且对手机上的显示效果进行了单独优化
 
 <DownloadLinks :methods="[
   { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/Wulian233/mcmod-translation-dict' },
@@ -57,6 +57,22 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/tree/main/ftbq_color_check' },
+  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/releases/tag/2.0' }
+]" />
+
+## snbt json 互转工具
+
+用于将FTB任务在mc1.21+新加入的snbt语言文件文件与json格式互转，便于导入翻译平台进行翻译。
+
+输入一个文件路径或目录，会按照选择的模式转换所有文件
+
+- 支持彩色提示信息
+- 支持将语言文件导入翻译平台
+- 支持转换单个或整个目录的文件
+- 支持 snbt json 互转
+
+<DownloadLinks :methods="[
+  { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/tree/main/snbt_json_converter' },
   { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/releases/tag/2.0' }
 ]" />
 
@@ -112,5 +128,5 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/tree/main/paratranz_sync' },
-  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/releases/tag/1.2' }
+  { id: 'dl', text: '下载', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/translate-tools/releases/tag/2.0' }
 ]" />

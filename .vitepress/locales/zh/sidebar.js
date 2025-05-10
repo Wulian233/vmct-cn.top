@@ -121,6 +121,10 @@ const sidebar = {
       items: [
         { text: "功能介绍", link: "/vmtu/" },
         { text: "使用与配置文件", link: "/vmtu/config" },
+        { text: "自动切换语言详解", link: "/vmtu/language" },
+        { text: "模组安装检测提示", link: "/vmtu/mod-check" },
+        { text: "资源包下载功能详解", link: "/vmtu/resource-pack" },
+        { text: "更新检测配置", link: "/vmtu/update" },
         { text: "版本支持概况", link: "/vmtu/version" },
       ],
     },
