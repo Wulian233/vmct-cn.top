@@ -20,9 +20,9 @@ title: FTB Oceanblock 2汉化下载
 
 ---
 
-| FTB官网                                                        | 加载器   | 支持整合包版本 | 汉化维护状态 |
-| :------------------------------------------------------------- | :------- | :------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.9.0 | 维护中       |
+| FTB官网                                                        | 加载器   | 支持整合包版本  | 汉化维护状态 |
+| :------------------------------------------------------------- | :------- | :-------------- | :----------- |
+| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.10.1 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13486)
 

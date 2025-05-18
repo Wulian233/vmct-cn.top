@@ -103,6 +103,7 @@ const sidebar = {
         { text: "神界隕落", link: "/tw/map/divinity" },
         { text: "貝維爾小鎮", link: "/tw/map/bayville" },
         { text: "死亡競速2", link: "/tw/map/deathrunner" },
+        { text: "侦探故事集", link: "/tw/map/detective-stories" },
         { text: "Evergrowth", link: "/map/evergrowth" },
         { text: "Lumina Complex", link: "/tw/map/lumina" },
         { text: "樞機迷城", link: "/tw/map/machine" },

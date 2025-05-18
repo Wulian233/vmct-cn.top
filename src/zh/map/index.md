@@ -58,8 +58,13 @@ features:
     linkText: 前往下载
   - icon: 🔐
     title: Evergrowth
-    details: Evergrowth是一张以推动方块、烧脑解谜为核心的解谜地图。
+    details: Evergrowth 是一张以推动方块、烧脑解谜为核心的解谜地图。
     link: ./evergrowth
+    linkText: 前往下载
+  - icon: 👀
+    title: Detective Stories Chapter 1 - Case «Cafe»
+    details: 侦探故事集是一个以解密为主题的恐怖地图
+    link: ./detective-stories
     linkText: 前往下载
   - icon: ☀️
     title: ？？？

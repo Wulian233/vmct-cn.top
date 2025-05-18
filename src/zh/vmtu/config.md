@@ -49,8 +49,8 @@ testMode = false          # 供开发者使用的测试模式，会有更多日�
     // 汉化配置核心参数
     "translation": {
       "url": "https://vmct-cn.top/modpacks/example/", // 汉化包官网
-      "language": "zh_cn",    // 默认语言，用于语言切换功能
-      "version": "1.0.0",     // 当前汉化版本号，用于检测汉化更新
+      "language": "zh_cn", // 默认语言，用于语言切换功能
+      "version": "1.0.0", // 当前汉化版本号，用于检测汉化更新
       "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/example.txt", // 汉化版本标识文件链接，用于检测汉化最新版本
       "resourcePackName": "VM汉化组模组汉化包1.19及以上" // 基础汉化资源包名称
     }
