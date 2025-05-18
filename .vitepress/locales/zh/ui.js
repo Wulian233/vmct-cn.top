@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `最新成果：RAD1整合包最新版汉化已发布！
-      欢迎查看<a href="/modpacks/rad" target="_blank" rel="noopener noreferrer">官网页面（点我）</a>了解详情。`,
+    recruitment: `最新成果：侦探故事集汉化即将发布！
+      欢迎查看<a href="/map/detective-stories" target="_blank" rel="noopener noreferrer">官网页面（点我）</a>了解详情。`,
   },
   supportUs: {
     text: `<div>
