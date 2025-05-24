@@ -1,9 +1,9 @@
 import Unocss from "unocss/vite";
+import MarkdownItCard from "./theme/markdown/card";
+import MarkdownItColorPreview from "./theme/markdown/colorPreview";
 import MarkdownItFootnote from "markdown-it-footnote";
 import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vitepress";
-import { colorPreviewPlugin } from "./theme/markdown/colorPreview";
-import { cardPlugin } from "./theme/markdown/card";
 import { imgSize } from "@mdit/plugin-img-size";
 import { spoiler } from "@mdit/plugin-spoiler";
 import {
@@ -225,9 +225,9 @@ export default defineConfig({
   markdown: {
     image: { lazyLoading: true },
     config(md) {
+      md.use(MarkdownItColorPreview);
+      md.use(MarkdownItCard);
       md.use(MarkdownItFootnote);
-      md.use(colorPreviewPlugin);
-      md.use(cardPlugin);
       md.use(imgSize);
       md.use(spoiler);
     },

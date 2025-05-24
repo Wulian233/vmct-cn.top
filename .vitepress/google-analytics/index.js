@@ -1,32 +1,52 @@
-function mountGoogleAnalytics(id) {
-  if (
-    ("dataLayer" in window && window.gtag) ||
-    window.location.hostname === "localhost"
-  ) {
-    return;
+/**
+ * Add gtag.js to your site
+ *
+ * @see https://developers.google.com/analytics/devguides/collection/gtagjs
+ * @see https://developers.google.com/analytics/devguides/collection/gtagjs/pages
+ * @see https://developers.google.com/analytics/devguides/collection/gtagjs/single-page-applications
+ *
+ * The enhanced measurement will listen to browser history events (i.e `pushState`, `popState`, and `replaceState`)
+ * to collect page_view event, so we do not need to report it manually
+ *
+ * @see https://support.google.com/analytics/answer/9216061
+ */
+
+function mountGoogleAnalytics(id, debug) {
+  // avoid duplicated import
+  if (window.dataLayer && window.gtag) {
+    return
   }
 
-  const analyticsScript = document.createElement("script");
 
-  analyticsScript.addEventListener("load", () => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
+  // insert gtag `<script>` tag
+  const gtagScript = document.createElement('script')
+  gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${id}`
+  gtagScript.async = true
+  document.head.appendChild(gtagScript)
+  // insert gtag snippet
+  window.dataLayer = window.dataLayer || []
+  // the gtag function must use `arguments` object to forward parameters
+  window.gtag = function () {
+    window.dataLayer.push(arguments)
+  }
 
-    gtag("js", new Date());
-    gtag("config", id);
+  gtag('js', new Date())
 
-    window.gtag = gtag;
-  });
-
-  analyticsScript.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
-
-  document.body.appendChild(analyticsScript);
+  if (debug) {
+    gtag('config', id, { debug_mode: true })
+  } else {
+    gtag('config', id)
+  }
 }
 
-export default function ({ id }) {
-  if (id && typeof window !== "undefined") {
-    mountGoogleAnalytics(id);
+export default ({ id, debug }) => {
+  // Google analytics integration
+  if (
+    typeof process !== 'undefined' &&
+    process.env.NODE_ENV === 'production' &&
+    id &&
+    typeof window !== 'undefined'
+  ) {
+    mountGoogleAnalytics(id, debug)
   }
 }

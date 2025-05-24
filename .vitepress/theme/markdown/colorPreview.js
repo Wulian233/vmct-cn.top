@@ -1,15 +1,15 @@
 const COLOR_REGEX =
   /(?:\s|^)(#(?:[a-fA-F0-9]{3}){1,2}|(?:#(?:[a-fA-F0-9]{4}){1,2})?\b|rgba?\(\d+,\s*\d+,\s*\d+(?:,\s*\d+(?:\.\d+)?)?\)|hsla?\(\d+,\s*\d+%?,\s*\d+%?,?\s*(?:,\s*\d+(?:\.\d+)?)?\))(?:[^#a-zA-Z0-9]|$)/g;
 
-export const colorPreviewPlugin = (md) => {
+function MarkdownItColorPreview(md) {
   const replaceColor = (colorStr) => {
     colorStr = colorStr.trim();
     let color = colorStr.replace(/\P{ASCII}\p{Nd}/gu, "");
 
-    if (color.charAt(0) === "#") {
-      color = color.replace(/[^#0-9a-fA-F]/g, "");
+    if (color.startsWith("#")) {
+      color = color.replace(/[^#0-9a-f]/gi, "");
     } else {
-      let index = color.lastIndexOf(")");
+      const index = color.lastIndexOf(")");
       if (index !== -1) {
         color = color.slice(0, index + 1);
       }
@@ -23,4 +23,6 @@ export const colorPreviewPlugin = (md) => {
     text = md.utils.escapeHtml(text);
     return text.replace(COLOR_REGEX, replaceColor);
   };
-};
+}
+
+export default MarkdownItColorPreview;

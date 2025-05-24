@@ -3,7 +3,7 @@ import {
   presetAttributify,
   presetIcons,
   presetTypography,
-  presetUno,
+  presetWind3,
   transformerDirectives,
   transformerVariantGroup,
 } from "unocss";
@@ -19,7 +19,9 @@ export default defineConfig({
     ["card-grid", "grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8"],
   ],
   presets: [
-    presetUno(),
+    presetWind3({
+      container: false,
+    }),
     presetAttributify(),
     presetTypography(),
 

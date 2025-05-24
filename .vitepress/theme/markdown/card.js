@@ -1,12 +1,7 @@
 import { container } from "@mdit/plugin-container";
 import { load } from "js-yaml";
-import {
-  stringifyProp,
-  entries,
-  fromEntries,
-  isPlainObject,
-  isString,
-} from "../utils";
+import { entries, fromPairs, isPlainObject, isString } from "lodash-es";
+import { stringifyProp } from "../utils";
 
 const CARD_PROPS = [
   "title",
@@ -20,64 +15,75 @@ const CARD_PROPS = [
   "theme",
 ];
 
-const checkCardProps = (config) => {
-  if (isPlainObject(config) && isString(config["title"])) {
-    return fromEntries(
+function checkCardProps(config) {
+  if (isPlainObject(config) && isString(config.title)) {
+    return fromPairs(
       entries(config).filter(
-        ([key, value]) => CARD_PROPS.includes(key) && isString(value),
+        (item) => CARD_PROPS.includes(item[0]) && isString(item[1]),
       ),
     );
   }
-  return null;
-};
 
-const cardRender = (tokens, index, _options, { relativePath }) => {
+  return null;
+}
+
+function cardRender(tokens, index, _options, { relativePath }) {
   const token = tokens[index];
   const { content, info } = token;
-  const language = info.trim().split(":", 2)[1] || "yml";
 
+  const language = info.trim().split(":", 2)[1] || "yml";
   let config = null;
 
-  try {
-    if (language === "yaml" || language === "yml") {
+  if (language === "yaml" || language === "yml") {
+    try {
       config = load(content);
-    } else if (language === "json") {
-      config = JSON.parse(content);
+    } catch (err) {
+      console.error(`Parsing card YAML config failed:`, err);
     }
-  } catch (err) {
-    console.error(`Parsing card ${language.toUpperCase()} config failed:`, err);
-    return "";
+  } else if (language === "json") {
+    try {
+      config = JSON.parse(content);
+    } catch (err) {
+      console.error(`Parsing card JSON config failed:`, err);
+    }
+  } else {
+    console.error(
+      `Can not parse card config ${language}${
+        relativePath ? `, found in ${relativePath}` : ""
+      }.`,
+    );
   }
 
   const cardData = checkCardProps(config);
 
-  if (cardData) {
-    return `<Card v-bind='${stringifyProp(cardData)}' />`;
-  }
+  if (cardData) return `<Card v-bind='${stringifyProp(cardData)}' />`;
 
   console.error(
-    `Invalid card config${relativePath ? ` found in ${relativePath}` : ""}:\n${content}`,
+    `Invalid card config${relativePath ? ` found in ${relativePath}` : ""}:\n${content}\n`,
   );
-  return "";
-};
 
-export const cardPlugin = (md) => {
-  // Add card container
+  return "";
+}
+
+const MarkdownItCard = (md) => {
   md.use(container, {
     name: "card",
-    openRender: () => `<div class="card-container">`,
+    openRender: () => `<div class="card-container">\n`,
   });
 
-  // Handle `card` code blocks
-  const fence = md.renderer.rules.fence;
+  const { fence } = md.renderer.rules;
 
-  md.renderer.rules.fence = (tokens, index, options, env) => {
-    const token = tokens[index];
-    if (token.info.startsWith("card")) {
-      return cardRender(tokens, index, options, env);
-    }
-    return fence(tokens, index, options, env);
+  md.renderer.rules.fence = (...args) => {
+    const [tokens, index, options, env] = args;
+    const { info } = tokens[index];
+    const realInfo = info.split(":", 2)[0]?.trim() || "";
+
+    if (realInfo === "card") return cardRender(tokens, index, options, env);
+
+    return fence(...args);
   };
 
-  md.renderer.rules["card"] = cardRender;
+  md.renderer.rules.card = cardRender;
 };
+
+export default MarkdownItCard;

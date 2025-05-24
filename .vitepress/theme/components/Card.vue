@@ -67,17 +67,17 @@ import "../styles/card.css";
 
 interface CardProps {
   /** Card title */
-  title: string;
+  title;
   /** Card description, default is link when empty */
-  desc?: string;
+  desc?;
   /** Card icon, defaults to project Logo */
-  logo?: string;
+  logo?;
   /** Card link */
-  link?: string;
+  link?;
   /** Card background color */
-  color?: string;
+  color?;
   /** Card cover image, Only NormalTheme */
-  cover?: string;
+  cover?;
   /** Enable hover shadow effect, defaults to false */
   hoverShadow?: boolean;
   /** Enable card shadow effect, defaults to false */
@@ -164,8 +164,8 @@ const descText = computed(() => {
   if (props.desc) {
     return props.desc;
   } else if (isRelativeLink(props.link)) {
-    const prefix: string = props.link.substring(0, 3).replace(/(\.\/|\/)/g, "");
-    const suffix: string = props.link.substring(3);
+    const prefix = props.link.substring(0, 3).replace(/(\.\/|\/)/g, "");
+    const suffix = props.link.substring(3);
     return location.origin + withBase(`/${prefix}${suffix}`);
   } else {
     return props.link || "";
