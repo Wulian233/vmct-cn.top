@@ -18,6 +18,7 @@
     "dev": "vitepress",
     "lint": "prettier --check .",
     "lint:fix": "prettier --write .",
+    "prepare": "husky",
     "upgrade-deps": "taze patch -I"
   },
   "dependencies": {
@@ -42,6 +43,7 @@
   },
   "devDependencies": {
     "@unocss/extractor-mdc": "^66.1.2",
+    "husky": "^9.1.7",
     "markdown-it": "^14.1.0",
     "pnpm": "^10.11.0",
     "prettier": "^3.5.3",

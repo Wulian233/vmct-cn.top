@@ -151,6 +151,30 @@ const questions = [
     correctAnswer: "A",
     imageUrl: "https://vmct-cn.top/imgs/questions/history.jpg",
   },
+  {
+    title: "MC原版题",
+    content:
+      "Minecraft 中，玩家在高度差最小为__时（整数）摔落会直接死亡<br>A. 22<br>B. 23<br>C. 24<br>D. 25",
+    correctAnswer: "C",
+  },
+  {
+    title: "MC原版题",
+    content:
+      "蜜蜂农场往往将蜂巢和花放在农田两侧，可能的原因是什么？<br>A. 只是为了好看<br>B. 为了促进蜜蜂产蜜<br>C. 农田里的植物需要蜜蜂传播花粉才能生长<br>D. 蜜蜂采蜜后，回蜂巢途中掉落的花粉相当于骨粉，促进植物生长",
+    correctAnswer: "D",
+  },
+  {
+    title: "MC原版题",
+    content:
+      "对于海洋神殿，下列说法不正确的是<br>A. 海洋神殿的宝藏为8个金块<br>B. 海洋神殿中的房间生成随机，且有着不同数量、至少6个的房间<br>C. 海洋神殿中的房间生成随机，且有着不同数量、至少6个的房间<br>D. 击杀守卫者是获得大量海晶砂砾、海晶碎片以及经验的较好来源",
+    correctAnswer: "B",
+  },
+  {
+    title: "MC原版和电学题",
+    content:
+      "红石中继器和荧石在红石电路中的的部分作用相当于真实电路中的<br>A. 变压器<br>B. 电阻<br>C. 线圈<br>D. 二极管",
+    correctAnswer: "D",
+  },
 ];
 
 function showRandomQuestion(item) {
