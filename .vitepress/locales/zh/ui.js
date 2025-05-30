@@ -8,7 +8,7 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `最新成果：侦探故事集汉化即将发布！
+    recruitment: `端午最新成果：侦探故事集汉化现已发布！
       欢迎查看<a href="/map/detective-stories" target="_blank" rel="noopener noreferrer">官网页面（点我）</a>了解详情。`,
   },
   supportUs: {

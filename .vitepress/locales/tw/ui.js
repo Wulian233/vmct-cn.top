@@ -8,7 +8,7 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `最新成果：偵探故事集翻譯即將發佈！
+    recruitment: `端午最新成果：偵探故事集翻譯現已發佈！
       歡迎查看<a href="/tw/map/detective-stories" target="_blank" rel="noopener noreferrer">官網頁面（點我）</a>了解詳情。`,
   },
   supportUs: {

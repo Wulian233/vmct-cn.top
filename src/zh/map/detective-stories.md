@@ -28,7 +28,7 @@ layout: doc
 > 我们已和作者达成深度合作，地图本体已经自带汉化，开箱即玩！
 
 <DownloadLinks :methods="[
-  { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: 'https://vmct-cn.top/proxy/https://www.mediafire.com/file/gvlmv0ynnvcafqt/Detective_Stories_1.0.1_2.zip' },
+  { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: 'https://vmct-cn.top/proxy/www.mediafire.com/file/gvlmv0ynnvcafqt/Detective_Stories_1.0.1_2.zip' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/detective-stories-chapter-1-case-cafe/' }
 ]" />
 
