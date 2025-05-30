@@ -9,8 +9,6 @@ title: FTB Oceanblock 2汉化下载
 
 > [!IMPORTANT] 重要提示
 > 完整汉化体验请下载下方的下载i18n模组，并放在`mods`文件夹！
->
-> 不支持最新版1.11.1，请留意下载的汉化补丁版本是否匹配（混用一般不会出现大问题），预计6月前更新汉化！
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/ob2' },
@@ -24,7 +22,7 @@ title: FTB Oceanblock 2汉化下载
 
 | FTB官网                                                               | 加载器   | 支持整合包版本  | 汉化维护状态 |
 | :-------------------------------------------------------------------- | :------- | :-------------- | :----------- |
-| [链接](https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2） | Neoforge | mc1.21.1 1.10.1 | 维护中       |
+| [链接](https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2） | Neoforge | mc1.21.1 1.11.1 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13486)
 

@@ -30,7 +30,8 @@ layout: doc
 > 需要將遊戲語言設置為**簡體中文**！
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下載地圖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/detective-stories-chapter-1-case-cafe/' }
+  { id: 'mediafire', text: '下載地圖', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/gvlmv0ynnvcafqt/Detective_Stories_1.0.1_2.zip' },
+  { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/detective-stories-chapter-1-case-cafe/' }
 ]" />
 
 <DocSupport />

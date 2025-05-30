@@ -37,6 +37,10 @@
       "permanent": true
     }
   ],
+  "rewrites": [
+    { "source": "/proxy/:match/:url*", "destination": "https://:match/:url*" },
+    { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" }
+  ],
   "functions": {
     "api/*.php": {
       "runtime": "vercel-php@0.7.3"
