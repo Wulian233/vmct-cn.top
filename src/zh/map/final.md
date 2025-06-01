@@ -3,10 +3,7 @@ title: 最终悖论汉化下载
 layout: doc
 ---
 
-<div style="display: flex">
-  <img src="https://s11.ax1x.com/2024/02/25/pFa1mDg.jpg" style="width:50%" alt="图片1">
-  <img src="https://s11.ax1x.com/2024/02/25/pFa1Nb4.jpg" style="width:50%" alt="图片2">
-</div>
+![图片 =400x](/imgs/maps/final.jpg)
 
 ## 地图信息
 
@@ -23,7 +20,7 @@ layout: doc
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn' }
 ]" />
 
-## 地图下载与授权
+## 地图下载与汉化安装
 
 > [!IMPORTANT] 汉化方法
 > 你必须同时下载地图和汉化补丁，并把汉化资源包放在`resourcepacks`资源包文件夹。最后在游戏内启用资源包的方法完成汉化。

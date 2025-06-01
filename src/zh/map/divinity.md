@@ -3,18 +3,7 @@ title: 神界陨落汉化下载
 layout: doc
 ---
 
-<div style="display: flex">
-  <img src="https://s11.ax1x.com/2024/02/25/pFalbNR.jpg" style="width:50%" alt="图片1">
-  <img src="https://s11.ax1x.com/2024/02/25/pFaMYKe.png" style="width:50%" alt="图片2">
-</div>
-
-## 地图信息
-
-原名：Divinity's End
-
 神界陨落是一个史诗般规模的CTM类地图，是高版本CTM类地图的奠基之作。
-
-游戏版本：MC原版 1.19.2
 
 你准备好改变世界了吗？
 
@@ -25,6 +14,14 @@ layout: doc
 人类的时代已经来临……
 
 你准备好改变世界了吗？你准备好面对神界陨落了吗？
+
+![图片 =400x](/imgs/maps/divinity.jpg)
+
+## 地图信息
+
+原名：Divinity's End
+
+游戏版本：MC原版 1.19.2
 
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
@@ -41,8 +38,10 @@ layout: doc
 
 本地图汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
+![图片](/imgs/authorization/divinity.png)
+
 ## 汉化贡献（排名不分先后）
 
-cat酱，X209，凛夜雨月，咕咕鱼 RCqaq\_，Feathamity，冰琳，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
+cat酱，X209，凛夜雨月，咕咕鱼，RCqaq，Feathamity，冰琳，醉冰茶，望，阿鹉，荔枝，茫氪 NLG永不言弃 netizenxing，青岚，Lims，Sy_Cr，Reset255，捂脸，逸晨
 
 <DocSupport />

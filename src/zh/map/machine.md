@@ -26,6 +26,7 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
+  { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/the-machine-a-minecraft-1-18-1-puzzlemap' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing' }
 ]" />
 

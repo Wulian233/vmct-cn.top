@@ -3,10 +3,7 @@ title: 最終悖論翻譯下載
 layout: doc
 ---
 
-<div style="display: flex">
-  <img src="https://s11.ax1x.com/2024/02/25/pFa1mDg.jpg" style="width:50%" alt="图片1">
-  <img src="https://s11.ax1x.com/2024/02/25/pFa1Nb4.jpg" style="width:50%" alt="图片2">
-</div>
+![圖片 =400x](/imgs/maps/final.jpg)
 
 ## 地圖資訊
 
@@ -22,7 +19,7 @@ layout: doc
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn' }
 ]" />
 
-## 地圖下載與授權
+## 地圖下載與翻譯安裝
 
 > [!IMPORTANT] 翻譯方法
 > 你必須同時下載地圖和中文化更新檔，並把翻譯資源包放在`resourcepacks`資源包資料夾。最後在遊戲內啟用資源包。

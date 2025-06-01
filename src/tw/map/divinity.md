@@ -3,18 +3,7 @@ title: 神界隕落翻譯下載
 layout: doc
 ---
 
-<div style="display: flex">
-  <img src="https://s11.ax1x.com/2024/02/25/pFalbNR.jpg" style="width:50%" alt="图片1">
-  <img src="https://s11.ax1x.com/2024/02/25/pFaMYKe.png" style="width:50%" alt="图片2">
-</div>
-
-## 地圖資訊
-
-原名：Divinity's End
-
 神界隕落是一個史詩規模的CTM類型地圖，是高版本CTM類型地圖的奠基之作。
-
-遊戲版本：Minecraft原版1.19.2
 
 你準備好改變世界了嗎？
 
@@ -27,6 +16,14 @@ layout: doc
 你準備好改變世界了嗎？
 
 你準備好面對神界隕落了嗎？
+
+![图片 =400x](/imgs/maps/divinity.jpg)
+
+## 地圖資訊
+
+原名：Divinity's End
+
+遊戲版本：Minecraft原版1.19.2
 
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
@@ -42,8 +39,10 @@ layout: doc
 
 本地圖翻譯已獲得作者授權。本中文化更新檔不違反任何社群準則。
 
+![圖片](/imgs/authorization/divinity.png)
+
 ## 翻譯者（排名不分先後）
 
-cat醬，X209，凛夜雨月，咕咕魚，RCqaq\_，Feathamity，冰琳，醉冰茶，望，阿鵡，荔枝，茫氪，NLG永不言弃，netizenxing，青嵐，Lims，Sy_Cr，Reset255，捂臉，逸晨
+cat醬，X209，凛夜雨月，咕咕魚，RCqaq，Feathamity，冰琳，醉冰茶，望，阿鵡，荔枝，茫氪，NLG永不言弃，netizenxing，青嵐，Lims，Sy_Cr，Reset255，捂臉，逸晨
 
 <DocSupport />

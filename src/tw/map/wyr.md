@@ -3,22 +3,15 @@ title: Would You Rather翻譯下載
 layout: doc
 ---
 
-<div style="display: flex">
-  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791217_l.webp" style="width:50%" alt="图片1">
-  <img src="https://static.planetminecraft.com/files/image/minecraft/project/2020/801/13791218_l.webp" style="width:50%" alt="图片2">
-</div>
+Would You Rather……？ （你喜歡……？）
+
+歡迎參加由Gene主持的遊戲節目《Would You Rather》！
+
+![圖片 =400x](/imgs/maps/wyr.webp)
 
 ## 地圖資訊
 
-| 原帖發佈連結                                                              | 原名             | 地图版本      | 翻譯維護狀態 |
-| :------------------------------------------------------------------------ | :--------------- | :------------ | :----------- |
-| [链接](https://www.planetminecraft.com/project/would-you-rather-4897801/) | Would You Rather | MC原版 1.20.1 | 翻譯中       |
-
 玩家數量：1-50名
-
-Would You Rather……？ （你喜歡……？）
-
-參加由Gene主持的遊戲節目《Would You Rather》！
 
 在兩種情景中選擇，比如成為一名礦工或者烹飪蘑菇湯。 在規定的時間內完成挑戰，就可以獲得分數。 比賽結束時得分最多的人將成為《Would You Rather》的冠軍！
 
@@ -28,6 +21,7 @@ Would You Rather……？ （你喜歡……？）
 
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing' },
+  { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/would-you-rather-4897801/' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/tw/doing' }
 ]" />
 
