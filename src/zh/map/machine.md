@@ -25,9 +25,9 @@ layout: doc
 > 打开地图必须使用此版本，否则可能造成地图损坏或无法游玩。
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
+  { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/123.svg', link: 'https://www.123684.com/s/99kKVv-0JdEh' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/the-machine-a-minecraft-1-18-1-puzzlemap' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://www.123684.com/s/99kKVv-0JdEh' }
 ]" />
 
 ## ❖ 故事简介：你为何而醒？
