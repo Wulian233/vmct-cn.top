@@ -15,6 +15,7 @@ gitChangelog: false
 
 2. **整合包汉化信息文件**
    `<mcversion>/modpackinfo.json`
+   （1.12.2版本位于`config//modpackinfo.json`）
    定义汉化补丁的版本信息和更新检测配置
 
 ---

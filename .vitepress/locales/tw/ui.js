@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `端午最新成果：偵探故事集翻譯現已發佈！
-      歡迎查看<a href="/tw/map/detective-stories" target="_blank" rel="noopener noreferrer">官網頁面（點我）</a>了解詳情。`,
+    recruitment: `6月最新成果：Minecraft史上最龐大、最具沉浸感的解謎地圖《樞機迷城》中文化更新檔現已發佈！
+      <a href="tw/map/machine" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
   },
   supportUs: {
     text: `<div>

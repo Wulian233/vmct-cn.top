@@ -22,9 +22,9 @@ title: FTB Neotech汉化下载
 
 ---
 
-| FTB官网                                                     | 加载器   | 支持整合包版本           | 汉化维护状态 |
-| :---------------------------------------------------------- | :------- | :----------------------- | :----------- |
-| [链接](https://feed-the-beast.com/modpacks/123-ftb-neotech) | Neoforge | mc1.20.4 1.9.0（最新版） | 维护中       |
+| FTB官网                                                     | 加载器   | 支持整合包版本            | 汉化维护状态 |
+| :---------------------------------------------------------- | :------- | :------------------------ | :----------- |
+| [链接](https://feed-the-beast.com/modpacks/123-ftb-neotech) | Neoforge | mc1.20.4 1.10.1（最新版） | 维护中       |
 
 项目主管 @[Cactusstudent](https://github.com/Cactusstudent) @[Wulian233](https://github.com/Wulian233)
 

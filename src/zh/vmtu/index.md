@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: VM汉化更新模组文档 3.1
+title: VM汉化更新模组文档 3.2.0
 gitChangelog: false
 ---
 
 <div align="center">
    <img height="128px" width="128px" alt="logo" src="https://cdn.modrinth.com/data/wvCSIW08/c6d47a463a59dd38faf9777c17c634f514fa5b1e.png"/>
-   <h1>VM汉化更新模组文档 3.1</h1>
+   <h1>VM汉化更新模组文档 3.2.0</h1>
 </div>
 
 VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉化管理工具，涵盖了绝大部分汉化相关的使用场景。
@@ -16,6 +16,7 @@ VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉�
   { id: 'curseforge', text: 'CurseForge', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vmtranslationupdate' },
   { id: 'modrinth', text: 'Modrinth', icon: '/imgs/svg/modrinth.svg', link: 'https://modrinth.com/mod/vmupdate' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTranslationUpdateMod' },
+  { id: 'github-core', text: '下载核心Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTUCore' },
   { id: 'gitee', text: 'Gitee元数据', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/Wulian233/vmtu' }
 ]" />
 

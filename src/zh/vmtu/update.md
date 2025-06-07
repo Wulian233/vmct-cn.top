@@ -28,4 +28,5 @@ gitChangelog: false
 未完成
 
 `updateCheckUrl`项对应的是一个纯文本txt格式的网络链接，内容为汉化补丁
-最新版的版本号。其内容格式仅为一行的版本号构成，例如`1.0.0`。你可以前往上述的链接查看具体内容
+最新版的版本号。其内容格式仅为一行的版本号构成，例如`1.0.0`。你可以打开
+[上述的链接](https://gitee.com/Wulian233/vmtu/raw/main/update/example.txt)查看示例。
