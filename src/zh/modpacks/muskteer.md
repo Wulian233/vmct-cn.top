@@ -51,7 +51,7 @@ Muskteer整合包中：
 
 注：因为是公共聊天区，无关信息多，所以授权图经过裁剪。
 
-![](/imgs/authorization/muskteer.jpg =450x)
+![图片 =450x](/imgs/authorization/muskteer.jpg)
 
 ## 贡献人员
 

@@ -7,7 +7,7 @@ title: Project Architect 2汉化下载
 在任务的引导下，通过工业先锋、龙之进化、热力系列、通用机械和 RF 工具：维度自动化资源采集、加工与合成，减少枯燥刷取，提升游戏体验。
 从复杂机械到神秘炼成，这款整合包完美融合科技与魔法，为创新与高效提供无限可能。
 
-![](https://media.forgecdn.net/attachments/918/742/2024-07-17_23.png =450x)
+![图片 =450x](https://media.forgecdn.net/attachments/918/742/2024-07-17_23.png)
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/pa2' },

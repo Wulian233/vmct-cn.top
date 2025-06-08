@@ -110,6 +110,7 @@ const sidebar = {
         { text: "狂乱之境4", link: "/map/rc4" },
         // { text: "Sun Guardian2", link: "/tw/map/sun-guardian2" },
         { text: "艺之神殿", link: "/map/tota" },
+        { text: "Wii Party：Board Game Island", link: "/map/wii-party" },
         { text: "Would You Rather", link: "/map/wyr" },
       ],
     },

@@ -43,7 +43,7 @@ Vazkii继Crucial 2后的又一力作！Bliss是一款精心打造的和平向整
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-![](/imgs/authorization/bliss.jpg =450x)
+![图片 =450x](/imgs/authorization/bliss.jpg)
 
 ## 贡献人员
 

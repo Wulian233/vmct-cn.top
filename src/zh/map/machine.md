@@ -26,6 +26,8 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/123.svg', link: 'https://www.123684.com/s/99kKVv-0JdEh' },
+  { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1cnTMz4EtC' },
+  { id: 'bilibili2', text: '解谜攻略', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1wETMzZEbJ' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/the-machine-a-minecraft-1-18-1-puzzlemap' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://www.123684.com/s/99kKVv-0JdEh' }
 ]" />

@@ -95,8 +95,8 @@ We have asked the authors many questions, and every time it is basically a secon
 
 本次汉化已取得官方授权，不违反任何社区规则。完整授权聊天记录可以[在此查看](https://discord.com/channels/640591918752858122/655858176608174090/105691817638390988)。
 
-![](/imgs/authorization/mce.jpg =450x)
+![图片 =450x](/imgs/authorization/mce.jpg)
 
-![](/imgs/authorization/mce1.jpg =450x)
+![图片 =450x](/imgs/authorization/mce1.jpg)
 
 <DocSupport />

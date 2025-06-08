@@ -41,4 +41,4 @@ PS：域名在腾讯云购买
 
 特别感谢[空荧酒馆文档](https://github.com/kongying-tavern/docs)项目，本项目基于它进行开发。
 
-特别感谢CrychicTeam的[CrychicDoc项目](https://github.com/CrychicTeam/CrychicDoc/blob/main/.vitepress/theme/components/comment.vue)，评论区部分代码来自于此项目并进行部分修改。
+特别感谢CrychicTeam的[CrychicDoc项目](https://github.com/PickAID/CrychicDoc/blob/main/.vitepress/theme/components/comment.vue)（旧版文件），评论区部分代码来自于此项目并进行部分修改。
