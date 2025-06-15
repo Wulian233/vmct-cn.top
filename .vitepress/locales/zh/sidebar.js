@@ -10,6 +10,7 @@ const sidebar = {
       text: "整合包汉化",
       collapsed: false,
       items: [
+        // { text: "永恒的MC 2", link: "/modpacks/mce2" },
         { text: "Roguelike冒险与地牢（RAD1）", link: "/modpacks/rad" },
         { text: "异域征途", link: "/modpacks/prodigium-reforged" },
         { text: "FTB Neotech", link: "/modpacks/neotech" },
@@ -105,6 +106,7 @@ const sidebar = {
         { text: "死亡竞速2", link: "/map/deathrunner" },
         { text: "侦探故事集", link: "/map/detective-stories" },
         { text: "Evergrowth", link: "/map/evergrowth" },
+        // { text: "Five Nights at Freddy's 4", link: "/map/fnaf-4-miramappa" },
         { text: "Lumina Complex", link: "/map/lumina" },
         { text: "枢机", link: "/map/machine" },
         { text: "狂乱之境4", link: "/map/rc4" },

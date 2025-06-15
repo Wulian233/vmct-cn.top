@@ -15,11 +15,9 @@ title: 天空工厂5汉化下载
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/sf5' }
 ]" />
 
----
-
 | 整合包下载地址                                                     | 加载器 | 支持整合包版本 | 汉化维护状态 |
 | :----------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/skyfactory-5) | Forge  | mc1.20.1 5.0.2 | _维护中_     |
+| [链接](https://www.curseforge.com/minecraft/modpacks/skyfactory-5) | Forge  | mc1.20.1 5.0.8 | 维护中       |
 
 **“猜猜谁回来了？！”** 是的，你没看错，天空工厂5来了！
 第五次登场，带来前所未有的手工打造模组进程，改变你对游戏世界的认知。
@@ -46,9 +44,9 @@ title: 天空工厂5汉化下载
 
 ## 贡献人员
 
-[给我带双份老鸭煲](https://space.bilibili.com/10068010)：主翻译
+[给我带双份老鸭煲](https://space.bilibili.com/10068010)：初版翻译
 
-VM汉化组：校对及其他
+VM汉化组：校对及后续更新维护
 
 ## 整合包下载
 

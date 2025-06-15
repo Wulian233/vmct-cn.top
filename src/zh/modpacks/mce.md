@@ -6,7 +6,7 @@ title: 永恒的MC汉化下载
 ![](https://media.forgecdn.net/attachments/266/930/2019-10-27_01.png =400x200)
 
 > [!WARNING] 重要提示
-> 汉化**不支持整合包最新版1.6.2.3，只支持1.6.1！**，请留意下载的支持整合包版本！
+> 汉化**不支持整合包最新版1.6.3.1，只支持1.6.1！**，请留意下载的支持整合包版本！
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/MCE-VMCT' },
@@ -17,9 +17,7 @@ title: 永恒的MC汉化下载
 
 | 整合包下载地址                                                                    | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :-------------------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal/files) | Forge  | 1.6.1          | 1.12.2 | _停止维护_   |
-
----
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal/files) | Forge  | 1.6.1          | 1.12.2 | 停止维护     |
 
 ## 整合包介绍
 

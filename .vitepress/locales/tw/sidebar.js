@@ -10,6 +10,7 @@ const sidebar = {
       text: "模組包翻譯",
       collapsed: false,
       items: [
+        // { text: "永恆的MC 2", link: "/modpacks/mce2" },
         { text: "Roguelike冒險與地牢（RAD1）", link: "/modpacks/rad" },
         { text: "異域征途", link: "/modpacks/prodigium-reforged" },
         { text: "FTB Neotech", link: "/modpacks/neotech" },
@@ -104,7 +105,8 @@ const sidebar = {
         { text: "貝維爾小鎮", link: "/tw/map/bayville" },
         { text: "死亡競速2", link: "/tw/map/deathrunner" },
         { text: "侦探故事集", link: "/tw/map/detective-stories" },
-        { text: "Evergrowth", link: "/map/evergrowth" },
+        { text: "Evergrowth", link: "/tw/map/evergrowth" },
+        // { text: "Five Nights at Freddy's 4", link: "/tw/map/fnaf-4-miramappa" },
         { text: "Lumina Complex", link: "/tw/map/lumina" },
         { text: "樞機迷城", link: "/tw/map/machine" },
         { text: "狂亂之境4", link: "/tw/map/rc4" },
