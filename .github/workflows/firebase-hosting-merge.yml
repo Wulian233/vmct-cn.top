@@ -16,7 +16,7 @@ jobs:
           version: 8
       - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'pnpm'
       - run: pnpm i && pnpm run prepare && pnpm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
