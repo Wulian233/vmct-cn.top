@@ -1,5 +1,5 @@
 ---
-title: Five Nights at Freddy's 4汉化下载
+title: 玩具熊的五夜后宫4汉化下载
 layout: doc
 ---
 
@@ -10,14 +10,14 @@ layout: doc
 ## 地图信息
 
 - **原名**：Five Nights at Freddy's 4
-- **游戏版本**：MC原版 1.不知道
+- **游戏版本**：MC原版 1.21.4
 
 - 🧠 **主题类型**：挑战冒险、恐怖地图、可怕
 
 🎮 地图原帖：[点击前往官方发布页面](https://www.planetminecraft.com/project/fnaf-4-miramappa/)
 
 > [!IMPORTANT] 重要！
-> 💥 仅支持 Java 版 Minecraft 1.不知道！
+> 💥 仅支持 Java 版 Minecraft 1.21.4！打开地图必须使用此版本，否则可能造成地图损坏或无法游玩。
 >
 > 我们已和作者达成深度合作，地图本体已经自带汉化，开箱即玩！
 

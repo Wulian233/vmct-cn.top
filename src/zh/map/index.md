@@ -71,10 +71,10 @@ features:
     details: Minecraft 版Wii派对。在这里，你将体验经典的"棋盘游戏岛"，沿途迎接各种挑战与惊喜。首个通过终极挑战的玩家将成为赢家！
     link: ./wii-party
     linkText: 前往下载
-  - icon: ❓
-    title: ？？？
-    details: xxxxxxxxx
-    link: /doing
+  - icon: 🐻
+    title: Five Nights at Freddy's 4
+    details: 玩具熊的五夜后宫4 巴拉巴拉，未完成
+    link: ./fnaf-4-miramappa
     linkText: 前往下载
   - icon: ☀️
     title: ？？？

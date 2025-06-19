@@ -1,0 +1,41 @@
+{
+  "hosting": {
+    "public": ".vitepress/dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+
+    "redirects": [
+      {
+        "source": "/sb3",
+        "destination": "/modpacks/sb3",
+        "type": 301
+      },
+      {
+        "source": "/modpacks/:modpack/update.txt",
+        "destination": "https://gitee.com/Wulian233/vmtu/raw/main/update/:modpack.txt",
+        "type": 301
+      },
+      {
+        "source": "/name.json",
+        "destination": "https://gitee.com/Wulian233/vmtu/raw/main/name.json",
+        "type": 301
+      },
+      {
+        "source": "/tips.txt",
+        "destination": "https://gitee.com/Wulian233/vmtu/raw/main/tips.txt",
+        "type": 301
+      }
+    ],
+
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|webp|png)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000, immutable"
+          }
+        ]
+      }
+    ]
+  }
+}

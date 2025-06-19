@@ -22,13 +22,13 @@
     "upgrade-deps": "taze patch -I"
   },
   "dependencies": {
-    "@mdit/plugin-container": "^0.22.0",
-    "@mdit/plugin-img-mark": "^0.22.0",
-    "@mdit/plugin-img-size": "^0.22.0",
-    "@mdit/plugin-spoiler": "^0.22.0",
+    "@mdit/plugin-container": "^0.22.1",
+    "@mdit/plugin-img-mark": "^0.22.1",
+    "@mdit/plugin-img-size": "^0.22.2",
+    "@mdit/plugin-spoiler": "^0.22.1",
     "@nolebase/vitepress-plugin-git-changelog": "^2.17.2",
-    "@vueuse/core": "^13.3.0",
-    "@vueuse/integrations": "^13.3.0",
+    "@vueuse/core": "^13.4.0",
+    "@vueuse/integrations": "^13.4.0",
     "js-yaml": "^4.1.0",
     "lodash-es": "4.17.21",
     "markdown-it-footnote": "^4.0.0",
@@ -36,9 +36,9 @@
     "qrcode": "^1.5.4",
     "sweetalert2": "^11.22.0",
     "typescript": "^5.8.3",
-    "unocss": "^66.2.0",
+    "unocss": "^66.2.3",
     "vitepress": "1.6.1",
-    "vue": "^3.5.16",
+    "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
