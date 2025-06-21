@@ -3,7 +3,6 @@ title: 隐私政策
 description: 隐私是每个人的基本权利，我们非常尊重你的隐私。
 layout: doc
 showComment: false
-gitChangelog: false
 ---
 
 ### 我们如何处理你的数据

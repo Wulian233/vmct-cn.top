@@ -3,7 +3,6 @@ title: 支持我们
 layout: doc
 aside: false
 showComment: false
-gitChangelog: false
 ---
 
 VM汉化组是一个用爱发电的专注于汉化MC整合包与地图的非盈利组织，汉化下载完全零广告并且完全免费。

@@ -1,7 +1,6 @@
 ---
 layout: home
 showComment: false
-gitChangelog: false
 
 title: VM 翻譯組
 titleTemplate: 一個用愛發電專注於翻譯MC模組包與地圖的非盈利組織

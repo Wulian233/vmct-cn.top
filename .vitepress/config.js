@@ -6,10 +6,6 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vitepress";
 import { imgSize } from "@mdit/plugin-img-size";
 import { spoiler } from "@mdit/plugin-spoiler";
-import {
-  GitChangelog,
-  GitChangelogMarkdownSection,
-} from "@nolebase/vitepress-plugin-git-changelog/vite";
 
 import { twConfig } from "./locales/tw";
 import { zhConfig } from "./locales/zh";
@@ -204,21 +200,7 @@ export default defineConfig({
         },
       ],
     },
-    plugins: [
-      Unocss(),
-      GitChangelog({
-        repoURL: () => "https://github.com/Wulian233/vmct-cn.top",
-        mapAuthors: [
-          {
-            name: "Wulian233",
-            username: "Wulian233",
-            mapByNameAliases: ["Wulian"],
-            avatar: generateAvatarUrl("Wulian233"),
-          },
-        ],
-      }),
-      GitChangelogMarkdownSection(),
-    ],
+    plugins: [Unocss()],
     json: { stringify: true },
   },
   ...createConfigureFunction(),

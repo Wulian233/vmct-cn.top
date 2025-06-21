@@ -4,7 +4,6 @@ description: 本项目文档页面使用Markdown语法进行编写，除了 Vite
 layout: doc
 search: false
 showComment: false
-gitChangelog: false
 ---
 
 ## 目录 {#toc}
@@ -172,18 +171,5 @@ docHeader: false # 隐藏该页面的 docHeader
 ```yml
 ---
 showComment: false # 隐藏该页面的评论区
----
-```
-
-### gitChangelog {#fm-git-changelog}
-
-- 类型：Boolean
-- 默认：true
-
-是否显示贡献人员和页面历史
-
-```yml
----
-gitChangelog: false # 隐藏该页面的贡献人员和页面历史
 ---
 ```

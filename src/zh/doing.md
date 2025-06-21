@@ -3,7 +3,6 @@ title: 正在汉化中
 description: 这是一个正在进行中的项目
 layout: doc
 showComment: false
-gitChangelog: false
 ---
 
 > [!TIP] 提示

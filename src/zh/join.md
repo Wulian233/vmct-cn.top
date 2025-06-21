@@ -2,7 +2,6 @@
 title: 加入我们
 layout: doc
 showComment: false
-gitChangelog: false
 aside: false
 description: 为了进一步完善和优化组内人员分布，补充人手不足，我们诚招各位小伙伴加入我们一起参与贡献。汉化组的翻译成果完全免费。或者如果您有任何其他有任何好的想法或者设计，也欢迎加入我们一起实现。
 ---

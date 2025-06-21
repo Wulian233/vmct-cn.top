@@ -3,7 +3,6 @@ title: VM汉化组用户服务协议
 description: 最后修订：2024年9月4日
 layout: doc
 showComment: false
-gitChangelog: false
 ---
 
 [[toc]]

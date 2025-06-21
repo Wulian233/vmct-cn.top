@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: 使用与配置文件
-gitChangelog: false
 ---
 
 ## 配置文件说明

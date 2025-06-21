@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: 版本支持概况
-gitChangelog: false
 ---
 
 本模组需要Cloth Config API作为前置（1.12版本除外），支持三大主流模组加载器：

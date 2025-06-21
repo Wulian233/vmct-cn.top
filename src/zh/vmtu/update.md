@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: 更新检测配置
-gitChangelog: false
 ---
 
 在上一节的[汉化补丁配置说明](./config)中，我们介绍了`modpackinfo.json`中的各项功能。

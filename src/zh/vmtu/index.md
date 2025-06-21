@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: VM汉化更新模组文档 3.2.0
-gitChangelog: false
 ---
 
 <div align="center">
