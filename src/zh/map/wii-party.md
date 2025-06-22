@@ -1,5 +1,5 @@
 ---
-title: Wii Party：Board Game Island汉化下载
+title: Wii Party：棋盘游戏岛汉化下载
 layout: doc
 ---
 
@@ -21,6 +21,11 @@ Minecraft 版Wii派对
   { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/wii-party-in-mc/files/all' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/wii-party-in-mc' }
 ]" />
+
+## 汉化者
+  琪露诺，Cat酱，北极熊IceBear  
+  
+  感谢**猫星汉化组**提供的帮助，大部分游戏名参考了猫星汉化组的译文
 
 ## 地图信息
 
