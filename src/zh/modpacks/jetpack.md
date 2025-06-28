@@ -28,9 +28,9 @@ title: 喷气背包猫汉化下载
 
 ## 贡献人员
 
-由KlparetlR个人汉化
+由阿鹉个人汉化
 
-测试：KlparetlR、MW_Zitie（B站：迷惘の子铁）
+测试：阿鹉、MW_Zitie（B站：迷惘の子铁）
 
 特别鸣谢：
 

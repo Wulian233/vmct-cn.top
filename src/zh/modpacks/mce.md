@@ -3,7 +3,7 @@ layout: doc
 title: 永恒的MC汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/266/930/2019-10-27_01.png =400x200)
+![图片 =400x](https://media.forgecdn.net/attachments/266/930/2019-10-27_01.png)
 
 > [!WARNING] 重要提示
 > 汉化**不支持整合包最新版1.6.3.1，只支持1.6.1！**，请留意下载的支持整合包版本！
@@ -85,7 +85,7 @@ We have asked the authors many questions, and every time it is basically a secon
 
 ## 贡献名单
 
-虚空，橡树树苗，曲逸，喵呜，x209，cat酱，贪婪，茫氪，zizunsi，逸晨，sine，KlparetlR，捂脸，Clark_TSC
+虚空，橡树树苗，曲逸，喵呜，x209，cat酱，贪婪，茫氪，自尊寺，逸晨，sine，阿鹉，捂脸，Clark_TSC
 
 ## 整合包下载与授权
 
