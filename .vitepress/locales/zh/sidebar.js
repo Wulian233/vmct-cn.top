@@ -17,7 +17,7 @@ const sidebar = {
         { text: "FTB Neotech", link: "/modpacks/neotech" },
         { text: "FTB Oceanblock 2", link: "/modpacks/oceanblock2" },
         { text: "FTB石头世界3", link: "/modpacks/sb3" },
-        { text: "Integrated MC（翻译中）", link: "/modpacks/imc" },
+        { text: "Integrated MC", link: "/modpacks/imc" },
         { text: "Bliss", link: "/modpacks/bliss" },
         { text: "Chunk Block", link: "/modpacks/chunk" },
         { text: "探索者前夜-凋灵风暴", link: "/modpacks/explorers-eve" },
