@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `6月最新成果：Minecraft史上最庞大、最具沉浸感的解谜地图《枢机》汉化现已发布！
-      <a href="/map/machine" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
+    recruitment: `7月最新成果：卓越2整合包汉化现已发布！
+      <a href="/modpacks/prominence2" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
   },
   supportUs: {
     text: `<div>

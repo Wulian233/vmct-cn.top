@@ -11,6 +11,7 @@ title: 卓越2汉化下载
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/prominence2' },
+  { id: 'bilibili', text: '整合包介绍与安装教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Zc3XzQEu7' },
   { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/967052/files/6482746/download' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Prominence-II-Chinese' },
@@ -19,8 +20,8 @@ title: 卓越2汉化下载
 
 ## 更多信息
 
-| 整合包下载地址                                                          | 加载器 | 支持整合包版本    | 汉化维护状态 |
-| :---------------------------------------------------------------------- | :----- | :---------------- | :----------- |
+| 整合包下载地址                                                          | 加载器 | 支持整合包版本  | 汉化维护状态 |
+| :---------------------------------------------------------------------- | :----- | :-------------- | :----------- |
 | [链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg/) | Fabric | mc1.20.1 3.1.52 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13782)

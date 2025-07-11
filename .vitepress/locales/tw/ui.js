@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `6月最新成果：Minecraft史上最龐大、最具沉浸感的解謎地圖《樞機迷城》中文化更新檔現已發佈！
-      <a href="tw/map/machine" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
+    recruitment: `7月最新成果：卓越2整合包中文化更新檔現已發佈！
+      <a href="/modpacks/prominence2" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
   },
   supportUs: {
     text: `<div>

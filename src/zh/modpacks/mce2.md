@@ -27,7 +27,7 @@ title: 永恒的MC 2汉化下载
 
 | 整合包下载地址                                                         | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :--------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2) | Forge  | 1.04.2         | 1.20.1 | 翻译中       |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2) | Forge  | 1.1.0.2        | 1.20.1 | 翻译中       |
 
 译者：cat酱、捂脸、琪露诺、自尊寺、GearTech（齿轮）、此乃一根葱、冰琳
 
@@ -126,5 +126,7 @@ MCE2 提供了海量魔法与科技模组，助你打造独一无二的游戏风
 ## 整合包下载与授权
 
 你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+本次汉化已取得官方授权，不违反任何社区规则。
 
 <DocSupport />

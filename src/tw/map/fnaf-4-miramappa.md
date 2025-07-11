@@ -5,7 +5,7 @@ layout: doc
 
 ！！！！！！！未完成，预添加页面仅作占位之用！！！！！！！
 
-<!-- ![图片 =500x](/imgs/maps/) -->
+![圖片 =500x](/imgs/maps/fnaf-4-miramappa.webp)
 
 ## 地圖資訊
 
@@ -25,6 +25,7 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'mediafire', text: '下載地圖', icon: '/imgs/svg/mediafire.svg', link: '/tw/doing' },
+  { id: 'bilibili', text: '預告片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV17qGVzUEUg' },
   { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/fnaf-4-miramappa/' }
 ]" />
 

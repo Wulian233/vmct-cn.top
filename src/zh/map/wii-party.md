@@ -1,5 +1,5 @@
 ---
-title: Wii Party：棋盘游戏岛汉化下载
+title: Wii派对：棋盘游戏岛汉化下载
 layout: doc
 ---
 

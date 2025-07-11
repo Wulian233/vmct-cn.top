@@ -1,5 +1,5 @@
 ---
-title: Wii Party：Board Game Island翻譯下載
+title: Wii派對：棋盤遊戲島翻譯下載
 layout: doc
 ---
 
