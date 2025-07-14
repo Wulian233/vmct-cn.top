@@ -3,7 +3,7 @@ layout: doc
 title: 异域征途汉化下载
 ---
 
-![图片 =300x](https://media.forgecdn.net/attachments/812/397/3cf.png)
+![图片 =500x](https://media.forgecdn.net/attachments/812/397/3cf.png)
 
 受《泰拉瑞亚》深度启发，体验一套独特的成长系统：击败Boss以解锁新的矿物、新的怪物，甚至是新的NPC！
 随着探索的深入，你将变得更强，踏遍世界，发现庞大的地牢与专属结构。

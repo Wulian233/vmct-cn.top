@@ -62,7 +62,7 @@ features:
     linkText: 前往下载
   - icon: 👀
     title: Detective Stories Chapter 1 - Case «Cafe»
-    details: 侦探故事集是一个以解密为主题的恐怖地图
+    details: 侦探故事集是一个以解密为主题的恐怖地图。
     link: ./detective-stories
     linkText: 前往下载
   - icon: 🎉
@@ -72,12 +72,12 @@ features:
     linkText: 前往下载
   - icon: 🐻
     title: Five Nights at Freddy's 4
-    details: 玩具熊的五夜后宫4 巴拉巴拉，未完成
+    details: 玩具熊的五夜后宫4是一张高还原原作的恐怖地图。
     link: ./fnaf-4-miramappa
     linkText: 前往下载
   - icon: ☀️
-    title: ？？？
-    details: xxxxxxxxx
-    link: /doing
+    title: Sun Guardian 2：Stranded
+    details: 太阳守卫者2：搁浅是一张融合了艾尔登法环以及马里奥高尔夫：家庭巡回赛精髓的CTM地图。
+    link: ./sun-guardian2
     linkText: 前往下载
 ---
