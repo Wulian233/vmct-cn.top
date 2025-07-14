@@ -112,7 +112,7 @@ const sidebar = {
         { text: "Lumina Complex", link: "/map/lumina" },
         { text: "枢机", link: "/map/machine" },
         { text: "狂乱之境4", link: "/map/rc4" },
-        // { text: "Sun Guardian2", link: "/tw/map/sun-guardian2" },
+        { text: "太阳守卫者2：搁浅", link: "/map/sun-guardian2" },
         { text: "艺之神殿", link: "/map/tota" },
         { text: "Wii派对：棋盘游戏岛汉化下载", link: "/map/wii-party" },
         { text: "Would You Rather", link: "/map/wyr" },

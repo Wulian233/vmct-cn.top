@@ -112,7 +112,7 @@ const sidebar = {
         { text: "Lumina Complex", link: "/tw/map/lumina" },
         { text: "樞機迷城", link: "/tw/map/machine" },
         { text: "狂亂之境4", link: "/tw/map/rc4" },
-        // { text: "Sun Guardian2", link: "/tw/map/sun-guardian2" },
+        { text: "太陽守衛者2：擱淺", link: "/tw/map/sun-guardian2" },
         { text: "藝之神殿", link: "/tw/map/tota" },
         { text: "Wii派對：棋盤遊戲島", link: "/tw/map/wii-party" },
         { text: "Would You Rather", link: "/tw/map/wyr" },
