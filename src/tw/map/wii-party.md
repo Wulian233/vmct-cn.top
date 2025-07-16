@@ -12,8 +12,10 @@ Minecraft 版Wii派對
 
 所有小遊戲（含2款特別附加遊戲）均可在大廳單獨暢玩！
 
-> [!IMPORTANT] 重要
+> [!WARNING] 重要提示
 > 💥 僅支援 Java 版 Minecraft 1.21.1！請務必使用正確版本開啟，否則地圖可能損毀或無法正常運行。
+>
+> 地圖檔中有一個名為`resouces.zip`的壓縮包，這是地圖的資源包。你需要將這個文件發送給你的朋友，並且讓他們載入這個資源包。
 >
 > 我們和作者一拍即合，簡體中文中文化更新檔已在地圖中內置！
 
@@ -21,6 +23,12 @@ Minecraft 版Wii派對
   { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/wii-party-in-mc/files/all' },
   { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/wii-party-in-mc' }
 ]" />
+
+## 漢化人員
+
+琪露諾，Cat醬，北極熊IceBear
+
+感謝**貓星漢化組**提供的説明，大部分遊戲名參考了貓星漢化組的譯文
 
 ## 地圖資訊
 

@@ -70,8 +70,8 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0
       pnpm:
-        specifier: ^10.13.0
-        version: 10.13.0
+        specifier: ^10.13.1
+        version: 10.13.1
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -1324,8 +1324,8 @@ packages:
   pnpm-workspace-yaml@0.3.1:
     resolution: {integrity: sha512-3nW5RLmREmZ8Pm8MbPsO2RM+99RRjYd25ynj3NV0cFsN7CcEl4sDFzgoFmSyduFwxFQ2Qbu3y2UdCh6HlyUOeA==}
 
-  pnpm@10.13.0:
-    resolution: {integrity: sha512-4Iy/pdDEfhSNnZKWVROvPQakL/mbbg6Cp9EFEoWND7aAoDweZ3LTaaIwXHkwbJJXmJo1drcFfWh3RpyaHHVj8A==}
+  pnpm@10.13.1:
+    resolution: {integrity: sha512-N+vxpcejDV+r4MXfRO6NpMllygxa89urKMOhaBtwolYhjQXIHJwNz3Z+9rhVHrW5YAQrntQwDFkkIzY3fgHPrQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2868,7 +2868,7 @@ snapshots:
     dependencies:
       yaml: 2.7.1
 
-  pnpm@10.13.0: {}
+  pnpm@10.13.1: {}
 
   postcss@8.5.3:
     dependencies:
