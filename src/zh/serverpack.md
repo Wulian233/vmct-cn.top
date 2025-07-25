@@ -4,8 +4,6 @@ layout: doc
 aside: false
 ---
 
-# 如何下载整合包的服务端文件
-
 ## CurseForge整合包
 
 以下使用卓越2作为演示，其他在CurseForge发布的整合包类似
@@ -14,13 +12,13 @@ aside: false
 
 二、打开整合包页面的Files页面，选择你想开服的整合包版本
 
-![curseforgepack1](../public/imgs/serverpack/curseforgepack1.png)
+![curseforgepack1](/imgs/serverpack/curseforgepack1.png)
 
 三、打开你选择的版本页面，点击Additional Files，点击下面的Server Pack，然后点击Download按钮
 
-![curseforgepack2](../public/imgs/serverpack/curseforgepack2.png)
+![curseforgepack2](/imgs/serverpack/curseforgepack2.png)
 
-![curseforgepack3](../public/imgs/serverpack/curseforgepack3.png)
+![curseforgepack3](/imgs/serverpack/curseforgepack3.png)
 
 ## FTB整合包
 
@@ -32,4 +30,4 @@ aside: false
 
 三、在Server Files处下载服务端文件
 
-![ftbpack](../public/imgs/serverpack/ftbpack.png)
+![ftbpack](/imgs/serverpack/ftbpack.png)
