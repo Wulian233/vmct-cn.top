@@ -8,7 +8,7 @@ aside: false
 
 ## CurseForge整合包
 
-以下使用卓越2作为演示
+以下使用卓越2作为演示，其他在CurseForge发布的整合包类似
 
 一、打开整合包页面（卓越2为https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg/）
 
@@ -24,7 +24,7 @@ aside: false
 
 ## FTB整合包
 
-以下使用FTB OceanBlock 2作为演示
+以下使用FTB OceanBlock 2作为演示，其他在FTB官网发布的整合包类似
 
 一、打开整合包页面（FTB OceanBlock 2为https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2）
 
