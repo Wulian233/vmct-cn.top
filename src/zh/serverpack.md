@@ -1,7 +1,6 @@
 ---
 title: 如何下载整合包的服务端文件
 layout: doc
-aside: false
 ---
 
 ## CurseForge整合包
@@ -14,7 +13,7 @@ aside: false
 
 ![curseforgepack1](/imgs/serverpack/curseforgepack1.png)
 
-三、打开你选择的版本页面，点击Additional Files，点击下面的Server Pack，然后点击Download按钮
+三、打开你选择的版本页面，点击`Additional Files`，然后点击下面的`Server Pack`，最后点击`Download`按钮下载
 
 ![curseforgepack2](/imgs/serverpack/curseforgepack2.png)
 
@@ -26,8 +25,8 @@ aside: false
 
 一、打开整合包页面（FTB OceanBlock 2为https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2）
 
-二、打开整合包页面的Versions页面，在Select Version栏选择你想开服的整合包版本
+二、打开整合包页面的`Versions`页面，在`Select Version`栏选择你想开服的整合包版本
 
-三、在Server Files处下载服务端文件
+三、在`Server Files`处下载服务端文件
 
 ![ftbpack](/imgs/serverpack/ftbpack.png)

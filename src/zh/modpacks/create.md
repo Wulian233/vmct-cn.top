@@ -5,7 +5,8 @@ title: 机械动力星辰汉化下载
 
 ![图片 =400x](https://media.forgecdn.net/attachments/613/543/astralpromo.png)
 
-一觉醒来，你发现自己躺在一个奇怪的星球，它的卫星已经破碎，一切都是那样的不同。在旅途中你发现了一个古老的文明的痕迹并开始发掘它曾存在的神秘技术。
+一觉醒来，你发现自己躺在一个奇怪的星球，它的卫星已经破碎，一切都是那样的不同。
+在旅途中你发现了一个古老的文明的痕迹并开始发掘它曾存在的神秘技术。
 
 齿轮缓缓转动。这颗星球不是你的边界：你必须走向那颗恒星。实现自动化、工业化，最终彻底改变太阳系。
 
@@ -15,7 +16,7 @@ title: 机械动力星辰汉化下载
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载2.05b.3汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv26855184' },
-  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
+  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' }
 ]" />
 
@@ -34,7 +35,8 @@ title: 机械动力星辰汉化下载
 
 **注意**：
 
-1. 因为新版本更新，开发组一直在修改某些物品的合成表保证平衡性，有些有问题的合成我们在任务说明文本中都进行了详细标注。所有自动化产线流程以游戏内REI显示为准，任务说明仅供参考。
+1. 因为新版本更新，开发组一直在修改某些物品的合成表保证平衡性，有些有问题的合成我们在任务说明文本中都进行了详细标注。
+   所有自动化产线流程以游戏内REI显示为准，任务说明仅供参考。
 
 2. 整合包开发组为这个整合包写了OST（音乐原声带），网易云音乐有人上传了：<https://music.163.com/#/album?id=158383486>（不鼓励盗传）
 

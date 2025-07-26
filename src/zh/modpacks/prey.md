@@ -3,18 +3,15 @@ layout: doc
 title: Prey汉化下载
 ---
 
-<div style="display: flex">
-  <img src="https://media.forgecdn.net/attachments/759/888/2023-11-15_22.png" style="width:50%" alt="图片1">
-  <img src="https://media.forgecdn.net/attachments/759/935/2023-11-16_00.png" style="width:50%" alt="图片2">
-</div>
+![图片 =400x](https://media.forgecdn.net/attachments/759/889/2023-11-15_22.png)
 
 起初，你会死而往复。在黑暗中被追逐所造成的恐惧不容小觑，毫无疑问：你是猎物。磨练你的技能，获取新的能力，锻造强大的装备来扭转局势，成为掠食者。
 
 **“死亡是我们的债，不得不偿还的债”**
 
-| 整合包下载地址                                                      | 加载器 | 支持整合包版本  | 汉化维护状态 |
-| :------------------------------------------------------------------ | :----- | :-------------- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/prey-beta) | Forge  | mc1.19.2 最新版 | 维护中       |
+| 整合包下载地址                                                      | 加载器 | 支持整合包版本          | 汉化维护状态 |
+| :------------------------------------------------------------------ | :----- | :---------------------- | :----------- |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/prey-beta) | Forge  | mc1.19.2 1.14（最新版） | 停止维护     |
 
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouy.com/s/prey-vmct' },
@@ -80,8 +77,8 @@ title: Prey汉化下载
 
 ## 贡献人员（排名不分先后）
 
-Cat酱、荔枝、冰琳、虚空、kressety、luyixs、X209
+cat酱、荔枝、冰琳、虚空、kressety、luyixs、X209、Ircno6
 
-特别鸣谢（外部贡献人员）：ChuijkYahus、Kasualix、老本願、rcno6
+特别鸣谢（外部贡献人员）：ChuijkYahus、Kasualix、老本願
 
 <DocSupport />

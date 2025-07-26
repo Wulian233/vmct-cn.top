@@ -2,7 +2,7 @@ const sidebar = {
   "/modpacks": [
     { text: "返回首頁", link: "/tw/index" },
     { text: "地圖翻譯", link: "/tw/map" },
-    { text: "翻譯準則", link: "rule" },
+    { text: "中文更新檔安裝教程", link: "modpacks" },
     { text: "雙十一事變", link: "what" },
     { text: "用戶協定", link: "/tw/agreement" },
     { text: "隱私政策", link: "/tw/privacy" },
@@ -21,7 +21,7 @@ const sidebar = {
         { text: "Bliss", link: "/modpacks/bliss" },
         { text: "Chunk Block", link: "/modpacks/chunk" },
         { text: "探索者前夜-凋靈風暴", link: "/modpacks/explorers-eve" },
-        // { text: "Cosmic Frontiers", link: "/modpacks/cosmic-frontiers" },
+        { text: "Cosmic Frontiers", link: "/modpacks/cosmic-frontiers" },
         { text: "FTB Evolution", link: "/modpacks/ftbe" },
         { text: "FTB天空奧德賽", link: "/modpacks/odyssey" },
         { text: "FTB建築師天堂2", link: "/modpacks/paradise2" },
