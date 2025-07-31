@@ -13,10 +13,10 @@ title: FTB Skies 2汉化下载
 > 完整汉化体验请下载下方的下载i18n模组，并放在`mods`文件夹！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/skies2' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Skies-2-Chinese' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/skies2' }
 ]" />
 
 | FTB官网                                                         | 加载器   | 支持整合包版本 | 汉化维护状态 |
@@ -90,7 +90,7 @@ FTB Skies 2 并非硬核专家包，却毫无疑问是一场以渐进成长、�
 
 ## 整合包下载与授权
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-oceanblock-2)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-skies-2)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
