@@ -3,8 +3,6 @@ import { useRoute } from "vitepress";
 import DefaultTheme, { VPBadge } from "vitepress/theme-without-fonts";
 
 import mediumZoom from "medium-zoom";
-import googleAnalytics from "../google-analytics";
-
 import MyLayout from "./components/MyLayout.vue";
 
 import Coins from "./components/Coins.vue";
@@ -25,8 +23,6 @@ export default {
   Layout: MyLayout,
 
   enhanceApp({ app }) {
-    googleAnalytics({ id: "G-98VEMPQYQD", debug: false });
-
     const components = {
       Coins,
       Card,
@@ -45,7 +41,26 @@ export default {
     const route = useRoute();
     const handleRouteChange = () => nextTick(initZoom);
 
-    onMounted(initZoom);
+    onMounted(() => {
+      mediumZoom(".main img:not(.no-zoomable)", {
+        background: "var(--vp-c-bg)",
+      });
+
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-98VEMPQYQD";
+      document.head.appendChild(script);
+
+      script.onload = () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-98VEMPQYQD");
+      };
+    });
+
     watch(() => route.path, handleRouteChange);
 
     (function (c, l, a, r, i, t, y) {
@@ -61,10 +76,4 @@ export default {
       y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "nllu2xu38c");
   },
-};
-
-const initZoom = () => {
-  mediumZoom(".main img:not(.no-zoomable)", {
-    background: "var(--vp-c-bg)",
-  });
 };

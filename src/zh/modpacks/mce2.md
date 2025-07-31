@@ -27,7 +27,7 @@ title: 永恒的MC 2汉化下载
 
 | 整合包下载地址                                                         | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :--------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2) | Forge  | 1.1.0.2        | 1.20.1 | 翻译中       |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2) | Forge  | 1.1.1.0        | 1.20.1 | 翻译中       |
 
 译者：cat酱、捂脸、琪露诺、自尊寺、GearTech（齿轮）、此乃一根葱、冰琳
 

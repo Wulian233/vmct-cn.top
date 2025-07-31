@@ -16,9 +16,7 @@ title: 喷气背包猫汉化下载
 
 | 整合包下载地址                                                                                     | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :------------------------------------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/jetpack-cat/files/all?page=1&pageSize=20) | Forge  | 最新版         | 1.16.5 | _维护中_     |
-
----
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/jetpack-cat/files/all?page=1&pageSize=20) | Forge  | 最新版         | 1.16.5 | 维护中       |
 
 ## 整合包介绍
 
@@ -34,9 +32,9 @@ title: 喷气背包猫汉化下载
 
 特别鸣谢：
 
-安逸汉化组、VM汉化组、NothingnessVoid（B站：虛箜）、MW_Zitie（B站：迷惘の子铁）、yangbro（B站：勤奋的鸽子杨言轩）的帮助
+安逸汉化组、VM汉化组、虛箜、MW_Zitie（B站：迷惘の子铁）、yangbro（B站：勤奋的鸽子杨言轩）的帮助
 
-硬编码汉化模组提供和问题解答：3093FengMing
+硬编码汉化模组提供和问题解答：X209
 
 ## 整合包下载与授权
 

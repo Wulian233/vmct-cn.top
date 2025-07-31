@@ -10,10 +10,6 @@ import { spoiler } from "@mdit/plugin-spoiler";
 import { twConfig } from "./locales/tw";
 import { zhConfig } from "./locales/zh";
 
-function generateAvatarUrl(username) {
-  return `https://github.com/${username}.png`;
-}
-
 function getMetaTags(pageUrl, pageTitle, pageDesc, pageKeywords, pageCover) {
   return [
     ["meta", { name: "og:url", content: pageUrl }],

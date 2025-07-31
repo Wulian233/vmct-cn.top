@@ -17,7 +17,7 @@ title: The Decursio Project Expert汉化下载
 
 | 整合包下载地址                                                             | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :------------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/decursio-project) | Forge  | 最新版r1.0.9    | 1.16.5 | 维护完成     |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/decursio-project) | Forge  | 最新版r1.0.9   | 1.16.5 | 维护完成     |
 
 ## 整合包介绍
 
