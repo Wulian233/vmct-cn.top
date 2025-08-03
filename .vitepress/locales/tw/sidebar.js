@@ -13,6 +13,7 @@ const sidebar = {
         { text: "永恆的MC 2（翻譯中）", link: "/modpacks/mce2" },
         { text: "Roguelike冒險與地牢（RAD1）", link: "/modpacks/rad" },
         { text: "異域征途（翻譯中）", link: "/modpacks/prodigium-reforged" },
+        { text: "亡者世界（DeceasedCraft）", link: "/modpacks/deceasedcraft" },
         { text: "FTB Skies 2", link: "/modpacks/skies-2" },
         { text: "FTB Neotech", link: "/modpacks/neotech" },
         { text: "FTB Oceanblock 2", link: "/modpacks/oceanblock2" },
