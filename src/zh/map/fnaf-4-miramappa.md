@@ -26,7 +26,7 @@ layout: doc
 > 我们已和作者达成深度合作，地图本体已经自带汉化，开箱即玩！
 
 <DownloadLinks :methods="[
-  { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: '/doing' },
+  { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/ilku2vvh3gigi1i/FNaF_4_v1.0.zip/file' },
   { id: 'bilibili', text: '预告片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV17qGVzUEUg' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/fnaf-4-miramappa/' }
 ]" />
