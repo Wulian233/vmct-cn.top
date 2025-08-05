@@ -34,13 +34,13 @@
     "qrcode": "^1.5.4",
     "sweetalert2": "^11.22.2",
     "typescript": "^5.9.2",
-    "unocss": "^66.4.0",
+    "unocss": "^66.4.1",
     "vitepress": "1.6.1",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@unocss/extractor-mdc": "^66.4.0",
+    "@unocss/extractor-mdc": "^66.4.1",
     "husky": "^9.1.7",
     "markdown-it": "^14.1.0",
     "pnpm": "^10.14.0",

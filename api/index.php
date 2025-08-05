@@ -75,7 +75,7 @@ $html = <<< HTML
         <meta name="viewport" content="width=device-width" />
         <link
   rel="stylesheet"
-  href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/mdui/1.0.2/css/mdui.min.css"
+  href="https://cdn.jsdmirror.com/npm/mdui@2.1.4/mdui.min.css"
   crossorigin="anonymous"
 />
         <style>html, body {
@@ -169,7 +169,7 @@ $html = <<< HTML
             </div>
         </main>
 
-        <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/mdui/1.0.2/js/mdui.min.js"></script>
+        <script src="https://cdn.jsdmirror.com/npm/mdui@2.1.4/mdui.min.js"></script>
     </body>
 </html>
 HTML;

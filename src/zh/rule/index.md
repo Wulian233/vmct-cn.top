@@ -3,175 +3,312 @@ title: 汉化准则
 layout: doc
 ---
 
-为了适应VM汉化组自身翻译领域的特点与随着时间发展相关实用工具的不断出现，本文档以CFPA原有 Mod 规范文档的基础之上做了部分演绎和扩充，希望各位参与翻译的译者能尽量遵守本文档中的一些指示，将翻译文件标准化。
+为了适应VM汉化组自身翻译领域的特点与随着时间发展相关实用工具的不断出现，
+本文档以CFPA原有 Mod 规范文档的基础之上做了部分演绎和扩充，希望各位参与翻译的译者能尽量遵守本文档中的一些指示，将翻译文件标准化。
 
 如果你对本文档存在疑问，想要提出建议，或者想要联系我们，请加入我们的 [QQ 群](https://qm.qq.com/q/WU5GGJhJeu)。
 
 如果你对地图翻译感兴趣，想要了解地图汉化准则，可以访问[地图汉化准则](/rule/map)页面。
 
-本文档所参考的原文采用 [WTFPL](http://www.wtfpl.net/about/) 协议
+本文档所参考的原文采用 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) 许可证发布，示例及第三方内容保留其原始条款。
 
-- 原文链接：<https://github.com/CFPAOrg/TransRules/blob/master/file/rules.md>（有删改）。
+- 原文链接：<https://github.com/CFPAOrg/TransRules/blob/master/file/rules-v2.md>（有删改）。
 
-## 01.普适原则
+## 目录
 
-- **以原文为准**。若原文确实无法简明翻译可考虑意译
-  - 根据游戏版本的不同，原文一般为
-    - `en_us.lang`（1.11 - 1.12.2 版本）
-    - `en_us.json`（1.13 - 1.21 版本）文件内的内容
-  - 但如果是日站 Mod 或者其它语言的 Mod 请参考对应的源语言文件
-    - 若原文确定是生造词，应先根据游戏内表现和生造词词根等拟定翻译，若无特殊意义则可采用音译（例如 [Environmental Tech](https://www.curseforge.com/minecraft/mc-mods/environmental-tech) ）
-- 在翻译之前熟悉翻译词条的位置，以及对应物品或者选项的功能，确保能知道语境下词条的真正意义
-- 符合中文表达习惯，如果无法转换则改写句子形式
-  - 比如手册中存在的定语从句或被动语态
-  - 原文：`The Red Cedar Tree is a large tree that has magical properties.`（[Totemic](https://www.curseforge.com/minecraft/mc-mods/totemic) 模组）
-  - 译文：`高大无比的红柏树有着魔法的属性。`
-- 此前版本的翻译**可以**作为参考但**不是**唯一参考
-- 对于那些没有翻译的条目，或者翻译与原文完全一致，则可以直接复制英文原文
-- 对于不知道怎么翻译，提交时有暂未翻译的条目，请直接跳过这些条目，不要复制英文原文
-- 如果是通过 Github 提交，请注意语言文件应当为 `UTF-8 without BOM` 的编码
+[[TOC]]
 
-## 02.保留字符（串）
+## 1. 普适原则
 
-- 某些词条中出现的 `%s`、`%d` 等格式字符或以 `%` 围起来的字符串（如 `%msg%`），请保留这些字符串，它们会在代码中被替换为对应的文本
-  - 格式字符可以通过添加位置标识的方式调换前后顺序，以适应翻译的需要
-    - 原文：`Summoned %s with difficulty %d`
-    - 译文：`召唤了难度为%2$d的%1$s`
-  - 如果不确定最终效果，请打开游戏进行测试
-- 注意百分号是全角还是半角，切勿直接使用百度、必应、谷歌等网站或软件翻译标点符号
-- 在某些 Mod 的手册中会使用 `<br>`、`\n` 等作为换行符，遇到时请保留
-- 某些 Mod 使用 `&` 或者 `§` 后加一个字符或者数字表示颜色或者格式，在此标识出现后的文字都将变成对应的颜色或者格式，一般使用 `&0` 或者 `§0` 恢复默认颜色，`&r` 或者 `§r` 恢复默认格式。遇到时请保留，并将其放到对应文本两侧
-  - 具体字符含义请参考 Minecraft Wiki：[格式化代码](https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81)
-- 在遇到 tellraw JSON 字符串的时候，请**仅**翻译 `"text"` 项的值，对于其它的键和值均不翻译，请保留
-  - 原文：`{"text":" has shared a ","color":"blue"}`（[Botania](https://github.com/Vazkii/Botania)，Vazkii）
-  - 译文：`{"text":"分享了一本","color":"blue"}`
-- 少数 Mod 使用 XML 格式的语言文件，对于这种文件请保留以 `<` 和 `>` 开头结尾的标签
-- 若语言文件所使用的格式上述未提及，请参照对应文件格式进行翻译，若不清楚请查找相应信息或询问其他有经验的译者
-- 能量单位、体积单位等（如：FE、RF、MB）请保留不翻译
-- 按键（如 Shift、Ctrl 等）请不要翻译，并将首字母大写（部分模组语言文件会将 Shift 键描述为 `Sneak`）
-- 命令（如 `/say`，`/effect`）以及明文参数请保留不要翻译，而解释性参数则需要翻译
-  - 原文：`/time (add|query|set) <time>`（Minecraft，Mojang）
-  - 译文：`/time (add|query|set) <时间>`
+- **以原文为准**。
+  - 翻译前务必游玩一遍，熟悉模组背景、风格，物品功能等知识后再进行翻译。
+  - 不要过于依赖机器翻译或大语言模型，必须有自己的理解才能参考。
+  - 注意不同**时态、词性**之间的细微差异，以免误读错译。
+  - 不要漏译。比如一句话中的关键信息、保留代码、对风格影响很大的词语。
+  - **不要**因一时的灵感乍现**过度发挥**，而导致与整体风格相差迥异。
+  - **确定**原文有误或不严谨时可以按实际情况翻译，记得将这一错误反馈给模组作者。
+    - `No hostile mobs and only some neutral mobs spawn.`
+    - `不会生成绝大多数敌对生物。`（Minecraft, options.difficulty.peaceful.info）
+- 译文应符合中文语言习惯。
+  - **日期时间、货币、度量衡**等应一并转换至中文语言习惯。可直接写转换后的数据，也可以括注。
+  - **定语从句**或**被动语态**应调整至中文语序。
+  - 注意**多项定语和状语**的排列顺序。详见高中病句改错专题。
+- 注意一致性。
+  - **物品、方块、生物**名是重中之重，务必确保每次引用相同的名称。
+  - 多次出现的**句式**应当有统一的翻译。
+  - 多次出现的其他实词根据需要统一。
+  - 借助翻译记忆（TM）和词汇表（Glossary）/术语库（TB）可以更方便地确保一致性。
+- 因精力有限、能力不足或其他原因，不得不提交半成品翻译时，应删去未翻译的内容。
+  - 需要保留原文的内容不应删去。
+  - 向模组官库直接提交翻译也应如此，尽管不建议提交半成品翻译。
+- 对旧版翻译，建议**仅在有误时修改**，不要频繁进行琐碎调整。但确实有误的应当根据情况及时修正，以免成为历史遗留问题。
+- 语言文件一般编码为 `UTF-8 without BOM` 即 `UTF-8`，在保存时需要注意。
+- 模组作者非英语母语者，且模组包含其母语语言文件时，建议以其母语作为源语言翻译。如果不熟悉也可以从英语翻译，遇到难以理解的内容时请务必检查母语内容。
+- 模组作者的要求与本指南冲突时，以模组作者要求为准。
+- **禁止在翻译中套用不适宜的烂梗**，尤其是带有较大负面影响的！
 
-## 03.标点符号
+## 2. 格式规范
 
-- 多数情况下请与原版 Minecraft 保持统一，使用中文的标点符号。如果是保留不翻译的英文中的标点符号，则仍保留英文的标点符号
-  - 原文：`Free fall from the top of the world (build limit) to the bottom of the world and survive`（Minecraft，Mojang）
-  - 译文：`从世界顶部（建筑高度限制处）自由落体，坠至世界底部并存活下来`
-- 多数情况下请遵守《标点符号用法》：[GB(T)15834-2011](<https://people.ubuntu.com/~happyaron/l10n/GB(T)15834-2011.html>)
-- 对于英文中 `[]` 的翻译，需保证本模组统一
-  - 以下为常见的处理方法
-    - 将 `[]` 更改为方头括号`【】`
-    - 将 `[]` 更改为全角方括号`［］`
-- 对于英文标点符号前或后的空格，请在修改标点符号为中文时删除
-- 仅修改文本当中的标点符号，遇到例如 JSON 格式标点符号时请保留
+### 保留代码
 
-## 04.排版
+- 格式占位符形如 `%s` `%d`，或以 `%` 包围的字符串（如 `%msg%`）。这些占位符应保留在译文中，它们会在游戏中被替换为对应的文本。
+  - 格式占位符可以通过添加位置标识的方式调换前后顺序，以适应翻译的需要。
+    - `Removed effect %s from %s`（Minecraft 1.20）
+    - `已移除%2$s的%1$s效果`
+  - 如果不确定最终效果，请打开游戏进行测试。
+  - 注意不要误用全角百分号 `％`。
+- [格式化代码](https://zh.minecraft.wiki/w/格式化代码) 形如 `§0` `§r` 或 `&0` `&r`，又称颜色代码。一般使用 `§0` 或者 `&0` 恢复默认颜色，`§r` 或者 `&r` 恢复默认格式。遇到时请保留，并将其放到对应文本两侧。
+- [命令](https://zh.minecraft.wiki/w/命令) 使用帮助中，命令本身（`/time` `/say`）以及字面量（`set|add|query`）需要**保留原文**。描述性的参数名需要翻译。
+  - `/time <set|add|query> <value>`（Minecraft 1.12）
+  - `/time <set|add|query> <值>`
+- 在某些模组的手册中会使用 `<br>` `\n` 等作为换行符，遇到时请保留。
+- 在遇到 tellraw JSON 字符串时，请**仅**翻译 `"text"` 项的值，对于其它的键（Key）和值（Value）均不翻译，**保留原文**。
+  - `{"text":" has shared a ","color":"blue"}`（Botania 1.12）
+  - `{"text":"分享了一本","color":"blue"}`
+- 少数 Mod 使用 XML 格式的语言文件，对于这种文件请保留以 `<` 和 `>` 开头结尾的标签。
+- 若语言文件所使用的格式上述未提及，请自行查找格式信息或询问其他有经验的译者。
 
-### 通用规则
+### 排版
 
-- 英文字母、阿拉伯数字等非中文字符，不应加空格与中文文本分开
-  - 不适用于有特殊规定的专有名词
-  - 在 Patchouli 提供的书籍文本中仍需添加空格
-    - 原文：`JEI must be on the server to handle this Chat Command, it is too long for Minecraft to send.`（[Just Enough Items](https://github.com/mezz/JustEnoughItems/blob/1.12/src/main/resources/assets/jei/lang/en_us.lang), mezz）
-    - 译文：`此命令对Minecraft来说太长了，必须在服务端上安装JEI才能处理。`
-- 全角标点与其他字符之间不必留空格
-  - 原文：`While simple in theory, in practice it was a little difficult. For my simple network at the time, the activation cost was quite steep because of the initial pressure required, and the drain for each source of lava was not something I was prepared for. (20000 LP to activate, 500 LP per source block)`（[Blood Magic](https://github.com/WayofTime/BloodMagic/blob/1.9/src/main/resources/assets/bloodmagicguide/lang/en_US.lang), WayOfTime, et al.）
-  - 译文：`然而这只是理论。说起来容易做起来难：当时我使用的简易网络完全不适合拿来为这个仪式供应魔力，不仅挤压熔岩需要的压力巨大（需要20000LP启动仪式），抽取熔岩的开支也不小（每产生一格熔岩需要500LP）。`
-- 阿拉伯数字与英文单位之间不必添加空格
-  - 原文：`Ideal for decoration, holding 50mb of fluid. Retains liquid when broken.`([Tinkers' Construct](https://github.com/SlimeKnights/TinkersConstruct/blob/1.16/src/main/resources/assets/tconstruct/lang/en_us.json), SlimeKnights)
-  - 译文：`理想的装饰建材，能存储50mB的流体。被破坏时仍能保留其中的液体。`
+- 标点符号应与原版 Minecraft 统一，并使用规范的中文全角标点。详见 `GB/T 15834-2011 标点符号用法`
+  - 夹用英文时，仅在完整的英文语境中使用英文标点。详见 `CY∕T 154-2017 中文出版物夹用英文的编辑规范`
+  - 对于方括号 `[]`，建议按原版直接使用 `[]`。
+  - 选项中的省略号可以只用半个 `…`。
+- 英文字母、阿拉伯数字等非中文字符，与中文字符之间不添加空格分开。
+  - Patchouli 手册中的文本中仍需在中文与非中文字符之间添加空格。
+  - 数字与英文单位缩写之间是否空格按原文格式处理。若前后不一致译者可自行择一格式统一。
+    - `下载文件中（%s MB）`（Minecraft, resourcepack.progress）
+    - `%s：%spx`（Minecraft, options.pixel_value）
+    - 国际单位需要翻译成中文。
+      - `Use the Nether to travel 7 km in the Overworld`
+      - `利用下界移动对应主世界7千米的距离`
+  - 中文字符与标点符号之间不添加空格。按句翻译时记得删去每句之间的空格。
+  - 有特殊规定的术语、专有名词除外。
+- 因排版需要或另有格式要求之处除外。
 
-### 1.12.2 及以下版本特有规则
+## 3. 一致性
 
-- 当遇到英文字母、阿拉伯数字等非中文文本时，应在该段文本开头与结尾处加空格与中文文本分开
-  - 原文：`JEI must be on the server to handle this Chat Command, it is too long for Minecraft to send.`（[Just Enough Items](https://github.com/mezz/JustEnoughItems/blob/1.12/src/main/resources/assets/jei/lang/en_us.lang), mezz）
-  - 译文：`此命令对 Minecraft 来说太长了，必须在服务端上安装 JEI 才能处理。`
-- 对于物品名来说也应如此
-  - 原文：`TIS-3D Reference Manual` ([TIS-3D](https://github.com/MightyPirates/TIS-3D/blob/master-MC1.11/src/main/resources/assets/tis3d/lang/en_US.lang), fnuecke, et al.)
-  - 译文：`TIS-3D 参考手册`
-- 不适用于有特殊规定的专有名词
+### 术语
 
-## 05.字幕
+术语是具有**精确且唯一**含义的词语或词组。游戏翻译中的术语一致性尤为重要，它直接影响玩家的游玩体验。
 
-- [字幕](https://zh.minecraft.wiki/w/%E5%AD%97%E5%B9%95)（Subtitle）一般是翻译键中带有 `subtitles` 或 `sound` 的条目。
-- 若字幕原文为主谓结构，则应译作 `主体：声音` 的格式。- 原文：`Bee buzzes`（Minecraft，Mojang）
-  - 译文：`蜜蜂：嗡嗡`
-- 若原文没有主语，视情况翻译。
-  - 原文：`Rowing`（Minecraft，Mojang）
-  - 译文：`划船`
+- 翻译过程中遇到出现频率高的词语，需判断是否要保持术语一致性。
+  - 由于游戏翻译的特殊性，大部分需要作为术语翻译。
+  - 术语长度并不固定，可以是单词也可以是词组，需要根据出现频率判断。
+- 模组要遵循原版的术语，附属模组、联动模组要遵循主模组的术语。
+  - 对于原版中出现的术语请对照 Minecraft Wiki 上的 [译名标准化](https://zh.minecraft.wiki/w/Minecraft_Wiki:译名标准化) 页面翻译。
+    - 对于 1.19.2 及以下版本的模组翻译，需注意 [译名标准化/历史](https://zh.minecraft.wiki/w/Minecraft_Wiki:译名标准化/历史) 的译名更改历史。译名更改的影响范围为此版本和前两个大版本，例如 1.19.2 的译名更改也会同步至 1.19.2- 1.18.X 和 1.17.X，但不会同步至 1.16.X。详情请参 [Crowdin#新版本](https://zh.minecraft.wiki/w/Crowdin?oldid=686835#新版本)（旧）
+    - 1.19.3 及以上版本均可收到最新的语言文件变动，不必刻意区分，按最新版译名翻译即可。
+    - 注意：1.19.3 之后的译名更改不会同步至 1.19.2 及以前的版本。
+    - 英语原文更改时，会生成一个新的键，而旧键会被保留以供旧版本使用。涉及原文修改的译名，请以对应版本游戏内实际译名为准。
+    - **如果你被绕晕了，请打开游戏，以相应版本游戏内实际表现为准。**
+  - 对于其他术语，应当保持前后翻译一致。必要时可建立术语库方便管理。
+- 部分术语根据语境不同需要调整措辞，比如树木。详见 [树木名](#树木名)
+- 对不同的术语，翻译也应不同。这样才能使其含义精确且唯一。
+- 两个互不相干的模组往往不必保持术语一致性，另有要求的除外。
+- 现实中存在的**动植物名称**建议按以下规则翻译：
+  - 以双名法或拉丁属名这样的**学名**命名的，有正式译名的采正式译名，没有的可以按拉丁词根直译并对人名地名音译。如果能力允许，更推荐参考命名者发布的原始描述论文进行翻译。
+  - 以**俗名**命名的，优先选择该物种国内常用译名，否则直译。若风格允许直接套用学名也可。
+  - **同物异名**的按相应学科处理办法统一名称，学界有争议的译者择一译名统一即可，不必完全严谨。
+  - 因历史原因被**错译、混用、错用**的名称，若已长期通行且无歧义，应当继续沿用。（Acacia 金合欢）
+  - 为游戏内搜索方便，建议**使用 [模组翻译参考辞典](#辞典资源) 中频率高的译名**。
+- 现实中存在的**矿石**建议以 [术语在线](https://www.termonline.cn) 提供的术语进行翻译。
+  - 术语中的“矿”与“矿石”组合时**不要删去术语中的“矿”**。
+  - `pyrite ore` -> `黄铁矿矿石`
+  - `raw pyrite` -> `粗黄铁矿`
+  - 有其他更常用名称的，若无其他要求可以使用。
 
-## 06.专有名词
+#### 树木名
 
-- 人名/生物名/商标名/唱片名
-  - 有通用翻译的外文人名或商标，则进行翻译
-    - 如翻译牛顿、阿基米德等
-  - 出现神话或故事中出现的人物或怪物名请首先搜索流行译名，如果找不到的话则音译
-    - 原文：`Baykok`（[Totemic](https://github.com/TeamTotemic/Totemic)，TeamTotemic）
-    - 译文：`贝柯克`
-  - 指 Mod 社区的某个人物，或贡献列表中的人物，或者已有商标，唱片等无中文翻译的则保留不翻译
-    - 如 `Vazbee`（[Magic Bees](https://github.com/MagicBees/MagicBees)，MysteriousAges, Arkandos, mezz, et al.）
-    - 原文：`Patreon Pie`（[Pam's HarvestCraft](https://github.com/MatrexsVigil/harvestcraft)，MatrexsVigil）
-    - 译文：`Patreon派`
-  - 对于其它的名字，保留原文不翻译
-- 对于模组名，不必翻译，保留原文即可
-- 对于原版中出现过的词语请根据 Minecraft Wiki 上的[标准译名](https://zh.minecraft.wiki/w/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96)按照对应 Minecraft 版本进行翻译
-- 若某词在现实中有对应的事物存在，但游戏中的表现与该实际事物不相关，应采取手段使该词的译名与现实不同
-- 目前可以**参考**
-  - [模组翻译参考词典](https://dict.mcmod.cn/)
-  - [我的世界中英术语库](https://github.com/CFPAOrg/Glossary)
-  - [模组译名标准化列表](https://github.com/Meow-J/Mod-Translation-Styleguide/blob/master/glossary.md)（**部分已过时**）
-  - [CFPA汉化仓库主页](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)
-  - [VM汉化组模组翻译仓库主页](https://github.com/VM-Chinese-translate-group/mod-standard-translation-repository)下的各类可用资源
-- 如果还没有找到，请自行拟定翻译，如果实在无法想出翻译，则暂时留为英文
+树木名作为术语时，根据使用场景不同调整表达。
 
-## 07.语言
+- 译作单字时：
+  - 某些树木名为单字，比如松属、柳属，或其他本土树种，或是必须译作单字的情况。
+  - 在用作树苗、树叶名时，加“树”；在用作木材名时，加“木”；在用作木制品名时，加“木”
+  - `Oak` -> `橡`
+  - `Dark Oak` -> `深色橡` 添加的定语直接译出就好，不要改动术语。
+  - `lumen` -> `光`（光树、光木、光木）（仅示例，不作为具体翻译参考）
 
-- 对于语言的正式程度，请参见词条原文
-  - 如果原文非常正式，那么请不要玩梗或卖萌
-    - 原文：`This pair of enchanted boots have been stuffed full of magic to ease the journey of any traveler.<BR>They allow you to move faster than normal. They also allow you to jump higher and fall further.`（[Thaumcraft 5](https://github.com/Azanor/thaumcraft-5)，Azanor，节选）
-    - 译文：`这双富含神秘的魔力工艺技巧的靴子能让任何旅行者的旅途变得更轻松愉快。<BR>它能够让你移动得比平常更加迅速，并且能够直接掠过较高的台子。它也能够让你跳得更高，落得更远。`
-  - 如果原文本身就在玩梗，或者语气非常轻松，那么也不需要使用非常正式的语言
-    - 原文：`NANI SORE!? BOTANIA IS OUTDATED!?`（[Botania](https://github.com/Vazkii/Botania)，Vazkii）
-    - 译文：`(つд⊂)なにそれ！？植物魔法版本落后了！？`
-- 如果原文使用了拉丁化的日语，可以将其书写为对应中文的[空耳](https://zh.moegirl.org.cn/index.php?title=%E7%A9%BA%E8%80%B3)，或者直接保留为罗马音
-- 如果原文使用了游戏电影等中的梗，请首先参考原出处的中文翻译，如果是日语而没有统一的翻译，则改写为日语原文（在此情况下请保持翻译与否的统一）
-  - 原文：`You notice Botania has updated. It fills you with determination.`（[Botania](https://github.com/Vazkii/Botania)，Vazkii，梗出自于Undertale）
-  - 译文：`你注意到植物魔法已经更新了。这使你充满了决心。`
-- 如果你自己做了一版卖萌形式或者玩梗形式的汉化文件，请不要发送到作者那里作为默认的汉化文件，仅流传在第三方就行了
-- **切勿在语言文件中玩不适宜的烂梗**（尤其是带有较大负面影响的）
+|          树木          |         木材          |        木制品         |
+| :--------------------: | :-------------------: | :-------------------: |
+| (Dark) **Oak** Sapling |  (Dark) **Oak** Log   | (Dark) **Oak** Stairs |
+|  （深色）**橡树**树苗  | （深色）**橡木**原木  | （深色）**橡木**楼梯  |
+| (Dark) **Oak** Leaves  | (Dark) **Oak** Planks |                       |
+|  （深色）**橡树**树叶  | （深色）**橡木**木板  |                       |
+|                        |     **Oak** Wood      |                       |
+|                        |   （深色）**橡木**    |                       |
 
-## 08.Mod 名翻译
+<br><br>
 
-- 这里的 Mod 名指的是语言文件内的 Mod 名
-- 翻译 Mod 名前请至少将整个 Mod 通玩一遍，熟悉 Mod 的特性与整体风格
-- 如果是国创 Mod，则中文名采用 Mod 作者自定义的名称
-- 如果是经典 Mod，有早已熟知唯一译名，则采用该熟知译名
-  - `IndustrialCraft2` -> `工业时代 2`
-  - `Twilight Forest` -> `暮色森林`
-- 如果 Mod 名为术语或者单词翻译不存在歧义，则采用翻译名
+- 译作多字且不以木结尾时：
+  - 这是普遍的情况，注意不要擅自改动术语，只需在用作木制品时加个“-木”就好。
+  - `Spruce` -> `云杉/云杉木`
+  - `Yggdrasill` -> `世界树/世界树木`
+
+|        树木        |       木材        |      木制品       |
+| :----------------: | :---------------: | :---------------: |
+| **Spruce** Sapling |  **Spruce** Log   | **Spruce** Stairs |
+|    **云杉**树苗    |   **云杉**原木    |  **云杉木**楼梯   |
+| **Spruce** Leaves  | **Spruce** Planks |                   |
+|    **云杉**树叶    |   **云杉**木板    |                   |
+|                    |  **Spruce** Wood  |                   |
+|                    |    **云杉**木     |                   |
+
+<br><br>
+
+- 以木结尾时：
+  - `Mahogany` -> `桃花心木`（不要删去木）
+
+|         树木         |        木材         |       木制品        |
+| :------------------: | :-----------------: | :-----------------: |
+| **Mahogany** Sapling |  **Mahogany** Log   | **Mahogany** Stairs |
+|   **桃花心木**树苗   |  **桃花心木**原木   |  **桃花心木**楼梯   |
+| **Mahogany** Leaves  | **Mahogany** Planks |                     |
+|   **桃花心木**树叶   |  **桃花心木**木板   |                     |
+|                      |  **Mahogany** Wood  |                     |
+|                      |    **桃花心木**     |                     |
+
+更多示例请查看 [附录：树木名翻译格式参考表格](#附录：树木名翻译格式参考表格)
+
+### 固定或已成习惯的表达
+
+- 一些提示性语句有固定的表达方式，注意翻译记忆的提示。
+  - `and %s more...`
+  - `还有%s项未显示…`（Minecraft，container.shulkerBox.more）
+- [字幕](https://zh.minecraft.wiki/w/%E5%AD%97%E5%B9%95) 一般是翻译键中带有 `subtitles` 或 `sound` 的条目，有着固定的翻译格式。
+  - 若字幕原文为主谓结构，则应译作 `主体：声音` 的格式。
+  - `Bee buzzes` -> `蜜蜂：嗡嗡`（Minecraft）
+  - 若原文没有主语，视情况翻译。
+  - `Rowing` -> `划船`（Minecraft）
+- 能量单位、体积单位等（如：FE、RF、MB）请保留不翻译，但出现全称时（如：Forge Energy）需要翻译。
+  - 现实中的国际单位需要翻译。
+  - `Ticks` 可以翻译成刻，也可以保留原文。
+- 游戏动作（如 Sneak、Interact、Reload）需要翻译，且不要翻译成对应的按键，因为这些键位是可以更改的。`Sneak and right click` -> `潜行右击`
+- 键盘功能键​​（如 Shift、Ctrl 等）请不要翻译，并将首字母改为大写。
+- 鼠标操作（如 Right Click、Click）需要翻译，注意不要译作“左键”（Left Mouse Button）“右键”，应译作“单击鼠标右键”“右键点击”“右击”等，可以参考原版的翻译。
+- [翻译共识](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/wiki/翻译用语共识) 记录的是达成一致的争议翻译处理办法。它比指南更加灵活，但也可能不够严谨。尽管如此，它仍是重要的参考依据。
+
+## 4. 专有名词
+
+专有名词指特定且独一无二的个体、地点、组织、事件或事物。
+
+- 人名、神话人物怪物名、地名可以先在 [字统网-译名查询](https://zi.tools/?secondary=transliteration) 查找译名，有正式译名优先按正式译名翻译。
+  - 未找到正式译名可按音译表音译，或按常用译名翻译。
+  - 若模组风格允许，也可根据特征翻译，但需尽量独特。
+- 商标名按其在中国大陆的商标名翻译，未进入中国大陆市场的建议**保留原文**不翻译。
+  - 如：`Patreon` `Discord` `GitHub`
+  - 若场景允许，也可以进行归化翻译。`GRUBHUB` -> `饿了么`
+- 网络昵称通常**保留原文**不翻译，如游戏社区中的某个人物网名或贡献列表中的人物网名。
+- 文艺作品名如画名、曲名，一般**保留原文**不翻译。曲名有正式译名的，可以按正式译名翻译。
+- 作为术语的专有名词还需遵守术语翻译指南。
+
+### 模组名
+
+- 确定模组名的翻译前请至少将整个模组通玩一遍，熟悉模组的特性与整体风格。
+- 模组名翻译的发挥空间很大，言之有理且大众喜闻乐见即可。
+- 模组名称含义明确或为专业术语的不需要别出心裁重新起名。
   - `Forestry` -> `林业`
   - `Logistics Pipes` -> `物流管道`
   - `Chisel` -> `凿子`
-- 如以上均不符，应在汉化文件内保留英文，外部社区翻译仅供流传使用。有一定用户量后，如果某一社区翻译人气非常高，则之后会采用人气最高版本的翻译（如 Minecraft，我的世界）
-- 部分模组存在多组分栏，建议统一采用 `模组名丨分栏名` 进行书写，中间的竖线为汉字 `丨(gǔn)`
+- 国创模组不在翻译业务范围内，但中译英时也可参考本指南原则。
+- 机械动力附属模组常以 `Create: ...` 的格式命名，建议采用 `主模组：子模组` 的格式翻译。
+  - `Create: Steam 'n' Rails` -> `机械动力：汽鸣铁道`
+  - 其他非机械动力附属模组名也可参考该格式。
+- 部分模组存在多个`ItemGroup`，建议统一采用 `模组名丨分栏名` 格式翻译，中间的竖线为汉字 `丨`(gǔn)(shù) 。
   - `Forestry Apiculture` -> `林业丨养蜂`
+- 以自造词或含义广泛的词为模组名时，如果想不出合适的翻译可以先保留原文，等待玩家社区的意见发酵。之后译者可选择数个符合要求的名称开展投票确定最终译名。
+  - `Minecraft` -> `我的世界`
 
-## 9.署名
+## 5. 难译项
 
-- 除非作者在语言文件中专门提供了翻译者署名的地方，请不要添加任何其它标识标明翻译者的名字。
+模组中出现的**文化专有项、架空概念、自造词、海外流行文化**或**隐喻、暗示、特殊风格**等内容，常使译者常感到头疼，因为这些元素在中文中难以找到贴切的对应表达。
+然而这确实是一个庞大的问题，大到可以写好几本书详细阐述，故在此只能介绍翻译要点和常用的技巧。
 
-## 10.相关工具和网站
+### 难上加难
 
-- 由MC百科版的 [Minecraft 模组翻译参考词典](https://dict.mcmod.cn/)，数据库更新较慢。数据源来自[CFPA](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)。
-- 由捂脸制作的[MC模组翻译参考词典](https://dict.vmct-cn.top/)，数据库更新更及时，功能更多，并且在[Github开源](https://github.com/Wulian233/mcmod-translation-dict)。数据源来自[CFPA](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)。
-- 由捂脸编写的[snbt-json互转工具](https://github.com/VM-Chinese-translate-group/translate-tools/blob/main/snbt_json_converter/main.py)，下载可在[Release](https://github.com/VM-Chinese-translate-group/translate-tools/releases)页面找到对应系统的版本。
-- 由捂脸编写的[FTB任务颜色字符检查工具](https://github.com/VM-Chinese-translate-group/translate-tools/blob/main/ftbq_color_check/main.py)，下载可在[Release](https://github.com/VM-Chinese-translate-group/translate-tools/releases)页面找到对应系统的版本。
-- Tryanks 编写的适用于 Minecraft 1.16+ 版本的 Minecraft [模组翻译器](https://github.com/CFPATools/Minecraft-Mods-Translator)（**已归档**）
-- Snownee 编写的一个[在线网页工具](https://snownee.github.io/l10n-tools/update.html)
-- crafteverywhere 之前写的一个[文本更新检测工具](https://github.com/crafteverywhere/Craft_Minecraft_Mod_Localization/blob/master/lang_checker.py)（运行需要 Python 3+ 环境）
-- Github [语言文件关键字查询](https://github.com/Meow-J/Mod-Translation-Styleguide/blob/master/tools/GithubKeywordQuery.py)（需要 Python 3.4+ 环境）
+由于游戏翻译的特殊性，与文学翻译相比，Minecraft 模组的翻译还有额外的挑战：
 
-## 11.参考资料
+- **空间限制**：由于游戏UI的空间有限，无法使用“译者按”、“脚注”或“解释”（如果够短可以）这样的虽然好用但占用空间较大的处理方式。
+- **一致性**：有时多处出现的难译项非但不能舍去，还只能用一个词满足各个不同的语境。
+- **非正式**：模组并不是严谨的出版物或文章，内容往往仅凭作者喜好，出现错字、说胡话、原文术语不一致等都很正常，译者要代作者将没说请的话说清楚，除非作者刻意如此。
 
+### 处理方法
+
+- **保留原文**：不进行翻译而保留原文
+  - `UU-Matter` -> `UU物质`（Industrial Craft 2）
+- **看图说话**：根据用途或特征翻译
+  - `Mace` -> `重锤`（Minecraft）
+- **直译**：根据词根或字面意翻译
+  - `Redstone` -> `红石`（Minecraft）
+  - 尽管有的词看起来简洁明了，但谁也说不准后面会不会出现一个“Redite”或者“Redstonite”。因此一些保守的译者会译作“雷石东”，不要觉得这是滑稽的笑话。
+- **音译**：
+  - **直接音译**：
+  - _Slime_ -> *史莱姆*丨`Creeper` -> `苦力怕`（Minecraft）
+  - **变通音译**：与其他处理方法合并使用，比如音译+类别词、音译+词根、音译+用途或特征等。
+  - `Jeep` -> `吉普车`丨`beer` -> `啤酒`
+- **归化**：以中文中意思相同或相近的表达方式代替
+  - `Light as a Rabbit` -> `轻功雪上飘`（Minecraft）
+  - `The Parrots and the Bats` -> `我从哪儿来？`（Minecraft）
+  - `Free room and board? Sign me up!` -> `包吃包住？算我一个！`（Extra Utilities 2 1.12.2）
+  - 尽可能不用生僻字。
+  - 需要注意与整体风格一致。比如以西幻为主的模组，不应将“mana”归化为“真气”这样的玄幻风格浓重的词语，音译是不错的选择。
+  - **禁止在翻译中套用不适宜的烂梗**，尤其是带有较大负面影响的！
+- **解释、括注**：如果足够精炼简洁，也可以解释或括注。
+  - `Ya Think It's a Bird?` -> `你觉得这是只鸟吗？`
+    `Obtain a Kiwi` -> `获得一个猕猴桃（几维果）`（Clutter 1.20）
+    这里玩了一个 Kiwi 同时指鸟和猕猴桃的双关
+
+上述方法不分高低，音译并不比其他方法差，根据情况选择合适的方法才是硬道理。
+上述方法并非全部，译者不应局限于这些技巧。
+
+## 6. 署名
+
+除非作者在语言文件中专门提供了翻译者署名的位置，否则不应在语言文件内任何位置添加翻译者署名，特别是作者要求签署 CLA 的情况。你的贡献将会在 Contribution 处或其他合适的地方彰显。
+
+### 辞典资源
+
+- [模组翻译参考词典（MCMOD）](https://dict.mcmod.cn/)或[模组翻译参考词典（VM汉化组）](https://dict.vmct-cn.top/)
+- [我的世界中英术语库](https://github.com/CFPAOrg/Glossary)
+- [CFPA汉化资源包仓库](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) 主页下的各类可用资源
+- [字统网-译名查询](https://zi.tools/?secondary=transliteration) 可用于查询人名地名正式翻译。
+- [术语在线](https://www.termonline.cn) 全国科学技术名词审定委员会审定的术语。
+- [剑桥辞典](https://dictionary.cambridge.org/zhs/)
+- [欧路词典](https://www.eudic.net/) 快捷键查词、剪贴板查词软件。
+
+## 8. 参考资料
+
+- [Minecraft Mod简体中文翻译规范与指南](https://github.com/Krasjet/Mod-Translation-Styleguide)（喵呜机）
+- 前版 [Minecraft 模组简体中文翻译规范与指南](https://github.com/CFPAOrg/TransRules/blob/master/file/rules.md)（CFPAOrg）
 - [中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines)
+- CY∕T 154-2017 中文出版物夹用英文的编辑规范
+- ZYF 001-2016 本地化翻译和文档排版质量评估规范
+- GB/T 19682-2005 翻译服务译文质量要求
+- GB/T 15834-2011 标点符号用法
+- [史前自然](https://www.mcmod.cn/class/4869.html) 模组翻译团队的贡献
+
+## 附录：树木名翻译格式参考表格{#附录：树木名翻译格式参考表格}
+
+| 树名（地物名）     | 木材名   | 木制品名   | 原文                                    |
+| ------------------ | -------- | ---------- | --------------------------------------- |
+| 橡树               | 橡木     | 橡木       | Oak                                     |
+| 深色橡树           | 深色橡木 | 深色橡木   | Dark Oak                                |
+| 云杉               | 云杉     | 云杉木     | Spruce                                  |
+| 白桦               | 白桦     | 白桦木     | Birch                                   |
+| 丛林（树）         | 丛林     | 丛林木     | Jungle                                  |
+| 金合欢（树）       | 金合欢   | 金合欢木   | Acacia                                  |
+| 杜鹃（树）         | ===      | ===        | Azalea                                  |
+| 红树               | 红树     | 红树木     | Mangrove                                |
+| 樱花（树）         | 樱花     | 樱花木     | Cherry Blossom                          |
+| 竹                 | 竹       | 竹         | Bamboo 不是木头                         |
+| （巨型）绯红（菌） | 绯红     | 绯红木     | (Huge) Crimson (Fungus), Stem, Hyphae   |
+| （巨型）诡异（菌） | 诡异     | 诡异木     | (Huge) Warped (Fungus), Stem, Hyphae    |
+| 埃德木             | 埃德木   | 埃德木     | Edelwood                                |
+| 世界树             | 世界树   | 世界树木   | Yggdrasill 术语不可拆分                 |
+| 柳树               | 柳木     | 柳木       | Willow                                  |
+| 桃花心木           | 桃花心木 | 桃花心木   | Mahogany                                |
+| 日本红枫           | 日本红枫 | 日本红枫木 | Japanese Maple                          |
+| 日本枫树           | 日本枫木 | 日本枫木   | Japanese Maple （根据翻译不同变化不同） |
+| 苹果               | 苹果     | 苹果木     | Apple 其他水果可参此格式                |
+| ===                | 防腐     | 防腐木     | Treated 其他经过处理的木材可参此格式    |
+
+\*未括注的为树名与地物名相同的情况。

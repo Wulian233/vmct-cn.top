@@ -20,7 +20,7 @@ title: Cosmic Frontiers汉化下载
 
 | 整合包下载地址                                                         | 加载器 | 支持整合包版本 | 汉化维护状态 |
 | :--------------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/cosmic-frontiers) | Forge  | mc1.20.1 0.6.2 | 审核中       |
+| [链接](https://www.curseforge.com/minecraft/modpacks/cosmic-frontiers) | Forge  | mc1.20.1 0.7.1 | 翻译中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/14073)
 
@@ -30,7 +30,8 @@ title: Cosmic Frontiers汉化下载
 
 1. 有一本无微不至的任务书指导你的游玩旅途。
 2. 经过大改过的格雷科技游戏内容，魔法科技和其它一些乱七八糟的东西之间的摩擦碰撞为你带来难忘的游玩体验。
-3. 对世界生成方式进行了许多大改动，让你的每个世界都栩栩如生。用于修改世界生成的模组有：Tectonic、Teralith、我们走过的生物群系（BWG）以及超多生物群系（BOP）！
+3. 对世界生成方式进行了许多大改动，让你的每个世界都栩栩如生。用于修改世界生成的模组有：
+   Tectonic、Teralith、我们走过的生物群系（BWG）以及超多生物群系（BOP）！
 4. 前往天空繁星与地幔之下的维度旅行：探索天境，造访深暗之园，还有许多在探险途中具有独特危险的环境！
 5. 自定义的光影支持：“CosmicBliss”，这个版本的Bliss光源旨在为了让该整合包的方块支持彩色光源！（以后还会支持更多光源的）
 
