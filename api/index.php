@@ -73,11 +73,7 @@ $html = <<< HTML
     <head>
         <meta charset="utf8" />
         <meta name="viewport" content="width=device-width" />
-        <link
-  rel="stylesheet"
-  href="https://cdn.jsdmirror.com/npm/mdui@2.1.4/mdui.min.css"
-  crossorigin="anonymous"
-/>
+        <link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/mdui/1.0.2/css/mdui.min.css">
         <style>html, body {
     scroll-behavior: smooth;
 }
@@ -169,7 +165,7 @@ $html = <<< HTML
             </div>
         </main>
 
-        <script src="https://cdn.jsdmirror.com/npm/mdui@2.1.4/mdui.global.min.js"></script>
+        <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/mdui/1.0.2/js/mdui.min.js"></script>
     </body>
 </html>
 HTML;
