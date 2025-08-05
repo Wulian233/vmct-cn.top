@@ -169,7 +169,7 @@ $html = <<< HTML
             </div>
         </main>
 
-        <script src="https://cdn.jsdmirror.com/npm/mdui@2.1.4/mdui.min.js"></script>
+        <script src="https://cdn.jsdmirror.com/npm/mdui@2.1.4/mdui.global.min.js"></script>
     </body>
 </html>
 HTML;
