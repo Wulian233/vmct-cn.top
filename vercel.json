@@ -22,6 +22,11 @@
       "permanent": true
     },
     {
+      "source": "modpacks/cosmic-frontiers",
+      "destination": "https://bilibili.com/video/av9999",
+      "permanent": false
+    },
+    {
       "source": "/modpacks/:modpack/update.txt",
       "destination": "https://gitee.com/Wulian233/vmtu/raw/main/update/:modpack.txt",
       "permanent": true
