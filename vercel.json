@@ -22,7 +22,7 @@
       "permanent": true
     },
     {
-      "source": "modpacks/cosmic-frontiers",
+      "source": "/modpacks/cosmic-frontiers",
       "destination": "https://bilibili.com/video/av9999",
       "permanent": false
     },
