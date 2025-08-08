@@ -27,7 +27,7 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' }
 ]" />
 
 ## 地圖下載與授權

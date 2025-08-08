@@ -13,7 +13,7 @@ layout: doc
 <DownloadLinks :methods="[
   { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1dW421X7Xo/' },
   { id: 'mapdl', text: '下載地圖', icon: 'https://ctmrepository.com/favicon.png', link: 'https://ctmrepository.com/index.php?action=viewMap&id=619' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://ctmrepository.com/index.php?action=viewMap&id=619' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: 'https://ctmrepository.com/index.php?action=viewMap&id=619' }
 ]" />
 
 ## 地圖資訊

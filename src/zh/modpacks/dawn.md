@@ -17,7 +17,7 @@ title: 破晓之界汉化下载
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Ju4m1T719/' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1ZU411f7FA' },
   { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/967052/files/5824540/download' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/DawnCraft-VMct' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/DawnCraft-VMct' }
 ]" />
 
 | 整合包下载地址                                                       | 加载器 | 支持整合包版本 | 汉化维护状态 |

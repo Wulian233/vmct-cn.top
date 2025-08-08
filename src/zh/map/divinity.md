@@ -26,7 +26,7 @@ layout: doc
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' },
   { id: 'bilibili', text: '宣传片与汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1kx421C7ds' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/divinity' }
 ]" />
 
 ## 地图下载与授权

@@ -12,7 +12,7 @@ FTB和Direwolf20将带来一场新的刺激冒险！自2011年以来，FTB和Dir
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv21772959/' },
   { id: 'gitee', text: 'FTB整合包下载工具', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/flrscn/curse-the-beast/releases' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://wulian233.lanzouu.com/isX0E27rys7g' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://wulian233.lanzouu.com/isX0E27rys7g' }
 ]" />
 
 | FTB官网                                                                         | 加载器 | 支持整合包版本 | 汉化维护状态 |

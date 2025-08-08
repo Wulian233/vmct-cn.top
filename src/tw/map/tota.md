@@ -22,7 +22,7 @@ layout: doc
   { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1tek2YsEpZ/' },
   { id: 'bilibili', text: '地圖介紹視頻', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Kpq8YcEJw' },
   { id: 'curseforge', text: '地圖原帖', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/temple-of-the-art-spellcrafting-roguelike' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/tota' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/tota' }
 ]" />
 
 ## 注意事項

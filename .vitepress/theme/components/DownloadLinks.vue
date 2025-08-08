@@ -8,14 +8,16 @@
 import { useUrlSearchParams } from "@vueuse/core";
 import { onMounted } from "vue";
 
-function clientLink(key, text, subText = "", icon, link) {
+function clientLink(method) {
   return {
-    id: key,
-    name: text,
-    secondary: subText,
-    icon: icon,
-    link: link,
-    target: link.startsWith("http") ? "_blank" : "_self",
+    id: method.id,
+    name: method.text,
+    secondary: method.subText || "",
+    icon: method.icon,
+    link: method.link,
+    lanzouLink: method.lanzouLink,
+    quarkLink: method.quarkLink,
+    target: method.link && method.link.startsWith("http") ? "_blank" : "_self",
   };
 }
 
@@ -30,7 +32,9 @@ function downloadJump(params, downloadMethod) {
 
   downloadMethod.forEach((val) => {
     if (val.id === target) {
-      location.href = val.link;
+      if (val.link) {
+        location.href = val.link;
+      }
     }
   });
 }
@@ -41,9 +45,7 @@ const props = defineProps({
 
 const params = useUrlSearchParams("history");
 
-const downloadMethod = props.methods.map((method) =>
-  clientLink(method.id, method.text, "", method.icon, method.link),
-);
+const downloadMethod = props.methods.map((method) => clientLink(method));
 
 onMounted(() => {
   downloadJump(params, downloadMethod);

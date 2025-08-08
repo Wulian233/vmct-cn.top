@@ -22,7 +22,7 @@ title: 机械动力：通用机械化汉化下载
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1ckYTePEfL/' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/opus/1081256062602969111' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://pan.baidu.com/s/1OI533N2IMHssFsoGm5o0lg?pwd=x068#list/path=%2F%E8%87%AA%E5%B0%8A%E5%AF%BA%E6%B1%89%E5%8C%96%E5%85%A8%E9%9B%86%2F1.19.x' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://pan.baidu.com/s/1OI533N2IMHssFsoGm5o0lg?pwd=x068#list/path=%2F%E8%87%AA%E5%B0%8A%E5%AF%BA%E6%B1%89%E5%8C%96%E5%85%A8%E9%9B%86%2F1.19.x' }
 ]" />
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/11377)

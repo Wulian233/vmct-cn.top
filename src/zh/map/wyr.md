@@ -22,7 +22,7 @@ Would You Rather……？（你喜欢……？）
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下载地图和汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/would-you-rather-4897801/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '/doing' }
 ]" />
 
 ## 地图下载

@@ -20,7 +20,7 @@ layout: doc
 <DownloadLinks :methods="[
   { id: '123', text: '下載地圖和翻譯', icon: '/imgs/svg/123.svg', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' },
   { id: 'mediafire', text: '備用載點', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/folder/jurnv77qvvaf0' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' }
 ]" />
 
 ## 注意事項

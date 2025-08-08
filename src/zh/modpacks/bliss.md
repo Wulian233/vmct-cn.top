@@ -14,7 +14,7 @@ Vazkii继Crucial 2后的又一力作！Bliss是一款精心打造的和平向整
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wwn.lanzoux.com/ic4Kx0dmof2h' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv19042221/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://wwn.lanzoux.com/ic4Kx0dmof2h' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://wwn.lanzoux.com/ic4Kx0dmof2h' }
 ]" />
 
 ## 整合包介绍

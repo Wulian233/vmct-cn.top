@@ -29,7 +29,7 @@ layout: doc
   { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1cnTMz4EtC' },
   { id: 'bilibili2', text: '解謎攻略', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1wETMzZEbJ' },
   { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/the-machine-a-minecraft-1-18-1-puzzlemap' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '[/tw/doing](https://www.123684.com/s/99kKVv-0JdEh)' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: '[/tw/doing](https://www.123684.com/s/99kKVv-0JdEh)' }
 ]" />
 
 ## ❖ 故事簡介：你為何而醒？

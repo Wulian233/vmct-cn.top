@@ -15,7 +15,7 @@ title: 黑石世界汉化下载
 <DownloadLinks :methods="[
   { id: 'baidu-drive', text: '下载汉化', icon: '/imgs/svg/baidu-drive.svg', link: 'https://pan.baidu.com/wap/init?surl=dZjTaT6B0NP9urVJBq5Uaw&pwd=j18m' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv18670489/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://pan.baidu.com/wap/init?surl=dZjTaT6B0NP9urVJBq5Uaw&pwd=j18m' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://pan.baidu.com/wap/init?surl=dZjTaT6B0NP9urVJBq5Uaw&pwd=j18m' }
 ]" />
 
 | 整合包下载地址                                                             | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |

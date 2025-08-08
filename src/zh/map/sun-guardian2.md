@@ -21,7 +21,7 @@ layout: doc
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/sun-guardian-2-stranded/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: '/doing' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '/doing' }
 ]" />
 
 ### 你将踏入一场超过50小时的冒险旅程，其中包括：

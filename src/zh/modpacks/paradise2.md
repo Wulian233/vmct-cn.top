@@ -12,7 +12,7 @@ FTB建筑师天堂2延续了前代的传统，与近期以科技导向、目标�
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wulian233.lanzouj.com/ib5G81wnrpwb' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv34152267' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://wulian233.lanzouj.com/ib5G81wnrpwb' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://wulian233.lanzouj.com/ib5G81wnrpwb' }
 ]" />
 
 ## 更多信息

@@ -21,7 +21,7 @@ layout: doc
   { id: '123', text: '下载汉化', icon: '/imgs/svg/123.svg', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' },
   { id: 'mediafire', text: '备用下载', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/folder/jurnv77qvvaf0' },
   { id: 'bilibili', text: '宣传片与汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1eM4m1f78h/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' }
 ]" />
 
 ## 注意事项

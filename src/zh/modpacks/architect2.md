@@ -13,7 +13,7 @@ title: Project Architect 2汉化下载
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/pa2' },
   { id: 'bilibili', text: '汉化教程与介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1GcNheGE5X/' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzouo.com/s/pa2' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/pa2' }
 ]" />
 
 ## 更多信息

@@ -17,7 +17,7 @@ title: 机械动力星辰汉化下载
   { id: 'lanzou', text: '下载2.05b.3汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv26855184' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/CreateAstral-vmtt-TP' }
 ]" />
 
 | 整合包下载地址                                                          | 加载器 | MC版本 | 支持版本 | 汉化维护状态 |

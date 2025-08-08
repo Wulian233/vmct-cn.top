@@ -20,7 +20,7 @@ Evergrowth 是一張以推動方塊、燒腦解謎為核心的解謎地圖。
 
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing' },
-  { id: 'lazy', text: '懶漢下載', icon: '/imgs/logo/logo_64.png', link: '/tw/doing' }
+  { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: '/tw/doing' }
 ]" />
 
 ## 遊戲目標

@@ -8,7 +8,7 @@ title: 喂养奇点生存汉化下载
 <DownloadLinks :methods="[
   { id: 'baidu-drive', text: '下载汉化', icon: '/imgs/svg/baidu-drive.svg', link: 'https://pan.baidu.com/s/1OI533N2IMHssFsoGm5o0lg?pwd=x068%C2%A0%20#list/path=%2F%E8%87%AA%E5%B0%8A%E5%AF%BA%E6%B1%89%E5%8C%96%E5%85%A8%E9%9B%86%2F1.16.x%2FFeed%20the%20Singularity' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv23974249' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://pan.baidu.com/s/1OI533N2IMHssFsoGm5o0lg?pwd=x068%C2%A0%20#list/path=%2F%E8%87%AA%E5%B0%8A%E5%AF%BA%E6%B1%89%E5%8C%96%E5%85%A8%E9%9B%86%2F1.16.x%2FFeed%20the%20Singularity' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://pan.baidu.com/s/1OI533N2IMHssFsoGm5o0lg?pwd=x068%C2%A0%20#list/path=%2F%E8%87%AA%E5%B0%8A%E5%AF%BA%E6%B1%89%E5%8C%96%E5%85%A8%E9%9B%86%2F1.16.x%2FFeed%20the%20Singularity' }
 ]" />
 
 | 整合包下载地址                                                                 | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |

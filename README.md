@@ -6,13 +6,6 @@
 
 立即访问：<https://vmct-cn.top/>
 
-## 📖 什么是VM汉化组？
-
-VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利组织。
-我们制作的汉化及相关技术最终目的是使公众收益，汉化组将寻求高质量永久免费汉化包以造福玩家。
-汉化组的成立不是为了任何人的私人利益。
-汉化组产生的所有收益将“不可撤销的”用于上述目的。
-
 ## 📖 使用与部署
 
 本网站使用[VitePress](https://vitepress.dev/zh/)作为静态站点生成器。我们推荐使用VSCode编辑器进行开发。
@@ -35,6 +28,44 @@ pnpm run prepare
 4. 使用[Microsoft Clarity](https://clarity.microsoft.com/)和[Google Analytics](https://analytics.google.com/)分析网站访问情况。
 
 PS：域名在腾讯云购买
+
+## 开发者文档
+
+### 汉化下载按钮与弹窗
+
+最常用的汉化下载弹窗 vue 格式如下：
+
+```vue
+<DownloadLinks :methods="[
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: '蓝奏云下载链接', quarkLink: '夸克网盘下载链接' },
+  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
+  { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/' },
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '蓝奏云下载链接' }
+]" />
+
+```
+
+其中，`id` 为代码内部标识，通过指定它们用于区分不同的按钮。
+
+`text` 为按钮上显示的文本。
+
+`icon` 为按钮上显示的图标，可填写本项目内的图片路径或在线URL。
+
+`link` 为点击按钮后跳转到的网址。
+
+有几类特殊的id需要强调，指定它们并点击会触发不同的效果：`quark-lanzou`、`lanzou`、`lazy`、`mapdl`
+
+它们分别代表：夸克-蓝奏云双链接下载弹窗，蓝奏云下载弹窗、懒汉下载弹窗和地图下载弹窗。
+
+对于这类特殊id，我们有一些强制规定，表格中留空则为根据实际灵活调整：
+
+| id           | text     | icon                   | link                                                     |
+| :----------- | :------- | :--------------------- | :------------------------------------------------------- |
+| quark-lanzou | 下载汉化 | /imgs/logo/logo_64.png | -                                                        |
+| lanzou       | 下载汉化 | /imgs/svg/lanzou.svg   | -                                                        |
+| mapdl        | 下载汉化 | -                      | -                                                        |
+| lazy         | 懒汉下载 | /imgs/lazydl.png | 需与下载汉化链接相同。如有多个下载地址，则添加蓝奏云链接 |
+
 
 ## 👀 协议
 

@@ -11,10 +11,10 @@ title: 探索者前夜凋灵风暴汉化下载
 ![图片 =500x](https://media.forgecdn.net/attachments/767/503/super_tnt_distraction.png)
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: 'https://image.quark.cn/s/uae/g/3o/broccoli/resource/202404/d94d93e0-03a2-11ef-be4c-79ebae2e18ac.vnd.microsoft.icon', link: 'https://pan.quark.cn/s/37de6b2d081e' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/quark.jpg', link: 'https://pan.quark.cn/s/37de6b2d081e' },
   { id: 'bilibili', text: '老本願的整合包介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV14jNoziEoS' },
   { id: 'bilibili2', text: '整合包总览', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV12LNCzfEBS/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://pan.quark.cn/s/37de6b2d081e' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://pan.quark.cn/s/37de6b2d081e' }
 ]" />
 
 | 整合包下载地址                                                          | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |

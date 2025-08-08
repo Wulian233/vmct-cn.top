@@ -12,7 +12,9 @@ function handleClick(item) {
     showRandomQuestion(item);
   } else if (item.id === "mapdl") {
     showMapModal(item);
-  } else {
+  } else if (item.id === "quark-lanzou") {
+    showQuarkModal(item);
+  } else if (item.link) {
     window.open(item.link, item.target || "_self");
   }
 }
@@ -21,7 +23,7 @@ function showError() {
   Swal.fire({
     icon: "error",
     title: "回答错误",
-    html: `emmm，看起来不太对哦，愿意的话你可以再试一次！<br>PS. 题目仅供娱乐，看一看有多少还给老师了呢awa`,
+    html: `看起来不太对哦，愿意的话你可以再试一次！<br>PS：题目仅供娱乐，看一看有多少还给老师了呢awa`,
   });
 }
 
@@ -87,13 +89,13 @@ function validateAnswer(selectedAnswer, correctAnswer, item) {
     const correctAnswers = correctAnswer.split(""); // 支持ABCD多个答案的情况
     const isCorrect = selectedAnswer.every((a) => correctAnswers.includes(a));
     if (isCorrect) {
-      window.open(item.link, item.target || "_self");
+      showCorrectAnswersModal(item);
     } else {
       showError();
     }
   } else {
     if (selectedAnswer === correctAnswer) {
-      window.open(item.link, item.target || "_self");
+      showCorrectAnswersModal(item);
     } else {
       showError();
     }
@@ -190,6 +192,70 @@ function showRandomQuestion(item) {
   );
 }
 
+function showCorrectAnswersModal(item) {
+  Swal.fire({
+    title: "回答正确！",
+    html: `
+      您可以下载汉化了！懒汉下载和普通下载的链接一样，只是为了增加娱乐用途。<br>
+      不过在此之前，请您先阅读并接受<a href="/agreement/" target="_blank" style="color: blue; text-decoration: underline;">VM汉化组用户服务协议</a>，
+      并仔细阅读 <a href="/modpacks/" target="_blank" style="color: blue; text-decoration: underline;">汉化补丁安装说明</a>。
+    `,
+    icon: "success",
+    showCancelButton: true,
+    confirmButtonText: "确定",
+    cancelButtonText: "取消",
+    reverseButtons: true,
+    focusCancel: true,
+    preConfirm: () => {
+      if (item.link) {
+        window.open(item.link, item.target || "_self");
+      }
+    },
+    didOpen: () => {
+      const confirmButton = Swal.getConfirmButton();
+    },
+  });
+}
+
+function showQuarkModal(item) {
+  Swal.fire({
+    title: "网盘选择",
+    html: `
+      您可以自行选择下载的网盘，汉化文件都是一样的。蓝奏云点击即下，更方便。夸克需要客户端，如果您转存文件我们会有微薄的收益。
+      <br>不过在此之前，请您先阅读并接受
+      <a href="/agreement/" target="_blank" style="color: blue; text-decoration: underline;">VM汉化组用户服务协议</a>，
+      并仔细阅读 <a href="/modpacks/" target="_blank" style="color: blue; text-decoration: underline;">汉化补丁安装说明</a>。
+    `,
+    icon: "info",
+    showDenyButton: true,
+    showCancelButton: true,
+    confirmButtonText: "蓝奏云",
+    denyButtonText: "夸克网盘",
+    cancelButtonText: "取消",
+    focusCancel: true,
+    allowOutsideClick: false,
+    didOpen: () => {
+      // 禁用按钮
+      Swal.getConfirmButton().disabled = true;
+      Swal.getDenyButton().disabled = true;
+
+      // 3秒后启用
+      setTimeout(() => {
+        Swal.getConfirmButton().disabled = false;
+        Swal.getDenyButton().disabled = false;
+      }, 3000);
+    },
+  }).then((result) => {
+    if (result.isConfirmed) {
+      const link = item.lanzouLink;
+      if (link) window.open(link, item.target || "_blank");
+    } else if (result.isDenied) {
+      const link = item.quarkLink;
+      if (link) window.open(link, item.target || "_blank");
+    }
+  });
+}
+
 function showModal(item) {
   Swal.fire({
     title: "请您先阅读并接受",
@@ -272,12 +338,6 @@ function showMapModal(item) {
         :class="item.icon"
         class="w-10 h-10 mb2"
       />
-
-      <!-- <div
-        v-if="item.icon.startsWith('i')"
-        :class="item.icon"
-        class="w-10 h-10 mb2"
-      /> -->
       <img v-else :src="item.icon" class="w-10 h-10 mb-2 no-zoomable" />
       <span class="text-sm">{{ item.name }}</span>
       <span class="text-xs opacity-50">{{ item.secondary }}</span>

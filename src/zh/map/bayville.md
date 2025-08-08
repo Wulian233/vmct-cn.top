@@ -19,7 +19,7 @@ layout: doc
 <DownloadLinks :methods="[
   { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/w9gwytz72hbtdyf/Bayville_-_realistic_roleplay_town_v7.2.zip/file' },
   { id: 'mapdl', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' }
 ]" />
 
 ## 地图下载与授权

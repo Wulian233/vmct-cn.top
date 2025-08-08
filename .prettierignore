@@ -10,3 +10,5 @@ public/
 cache/
 .vscode/
 pnpm-lock.yaml
+
+README.md

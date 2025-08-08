@@ -14,7 +14,7 @@ title: 星辰工厂汉化下载
 <DownloadLinks :methods="[
   { id: 'baidu-drive', text: '下载汉化', icon: '/imgs/svg/baidu-drive.svg', link: 'https://pan.baidu.com/s/1wpDS3eh67MspYFSjp6Mw1w&pwd=1234' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv23974249/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://pan.baidu.com/s/1wpDS3eh67MspYFSjp6Mw1w&pwd=1234' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://pan.baidu.com/s/1wpDS3eh67MspYFSjp6Mw1w&pwd=1234' }
 ]" />
 
 ## 整合包介绍

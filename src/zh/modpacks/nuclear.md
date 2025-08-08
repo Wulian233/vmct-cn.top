@@ -11,7 +11,7 @@ title: 核荒原汉化下载
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wwz.lanzouv.com/hehuangyuan1shumiao024' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv19042449/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/logo/logo_64.png', link: 'https://wwz.lanzouv.com/hehuangyuan1shumiao024' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://wwz.lanzouv.com/hehuangyuan1shumiao024' }
 ]" />
 
 | 整合包下载地址                                                                  | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
