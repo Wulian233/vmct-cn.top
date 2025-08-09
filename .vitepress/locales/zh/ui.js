@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `8月最新成果：FTB Skies 2整合包汉化现已发布！
-      <a href="/modpacks/skies-2" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
+    recruitment: `8月最新成果：GT包星河边疆整合包汉化现已发布！
+      <a href="/modpacks/cosmic-frontiers" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
   },
   supportUs: {
     text: `<div>

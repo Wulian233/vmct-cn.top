@@ -12,6 +12,7 @@ const sidebar = {
       items: [
         { text: "永恒的MC 2（翻译中）", link: "/modpacks/mce2" },
         { text: "Roguelike冒险与地牢（RAD1）", link: "/modpacks/rad" },
+        { text: "星河边疆", link: "/modpacks/cosmic-frontiers" },
         { text: "异域征途（翻译中）", link: "/modpacks/prodigium-reforged" },
         { text: "亡者世界", link: "/modpacks/deceasedcraft" },
         { text: "FTB Skies 2", link: "/modpacks/skies-2" },
@@ -22,7 +23,7 @@ const sidebar = {
         { text: "Bliss", link: "/modpacks/bliss" },
         { text: "Chunk Block", link: "/modpacks/chunk" },
         { text: "探索者前夜-凋灵风暴", link: "/modpacks/explorers-eve" },
-        { text: "Cosmic Frontiers", link: "/modpacks/cosmic-frontiers" },
+        { text: "星河边疆", link: "/modpacks/cosmic-frontiers" },
         { text: "FTB Evolution", link: "/modpacks/ftbe" },
         { text: "FTB天空奥德赛", link: "/modpacks/odyssey" },
         { text: "FTB建筑师天堂2", link: "/modpacks/paradise2" },
