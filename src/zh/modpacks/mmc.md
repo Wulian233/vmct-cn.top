@@ -7,7 +7,7 @@ title: 中世纪的MC 1.19.2 Fabric汉化下载
 > 汉化支持整合包版本v23，不支持最新版v24，请留意下载的支持整合包版本！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/mmc1-19-2-fabric-vmct' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzoui.com/s/mmc1-19-2-fabric-vmct', quarkLink: 'https://pan.quark.cn/s/c90aab011784' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv26040553' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/mmc1-19-2-fabric-vmct' }
 ]" />

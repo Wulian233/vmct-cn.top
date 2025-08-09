@@ -9,7 +9,7 @@ aside: false
 宝藏猎人3是一个基于RPG的整合包，讲述了一个名为宝库的维度的神秘和危险。它有许多宝藏猎人特有的物品和怪物，如盔甲、武器、图腾、货币和boss。玩家可以发展自己的天赋和能力，同时努力实现收集所有25件独特文物以解锁最终挑战的目标！你有能力吗？
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/the-Vault-03' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzoui.com/s/the-Vault-03', quarkLink: 'https://pan.quark.cn/s/208e4d90c8c1' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv20450312' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/the-Vault-03' }

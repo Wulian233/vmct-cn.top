@@ -14,7 +14,7 @@ title: Prey汉化下载
 | [下载链接](https://www.curseforge.com/minecraft/modpacks/prey-beta) | Forge  | mc1.19.2 1.14（最新版） | 停止维护     |
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouy.com/s/prey-vmct' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouy.com/s/prey-vmct', quarkLink: 'https://pan.quark.cn/s/8dbc98d8e0b5' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv28878702/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouy.com/s/prey-vmct' }
 ]" />

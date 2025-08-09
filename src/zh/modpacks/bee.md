@@ -8,7 +8,7 @@ title: 蜜蜂空岛2汉化下载
 这个包不是以往的mod开局，而是采用蜜蜂来获得在空岛中你需要的资源，你得到你的第一只蜜蜂后你就需要繁殖它们以此获得所有的蜜蜂。一些配方变得更加困难，更具有挑战性。
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouv.com/S-B-VM-cn-1' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouv.com/S-B-VM-cn-1', quarkLink: 'https://pan.quark.cn/s/f328fb592944' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv18890616/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouv.com/S-B-VM-cn-1' }
 ]" />

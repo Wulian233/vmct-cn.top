@@ -18,7 +18,7 @@ title: FTB奥术学院汉化下载
 | [链接](https://www.feed-the-beast.com/modpacks/115-ftb-arcanum-institute) | Forge  | mc1.18.2 1.4.0 | **维护中**   |
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/asxy-vmct' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/asxy-vmct', quarkLink: 'https://pan.quark.cn/s/356f11fbd914' },
   { id: 'bilibili', text: '宣传片与汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1UT4m1S7rg' },
   { id: 'gitee', text: 'FTB整合包下载工具', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/flrscn/curse-the-beast/releases' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },

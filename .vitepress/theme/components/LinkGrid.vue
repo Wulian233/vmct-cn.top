@@ -14,6 +14,8 @@ function handleClick(item) {
     showMapModal(item);
   } else if (item.id === "quark-lanzou") {
     showQuarkModal(item);
+  } else if (item.id === "lanzou-quark-mapdl"){
+    showQuarkMapModal(item);
   } else if (item.link) {
     window.open(item.link, item.target || "_self");
   }
@@ -303,6 +305,58 @@ function showModal(item) {
       const confirmButton = Swal.getConfirmButton();
       confirmButton.disabled = true;
     },
+  });
+}
+
+function showQuarkMapModal(item) {
+  Swal.fire({
+    title: "网盘选择",
+    icon: "info",
+    width: '700px',
+    html: `
+      <div style="text-align: left; line-height: 1.75;">
+        <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
+        <ul style="margin-top: 10px; margin-bottom: 20px; padding-left: 20px;">
+            <li><strong>夸克网盘：</strong>需要安装客户端。<strong>您只需选择此项并转存文件，就可以为我们的汉化工作提供一份支持，对此我们深表感谢！</strong></li>
+            <li><strong>蓝奏云：</strong>无需客户端，点击即可直接下载，方便快捷。</li>
+        </ul>
+        <p>
+            <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
+            <a
+              href="/agreement/"
+              target="_blank"
+              style="color: #007bff; text-decoration: underline; font-weight: normal;"
+            >VM汉化组用户服务协议</a>，并仔细查阅
+        </p>
+      </div>
+    `,
+
+    showDenyButton: true,
+    showCancelButton: true,
+    confirmButtonText: "蓝奏云",
+    denyButtonText: "夸克网盘",
+    cancelButtonText: "取消",
+    focusCancel: true,
+    allowOutsideClick: false,
+    didOpen: () => {
+      // 禁用按钮
+      Swal.getConfirmButton().disabled = true;
+      Swal.getDenyButton().disabled = true;
+
+      // 3秒后启用
+      setTimeout(() => {
+        Swal.getConfirmButton().disabled = false;
+        Swal.getDenyButton().disabled = false;
+      }, 3000);
+    },
+  }).then((result) => {
+    if (result.isConfirmed) {
+      const link = item.lanzouLink;
+      if (link) window.open(link, item.target || "_blank");
+    } else if (result.isDenied) {
+      const link = item.quarkLink;
+      if (link) window.open(link, item.target || "_blank");
+    }
   });
 }
 

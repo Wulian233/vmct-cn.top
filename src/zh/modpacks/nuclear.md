@@ -9,7 +9,7 @@ title: 核荒原汉化下载
 建造你的基地，部署防御工事与炮塔，并制造机器来提升你的生存能力。越是深入废土，你将遇见更多怪物与物品……有些或许能助你一臂之力，而有些则可能让你陷入险境。祝你好运，勇敢的探险者！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wwz.lanzouv.com/hehuangyuan1shumiao024' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://wwz.lanzouv.com/hehuangyuan1shumiao024', quarkLink: 'https://pan.quark.cn/s/162b312c22b8' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv19042449/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://wwz.lanzouv.com/hehuangyuan1shumiao024' }
 ]" />

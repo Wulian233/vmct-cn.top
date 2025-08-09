@@ -9,7 +9,7 @@ title: Roguelike冒险与地牢汉化下载
 > 必须下载[i18n自动汉化更新模组](https://www.curseforge.com/api/v1/mods/297404/files/6351071/download)，否则翻译不全！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/Rad-vmct-114' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzoui.com/s/Rad-vmct-114', quarkLink: 'https://pan.quark.cn/s/cc6a992b5956' },
   { id: 'bilibili', text: '专栏介绍（旧版）', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv25214830/' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/Rad-vmct-114' }

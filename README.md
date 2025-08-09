@@ -64,6 +64,7 @@ PS：域名在腾讯云购买
 | quark-lanzou | 下载汉化 | /imgs/logo/logo_64.png | -                                                        |
 | lanzou       | 下载汉化 | /imgs/svg/lanzou.svg   | -                                                        |
 | mapdl        | 下载汉化 | -                      | -                                                        |
+| lanzou-quark-mapdl     | 下载汉化 | -                      | -                                              |
 | lazy         | 懒汉下载 | /imgs/lazydl.png | 需与下载汉化链接相同。如有多个下载地址，则添加蓝奏云链接 |
 
 

@@ -11,7 +11,7 @@ title: Chunk Block汉化下载
 > 汉化覆盖安装完成后**并不代表完成了汉化安装**，还需要手动在游戏`选项`->`资源包`中启用汉化资源包！否则汉化无效！
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/chunkblock' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/chunkblock', quarkLink: 'https://pan.quark.cn/s/c2d804de67d5' },
   { id: 'bilibili', text: '安装教程视频', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1JNDrYEERd' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/chunkblock' }

@@ -15,7 +15,7 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'mediafire', text: '下载地图（只要第一个）', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/l6el23bvw6mrye1/Final_Paradox_v1.0.18.zip/file' },
-  { id: 'mapdl', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn' },
+  { id: 'lanzou-quark-mapdl', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn', quarkLink: 'https://pan.quark.cn/s/4047ca438fdd' },
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Fy4y1w7bE/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouy.com/s/fp-vmct-cn' }
 ]" />
