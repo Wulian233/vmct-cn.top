@@ -53,7 +53,7 @@ title: 农业森友会5汉化下载
 
 ## 整合包下载
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/farming-crossing-5-made-to-order)或启动器内下载整合包。
+你可以先在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/farming-crossing-5-made-to-order)或启动器内下载整合包。
 
 ## 支持版本
 

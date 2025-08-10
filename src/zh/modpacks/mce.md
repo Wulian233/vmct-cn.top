@@ -89,7 +89,7 @@ We have asked the authors many questions, and every time it is basically a secon
 
 ## 整合包下载与授权
 
-你可以在[CurseForge网站内](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal/files)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以在[CurseForge网站内](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal/files) 或启动器内下载整合包，然后下载汉化补丁，最后将补丁解压并覆盖相应文件，即可完成汉化。
 
 本次汉化已取得官方授权，不违反任何社区规则。完整授权聊天记录可以[在此查看](https://discord.com/channels/640591918752858122/655858176608174090/105691817638390988)。
 

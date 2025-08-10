@@ -57,7 +57,7 @@ Fantasy Realm是一个注重质量的RPG冒险和探索整合包!
 
 ## 整合包下载与授权
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/fantasy-realm/files)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以先在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/fantasy-realm/files) 或启动器内下载整合包，然后下载汉化补丁，最后将补丁解压并覆盖相应文件，即可完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 

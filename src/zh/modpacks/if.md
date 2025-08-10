@@ -26,7 +26,7 @@ title: 无限协会汉化下载
 
 ## 整合包下载
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/infinity-foundation/files/)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以先在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/infinity-foundation/files/) 或启动器内下载整合包，然后下载汉化补丁，最后将补丁解压并覆盖相应文件，即可完成汉化。
 
 ## 贡献人员
 

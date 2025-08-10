@@ -28,7 +28,7 @@ title: 亡者世界汉化下载
 
 | 整合包下载地址                                                          | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :---------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) | Forge  | 5.9.9            | 1.20.1 | 维护中       |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) | Forge  | 5.9.9          | 1.20.1 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/15705)
 
@@ -83,7 +83,7 @@ title: 亡者世界汉化下载
 
 ## 整合包下载与授权
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/deceasedcraft)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以先在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) 或启动器内下载整合包，然后下载汉化补丁，最后将补丁解压并覆盖相应文件，即可完成汉化。
 
 本次汉化已取得官方授权，与作者达成了官方汉化并入包，详见：<https://www.bilibili.com/opus/1095991210601873410>
 

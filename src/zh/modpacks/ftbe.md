@@ -18,9 +18,9 @@ FTB Evolution 将你带入一个无限的 Minecraft 世界，在这里，先进�
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '/doing' }
 ]" />
 
-| FTB官网                                                     | 加载器   | 支持整合包版本  | 汉化维护状态     |
-| :---------------------------------------------------------- | :------- | :-------------- | :--------------- |
-| <https://www.feed-the-beast.com/modpacks/125-ftb-evolution> | Neoforge | mc1.21.1 1.17.1 | 翻译中（半弃坑） |
+| FTB官网                                                     | 加载器   | 支持整合包版本  | 汉化维护状态 |
+| :---------------------------------------------------------- | :------- | :-------------- | :----------- |
+| <https://www.feed-the-beast.com/modpacks/125-ftb-evolution> | Neoforge | mc1.21.1 1.21.3 | 翻译中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/12144)
 
@@ -50,6 +50,6 @@ Just Dire Things 让你打造奇妙机械与装置，甚至利用奇特资源如
 
 ## 整合包下载
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-evolution)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以先在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-evolution) 或启动器内下载整合包，然后下载汉化补丁，最后将补丁解压并覆盖相应文件，即可完成汉化。
 
 <DocSupport />

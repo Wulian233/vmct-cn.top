@@ -34,7 +34,7 @@ title: 重生之夜汉化下载
 
 本地图汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 
-你可以在[CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night)或启动器内下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+你可以先在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) 或启动器内下载整合包，然后下载汉化补丁，最后将补丁解压并覆盖相应文件，即可完成汉化。
 
 ![图片 =500x](/imgs/authorization/rotn.png)
 

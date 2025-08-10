@@ -14,7 +14,7 @@ function handleClick(item) {
     showMapModal(item);
   } else if (item.id === "quark-lanzou") {
     showQuarkModal(item);
-  } else if (item.id === "lanzou-quark-mapdl"){
+  } else if (item.id === "lanzou-quark-mapdl") {
     showQuarkMapModal(item);
   } else if (item.link) {
     window.open(item.link, item.target || "_self");
@@ -223,7 +223,7 @@ function showQuarkModal(item) {
   Swal.fire({
     title: "网盘选择",
     icon: "info",
-    width: '700px',
+    width: "700px",
     html: `
       <div style="text-align: left; line-height: 1.75;">
         <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
@@ -312,7 +312,7 @@ function showQuarkMapModal(item) {
   Swal.fire({
     title: "网盘选择",
     icon: "info",
-    width: '700px',
+    width: "700px",
     html: `
       <div style="text-align: left; line-height: 1.75;">
         <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
