@@ -18,10 +18,10 @@ Evergrowth 是一张以推动方块、烧脑解谜为核心的解谜地图。
 
 🎮 地图原帖：[点击前往官方发布页面](https://gm4.co/evergrowth/)
 
-> [!Important] 重要提示
+> [!IMPORTANT] 重要提示
 > 一定要下载最新版本地图，最新版本中才内置我们的汉化。
 >
-> 多人游玩需要看：地图文件中有一个名为resouces.zip的压缩包，这是地图的资源包。你需要将这个文件发送给你的朋友，并且让他们加载这个资源包。
+> 多人游玩需要看：地图文件中有一个名为 resouces.zip 的压缩包，这是地图的资源包。你需要将这个文件发送给你的朋友，并且让他们加载这个资源包。
 
 <DownloadLinks :methods="[
   { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/evergrowth/files/6854463' },

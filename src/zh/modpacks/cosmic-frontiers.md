@@ -3,7 +3,7 @@ layout: doc
 title: 星河边疆汉化下载
 ---
 
-这只是一个Minecraft 1.20.1整合包而已，但它的主题是科幻，还有魔法！
+这只是一个 Minecraft 1.20.1 整合包而已，但它的主题是科幻，还有魔法！
 
 厌倦了格雷科技整合包千篇一律的玩法？想为游戏增添魔幻色彩和无厘头乐子，又不想被化工生产逼成化学学霸？
 
@@ -11,6 +11,8 @@ title: 星河边疆汉化下载
 
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/cf-gt', quarkLink: 'https://pan.quark.cn/s/f181b9f4acbb' },
+  { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1jbt4zxE9u' },
+  { id: 'bilibili2', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1T2tszKEh4' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Cosmic-Frontiers-Chinese' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/cf-gt' }
@@ -35,7 +37,7 @@ title: 星河边疆汉化下载
 3. 对世界生成方式进行了许多大改动，让你的每个世界都栩栩如生。用于修改世界生成的模组有：
    Tectonic、Teralith、我们走过的生物群系（BWG）以及超多生物群系（BOP）！
 4. 前往天空繁星与地幔之下的维度旅行：探索天境，造访深暗之园，还有许多在探险途中具有独特危险的环境！
-5. 自定义的光影支持：“CosmicBliss”，这个版本的Bliss光源旨在为了让该整合包的方块支持彩色光源！（以后还会支持更多光源的）
+5. 自定义的光影支持：“CosmicBliss”，这个版本的Bliss光影旨在为了让该整合包的方块支持彩色光源！（以后还会支持更多光源的）
 
 ## 整合包下载
 
