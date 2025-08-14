@@ -76,8 +76,8 @@ importers:
         specifier: ^3.6.2
         version: 3.6.2
       prettier-config-vuepress:
-        specifier: ^7.0.3
-        version: 7.0.3
+        specifier: ^7.0.4
+        version: 7.0.4
       taze:
         specifier: ^19.1.0
         version: 19.1.0
@@ -1365,8 +1365,9 @@ packages:
   preact@10.24.2:
     resolution: {integrity: sha512-1cSoF0aCC8uaARATfrlz4VCBqE8LwZwRfLgkxJOQwAlQt6ayTmi0D9OF7nXid1POI5SZidFuG9CnlXbDfLqY/Q==}
 
-  prettier-config-vuepress@7.0.3:
-    resolution: {integrity: sha512-8j9uphj7Xi4UB8F8KZcbOQ96kxuFztbayq5wrpYtDd3co3UTIv90YMomG8O/BdjX7mWH3sGw+v+5Iy7UL50Cag==}
+  prettier-config-vuepress@7.0.4:
+    resolution: {integrity: sha512-N+2Q1h2QM+k4ea14Tww7VpvruNva955NwlaynTJDy161KA0YMqkuAlOXce59rXR632UPryFV/EJ6G8bSTpOsAQ==}
+    engines: {node: '>=20.0.0'}
 
   prettier@3.6.2:
     resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
@@ -2933,7 +2934,7 @@ snapshots:
 
   preact@10.24.2: {}
 
-  prettier-config-vuepress@7.0.3: {}
+  prettier-config-vuepress@7.0.4: {}
 
   prettier@3.6.2: {}
 
