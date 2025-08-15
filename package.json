@@ -32,7 +32,7 @@
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
     "qrcode": "^1.5.4",
-    "sweetalert2": "^11.22.3",
+    "sweetalert2": "^11.22.4",
     "typescript": "^5.9.2",
     "unocss": "^66.4.2",
     "vitepress": "1.6.1",

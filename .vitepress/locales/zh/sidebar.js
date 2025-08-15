@@ -11,7 +11,7 @@ const sidebar = {
       collapsed: false,
       items: [
         { text: "永恒的MC 2（翻译中）", link: "/modpacks/mce2" },
-        { text: "Roguelike冒险与地牢（RAD1）", link: "/modpacks/rad" },
+        { text: "Roguelike冒险与地牢（RAD1）", link: "/modpacks/rad/" },
         { text: "星河边疆", link: "/modpacks/cosmic-frontiers" },
         // { text: "科技城3", link: "/modpacks/techopolis3" },
         // { text: "异域征途", link: "/modpacks/prodigium-reforged" },

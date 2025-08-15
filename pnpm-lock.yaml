@@ -42,8 +42,8 @@ importers:
         specifier: ^1.5.4
         version: 1.5.4
       sweetalert2:
-        specifier: ^11.22.3
-        version: 11.22.3
+        specifier: ^11.22.4
+        version: 11.22.4
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -1492,8 +1492,8 @@ packages:
     resolution: {integrity: sha512-8iGv75BYOa0xRJHK5vRLEjE2H/i4lulTjzpUXic3Eg8akftYjkmQDa8JARQ42rlczXyFR3IeRoeFCc7RxHsYZA==}
     engines: {node: '>=16'}
 
-  sweetalert2@11.22.3:
-    resolution: {integrity: sha512-//WtZEvs9XRmyQVs77tz02ERu2JUTATQvrec+MjJYtKtnYSYDDgAmDdWzRWMkcxClj828EQgfHrpM+tI6qcMOg==}
+  sweetalert2@11.22.4:
+    resolution: {integrity: sha512-JwcRODfozxiKmspFp+xctZ2izAmLAKbRPcoLMEW7LdugN/YmNrX1LT7hdBW87qsgupEO1ukBBuB17KzKFKW0tg==}
 
   tabbable@6.2.0:
     resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==}
@@ -3080,7 +3080,7 @@ snapshots:
     dependencies:
       copy-anything: 3.0.5
 
-  sweetalert2@11.22.3: {}
+  sweetalert2@11.22.4: {}
 
   tabbable@6.2.0: {}
 
