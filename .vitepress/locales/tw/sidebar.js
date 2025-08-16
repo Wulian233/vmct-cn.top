@@ -12,10 +12,11 @@ const sidebar = {
       items: [
         { text: "永恆的MC 2（翻譯中）", link: "/modpacks/mce2" },
         { text: "Roguelike冒險與地牢（RAD1）", link: "/modpacks/rad" },
+        { text: "閾限工業", link: "/modpacks/liminal-industries" },
         { text: "星河邊疆", link: "/modpacks/cosmic-frontiers" },
+        // { text: "Craftoria", link: "/modpacks/craftoria" },
         // { text: "科技城3", link: "/modpacks/techopolis3" },
         // { text: "異域征途", link: "/modpacks/prodigium-reforged" },
-        // { text: "Liminal Industries", link: "/modpacks/liminal-industries" },
         { text: "亡者世界（DeceasedCraft）", link: "/modpacks/deceasedcraft" },
         { text: "FTB Skies 2", link: "/modpacks/skies-2" },
         { text: "FTB Neotech", link: "/modpacks/neotech" },

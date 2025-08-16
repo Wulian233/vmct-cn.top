@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Liminal Industries汉化下载
+title: 阈限工业汉化下载
 ---
 
 当你发现自己置身于那无尽变幻、不断进化的后室之中——
@@ -26,7 +26,9 @@ title: Liminal Industries汉化下载
 
 | 整合包下载地址                                                           | 加载器 | 支持整合包版本 | 汉化状态 |
 | :----------------------------------------------------------------------- | :----- | :------------- | :------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/liminal-industries) | Forge  | mc1.20.1 1.17  | 翻译中   |
+| [链接](https://www.curseforge.com/minecraft/modpacks/liminal-industries) | Forge  | mc1.20.1 1.17  | 维护中   |
+
+原名：Liminal Industries
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/14287)
 

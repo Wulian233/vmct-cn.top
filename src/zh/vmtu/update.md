@@ -12,12 +12,12 @@ title: 更新检测配置
 {
   "modpack": {
     "name": "ExampleModpack",
-    "version": "v0.1.0",
+    "version": "0.1.0",
     "translation": {
+      "id": "example", // [!code highlight]
       "url": "https://vmct-cn.top/modpacks/example/", // [!code highlight]
       "language": "zh_cn",
       "version": "1.0.0", // [!code highlight]
-      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/example.txt", // [!code highlight]
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
   }
@@ -26,6 +26,13 @@ title: 更新检测配置
 
 未完成
 
-`updateCheckUrl`项对应的是一个纯文本txt格式的网络链接，内容为汉化补丁
-最新版的版本号。其内容格式仅为一行的版本号构成，例如`1.0.0`。你可以打开
-[上述的链接](https://gitee.com/Wulian233/vmtu/raw/main/update/example.txt)查看示例。
+![](/imgs/vmtu/zh_cn.png)
+
+当玩家在中文环境下（简中、繁中、港中），且未完成
+
+![](/imgs/vmtu/zh_tw.png)
+
+另外，从 4.0.0 版本开始，VMTU 添加了一条客户端指令 `/vmtu check`，用于手动触发汉化更新检测。
+
+该指令会忽略配置文件中的`checkModPackTranslationUpdate`选项，强制进行更新检测。
+并且所有游戏语言都可以使用该指令。
