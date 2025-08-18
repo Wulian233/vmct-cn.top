@@ -30,7 +30,7 @@ title: 阈限工业汉化下载
 
 原名：Liminal Industries
 
-汉化项目：[Paratranz](https://paratranz.cn/projects/14287)
+汉化项目：[Paratranz](https://paratranz.cn/projects/15786)
 
 译者：七羽Kiyo
 

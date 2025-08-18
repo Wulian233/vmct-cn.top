@@ -17,13 +17,13 @@ title: 科技城3汉化下载
 
 ## 更多信息
 
-| 整合包下载地址                                                     | 加载器   | 支持整合包版本    | 汉化状态 |
-| :----------------------------------------------------------------- | :------- | :---------------- | :------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/techopolis-3) | Neoforge | mc1.21.1 6.1alpha | 翻译中   |
+| 整合包下载地址                                                     | 加载器   | 支持整合包版本 | 汉化状态 |
+| :----------------------------------------------------------------- | :------- | :------------- | :------- |
+| [链接](https://www.curseforge.com/minecraft/modpacks/techopolis-3) | Neoforge | mc1.21.1 7.1   | 翻译中   |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/14287)
 
-译者：maxinglo、Ircno6
+译者：[查看贡献人员排行榜](https://paratranz.cn/projects/14287/leaderboard)
 
 ## 特色
 

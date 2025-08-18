@@ -17,4 +17,3 @@ vaultPatcherCheck = false # 默认不检查是否安装Vault Patch模组
 ![](/imgs/vmtu/mod-check.png)
 
 本提示屏幕可由玩家自行跳过，可以按 `esc` 或右下方的`我知道我在做什么！`按钮。
-
