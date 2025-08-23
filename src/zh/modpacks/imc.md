@@ -9,9 +9,6 @@ Integrated MC 是[地牢建筑统合（IDAS）系列](https://www.mcmod.cn/class
 
 ![图片 =500x](https://media.forgecdn.net/attachments/934/485/tremozilla_dread_citadel.png)
 
-> [!IMPORTANT] 重要提示
-> 汉化支持整合包版本1.5.6，不支持最新版，请留意下载的支持整合包版本！
-
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/imc', quarkLink: 'https://pan.quark.cn/s/2d7a269c94de' },
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV16uKNzVEMA/' },
@@ -24,7 +21,7 @@ Integrated MC 是[地牢建筑统合（IDAS）系列](https://www.mcmod.cn/class
 
 | 整合包下载地址                                                             | 加载器 | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/integrated-minecraft) | Forge  | mc1.20.1 1.5.6 | 维护中       |
+| [链接](https://www.curseforge.com/minecraft/modpacks/integrated-minecraft) | Forge  | mc1.20.1 1.5.9 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13091)
 
@@ -56,6 +53,6 @@ Integrated MC 是[地牢建筑统合（IDAS）系列](https://www.mcmod.cn/class
 
 ## 支持版本
 
-支持整合包版本1.5.6，不支持最新版，请留意下载的支持整合包版本！
+支持整合包版本1.5.9最新版
 
 <DocSupport />

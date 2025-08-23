@@ -36,18 +36,18 @@
     "typescript": "^5.9.2",
     "unocss": "^66.4.2",
     "vitepress": "1.6.1",
-    "vue": "^3.5.18",
+    "vue": "^3.5.19",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@unocss/extractor-mdc": "^66.4.2",
     "husky": "^9.1.7",
     "markdown-it": "^14.1.0",
-    "pnpm": "^10.14.0",
+    "pnpm": "^10.15.0",
     "prettier": "^3.6.2",
     "prettier-config-vuepress": "^7.0.4",
-    "taze": "^19.1.0",
+    "taze": "^19.3.0",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@10.14.0"
+  "packageManager": "pnpm@10.15.0"
 }
