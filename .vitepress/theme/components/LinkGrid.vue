@@ -226,25 +226,25 @@ function showQuarkModal(item) {
     width: "700px",
     html: `
       <div style="text-align: left; line-height: 1.75;">
-        <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
-        <ul style="margin-top: 10px; margin-bottom: 20px; padding-left: 20px;">
-            <li><strong>夸克网盘：</strong>需要安装客户端。<strong>您只需选择此项并转存文件，就可以为我们的汉化工作提供一份支持，对此我们深表感谢！</strong></li>
-            <li><strong>蓝奏云：</strong>无需客户端，点击即可直接下载，方便快捷。</li>
-        </ul>
-        <p>
-            <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
-            <a
-              href="/agreement/"
-              target="_blank"
-              style="color: #007bff; text-decoration: underline; font-weight: normal;"
-            >VM汉化组用户服务协议</a>，并仔细查阅
-            <a
-              href="/modpacks/"
-              target="_blank"
-              style="color: #007bff; text-decoration: underline; font-weight: normal;"
-            >汉化补丁安装说明</a>。
-        </p>
-      </div>
+          <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
+          <ul style="margin-top: 10px; margin-bottom: 20px; padding-left: 20px;">
+              <li><strong>夸克网盘：</strong>转存文件即可支持我们的汉化工作，并能第一时间获取未来的内容更新。对此我们深表感谢！</li>
+              <li><strong>蓝奏云：</strong>无需额外应用，点击链接即可直接下载文件到本地，方便快捷。</li>
+          </ul>
+          <p>
+              <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
+              <a
+                href="/agreement/"
+                target="_blank"
+                style="color: #007bff; text-decoration: underline; font-weight: normal;"
+              >VM汉化组用户服务协议</a>，并仔细查阅
+              <a
+                href="/modpacks/"
+                target="_blank"
+                style="color: #007bff; text-decoration: underline; font-weight: normal;"
+              >汉化补丁安装说明</a>。
+          </p>
+        </div>
     `,
 
     showDenyButton: true,
@@ -315,20 +315,20 @@ function showQuarkMapModal(item) {
     width: "700px",
     html: `
       <div style="text-align: left; line-height: 1.75;">
-        <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
-        <ul style="margin-top: 10px; margin-bottom: 20px; padding-left: 20px;">
-            <li><strong>夸克网盘：</strong>需要安装客户端。<strong>您只需选择此项并转存文件，就可以为我们的汉化工作提供一份支持，对此我们深表感谢！</strong></li>
-            <li><strong>蓝奏云：</strong>无需客户端，点击即可直接下载，方便快捷。</li>
-        </ul>
-        <p>
-            <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
-            <a
-              href="/agreement/"
-              target="_blank"
-              style="color: #007bff; text-decoration: underline; font-weight: normal;"
-            >VM汉化组用户服务协议</a>，并仔细查阅
-        </p>
-      </div>
+          <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
+          <ul style="margin-top: 10px; margin-bottom: 20px; padding-left: 20px;">
+              <li><strong>夸克网盘：</strong>转存文件即可支持我们的汉化工作，并能第一时间获取未来的内容更新。对此我们深表感谢！</li>
+              <li><strong>蓝奏云：</strong>无需额外应用，点击链接即可直接下载文件到本地，方便快捷。</li>
+          </ul>
+          <p>
+              <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
+              <a
+                href="/agreement/"
+                target="_blank"
+                style="color: #007bff; text-decoration: underline; font-weight: normal;"
+              >VM汉化组用户服务协议</a>
+          </p>
+        </div>
     `,
 
     showDenyButton: true,
