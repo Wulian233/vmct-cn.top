@@ -219,42 +219,55 @@ function showCorrectAnswersModal(item) {
   });
 }
 
+// 将重复的HTML内容提取出来，方便管理和修改
+function getDownloadModalHtml(showInstallLink = true) {
+  const installLinkHtml = `，并仔细查阅<a href="/modpacks/" target="_blank">汉化补丁安装说明</a>`;
+  return `
+    <div class="modal-content-container">
+      <p class="intro-text">我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
+      <ul class="download-options-list">
+        <li class="option-item recommended">
+            <strong>夸克网盘：</strong>
+            转存文件即可支持我们汉化工作，并能第一时间获取未来的内容更新。对此我们深表感谢！
+        </li>
+        <li class="option-item lanzou">
+        <strong>蓝奏云：</strong>
+            无需额外应用，点击链接即可直接下载文件到本地，方便快捷。
+        </li>
+      </ul>
+      <p class="important-notice">
+          <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
+          <a href="/agreement/" target="_blank">VM汉化组用户服务协议</a>${showInstallLink ? installLinkHtml : '。'}
+      </p>
+    </div>
+  `;
+}
+
 function showQuarkModal(item) {
   Swal.fire({
     title: "网盘选择",
     icon: "info",
-    width: "700px",
-    html: `
-      <div style="text-align: left; line-height: 1.75;">
-          <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
-          <ul style="margin-top: 10px; margin-bottom: 20px; padding-left: 20px;">
-              <li><strong>夸克网盘：</strong>转存文件即可支持我们的汉化工作，并能第一时间获取未来的内容更新。对此我们深表感谢！</li>
-              <li><strong>蓝奏云：</strong>无需额外应用，点击链接即可直接下载文件到本地，方便快捷。</li>
-          </ul>
-          <p>
-              <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
-              <a
-                href="/agreement/"
-                target="_blank"
-                style="color: #007bff; text-decoration: underline; font-weight: normal;"
-              >VM汉化组用户服务协议</a>，并仔细查阅
-              <a
-                href="/modpacks/"
-                target="_blank"
-                style="color: #007bff; text-decoration: underline; font-weight: normal;"
-              >汉化补丁安装说明</a>。
-          </p>
-        </div>
-    `,
-
+    html: getDownloadModalHtml(true),
     showDenyButton: true,
     showCancelButton: true,
     confirmButtonText: "蓝奏云",
     denyButtonText: "夸克网盘",
     cancelButtonText: "取消",
+    customClass: {
+      popup: 'vm-swal-popup',
+      htmlContainer: 'vm-swal-html-container',
+      confirmButton: 'btn btn-lanzou',
+      denyButton: 'btn btn-quark',
+      cancelButton: 'btn btn-cancel'
+    },
+
     focusCancel: true,
     allowOutsideClick: false,
-    didOpen: () => {
+    showConfirmButton: true, // 确保按钮区域显示
+    didOpen: (modal) => {
+      const icon = modal.querySelector('.swal2-icon');
+      if (icon) icon.style.display = 'none';
+
       // 禁用按钮
       Swal.getConfirmButton().disabled = true;
       Swal.getDenyButton().disabled = true;
@@ -312,33 +325,26 @@ function showQuarkMapModal(item) {
   Swal.fire({
     title: "网盘选择",
     icon: "info",
-    width: "700px",
-    html: `
-      <div style="text-align: left; line-height: 1.75;">
-          <p>我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
-          <ul style="margin-top: 10px; margin-bottom: 20px; padding-left: 20px;">
-              <li><strong>夸克网盘：</strong>转存文件即可支持我们的汉化工作，并能第一时间获取未来的内容更新。对此我们深表感谢！</li>
-              <li><strong>蓝奏云：</strong>无需额外应用，点击链接即可直接下载文件到本地，方便快捷。</li>
-          </ul>
-          <p>
-              <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
-              <a
-                href="/agreement/"
-                target="_blank"
-                style="color: #007bff; text-decoration: underline; font-weight: normal;"
-              >VM汉化组用户服务协议</a>
-          </p>
-        </div>
-    `,
-
+    html: getDownloadModalHtml(false),
     showDenyButton: true,
     showCancelButton: true,
     confirmButtonText: "蓝奏云",
     denyButtonText: "夸克网盘",
     cancelButtonText: "取消",
+    customClass: {
+      popup: 'vm-swal-popup',
+      htmlContainer: 'vm-swal-html-container',
+      confirmButton: 'btn btn-lanzou',
+      denyButton: 'btn btn-quark',
+      cancelButton: 'btn btn-cancel'
+    },
     focusCancel: true,
     allowOutsideClick: false,
-    didOpen: () => {
+    showConfirmButton: true,
+    didOpen: (modal) => {
+      const icon = modal.querySelector('.swal2-icon');
+      if (icon) icon.style.display = 'none';
+
       // 禁用按钮
       Swal.getConfirmButton().disabled = true;
       Swal.getDenyButton().disabled = true;
@@ -359,6 +365,7 @@ function showQuarkMapModal(item) {
     }
   });
 }
+
 
 function showMapModal(item) {
   Swal.fire({
@@ -449,5 +456,116 @@ function showMapModal(item) {
   100% {
     color: orangered;
   }
+}
+</style>
+
+<style>
+/* --- 字体与弹窗容器 --- */
+.vm-swal-popup {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Helvetica Neue", sans-serif !important;
+}
+
+.vm-swal-html-container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.modal-content-container {
+    padding: 5px 20px 10px 20px;
+    text-align: left;
+    color: #333;
+    line-height: 1.75;
+}
+
+/* --- 介绍文本 --- */
+.intro-text {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #555;
+    font-size: 1em;
+}
+
+/* --- 下载选项列表 --- */
+.download-options-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option-item {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+.option-item:hover {
+    border-color: #007bff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.option-item.recommended {
+    border-left: 4px solid #e74c3c;
+}
+
+/* v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v */
+/* MODIFICATION START: Added style for the 'lanzou' class */
+.option-item.lanzou {
+    border-left: 4px solid #3498db; /* 蓝奏云蓝 */
+}
+/* MODIFICATION END */
+/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^ */
+
+.option-item strong {
+    color: #000;
+}
+
+/* --- 重要提示 --- */
+.important-notice {
+    font-size: 13px;
+    color: #6c757d;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.important-notice a {
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: normal !important;
+}
+
+/* --- 按钮区域 --- */
+.btn {
+    padding: 10px 24px !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    margin: 0 8px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    box-shadow: none !important;
+}
+
+.btn:hover {
+    opacity: 0.85;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn-quark {
+    background-color: #e74c3c !important;
+}
+
+.btn-lanzou {
+    background-color: #3498db !important;
+}
+
+.btn-cancel {
+    background-color: #f0f2f5 !important;
+    color: #555 !important;
+    border: 1px solid #dcdfe6 !important;
 }
 </style>
