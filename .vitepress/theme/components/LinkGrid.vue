@@ -236,11 +236,43 @@ function getDownloadModalHtml(showInstallLink = true) {
         </li>
       </ul>
       <p class="important-notice">
-          <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的
-          <a href="/agreement/" target="_blank">VM汉化组用户服务协议</a>${showInstallLink ? installLinkHtml : '。'}
+          <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的<a href="/agreement/" target="_blank">VM汉化组用户服务协议</a>${showInstallLink ? installLinkHtml : '。'}
       </p>
     </div>
   `;
+}
+
+// 倒计时逻辑函数
+function setupButtonCountdown() {
+  const confirmBtn = Swal.getConfirmButton();
+  const denyBtn = Swal.getDenyButton();
+
+  if (!confirmBtn || !denyBtn) return;
+
+  const originalConfirmText = confirmBtn.innerText;
+  const originalDenyText = denyBtn.innerText;
+
+  confirmBtn.disabled = true;
+  denyBtn.disabled = true;
+
+  let countdown = 3;
+
+  confirmBtn.innerText = `${originalConfirmText} (${countdown})`;
+  denyBtn.innerText = `${originalDenyText} (${countdown})`;
+
+  const timer = setInterval(() => {
+    countdown -= 1;
+    if (countdown > 0) {
+      confirmBtn.innerText = `${originalConfirmText} (${countdown})`;
+      denyBtn.innerText = `${originalDenyText} (${countdown})`;
+    } else {
+      clearInterval(timer);
+      confirmBtn.disabled = false;
+      denyBtn.disabled = false;
+      confirmBtn.innerText = originalConfirmText;
+      denyBtn.innerText = originalDenyText;
+    }
+  }, 1000);
 }
 
 function showQuarkModal(item) {
@@ -250,40 +282,31 @@ function showQuarkModal(item) {
     html: getDownloadModalHtml(true),
     showDenyButton: true,
     showCancelButton: true,
-    confirmButtonText: "蓝奏云",
-    denyButtonText: "夸克网盘",
+    confirmButtonText: "夸克网盘",
+    denyButtonText: "蓝奏云",
     cancelButtonText: "取消",
     customClass: {
       popup: 'vm-swal-popup',
       htmlContainer: 'vm-swal-html-container',
-      confirmButton: 'btn btn-lanzou',
-      denyButton: 'btn btn-quark',
+      confirmButton: 'btn btn-quark',
+      denyButton: 'btn btn-lanzou',
       cancelButton: 'btn btn-cancel'
     },
 
     focusCancel: true,
     allowOutsideClick: false,
-    showConfirmButton: true, // 确保按钮区域显示
+    showConfirmButton: true,
     didOpen: (modal) => {
       const icon = modal.querySelector('.swal2-icon');
       if (icon) icon.style.display = 'none';
-
-      // 禁用按钮
-      Swal.getConfirmButton().disabled = true;
-      Swal.getDenyButton().disabled = true;
-
-      // 3秒后启用
-      setTimeout(() => {
-        Swal.getConfirmButton().disabled = false;
-        Swal.getDenyButton().disabled = false;
-      }, 3000);
+      setupButtonCountdown();
     },
   }).then((result) => {
     if (result.isConfirmed) {
-      const link = item.lanzouLink;
+      const link = item.quarkLink;
       if (link) window.open(link, item.target || "_blank");
     } else if (result.isDenied) {
-      const link = item.quarkLink;
+      const link = item.lanzouLink;
       if (link) window.open(link, item.target || "_blank");
     }
   });
@@ -328,14 +351,14 @@ function showQuarkMapModal(item) {
     html: getDownloadModalHtml(false),
     showDenyButton: true,
     showCancelButton: true,
-    confirmButtonText: "蓝奏云",
-    denyButtonText: "夸克网盘",
+    confirmButtonText: "夸克网盘",
+    denyButtonText: "蓝奏云",
     cancelButtonText: "取消",
     customClass: {
       popup: 'vm-swal-popup',
       htmlContainer: 'vm-swal-html-container',
-      confirmButton: 'btn btn-lanzou',
-      denyButton: 'btn btn-quark',
+      confirmButton: 'btn btn-quark',
+      denyButton: 'btn btn-lanzou',
       cancelButton: 'btn btn-cancel'
     },
     focusCancel: true,
@@ -344,23 +367,14 @@ function showQuarkMapModal(item) {
     didOpen: (modal) => {
       const icon = modal.querySelector('.swal2-icon');
       if (icon) icon.style.display = 'none';
-
-      // 禁用按钮
-      Swal.getConfirmButton().disabled = true;
-      Swal.getDenyButton().disabled = true;
-
-      // 3秒后启用
-      setTimeout(() => {
-        Swal.getConfirmButton().disabled = false;
-        Swal.getDenyButton().disabled = false;
-      }, 3000);
+      setupButtonCountdown();
     },
   }).then((result) => {
     if (result.isConfirmed) {
-      const link = item.lanzouLink;
+      const link = item.quarkLink;
       if (link) window.open(link, item.target || "_blank");
     } else if (result.isDenied) {
-      const link = item.quarkLink;
+      const link = item.lanzouLink;
       if (link) window.open(link, item.target || "_blank");
     }
   });
@@ -511,13 +525,9 @@ function showMapModal(item) {
     border-left: 4px solid #e74c3c;
 }
 
-/* v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v */
-/* MODIFICATION START: Added style for the 'lanzou' class */
 .option-item.lanzou {
     border-left: 4px solid #3498db; /* 蓝奏云蓝 */
 }
-/* MODIFICATION END */
-/* ^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^ */
 
 .option-item strong {
     color: #000;
@@ -553,6 +563,11 @@ function showMapModal(item) {
 .btn:hover {
     opacity: 0.85;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn:active {
+  transform: scale(0.97);
+  opacity: 1;
 }
 
 .btn-quark {
