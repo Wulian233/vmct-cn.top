@@ -12,6 +12,7 @@ const sidebar = {
       items: [
         { text: "永恆的MC 2（翻譯中）", link: "/modpacks/mce2" },
         { text: "Roguelike冒險與地牢（RAD1）", link: "/modpacks/rad/" },
+        { text: "Roguelike冒險與地牢2（RAD2）", link: "/modpacks/rad2" },
         { text: "閾限工業", link: "/modpacks/liminal-industries" },
         { text: "星河邊疆", link: "/modpacks/cosmic-frontiers" },
         // { text: "Craftoria", link: "/modpacks/craftoria" },

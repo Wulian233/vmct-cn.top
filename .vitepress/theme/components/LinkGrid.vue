@@ -236,7 +236,7 @@ function getDownloadModalHtml(showInstallLink = true) {
         </li>
       </ul>
       <p class="important-notice">
-          <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的<a href="/agreement/" target="_blank">VM汉化组用户服务协议</a>${showInstallLink ? installLinkHtml : '。'}
+          <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的<a href="/agreement/" target="_blank">VM汉化组用户服务协议</a>${showInstallLink ? installLinkHtml : "。"}
       </p>
     </div>
   `;
@@ -286,19 +286,19 @@ function showQuarkModal(item) {
     denyButtonText: "蓝奏云",
     cancelButtonText: "取消",
     customClass: {
-      popup: 'vm-swal-popup',
-      htmlContainer: 'vm-swal-html-container',
-      confirmButton: 'btn btn-quark',
-      denyButton: 'btn btn-lanzou',
-      cancelButton: 'btn btn-cancel'
+      popup: "vm-swal-popup",
+      htmlContainer: "vm-swal-html-container",
+      confirmButton: "btn btn-quark",
+      denyButton: "btn btn-lanzou",
+      cancelButton: "btn btn-cancel",
     },
 
     focusCancel: true,
     allowOutsideClick: false,
     showConfirmButton: true,
     didOpen: (modal) => {
-      const icon = modal.querySelector('.swal2-icon');
-      if (icon) icon.style.display = 'none';
+      const icon = modal.querySelector(".swal2-icon");
+      if (icon) icon.style.display = "none";
       setupButtonCountdown();
     },
   }).then((result) => {
@@ -355,18 +355,18 @@ function showQuarkMapModal(item) {
     denyButtonText: "蓝奏云",
     cancelButtonText: "取消",
     customClass: {
-      popup: 'vm-swal-popup',
-      htmlContainer: 'vm-swal-html-container',
-      confirmButton: 'btn btn-quark',
-      denyButton: 'btn btn-lanzou',
-      cancelButton: 'btn btn-cancel'
+      popup: "vm-swal-popup",
+      htmlContainer: "vm-swal-html-container",
+      confirmButton: "btn btn-quark",
+      denyButton: "btn btn-lanzou",
+      cancelButton: "btn btn-cancel",
     },
     focusCancel: true,
     allowOutsideClick: false,
     showConfirmButton: true,
     didOpen: (modal) => {
-      const icon = modal.querySelector('.swal2-icon');
-      if (icon) icon.style.display = 'none';
+      const icon = modal.querySelector(".swal2-icon");
+      if (icon) icon.style.display = "none";
       setupButtonCountdown();
     },
   }).then((result) => {
@@ -379,7 +379,6 @@ function showQuarkMapModal(item) {
     }
   });
 }
-
 
 function showMapModal(item) {
   Swal.fire({
@@ -476,7 +475,9 @@ function showMapModal(item) {
 <style>
 /* --- 字体与弹窗容器 --- */
 .vm-swal-popup {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Helvetica Neue", sans-serif !important;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei",
+    "Helvetica Neue", sans-serif !important;
 }
 
 .vm-swal-html-container {
@@ -485,84 +486,84 @@ function showMapModal(item) {
 }
 
 .modal-content-container {
-    padding: 5px 20px 10px 20px;
-    text-align: left;
-    color: #333;
-    line-height: 1.75;
+  padding: 5px 20px 10px 20px;
+  text-align: left;
+  color: #333;
+  line-height: 1.75;
 }
 
 /* --- 介绍文本 --- */
 .intro-text {
-    margin-bottom: 20px;
-    text-align: left;
-    color: #555;
-    font-size: 1em;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #555;
+  font-size: 1em;
 }
 
 /* --- 下载选项列表 --- */
 .download-options-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .option-item {
-    background-color: #f8f9fa;
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
-    padding: 15px 20px;
-    margin-bottom: 12px;
-    transition: all 0.2s ease-in-out;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  transition: all 0.2s ease-in-out;
 }
 
 .option-item:hover {
-    border-color: #007bff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transform: translateY(-2px);
+  border-color: #007bff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
 }
 
 .option-item.recommended {
-    border-left: 4px solid #e74c3c;
+  border-left: 4px solid #e74c3c;
 }
 
 .option-item.lanzou {
-    border-left: 4px solid #3498db; /* 蓝奏云蓝 */
+  border-left: 4px solid #3498db; /* 蓝奏云蓝 */
 }
 
 .option-item strong {
-    color: #000;
+  color: #000;
 }
 
 /* --- 重要提示 --- */
 .important-notice {
-    font-size: 13px;
-    color: #6c757d;
-    margin-top: 25px;
-    text-align: left;
+  font-size: 13px;
+  color: #6c757d;
+  margin-top: 25px;
+  text-align: left;
 }
 
 .important-notice a {
-    color: #007bff;
-    text-decoration: underline;
-    font-weight: normal !important;
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: normal !important;
 }
 
 /* --- 按钮区域 --- */
 .btn {
-    padding: 10px 24px !important;
-    border: none !important;
-    border-radius: 6px !important;
-    font-size: 15px !important;
-    font-weight: 500 !important;
-    margin: 0 8px !important;
-    cursor: pointer !important;
-    transition: all 0.2s ease !important;
-    box-shadow: none !important;
+  padding: 10px 24px !important;
+  border: none !important;
+  border-radius: 6px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  margin: 0 8px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  box-shadow: none !important;
 }
 
 .btn:hover {
-    opacity: 0.85;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  opacity: 0.85;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
 
 .btn:active {
@@ -571,16 +572,16 @@ function showMapModal(item) {
 }
 
 .btn-quark {
-    background-color: #e74c3c !important;
+  background-color: #e74c3c !important;
 }
 
 .btn-lanzou {
-    background-color: #3498db !important;
+  background-color: #3498db !important;
 }
 
 .btn-cancel {
-    background-color: #f0f2f5 !important;
-    color: #555 !important;
-    border: 1px solid #dcdfe6 !important;
+  background-color: #f0f2f5 !important;
+  color: #555 !important;
+  border: 1px solid #dcdfe6 !important;
 }
 </style>
