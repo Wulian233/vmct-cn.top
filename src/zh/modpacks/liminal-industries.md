@@ -26,7 +26,7 @@ title: 阈限工业汉化下载
 
 | 整合包下载地址                                                           | 加载器 | 支持整合包版本 | 汉化状态 |
 | :----------------------------------------------------------------------- | :----- | :------------- | :------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/liminal-industries) | Forge  | mc1.20.1 1.17  | 维护中   |
+| [链接](https://www.curseforge.com/minecraft/modpacks/liminal-industries) | Forge  | mc1.20.1 1.18  | 维护中   |
 
 原名：Liminal Industries
 
