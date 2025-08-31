@@ -19,9 +19,9 @@ layout: doc
 - **地图类型**：开放世界
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下载地图与汉化', icon: '/imgs/svg/lanzou.svg', link: '/doing' },
+  { id: 'lanzou-quark-mapdl', text: '下载地图和汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/ssg2', quarkLink: 'https://pan.quark.cn/s/21835eedae08' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/sun-guardian-2-stranded/' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '/doing' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/ssg2' }
 ]" />
 
 ### 你将踏入一场超过50小时的冒险旅程，其中包括：
@@ -32,5 +32,11 @@ layout: doc
 - ⚔️ **大量自定义物品**，包括强力的机械弩、魔法卷轴，以及……一些超级巨大的剑
 - 🧑‍🤝‍🧑 可以交谈、帮助、交易，甚至**毫无理由地杀掉**的 NPC
 - 📚 **海量的支线内容与世界观背景**等待你去发掘
+
+汉化项目：[Paratranz](https://paratranz.cn/projects/15705)
+
+译者：[查看贡献人员排行榜](https://paratranz.cn/projects/15705/leaderboard)
+
+项目负责：WhiterHJ
 
 <DocSupport />
