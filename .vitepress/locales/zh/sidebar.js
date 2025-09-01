@@ -14,6 +14,7 @@ const sidebar = {
         { text: "Roguelike冒险与地牢（RAD1）", link: "/modpacks/rad/" },
         { text: "Roguelike冒险与地牢2（RAD2）", link: "/modpacks/rad2" },
         { text: "永恒的MC 2（翻译中）", link: "/modpacks/mce2" },
+        // { text: "FTB石头世界4", link: "/modpacks/sb4" },
         { text: "星河边疆", link: "/modpacks/cosmic-frontiers" },
         { text: "阈限工业", link: "/modpacks/liminal-industries" },
         // { text: "FTB Evolution", link: "/modpacks/ftbe" },

@@ -61,8 +61,8 @@ importers:
         version: 4.5.1(vue@3.5.20(typescript@5.9.2))
     devDependencies:
       '@unocss/extractor-mdc':
-        specifier: ^66.4.2
-        version: 66.4.2
+        specifier: ^66.5.0
+        version: 66.5.0
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -70,8 +70,8 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0
       pnpm:
-        specifier: ^10.15.0
-        version: 10.15.0
+        specifier: ^10.15.1
+        version: 10.15.1
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -629,8 +629,8 @@ packages:
   '@unocss/extractor-arbitrary-variants@66.5.0':
     resolution: {integrity: sha512-Em5jrB4wPJWHRwp4hBRPWbYH/brEdQzYFC5RUSNem5u3kToYSiBid4KwBRTBHmLAdDxcrDXBD1pbDot0PAQe2g==}
 
-  '@unocss/extractor-mdc@66.4.2':
-    resolution: {integrity: sha512-3beKcSs4/XosPeeW8p/eYyl0zxRFKmsLos8Kfhep+13Kvufu2hO1gw6E9XFOASoJ0ufB2gXCC3O3tuZiTkIpQw==}
+  '@unocss/extractor-mdc@66.5.0':
+    resolution: {integrity: sha512-FaFSyn42Ia7aOW9hNjwjstySxSvgKgRi+rJPZP+80ccMGtT2gcXShLTsoA4IqgBoFjr8Lloxo6Zldwj4kHVMYQ==}
 
   '@unocss/inspector@66.5.0':
     resolution: {integrity: sha512-eozYCqP0TF1a6BoRTOFnLaIczGvR/b5kwhv1RQdAVAUKw08YZQzASTWWL3xeOonXCvFOSRZ3YIWk9Fsk5myPKg==}
@@ -1357,8 +1357,8 @@ packages:
   pnpm-workspace-yaml@1.1.1:
     resolution: {integrity: sha512-nGBB7h3Ped3g9dBrR6d3YNwXCKYsEg8K9J3GMmSrwGEXq3RHeGW44/B4MZW51p4FRMnyxJzTY5feSBbUjRhIHQ==}
 
-  pnpm@10.15.0:
-    resolution: {integrity: sha512-SG68JZ0+mZpOhpHOA7XKxKccvso5Nyqbdiy1AM/fCHPiyxar49lRse4s8BJQPwJ7mLZYTk3yJSTgx0UNnseqew==}
+  pnpm@10.15.1:
+    resolution: {integrity: sha512-NOU4wym1VTAUyo6PRTWZf5YYCh0PYUM5NXRJk1NQ2STiL4YUaCGRJk7DPRRirCFWGv+X9rsYBlNRwWLH6PbeZw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2178,7 +2178,7 @@ snapshots:
     dependencies:
       '@unocss/core': 66.5.0
 
-  '@unocss/extractor-mdc@66.4.2': {}
+  '@unocss/extractor-mdc@66.5.0': {}
 
   '@unocss/inspector@66.5.0':
     dependencies:
@@ -2931,7 +2931,7 @@ snapshots:
     dependencies:
       yaml: 2.8.1
 
-  pnpm@10.15.0: {}
+  pnpm@10.15.1: {}
 
   postcss@8.5.6:
     dependencies:

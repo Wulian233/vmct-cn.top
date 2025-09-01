@@ -24,7 +24,7 @@ title: FTB Neotech汉化下载
 
 | FTB官网                                                     | 加载器   | 支持整合包版本            | 汉化维护状态 |
 | :---------------------------------------------------------- | :------- | :------------------------ | :----------- |
-| [链接](https://feed-the-beast.com/modpacks/123-ftb-neotech) | Neoforge | mc1.20.4 1.10.1（最新版） | 维护中       |
+| [链接](https://feed-the-beast.com/modpacks/123-ftb-neotech) | Neoforge | mc1.20.4 1.10.2（最新版） | 维护中       |
 
 项目主管 @[Cactusstudent](https://github.com/Cactusstudent) @[Wulian233](https://github.com/Wulian233)
 
@@ -54,8 +54,10 @@ FTB Neotech不仅仅是一个单人冒险整合包。可以与你的朋友们一
 
 立即下载FTB Neotech，体验科技掌控与无限探索的旅程。你的冒险正等着你！
 
-## 整合包下载
+## 整合包下载与授权
 
 你可以在[FTB的启动器](https://feed-the-beast.com/modpacks/123-ftb-neotech)内或FTB整合包下载工具（[具体看教程](https://www.bilibili.com/read/cv24344019)）下载整合包，并下载汉化补丁，通过解压覆盖文件的方法完成汉化。
+
+本次汉化已取得官方授权，不违反任何社区规则。
 
 <DocSupport />

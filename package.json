@@ -40,14 +40,14 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@unocss/extractor-mdc": "^66.4.2",
+    "@unocss/extractor-mdc": "^66.5.0",
     "husky": "^9.1.7",
     "markdown-it": "^14.1.0",
-    "pnpm": "^10.15.0",
+    "pnpm": "^10.15.1",
     "prettier": "^3.6.2",
     "prettier-config-vuepress": "^7.0.4",
     "taze": "^19.3.0",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@10.15.0"
+  "packageManager": "pnpm@10.15.1"
 }
