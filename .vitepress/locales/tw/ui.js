@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `8月最新成果：GT包星河邊疆模組包中文化更新檔現已發佈！
-      <a href="/modpacks/cosmic-frontiers" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
+    recruitment: `超大型CTM地圖太陽守衛者2：擱淺中文化更新檔現已發佈！
+      <a href="tw/map/sun-guardian2" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
   },
   supportUs: {
     text: `<div>
