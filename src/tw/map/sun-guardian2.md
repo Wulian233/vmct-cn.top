@@ -19,7 +19,8 @@ layout: doc
 - **地圖類型**：開放世界
 
 <DownloadLinks :methods="[
-  { id: 'lanzou-quark-mapdl', text: '下載地圖', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/ssg2', quarkLink: 'https://pan.quark.cn/s/21835eedae08' },
+  { id: 'mapdl', text: '下载地圖', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/sun-guardian-2-stranded-ctm-map/files/all' },
+  { id: 'lanzou-quark-mapdl', text: '下載漢化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/ssg2', quarkLink: 'https://pan.quark.cn/s/21835eedae08' },
   { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1kWaGzTEoi/' },
   { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/sun-guardian-2-stranded/' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/ssg2' }
