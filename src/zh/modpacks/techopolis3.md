@@ -3,7 +3,7 @@ layout: doc
 title: 科技城3汉化下载
 ---
 
-![](https://media.forgecdn.net/attachments/description/null/description_973d4137-c897-4749-a023-6a81edb8f0ae.png)
+![图片](https://media.forgecdn.net/attachments/description/null/description_973d4137-c897-4749-a023-6a81edb8f0ae.png)
 
 欢迎来到**科技城3**——一个以科技为核心、囊括顶级科技模组的整合包。
 在这里，你的目标异常明确：**制造出科技锭**。听起来并不难，对吧？
@@ -19,7 +19,7 @@ title: 科技城3汉化下载
 
 | 整合包下载地址                                                     | 加载器   | 支持整合包版本 | 汉化状态 |
 | :----------------------------------------------------------------- | :------- | :------------- | :------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/techopolis-3) | Neoforge | mc1.21.1 8.0   | 维护中   |
+| [链接](https://www.curseforge.com/minecraft/modpacks/techopolis-3) | Neoforge | mc1.21.1 9.0   | 翻译中   |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/14287)
 
