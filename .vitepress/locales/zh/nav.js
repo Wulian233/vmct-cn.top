@@ -60,6 +60,10 @@ const nav = [
       },
     ],
   },
+  {
+    text: "XyeBBS",
+    link: "https://xyebbs.com/",
+  }
 ];
 
 export default nav;
