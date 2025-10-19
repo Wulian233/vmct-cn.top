@@ -59,10 +59,6 @@ const nav = [
         ],
       },
     ],
-  },
-  {
-    text: "XyeBBS",
-    link: "https://xyebbs.com/",
   }
 ];
 
