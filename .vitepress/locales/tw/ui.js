@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `超大型CTM地圖太陽守衛者2：擱淺中文化更新檔現已發佈！
-      <a href="tw/map/sun-guardian2" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
+    recruitment: `官方深度合作！FTB石頭世界4中文更新檔即將發布！
+      <a href="/modpacks/sb4" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
   },
   supportUs: {
     text: `<div>

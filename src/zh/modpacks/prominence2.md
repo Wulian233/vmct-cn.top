@@ -20,9 +20,9 @@ title: 卓越2汉化下载
 
 ## 更多信息
 
-| 整合包下载地址                                                          | 加载器 | 支持整合包版本 | 汉化维护状态 |
-| :---------------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg/) | Fabric | mc1.20.1 3.9.0 | 维护中       |
+| 整合包下载地址                                                                   | 加载器 | 支持整合包版本 | 汉化维护状态 |
+| :------------------------------------------------------------------------------- | :----- | :------------- | :----------- |
+| [链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era) | Fabric | mc1.20.1 3.9.3 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13782)
 
@@ -74,7 +74,7 @@ title: 卓越2汉化下载
 
 ## 整合包下载与授权
 
-你可以先在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg) 或启动器内下载整合包，然后下载汉化补丁，最后将补丁解压并覆盖相应文件，即可完成汉化。
+你可以先在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era) 或启动器内下载整合包，然后下载汉化补丁，最后将补丁解压并覆盖相应文件，即可完成汉化。
 
 本整合包汉化已获得作者授权。本汉化补丁不违反任何社区规则。
 

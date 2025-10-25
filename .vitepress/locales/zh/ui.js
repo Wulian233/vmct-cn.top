@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `9月最新成果：超大型CTM地图太阳守卫者2：搁浅汉化现已发布！
-      <a href="/map/sun-guardian2" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
+    recruitment: `官方深度合作！FTB石头世界4汉化即将发布！
+      <a href="/modpacks/sb4" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
   },
   supportUs: {
     text: `<div>
