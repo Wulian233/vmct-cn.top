@@ -13,7 +13,7 @@ layout: doc
 title: 籽岷
 link: https://space.bilibili.com/686127
 logo: /imgs/friend-links/zimin.webp
-desc: 使用我们的FTB OceanBlock2、石头世界3、ROTN、永恒的MC、狂乱之境4等汉化
+desc: 使用我们的FTB OceanBlock2、石头世界4和3、ROTN、永恒的MC、狂乱之境4等汉化
 theme: medium
 ```
 

@@ -1,5 +1,4 @@
 {
-  "vue.codeActions.enabled": false,
   "files.trimTrailingWhitespace": true,
   "markdown.validate.enabled": false,
   "search.exclude": {

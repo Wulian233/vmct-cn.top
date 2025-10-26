@@ -20,7 +20,7 @@ hero:
       text: Github
       link: https://github.com/Wulian233/vmct-cn.top/
   image:
-    src: /imgs/logo/logo_256.png
+    src: /imgs/logo/logo_512.png
     alt: VM 翻譯組
 
 features:
