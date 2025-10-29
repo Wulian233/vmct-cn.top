@@ -8,7 +8,7 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `官方深度合作！FTB石头世界4汉化即将发布！
+    recruitment: `官方深度合作！FTB石头世界4汉化现已发布！
       <a href="/modpacks/sb4" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
   },
   supportUs: {

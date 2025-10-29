@@ -8,7 +8,7 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `官方深度合作！FTB石頭世界4中文更新檔即將發布！
+    recruitment: `官方深度合作！FTB石頭世界4中文更新檔現已發布！
       <a href="/modpacks/sb4" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
   },
   supportUs: {
