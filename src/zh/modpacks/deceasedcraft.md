@@ -21,7 +21,7 @@ title: 亡者世界汉化下载
 
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/dece', quarkLink: 'https://pan.quark.cn/s/4f8d739dbaa0' },
-  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
+  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/DeceasedCraft-Chinese' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/dece' }
 ]" />

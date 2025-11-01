@@ -12,7 +12,7 @@ title: FTB石头世界3汉化下载
 <DownloadLinks :methods="[
   { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wulian233.lanzouu.com/iNLBv38skbxe' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv21772959/' },
-  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://wulian233.lanzouu.com/iNLBv38skbxe' }
 ]" />
 

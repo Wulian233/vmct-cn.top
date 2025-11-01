@@ -10,9 +10,3 @@ autoDownloadVMTranslationPack = false # 默认不自动下载VM汉化资源包
 ```
 
 未完成
-
-```toml
-translationPackSource = "GITEE"       # 汉化资源包下载源
-```
-
-未完成

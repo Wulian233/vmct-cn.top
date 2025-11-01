@@ -13,7 +13,7 @@ Roguelite及地城探索类游戏与模组的精华。这款以探索为核心�
 
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: '/doing', quarkLink: '/doing' },
-  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Roguelike-Adventures-and-Dungeons-2' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '/doing' }
 ]" />

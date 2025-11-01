@@ -13,7 +13,7 @@ title: 星河边疆汉化下载
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/cf-gt', quarkLink: 'https://pan.quark.cn/s/f181b9f4acbb' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1jbt4zxE9u' },
   { id: 'bilibili2', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1T2tszKEh4' },
-  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Cosmic-Frontiers-Chinese' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/cf-gt' }
 ]" />

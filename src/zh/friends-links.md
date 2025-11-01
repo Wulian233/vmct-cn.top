@@ -45,7 +45,7 @@ theme: medium
 title: Sweet秋明
 link: https://space.bilibili.com/32796946
 logo: /imgs/friend-links/qiuming.jpg
-desc: 使用我们的FTB石头世界3整合包汉化
+desc: 使用我们的FTB石头世界4和3整合包汉化
 theme: medium
 ```
 

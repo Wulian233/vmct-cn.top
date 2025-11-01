@@ -13,20 +13,22 @@ title: FTB石头世界4汉化下载
 
 > [!IMPORTANT] 重要提示
 > 完整汉化体验请下载下方的下载i18n模组，并放在`mods`文件夹！
+>
+> 记得在覆盖文件后进入游戏的资源包管理页面，把VM汉化资源包启用并拖到最上方！
 
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/sb4', quarkLink: 'https://pan.quark.cn/s/e7e23e916087' },
   { id: 'bilibili', text: '介绍视频', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1mAyrBqEYj' },
-  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
+  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/StoneBlock4-Chinese' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/sb4' }
 ]" />
 
 ---
 
-| 整合包下载地址                                          | 加载器   | 支持整合包版本 | 汉化维护状态 |
-| :----------------------------------------------------- | :------- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | Neoforge | mc1.21.1 1.0.0 | 维护中       |
+| 整合包下载地址                                                         | 加载器   | 支持整合包版本 | 汉化维护状态 |
+| :--------------------------------------------------------------------- | :------- | :------------- | :----------- |
+| [链接](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | Neoforge | mc1.21.1 1.0.1 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/16650)
 
@@ -84,18 +86,18 @@ title: FTB石头世界4汉化下载
 
 石头世界4基于 **Minecraft 1.21.1（NeoForge）**，融合了数百款社区经典模组与 FTB 团队原创内容，其中包括：
 
-* **FTB任务** —— 引导式进程系统
-* **FTB Team Bases** —— 团队合作与共享基地
-* **Replication** —— 用物质复制物品！在石头世界4中全面强化，支持数百种自定义属性
-* **机械动力** —— 最精妙的机械自动化模组
-* **通用机械** —— 工业能量与高效处理体系
-* **新生魔艺** —— 优雅的魔法系统
-* **工业先锋** —— 高级自动化，更有可爱的粉红史莱姆！
-* **神秘学** —— 奥秘仪式与召唤之术
-* **龙之进化** —— 代价高昂，却力量无穷的龙系科技！
-* **暮色森林** —— 奇异生物、强大首领与梦幻暮色森林
-* **鸡** —— 培育鸡群，获得无限资源
-* **流体牛** —— 你的流体牛今天产什么？熔融铁？铜？还是更珍贵的奇迹？
+- **FTB任务** —— 引导式进程系统
+- **FTB Team Bases** —— 团队合作与共享基地
+- **Replication** —— 用物质复制物品！在石头世界4中全面强化，支持数百种自定义属性
+- **机械动力** —— 最精妙的机械自动化模组
+- **通用机械** —— 工业能量与高效处理体系
+- **新生魔艺** —— 优雅的魔法系统
+- **工业先锋** —— 高级自动化，更有可爱的粉红史莱姆！
+- **神秘学** —— 奥秘仪式与召唤之术
+- **龙之进化** —— 代价高昂，却力量无穷的龙系科技！
+- **暮色森林** —— 奇异生物、强大首领与梦幻暮色森林
+- **鸡** —— 培育鸡群，获得无限资源
+- **流体牛** —— 你的流体牛今天产什么？熔融铁？铜？还是更珍贵的奇迹？
 
 一切由 **KubeJS 自定义脚本系统** 串联而成——驱动着如世界引擎、秘库试炼、回声进度等专属机制，让整个冒险生态浑然一体。
 

@@ -11,7 +11,7 @@ title: 农业森友会5汉化下载
 <DownloadLinks :methods="[
   { id: 'curseforge', text: '下载整合包', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/modpacks/farming-crossing-5-made-to-order' },
   { id: 'vm', text: '整合包wiki（英文）', icon: '/imgs/logo/logo_64.png', link: '/modpacks/fc5-wiki/' },
-  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' }
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' }
 ]" />
 
 ## 更多信息

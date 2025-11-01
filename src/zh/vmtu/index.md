@@ -1,11 +1,11 @@
 ---
 layout: doc
-title: VM汉化更新模组文档 4.0.0
+title: VM汉化更新模组文档 4.1.0
 ---
 
 <div align="center">
    <img height="128px" width="128px" alt="logo" src="https://cdn.modrinth.com/data/wvCSIW08/c6d47a463a59dd38faf9777c17c634f514fa5b1e.png"/>
-   <h1>VM汉化更新模组文档 4.0.0</h1>
+   <h1>VM汉化更新模组文档 4.1.0</h1>
 </div>
 
 VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉化管理工具，涵盖了绝大部分汉化相关的使用场景。

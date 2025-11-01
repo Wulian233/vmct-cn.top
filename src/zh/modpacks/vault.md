@@ -11,7 +11,7 @@ aside: false
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzoui.com/s/the-Vault-03', quarkLink: 'https://pan.quark.cn/s/208e4d90c8c1' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv20450312' },
-  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/6351071/download' },
+  { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/the-Vault-03' }
 ]" />
 
