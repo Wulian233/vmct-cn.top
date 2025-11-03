@@ -3,10 +3,13 @@ layout: doc
 title: 资源包下载功能详解
 ---
 
-当配置文件中的下方条目启用时，VMTU 将会自动下载并应用 VM 汉化资源包
+当配置文件中的`autoDownloadVMTranslationPack`启用时，VMTU 将会自动下载并应用 VM 汉化资源包
 
-```toml
-autoDownloadVMTranslationPack = false # 默认不自动下载VM汉化资源包
-```
+你可以在 `modpackinfo.json` 中设置 VM 汉化资源包。汉化资源包名称及其支持版本如下表：
 
-未完成
+| 汉化资源包名称 | 支持的Minecraft版本               |
+| ---------- | --------------------------------- |
+| VM汉化组模组汉化包1.19及以上      | 1.19~ |
+| VM汉化组模组汉化包1.18   | 1.18.x                      |
+| VM汉化组模组汉化包1.16     | 1.16.x                   |
+| VM汉化组模组汉化包1.12     | 1.12.2                   |
