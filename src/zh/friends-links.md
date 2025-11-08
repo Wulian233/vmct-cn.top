@@ -29,7 +29,7 @@ theme: medium
 title: 大橙橙橙子
 link: https://space.bilibili.com/1691347
 logo: /imgs/friend-links/dachengzi.webp
-desc: 使用我们的FTB OceanBlock2整合包汉化
+desc: 使用我们的FTB石头世界4和FTB OceanBlock2整合包汉化
 theme: medium
 ```
 
