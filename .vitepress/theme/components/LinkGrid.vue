@@ -473,7 +473,6 @@ function showMapModal(item) {
 </style>
 
 <style>
-/* --- 字体与弹窗容器 --- */
 .vm-swal-popup {
   font-family:
     -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei",
@@ -492,7 +491,6 @@ function showMapModal(item) {
   line-height: 1.75;
 }
 
-/* --- 介绍文本 --- */
 .intro-text {
   margin-bottom: 20px;
   text-align: left;
@@ -500,7 +498,6 @@ function showMapModal(item) {
   font-size: 1em;
 }
 
-/* --- 下载选项列表 --- */
 .download-options-list {
   list-style: none;
   padding: 0;
@@ -522,19 +519,26 @@ function showMapModal(item) {
   transform: translateY(-2px);
 }
 
+.option-item.recommended:hover {
+  border-color: #e74c3c !important;
+}
+
+.option-item.lanzou:hover {
+  border-color: #3498db !important;
+}
+
 .option-item.recommended {
   border-left: 4px solid #e74c3c;
 }
 
 .option-item.lanzou {
-  border-left: 4px solid #3498db; /* 蓝奏云蓝 */
+  border-left: 4px solid #3498db;
 }
 
 .option-item strong {
   color: #000;
 }
 
-/* --- 重要提示 --- */
 .important-notice {
   font-size: 13px;
   color: #6c757d;
@@ -548,7 +552,6 @@ function showMapModal(item) {
   font-weight: normal !important;
 }
 
-/* --- 按钮区域 --- */
 .btn {
   padding: 10px 24px !important;
   border: none !important;
