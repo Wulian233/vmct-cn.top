@@ -34,10 +34,6 @@ const nav = [
             text: "貢獻名單",
             link: "/tw/staff",
           },
-          {
-            text: "XyeBBS",
-            link: "https://www.xyebbs.com/",
-          },
         ],
       },
       {

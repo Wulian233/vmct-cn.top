@@ -80,4 +80,9 @@ features:
     details: 太陽守衛者2：擱淺是一張融合了艾爾登法環以及瑪利歐高爾夫：家庭巡迴精髓的CTM地圖。
     link: ./sun-guardian2
     linkText: 前往下載
+  - icon: 🏃
+    title: Yoodexy's Mod
+    details: 這是一款非對稱玩法的多人恐怖地圖。你將體驗獨特的逃生路線、爬行能力，使用監控攝像頭、裝飾外觀，以及可以操控時間的秘密神器。你能活下來嗎？
+    link: ./yoodexy
+    linkText: 前往下載
 ---

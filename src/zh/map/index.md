@@ -80,4 +80,9 @@ features:
     details: 太阳守卫者2：搁浅是一张融合了艾尔登法环以及马里奥高尔夫：家庭巡回赛精髓的CTM地图。
     link: ./sun-guardian2
     linkText: 前往下载
+  - icon: 🏃
+    title: Yoodexy's Mod
+    details: 这是一款非对称玩法的多人恐怖地图。你将体验独特的逃生路线、爬行能力，使用监控摄像头、装饰外观，以及可以操控时间的秘密神器。你能活下来吗？
+    link: ./yoodexy
+    linkText: 前往下载
 ---

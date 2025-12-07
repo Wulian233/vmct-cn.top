@@ -98,3 +98,12 @@ logo: https://avatars.githubusercontent.com/u/118149830?s=200&v=4
 desc: 来自台湾的繁体中文翻译组，制作了很多整合包和模组的繁体中文翻译。
 theme: medium
 ```
+
+## 社区论坛
+
+```card
+title: XyeBBS 论坛
+link: https://www.xyebbs.com/languages
+logo: https://www.xyebbs.com/favicon.png
+theme: medium
+```
