@@ -224,19 +224,23 @@ function getDownloadModalHtml(showInstallLink = true) {
   const installLinkHtml = `，并仔细查阅<a href="/modpacks/" target="_blank">汉化补丁安装说明</a>`;
   return `
     <div class="modal-content-container">
-      <p class="intro-text">我们提供以下两种下载方式，汉化文件完全相同，请根据您的偏好选择：</p>
+      <p class="intro-text">请选择您偏好的下载方式（文件内容一致）：</p>
       <ul class="download-options-list">
         <li class="option-item recommended">
-            <strong>夸克网盘：</strong>
-            转存文件即可支持我们汉化工作，并能第一时间获取未来的内容更新。对此我们深表感谢！
+            <div class="option-title">
+                <strong>📂 夸克网盘</strong>
+            </div>
+            <div class="option-desc">转存即可<strong>自动获取后续更新</strong>。您的支持是我们持续用爱发电的动力 ❤️</div>
         </li>
         <li class="option-item lanzou">
-        <strong>蓝奏云：</strong>
-            无需额外应用，点击链接即可直接下载文件到本地，方便快捷。
+            <div class="option-title">
+                <strong>🚀 蓝奏云</strong>
+            </div>
+            <div class="option-desc">无需客户端，点击链接直接下载，轻量快捷。</div>
         </li>
       </ul>
       <p class="important-notice">
-          <strong>重要提示：</strong>下载和使用补丁前，请务必阅读并接受我们的<a href="/agreement/" target="_blank">VM汉化组用户服务协议</a>${showInstallLink ? installLinkHtml : "。"}
+          <strong>重要提示：</strong>下载前请务必阅读并接受<a href="/agreement/" target="_blank">VM汉化组用户服务协议</a>${showInstallLink ? installLinkHtml : "。"}
       </p>
     </div>
   `;
@@ -485,17 +489,17 @@ function showMapModal(item) {
 }
 
 .modal-content-container {
-  padding: 5px 20px 10px 20px;
+  padding: 25px 20px 10px 20px;
   text-align: left;
   color: #333;
   line-height: 1.75;
 }
 
 .intro-text {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-align: left;
   color: #555;
-  font-size: 1em;
+  font-size: 0.95em;
 }
 
 .download-options-list {
@@ -586,5 +590,18 @@ function showMapModal(item) {
   background-color: #f0f2f5 !important;
   color: #555 !important;
   border: 1px solid #dcdfe6 !important;
+}
+
+.option-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.option-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
 }
 </style>
