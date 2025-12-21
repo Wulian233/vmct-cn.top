@@ -17,12 +17,10 @@ layout: doc
 🎮 地图原帖：[点击前往官方发布页面](https://www.planetminecraft.com/project/yoodexy-s-mod/)
 
 > [!IMPORTANT] 重要！
-> 💥 仅支持 Java 版 Minecraft 1.21.8！部分地区下载链接可能进不去，请尝试使用科学上网！
->
-> 我们已和作者达成深度合作，地图本体已经自带汉化，开箱即玩！
+> 仍在汉化中！
 
 <DownloadLinks :methods="[
-  { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/h9c6xg65mgw5uhb/Yo%25D0%25BEdexy%2527s_Mod_v1.0_release.zip/file' },
+  { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: '/doing' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/yoodexy-s-mod/' }
 ]" />
 
