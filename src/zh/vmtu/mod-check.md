@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 模组安装检测提示
+title: 模组安装检测
 ---
 
 当配置文件中的`i18nUpdateModCheck`或`vaultPatcherCheck`启用至少一项时，VMTU 将会检测其启用检测的模组是否安装。

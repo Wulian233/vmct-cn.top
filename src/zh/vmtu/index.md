@@ -16,7 +16,7 @@ VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉�
   { id: 'modrinth', text: 'Modrinth', icon: '/imgs/svg/modrinth.svg', link: 'https://modrinth.com/mod/vmupdate' },
   { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTranslationUpdateMod' },
   { id: 'github-core', text: '下载核心Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTUCore' },
-  { id: 'gitee', text: 'Gitee元数据', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/Wulian233/vmtu' }
+  { id: 'gitee', text: 'Gitee Metadata仓库', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/Wulian233/vmtu' }
 ]" />
 
 作者：捂脸、TexTrue

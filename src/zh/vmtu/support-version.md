@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: 版本支持概况
+title: 支持版本
 ---
 
 本模组需要Cloth Config API作为前置（1.12.2版本除外），支持三大主流模组加载器：
 
 ![](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg) ![](https://raw.githubusercontent.com/KessokuTeaTime/Badges-Extra/main/assets/cozy/supported/neoforge_vector.svg) ![](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg)
 
-VMTU在3.2.0版本开始，同时支持和维护以下的全版本，以下是本模组支持的Minecraft版本表格：
+VMTU目前同时支持和维护以下的全版本，以下是支持版本列表：
 
 | 模组加载器 | 支持的Minecraft版本               |
 | ---------- | --------------------------------- |

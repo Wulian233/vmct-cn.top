@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 使用与配置文件
+title: VMTU 配置
 ---
 
 ## 配置文件说明
@@ -37,9 +37,9 @@ vaultPatcherCheck = false                          # 默认不检查是否安装
 
 ## `modpackinfo.json`
 
-`modpackinfo.json`是用于标记整合包信息以及汉化包配置的文件，类似于[NeoForge的`META-INF/neoforge.mods.toml`](https://docs.neoforged.net/docs/gettingstarted/modfiles#neoforgemodstoml)或[Fabric的`fabric.mod.json`](https://docs.fabricmc.net/develop/getting-started/project-structure#fabric-mod-json)。
+`modpackinfo.json`是用于标记整合包信息以及汉化包配置的文件，定位类似于[NeoForge Mod的`META-INF/neoforge.mods.toml`](https://docs.neoforged.net/docs/gettingstarted/modfiles#neoforgemodstoml)或[Fabric Mod的`fabric.mod.json`](https://docs.fabricmc.net/develop/getting-started/project-structure#fabric-mod-json)。
 
-此文件主要用于让VMTU基于此文件向vm-meta查询汉化包更新。
+此文件主要用于让VMTU基于此文件向VM Metadata查询汉化包更新。
 
 `modpackinfo.json`内各字段解释如下：
 
@@ -50,7 +50,7 @@ vaultPatcherCheck = false                          # 默认不检查是否安装
 `modpack.translation.id`：用于向vm-meta查询汉化的id（要与vm-meta的一致）
 `modpack.translation.url`：在官网的汉化发布页面
 `modpack.translation.language`：默认语言，用于语言切换功能
-`modpack.translation.version`：汉化包当前版本号，用于检测汉化更新
+`modpack.translation.version`：汉化补丁包版本号，用于设定当前汉化补丁版本
 `modpack.translation.resourcePackName`：VM汉化资源包名称，用于下载汉化资源包
 
 :::details `modpackinfo.json` 示例
@@ -70,6 +70,3 @@ vaultPatcherCheck = false                          # 默认不检查是否安装
 }
 ```
 :::
-
-
-> 注：基础汉化资源包名称指的是需要下载的基础汉化资源包文件名

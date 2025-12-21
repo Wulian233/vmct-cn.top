@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 自动切换语言详解
+title: 自动切换语言
 ---
 
 当配置文件中的`autoSwitchLanguage`启用时，VMTU 将会在游戏启动时自动切换游戏语言。
