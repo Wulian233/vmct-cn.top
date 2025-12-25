@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: VMTU 配置
+title: 配置文件
 ---
 
 ## 配置文件说明
@@ -37,9 +37,7 @@ vaultPatcherCheck = false                          # 默认不检查是否安装
 
 ## `modpackinfo.json`
 
-`modpackinfo.json`是用于标记整合包信息以及汉化包配置的文件，定位类似于[NeoForge Mod的`META-INF/neoforge.mods.toml`](https://docs.neoforged.net/docs/gettingstarted/modfiles#neoforgemodstoml)或[Fabric Mod的`fabric.mod.json`](https://docs.fabricmc.net/develop/getting-started/project-structure#fabric-mod-json)。
-
-此文件主要用于让VMTU基于此文件向VM Metadata查询汉化包更新。
+`modpackinfo.json`是用于标记整合包信息以及汉化包配置的文件，此文件主要用于让VMTU基于此文件向VM Metadata查询汉化包更新。
 
 `modpackinfo.json`内各字段解释如下：
 

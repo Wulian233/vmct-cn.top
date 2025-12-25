@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 支持版本
+title: 支持的ModLoader和版本
 ---
 
 本模组需要Cloth Config API作为前置（1.12.2版本除外），支持三大主流模组加载器：
