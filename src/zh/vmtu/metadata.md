@@ -3,7 +3,7 @@ layout: doc
 title: VM Metadata
 ---
 
-VM Metadata是用于实时更新整合包版本和资源包版本数据的文件，这些文件不保存在本地，他被存放在[gitee的一个仓库](https://gitee.com/Wulian233/vmtu)内。
+VM Metadata是用于实时更新整合包版本和资源包版本数据的文件，这些文件不保存在本地，它们被存放在[gitee的Wulian233/vmtu](https://gitee.com/Wulian233/vmtu)仓库内。
 
 你可以把他理解为一种“云控”，但是我们只用来提醒更新汉化补丁。
 
