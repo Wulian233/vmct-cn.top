@@ -14,18 +14,21 @@ layout: doc
 
 - 🧠 **主題類型**：解謎、恐怖地圖、逃生
 
-🎮 地圖原帖：[點擊前往官方發布頁面](https://www.planetminecraft.com/project/yoodexy-s-mod/)
+## 地图信息
+
+- **原名**：Yoodexy's Mod
+- **游戏版本**：MC原版 1.21.8
+
+- 🧠 **主题类型**：解密、恐怖地图、逃生
 
 > [!IMPORTANT] 重要！
-> 💥 僅支援 Java 版 Minecraft 1.21.8！請務必使用正確版本開啟，否則地圖可能損毀或無法正常運行。
->
-> 我們已與作者達成深度合作，地圖本體已自帶簡體中文，開箱即玩！
+> 当前分发版本有作者授权，后续更新汉化可能会内置到原地图中！
 >
 > 需要將遊戲語言設置為**簡體中文**！
 
 <DownloadLinks :methods="[
-{ id: 'mediafire', text: '下載地圖', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/h9c6xg65mgw5uhb/Yo%25D0%25BEdexy%2527s_Mod_v1.0_release.zip/file' },
-{ id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/yoodexy-s-mod/' }
+  { id: 'quark-lanzou', text: '下載地圖', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouv.com/s/yoodexy', quarkLink: 'https://pan.quark.cn/s/70e76ea75729' },
+  { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/yoodexy-s-mod/' }
 ]" />
 
 ## 歡迎來到 ISO-9 綜合設施

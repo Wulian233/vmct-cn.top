@@ -14,13 +14,11 @@ layout: doc
 
 - 🧠 **主题类型**：解密、恐怖地图、逃生
 
-🎮 地图原帖：[点击前往官方发布页面](https://www.planetminecraft.com/project/yoodexy-s-mod/)
-
 > [!IMPORTANT] 重要！
-> 仍在汉化中！
+> 当前分发版本有作者授权，后续更新汉化可能会内置到原地图中！
 
 <DownloadLinks :methods="[
-  { id: 'mediafire', text: '下载地图', icon: '/imgs/svg/mediafire.svg', link: '/doing' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouv.com/s/yoodexy', quarkLink: 'https://pan.quark.cn/s/70e76ea75729' },
   { id: 'planetminecraft', text: '地图原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/yoodexy-s-mod/' }
 ]" />
 
