@@ -8,10 +8,10 @@
 
 ## 📖 使用与部署
 
-本网站使用[VitePress](https://vitepress.dev/zh/)作为静态站点生成器。我们推荐使用VSCode编辑器进行开发。
+本网站使用 [VitePress](https://vitepress.dev/zh/) 作为静态站点生成器。我们推荐使用VSCode编辑器进行开发。
 
-在开发前，请先安装[NodeJS](https://nodejs.org/zh-cn/download/prebuilt-installer)，
-我们使用的包管理器是[pnpm](https://pnpm.io/zh/)。
+在开发前，请先安装 [NodeJS](https://nodejs.org/zh-cn/download/prebuilt-installer)，
+我们使用的包管理器是 [pnpm](https://pnpm.io/zh/) 。
 
 安装依赖：
 
@@ -22,10 +22,10 @@ pnpm run prepare
 
 我们使用了一套完全免费的部署方案，可长期稳定运行：
 
-1. 使用[Firebase](https://firebase.google.com/)自动拉取代码并构建，并作为服务器与CDN分发。
-2. 使用[giscus](https://giscus.app/zh-CN)以github仓库讨论作为网站评论区。
-3. 使用[Cloudflare](https://cloudflare.com)托管域名和其他项目。
-4. 使用[Microsoft Clarity](https://clarity.microsoft.com/)和[Google Analytics](https://analytics.google.com/)分析网站访问情况。
+1. 使用 [Firebase](https://firebase.google.com/) 自动拉取代码并构建，并作为服务器与CDN分发。
+2. 使用 [giscus](https://giscus.app/zh-CN) 以 GitHub 仓库讨论作为网站评论区。
+3. 使用 [Cloudflare](https://cloudflare.com) 托管域名和其他项目。
+4. 使用 [Microsoft Clarity](https://clarity.microsoft.com/) 和 [Google Analytics](https://analytics.google.com/) 分析网站访问情况。
 
 PS：域名在腾讯云购买
 
@@ -39,7 +39,7 @@ PS：域名在腾讯云购买
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: '蓝奏云下载链接', quarkLink: '夸克网盘下载链接' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
-  { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '蓝奏云下载链接' }
 ]" />
 
@@ -70,8 +70,8 @@ PS：域名在腾讯云购买
 
 ## 👀 协议
 
-本项目使用[MIT协议](LICENSE)开源。
+本项目使用 [MIT 协议](LICENSE)开源。
 
 特别感谢[空荧酒馆文档](https://github.com/kongying-tavern/docs)项目，本项目基于它进行开发。
 
-特别感谢CrychicTeam的[CrychicDoc项目](https://github.com/PickAID/CrychicDoc/blob/main/.vitepress/theme/components/comment.vue)（旧版文件），评论区部分代码来自于此项目并进行部分修改。
+特别感谢 CrychicTeam 的 [CrychicDoc 项目](https://github.com/PickAID/CrychicDoc/blob/main/.vitepress/theme/components/comment.vue)（旧版文件），评论区部分代码来自于此项目并进行部分修改。

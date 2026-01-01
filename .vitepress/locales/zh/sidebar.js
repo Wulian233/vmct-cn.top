@@ -10,7 +10,7 @@ const sidebar = {
       text: "整合包汉化",
       collapsed: false,
       items: [
-        { text: "FTB石头世界4", link: "/modpacks/sb4" },
+        { text: "FTB石头世界4", link: "/modpacks/sb4/" },
         { text: "科技城3", link: "/modpacks/techopolis3" },
         { text: "Roguelike冒险与地牢（RAD1）", link: "/modpacks/rad/" },
         { text: "Roguelike冒险与地牢2（RAD2）", link: "/modpacks/rad2" },

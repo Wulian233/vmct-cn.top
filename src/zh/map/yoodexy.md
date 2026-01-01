@@ -14,7 +14,7 @@ layout: doc
 
 - 🧠 **主题类型**：解密、恐怖地图、逃生
 
-> [!IMPORTANT] 重要！
+> [!IMPORTANT] 重要提示
 > 当前分发版本有作者授权，后续更新汉化可能会内置到原地图中！
 
 <DownloadLinks :methods="[

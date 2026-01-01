@@ -10,7 +10,7 @@ const sidebar = {
       text: "模組包翻譯",
       collapsed: false,
       items: [
-        { text: "FTB石头世界4", link: "/modpacks/sb4" },
+        { text: "FTB石头世界4", link: "/modpacks/sb4/" },
         { text: "科技城3", link: "/modpacks/techopolis3" },
         { text: "Roguelike冒險與地牢（RAD1）", link: "/modpacks/rad/" },
         { text: "Roguelike冒險與地牢2（RAD2）", link: "/modpacks/rad2" },

@@ -32,22 +32,22 @@
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
     "qrcode": "^1.5.4",
-    "sweetalert2": "^11.26.4",
+    "sweetalert2": "^11.26.17",
     "typescript": "^5.9.3",
-    "unocss": "^66.5.10",
+    "unocss": "^66.5.12",
     "vitepress": "1.6.1",
-    "vue": "^3.5.25",
-    "vue-router": "^4.6.3"
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@unocss/extractor-mdc": "^66.5.10",
+    "@unocss/extractor-mdc": "^66.5.12",
     "husky": "^9.1.7",
     "markdown-it": "^14.1.0",
-    "pnpm": "^10.24.0",
+    "pnpm": "^10.27.0",
     "prettier": "^3.7.4",
     "prettier-config-vuepress": "^7.0.4",
-    "taze": "^19.2.0",
+    "taze": "^19.9.2",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@10.24.0"
+  "packageManager": "pnpm@10.27.0"
 }
