@@ -86,8 +86,11 @@ export default defineConfig({
     editLink: true,
     aside: true,
     search: {
-      provider: "local",
+      provider: "algolia",
       options: {
+        appId: 'GCI0MKFKYA',
+        apiKey: '72a3ec48a2c5578968d9eb4971d0c191',
+        indexName: 'vmct_cn_top_gci0mkfkya_pages',
         translations: {
           button: { buttonText: "搜索", buttonAriaLabel: "搜索" },
           modal: {
