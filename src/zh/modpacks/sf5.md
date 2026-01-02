@@ -11,7 +11,7 @@ title: 天空工厂5汉化下载
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/sf5', quarkLink: 'https://pan.quark.cn/s/b1e58afaac74' },
   { id: 'bilibili', text: '安装教程视频', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1m4rsYdEu1/' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
-  { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/SkyFactory-5' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/SkyFactory-5' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/sf5' }
 ]" />
 

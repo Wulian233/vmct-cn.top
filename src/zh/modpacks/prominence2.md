@@ -9,12 +9,15 @@ title: 卓越2汉化下载
 
 ![图片 =500x](https://github.com/nvb-uy/cdn/blob/f70cba5260e5a833994bc0d849025df91893f26e/desc/prominence/rpg/promlogo.webp?raw=true)
 
+> [!IMPORTANT] 重要提示
+> 汉化支持整合包版本3.9.0，不支持最新版，请留意下载的支持整合包版本！
+
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/prominence2', quarkLink: 'https://pan.quark.cn/s/29e3994b9d1d' },
   { id: 'bilibili', text: '整合包介绍与安装教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Zc3XzQEu7' },
   { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/967052/files/6482746/download' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
-  { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Prominence-II-Chinese' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Prominence-II-Chinese' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/prominence2' }
 ]" />
 
@@ -22,7 +25,7 @@ title: 卓越2汉化下载
 
 | 整合包下载地址                                                                   | 加载器 | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era) | Fabric | mc1.20.1 3.9.3 | 维护中       |
+| [链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era) | Fabric | mc1.20.1 3.9.0 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13782)
 

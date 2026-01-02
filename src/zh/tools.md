@@ -157,7 +157,7 @@ Texture Locale Redirector 为 Minecraft 资源包提供了原生的多语言纹�
 
 ## Github双向同步action
 
-使用教程见Github仓库README
+使用教程见GitHub仓库README
 
 <DownloadLinks :methods="[
   { id: 'github', text: '源代码', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Template-Repo' }

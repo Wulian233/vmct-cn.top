@@ -29,7 +29,7 @@ theme: medium
 title: 大橙橙橙子
 link: https://space.bilibili.com/1691347
 logo: /imgs/friend-links/dachengzi.webp
-desc: 使用我们的FTB OceanBlock2整合包汉化
+desc: 使用我们的FTB石头世界4和FTB OceanBlock2整合包汉化
 theme: medium
 ```
 
@@ -96,5 +96,14 @@ title: 钉宫翻译组
 link: https://github.com/TeamKugimiya
 logo: https://avatars.githubusercontent.com/u/118149830?s=200&v=4
 desc: 来自台湾的繁体中文翻译组，制作了很多整合包和模组的繁体中文翻译。
+theme: medium
+```
+
+## 社区论坛
+
+```card
+title: XyeBBS 论坛
+link: https://www.xyebbs.com/languages
+logo: https://www.xyebbs.com/favicon.png
 theme: medium
 ```

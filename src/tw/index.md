@@ -17,7 +17,7 @@ hero:
       text: 地圖翻譯
       link: ./map/
     - theme: alt
-      text: Github
+      text: GitHub
       link: https://github.com/Wulian233/vmct-cn.top/
   image:
     src: /imgs/logo/logo_512.png

@@ -16,13 +16,13 @@ title: FTB Skies 2汉化下载
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/skies2', quarkLink: 'https://pan.quark.cn/s/5d8815be19ab' },
   { id: 'bilibili', text: '介绍视频', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1U2hwzmESy' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
-  { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Skies-2-Chinese' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Skies-2-Chinese' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/skies2' }
 ]" />
 
-| FTB官网                                                         | 加载器   | 支持整合包版本 | 汉化维护状态 |
-| :-------------------------------------------------------------- | :------- | :------------- | :----------- |
-| [链接](https://www.feed-the-beast.com/modpacks/129-ftb-skies-2) | Neoforge | mc1.21.1 1.9.2 | 维护中       |
+| FTB官网                                                         | 加载器   | 支持整合包版本  | 汉化维护状态 |
+| :-------------------------------------------------------------- | :------- | :-------------- | :----------- |
+| [链接](https://www.feed-the-beast.com/modpacks/129-ftb-skies-2) | Neoforge | mc1.21.1 1.11.0 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/15051)
 

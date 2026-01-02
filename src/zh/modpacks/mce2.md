@@ -21,13 +21,13 @@ title: 永恒的MC 2汉化下载
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: '/doing', quarkLink: '/doing' },
   { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
-  { id: 'github', text: 'Github仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/MCE2' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/MCE2' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '/doing' }
 ]" />
 
 | 整合包下载地址                                                         | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :--------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2) | Forge  | 1.1.1.0        | 1.20.1 | 翻译中       |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/mc-eternal-2) | Forge  | 1.2.0.3        | 1.20.1 | 翻译中       |
 
 译者：cat酱、捂脸、琪露诺、自尊寺、GearTech（齿轮）、此乃一根葱、冰琳
 
