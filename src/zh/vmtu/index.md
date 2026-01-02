@@ -8,7 +8,7 @@ title: VM汉化更新模组文档
 VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉化管理工具，涵盖了绝大部分汉化相关的使用场景。
 目前主要为 VM 汉化组内部使用。
 
-> [!IMPORTANT]
+> [!IMPORTANT] 重要提示
 > 本文档所有内容基于 VMTU 最新版 4.1.0（暂未发布）编写
 
 <DownloadLinks :methods="[
