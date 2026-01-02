@@ -6,17 +6,17 @@ title: VM汉化更新模组文档
 # VM汉化更新模组文档
 
 VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉化管理工具，涵盖了绝大部分汉化相关的使用场景。
-目前主要为VM汉化组内部使用。
+目前主要为 VM 汉化组内部使用。
 
 > [!IMPORTANT]
-> 本文档所有内容基于VMTU 4.1.0版本编写
+> 本文档所有内容基于 VMTU 最新版 4.1.0（暂未发布）编写
 
 <DownloadLinks :methods="[
   { id: 'curseforge', text: 'CurseForge', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vmtranslationupdate' },
   { id: 'modrinth', text: 'Modrinth', icon: '/imgs/svg/modrinth.svg', link: 'https://modrinth.com/mod/vmupdate' },
   { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTranslationUpdateMod' },
-  { id: 'github-core', text: '下载核心GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTUCore' },
-  { id: 'gitee', text: 'Gitee元数据', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/Wulian233/vmtu' }
+  { id: 'github-core', text: '下载核心源码仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTUCore' },
+  { id: 'gitee', text: 'Gitee 元数据', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/Wulian233/vmtu' }
 ]" />
 
 作者：捂脸、TexTrue
