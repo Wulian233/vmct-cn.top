@@ -1,14 +1,9 @@
 ---
 layout: doc
-title: 模组安装检测提示
+title: 模组安装检测
 ---
 
-当配置文件中的下列两项启用至少一项时，VMTU 将会检测其启用检测的模组是否安装
-
-```toml
-i18nUpdateModCheck = true # 默认检查是否安装i18nUpdateMod模组
-vaultPatcherCheck = false # 默认不检查是否安装Vault Patch模组
-```
+当配置文件中的`i18nUpdateModCheck`或`vaultPatcherCheck`启用至少一项时，VMTU 将会检测其启用检测的模组是否安装。
 
 如相应模组均已安装，则不会出现任何提示；
 
