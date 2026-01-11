@@ -17,7 +17,7 @@ function handleClick(item) {
   } else if (item.id === "lanzou-quark-mapdl") {
     showQuarkMapModal(item);
   } else if (item.link) {
-    window.open(item.link, item.target || "_self");
+    window.open(item.link, "_blank");
   }
 }
 
@@ -210,7 +210,7 @@ function showCorrectAnswersModal(item) {
     focusCancel: true,
     preConfirm: () => {
       if (item.link) {
-        window.open(item.link, item.target || "_self");
+        window.open(item.link, "_blank");
       }
     },
     didOpen: () => {
@@ -308,10 +308,10 @@ function showQuarkModal(item) {
   }).then((result) => {
     if (result.isConfirmed) {
       const link = item.quarkLink;
-      if (link) window.open(link, item.target || "_blank");
+      if (link) window.open(link, "_blank");
     } else if (result.isDenied) {
       const link = item.lanzouLink;
-      if (link) window.open(link, item.target || "_blank");
+      if (link) window.open(link, "_blank");
     }
   });
 }
@@ -331,7 +331,7 @@ function showModal(item) {
     focusCancel: true,
     preConfirm: () => {
       if (item.link) {
-        window.open(item.link, item.target || "_self");
+        window.open(item.link, "_blank");
       }
     },
     willOpen: () => {
@@ -376,10 +376,10 @@ function showQuarkMapModal(item) {
   }).then((result) => {
     if (result.isConfirmed) {
       const link = item.quarkLink;
-      if (link) window.open(link, item.target || "_blank");
+      if (link) window.open(link, "_blank");
     } else if (result.isDenied) {
       const link = item.lanzouLink;
-      if (link) window.open(link, item.target || "_blank");
+      if (link) window.open(link, "_blank");
     }
   });
 }
@@ -398,7 +398,7 @@ function showMapModal(item) {
     focusCancel: true,
     preConfirm: () => {
       if (item.link) {
-        window.open(item.link, item.target || "_self");
+        window.open(item.link, "_blank");
       }
     },
     willOpen: () => {
