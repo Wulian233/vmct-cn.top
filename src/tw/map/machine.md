@@ -1,5 +1,5 @@
 ---
-title: 樞機迷城翻譯下載
+title: 樞機迷城漢化下載
 layout: doc
 ---
 
@@ -25,7 +25,7 @@ layout: doc
 > 請務必使用正確版本開啟，否則地圖可能損毀或無法正常運行。
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/123.svg', link: '[https:](https://www.123684.com/s/99kKVv-0JdEh)' },
+  { id: 'mapdl', text: '下載地圖和漢化', icon: '/imgs/svg/123.svg', link: '[https:](https://www.123684.com/s/99kKVv-0JdEh)' },
   { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1cnTMz4EtC' },
   { id: 'bilibili2', text: '解謎攻略', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1wETMzZEbJ' },
   { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/the-machine-a-minecraft-1-18-1-puzzlemap' },

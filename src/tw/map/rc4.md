@@ -1,5 +1,5 @@
 ---
-title: 狂亂之境4翻譯下載
+title: 狂亂之境4漢化下載
 layout: doc
 ---
 
@@ -18,14 +18,14 @@ layout: doc
 這張大型的半開放世界CTM地圖提供了超過50小時的遊戲時長。與獨特攻擊的自訂怪物搏鬥，打造強大的物品，並深入至暗深淵以獲取16顆水晶。
 
 <DownloadLinks :methods="[
-  { id: '123', text: '下載地圖和翻譯', icon: '/imgs/svg/123.svg', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' },
+  { id: '123', text: '下載地圖和漢化', icon: '/imgs/svg/123.svg', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' },
   { id: 'mediafire', text: '備用載點', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/folder/jurnv77qvvaf0' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: 'https://www.123pan.com/s/99kKVv-zYVQh.html' }
 ]" />
 
 ## 注意事項
 
-語言設置：請將遊戲語言設置為簡體中文或繁體中文以啟用翻譯內容！ **請勿開啟`強制Unicode`**，這會導致絕大部分圖示失效！
+語言設置：請將遊戲語言設置為簡體中文或繁體中文以啟用漢化內容！ **請勿開啟`強制Unicode`**，這會導致絕大部分圖示失效！
 
 地圖相容性：
 
@@ -37,16 +37,16 @@ layout: doc
 > [!IMPORTANT] 安裝教學
 > 如果你是單人遊玩，請將下載好的壓縮檔解壓縮到一個單獨的資料夾（為了防止你意外覆蓋掉已有進度的原版世界，檔名有改過），複製到`.minecraft\saves`資料夾，啟動遊戲然後在單人模式選擇該地圖即可遊玩。
 > 如果你想要和朋友一起連線遊玩，請將地圖資料夾中的`resources.zip`取出，然後將其分發給所有跟你一起玩的玩家，資源包的安裝路徑是對應版本的`\.minecraft\resourcepacks`。地圖資料夾**不要有資源包**。安裝完之後請所有人進入遊戲，選取資源包並啟用。（白話文：叫每個人自己在電腦上裝資源包）
-> 請**不要**讓玩家連接伺服器的時候下載「伺服器資源包」(`server-resource-packs`)，因為這會導致進入遊戲之後部分翻譯鍵無法載入翻譯值。
+> 請**不要**讓玩家連接伺服器的時候下載「伺服器資源包」(`server-resource-packs`)，因為這會導致進入遊戲之後部分漢化鍵無法載入漢化值。
 
 ## 地圖下載
 
-> [!IMPORTANT] 翻譯方法
-> 你必須同時下載地圖和中文化更新檔，並把翻譯資源包放在`\.minecraft\resourcepacks`資源包資料夾。最後在遊戲內啟用資源包。
+> [!IMPORTANT] 漢化方法
+> 你必須同時下載地圖和中文化更新檔，並把漢化資源包放在`\.minecraft\resourcepacks`資源包資料夾。最後在遊戲內啟用資源包。
 
 **地圖是原版Minecraft的！無需模組，請把地圖放進存檔（saves）資料夾！**
 
-## 翻譯者（排名不分先後）
+## 漢化貢獻（排名不分先後）
 
 X209，ChuijkYahus，RCqaq，yinzi，Kzlw5qf，Catcatpigeon，Cat醬，TianxinGstar，咕咕魚，阿鵡，醉冰茶，望，Lims，McCutcheon10，FridayAnubis，荔枝，xhchi，wandouWD，冰琳，祝明宇，champsing
 

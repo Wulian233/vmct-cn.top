@@ -8,7 +8,7 @@ const staff = {
     title: "網頁開發與當地語系化翻譯",
   },
   vmStaff: {
-    title: "VM翻譯組成員",
+    title: "VM漢化組成員",
   },
 };
 

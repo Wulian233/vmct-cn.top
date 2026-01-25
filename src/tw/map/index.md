@@ -2,11 +2,11 @@
 layout: home
 showComment: false
 
-title: VM 翻譯組
-titleTemplate: 一個用愛發電專注於翻譯MC模組包與地圖的非盈利組織
+title: VM 漢化組
+titleTemplate: 一個用愛發電專注於漢化MC模組包與地圖的非盈利組織
 
 hero:
-  name: "地圖翻譯下載"
+  name: "地圖漢化下載"
   tagline: "地圖是原版MC的！無需mod，把地圖放進存檔（saves）資料夾！"
 
 features:

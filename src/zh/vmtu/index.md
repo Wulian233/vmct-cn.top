@@ -9,7 +9,7 @@ VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉�
 目前主要为 VM 汉化组内部使用。
 
 > [!IMPORTANT] 重要提示
-> 本文档所有内容基于 VMTU 最新版 4.1.0（暂未发布）编写
+> 本文档所有内容基于 VMTU 最新版 5.0.0（暂未发布）编写
 
 <DownloadLinks :methods="[
   { id: 'curseforge', text: 'CurseForge', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vmtranslationupdate' },
@@ -32,6 +32,6 @@ VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉�
 - 🌐 自动切换游戏语言
 - 📦 指定整合包配置文件，支持每个包指定自身翻译策略
 - 🚦 指定资源包加载顺序
-- 🔍 检测 I18nUpdateMod 和 VaultPatcher 补全汉化模组是否缺失。如未安装将弹出提示页面引导下载
+- 🔍 支持检测 I18nUpdateMod、VaultPatcher、Texture Locale Redirector 模组是否缺失。如未安装将弹出提示页面引导下载
 
 其中，自动下载并激活翻译资源包功能（VMTUCore）的代码源于 i18nUpdateMod3 模组代码，按照上游协议规定使用 AGPL 协议。

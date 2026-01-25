@@ -1,5 +1,5 @@
 ---
-title: 死亡競速2翻譯下載
+title: 死亡競速2漢化下載
 layout: doc
 ---
 
@@ -16,24 +16,24 @@ layout: doc
 玩家數量：1-32名
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' },
+  { id: 'mapdl', text: '下載地圖和漢化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/deathrunner' }
 ]" />
 
 ## 地圖下載與授權
 
-> [!IMPORTANT] 翻譯方法
-> 你必須同時下載地圖和中文化更新檔，並把翻譯資源包放在`resourcepacks`資源包資料夾。最後在遊戲內啟用資源包。
+> [!IMPORTANT] 漢化方法
+> 你必須同時下載地圖和中文化更新檔，並把漢化資源包放在`resourcepacks`資源包資料夾。最後在遊戲內啟用資源包。
 
 **地圖是原版Minecraft的！無需模組，請把地圖放進存檔（saves）資料夾！**
 
-本次翻譯已取得官方授權，不違反任何社區規則
+本次漢化已取得官方授權，不違反任何社區規則
 
 ![img =400x](/imgs/authorization/deathrunner.png)
 
-## 翻譯者
+## 漢化貢獻
 
-按翻譯量排名：
+按漢化量排名：
 
 yinzi3，cat醬，fgt1t5y，NLGibson (NLG永不言棄)，WsLhh (-Lims)，Catcatpigeon，X209，咕咕魚
 

@@ -8,11 +8,11 @@ const nav = [
     link: "/support-us",
   },
   {
-    text: "翻譯工具",
+    text: "漢化工具",
     link: "/tools",
   },
   {
-    text: "翻譯準則",
+    text: "漢化準則",
     link: "/rule",
   },
   {

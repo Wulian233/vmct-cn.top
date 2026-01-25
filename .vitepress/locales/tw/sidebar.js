@@ -1,17 +1,19 @@
 const sidebar = {
   "/modpacks": [
     { text: "返回首頁", link: "/tw/index" },
-    { text: "地圖翻譯", link: "/tw/map" },
+    { text: "地圖漢化", link: "/tw/map" },
     { text: "中文更新檔安裝教程", link: "modpacks" },
     { text: "雙十一事變", link: "what" },
     { text: "用戶協定", link: "/tw/agreement" },
     { text: "隱私政策", link: "/tw/privacy" },
     {
-      text: "模組包翻譯",
+      text: "模組包漢化",
       collapsed: false,
       items: [
         { text: "FTB石头世界4", link: "/modpacks/sb4/" },
-        { text: "科技城3", link: "/modpacks/techopolis3" },
+        // { text: "Submerged 2", link: "/modpacks/submerged-2" },
+        // { text: "Ozone Skyblock Reborn 2", link: "/modpacks/ozone-skyblock-reborn-2" },
+        // { text: "科技城3", link: "/modpacks/techopolis3" },
         { text: "Roguelike冒險與地牢（RAD1）", link: "/modpacks/rad/" },
         { text: "Roguelike冒險與地牢2（RAD2）", link: "/modpacks/rad2" },
         // { text: "永恆的MC 2", link: "/modpacks/mce2" },
@@ -100,13 +102,13 @@ const sidebar = {
   ],
   "/tw/map": [
     { text: "返回首頁", link: "/tw/index" },
-    { text: "模組包翻譯", link: "modpacks" },
-    { text: "翻譯準則", link: "rule" },
+    { text: "模組包漢化", link: "modpacks" },
+    { text: "漢化準則", link: "rule" },
     { text: "雙十一事變", link: "what" },
     { text: "用戶協定", link: "/tw/agreement" },
     { text: "隱私政策", link: "/tw/privacy" },
     {
-      text: "地圖翻譯",
+      text: "地圖漢化",
       collapsed: false,
       items: [
         { text: "最終悖論", link: "/tw/map/final" },
@@ -128,7 +130,7 @@ const sidebar = {
     },
   ],
   "/vmtu": [
-    { text: "VM翻譯組", link: "index" },
+    { text: "VM漢化組", link: "index" },
     {
       text: "入門",
       collapsed: false,
@@ -138,7 +140,7 @@ const sidebar = {
         { text: "自動切換語言", link: "/vmtu/language" },
         { text: "模組安裝檢測", link: "/vmtu/mod-check" },
         { text: "資源包相關", link: "/vmtu/resourcepack" },
-        { text: "翻譯補丁更新檢測", link: "/vmtu/translation-update" },
+        { text: "漢化補丁更新檢測", link: "/vmtu/translation-update" },
         { text: "支持的模組載入器及版本", link: "/vmtu/supported-version" },
         { text: "VM Metadata", link: "/vmtu/metadata" },
       ],

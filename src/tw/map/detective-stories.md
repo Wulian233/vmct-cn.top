@@ -1,5 +1,5 @@
 ---
-title: 偵探故事集翻譯下載
+title: 偵探故事集漢化下載
 layout: doc
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 藝之神殿翻譯下載
+title: 藝之神殿漢化下載
 layout: doc
 ---
 
@@ -18,7 +18,7 @@ layout: doc
 藝之神殿，原名Temple of the Art（TOTA）是一個受《Noita》啟發的施法和魔杖製作的地牢探險類Minecraft地圖。
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/tota' },
+  { id: 'mapdl', text: '下載地圖和漢化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzouo.com/s/tota' },
   { id: 'bilibili', text: '宣傳片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1tek2YsEpZ/' },
   { id: 'bilibili', text: '地圖介紹視頻', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Kpq8YcEJw' },
   { id: 'curseforge', text: '地圖原帖', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/temple-of-the-art-spellcrafting-roguelike' },
@@ -38,7 +38,7 @@ layout: doc
 
 ![图片 =400x](https://media.forgecdn.net/attachments/901/463/templeoftheart-9.jpg)
 
-## 翻譯貢獻（按排名排序）
+## 漢化貢獻（按排名排序）
 
 天才少女琪露諾、冰琳、Potato986 、terryaxe、X209、cat醬、
 Crimvael0、子格Z、茫氪、fgt1t5y（望）、凜夜雨月、choko-takey、醉冰茶、

@@ -1,5 +1,5 @@
 ---
-title: Wii派對：棋盤遊戲島翻譯下載
+title: Wii派對：棋盤遊戲島漢化下載
 layout: doc
 ---
 
@@ -20,7 +20,7 @@ Minecraft 版Wii派對
 > 我們和作者一拍即合，簡體中文中文化更新檔已在地圖中內置！
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/wii-party-in-mc/files/all' },
+  { id: 'mapdl', text: '下載地圖和漢化', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/wii-party-in-mc/files/all' },
   { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/worlds/wii-party-in-mc' }
 ]" />
 

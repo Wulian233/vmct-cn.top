@@ -1,5 +1,5 @@
 ---
-title: Lumina Complex翻譯下載
+title: Lumina Complex漢化下載
 layout: doc
 ---
 

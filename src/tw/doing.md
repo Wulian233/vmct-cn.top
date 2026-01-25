@@ -1,5 +1,5 @@
 ---
-title: 正在翻譯中
+title: 正在漢化中
 description: 這是一個正在進行中的項目
 layout: doc
 showComment: false
@@ -12,9 +12,9 @@ showComment: false
 
 請到 GitHub [點亮Star⭐](https://github.com/Wulian233/vmct-cn.top)非常感謝！
 
-我們正在努力翻譯，請耐心等待。
+我們正在努力漢化，請耐心等待。
 
-好吧，既然你來了，為什麼不看看我們的主頁呢？我們其他翻譯補丁的品質也非常優質。
+好吧，既然你來了，為什麼不看看我們的主頁呢？我們其他漢化補丁的品質也非常優質。
 
 <DownloadLinks :methods="[
   { id: 'vm', text: '返回我們的主頁', icon: '/imgs/logo/logo_64.png', link: '/tw/' }

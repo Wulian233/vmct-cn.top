@@ -1,5 +1,5 @@
 ---
-title: Would You Rather翻譯下載
+title: Would You Rather漢化下載
 layout: doc
 ---
 
@@ -20,7 +20,7 @@ Would You Rather……？ （你喜歡……？）
 祝你在《Would You Rather》中取勝！
 
 <DownloadLinks :methods="[
-  { id: 'mapdl', text: '下載地圖和翻譯', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing' },
+  { id: 'mapdl', text: '下載地圖和漢化', icon: '/imgs/svg/lanzou.svg', link: '/tw/doing' },
   { id: 'planetminecraft', text: '地圖原帖', icon: '/imgs/svg/planetminecraft.svg', link: 'https://www.planetminecraft.com/project/would-you-rather-4897801/' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: '/tw/doing' }
 ]" />
@@ -29,9 +29,9 @@ Would You Rather……？ （你喜歡……？）
 
 **地圖是原版Minecraft的！無需模組，請把地圖放進存檔（saves）資料夾！**
 
-## 翻譯者
+## 漢化貢獻
 
-按翻譯量排名：
+按漢化量排名：
 
 X209、yinzi、咕咕魚、祝明宇、NLG、Tu0Maaa、醉冰茶、虛空
 

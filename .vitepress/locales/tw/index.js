@@ -13,7 +13,7 @@ import Staff from "./staff";
 import Payment from "./payment";
 
 export const twConfig = {
-  titleTemplate: ":title | VM翻譯組",
+  titleTemplate: ":title | VM漢化組",
   description: C.META_DESCRIPTION,
   head: Head,
   themeConfig: {

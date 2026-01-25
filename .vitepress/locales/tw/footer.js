@@ -45,7 +45,7 @@ const footer = {
           link: "/tw/map/",
         },
         {
-          text: "VM翻譯更新模組",
+          text: "VM漢化更新模組",
           link: "/vmtu/",
         },
         {

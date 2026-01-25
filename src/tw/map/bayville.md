@@ -1,5 +1,5 @@
 ---
-title: 貝維爾小鎮翻譯下載
+title: 貝維爾小鎮漢化下載
 layout: doc
 ---
 
@@ -18,14 +18,14 @@ layout: doc
 
 <DownloadLinks :methods="[
   { id: 'mediafire', text: '下載地圖', icon: '/imgs/svg/mediafire.svg', link: 'https://www.mediafire.com/file/w9gwytz72hbtdyf/Bayville_-_realistic_roleplay_town_v7.2.zip/file' },
-  { id: 'mapdl', text: '下載翻譯', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' },
+  { id: 'mapdl', text: '下載漢化', icon: '/imgs/svg/lanzou.svg', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' },
   { id: 'lazy', text: '懶漢下載', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/vmct-Bayville-mapt-cn' }
 ]" />
 
 ## 地圖下載與授權
 
-> [!IMPORTANT] 翻譯方法
-> 你必須同時下載地圖和中文化更新檔，並把翻譯資源包放在`resourcepacks`資源包資料夾。最後在遊戲內啟用資源包。
+> [!IMPORTANT] 漢化方法
+> 你必須同時下載地圖和中文化更新檔，並把漢化資源包放在`resourcepacks`資源包資料夾。最後在遊戲內啟用資源包。
 
 **地圖是原版Minecraft的！無需模組，請把地圖放進存檔（saves）資料夾！**
 
@@ -36,7 +36,7 @@ layout: doc
 - |玩家：1-8
 - |資源包：Bayville資源包v7.2
 
-## 翻譯者（排名不分先後）
+## 漢化貢獻（排名不分先後）
 
 火君，翰隸鎮長，青嵐，逸晨，虛空，paret，逸晨
 
