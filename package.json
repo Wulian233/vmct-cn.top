@@ -21,10 +21,10 @@
     "upgrade-deps": "taze patch -I"
   },
   "dependencies": {
-    "@mdit/plugin-container": "^0.22.2",
-    "@mdit/plugin-img-mark": "^0.22.2",
-    "@mdit/plugin-img-size": "^0.22.4",
-    "@mdit/plugin-spoiler": "^0.22.2",
+    "@mdit/plugin-container": "^0.22.3",
+    "@mdit/plugin-img-mark": "^0.22.3",
+    "@mdit/plugin-img-size": "^0.22.5",
+    "@mdit/plugin-spoiler": "^0.22.3",
     "@vueuse/core": "^14.1.0",
     "@vueuse/integrations": "^14.1.0",
     "js-yaml": "^4.1.1",
@@ -43,11 +43,11 @@
     "@unocss/extractor-mdc": "^66.6.0",
     "husky": "^9.1.7",
     "markdown-it": "^14.1.0",
-    "pnpm": "^10.28.1",
+    "pnpm": "^10.28.2",
     "prettier": "^3.8.1",
     "prettier-config-vuepress": "^7.0.4",
     "taze": "^19.9.2",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }

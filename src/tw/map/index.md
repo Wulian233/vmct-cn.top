@@ -85,4 +85,14 @@ features:
     details: 這是一款非對稱玩法的多人恐怖地圖。你將體驗獨特的逃生路線、爬行能力，使用監控攝像頭、裝飾外觀，以及可以操控時間的秘密神器。你能活下來嗎？
     link: ./yoodexy
     linkText: 前往下載
+  - icon: 🧝
+    title: From The shElves
+    details: 午夜時分，一個頑皮的孩子被樓下的動靜吵醒，發現幾個精靈正四處奔波搜集禮物。孩子並不知道精靈們正在籌備一個美好的節日，反而覺得在日出前把他們全部關進罐子裡會很有趣。
+    link: ./shelves
+    linkText: 前往下載
+  - icon: 🎵
+    title: Tales of Glarthford
+    details:
+    link: ./tales-of-glarthford
+    linkText: 前往下載
 ---
