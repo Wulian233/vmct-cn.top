@@ -22,9 +22,9 @@ pnpm run prepare
 
 我们使用了一套完全免费的部署方案，可长期稳定运行：
 
-1. 使用 [Firebase](https://firebase.google.com/) 自动拉取代码并构建，并作为服务器与CDN分发。
+1. 使用 [Cloudflare Pages](https://cloudflare.com) 自动拉取代码并构建，并作为服务器与 CDN 分发。
 2. 使用 [giscus](https://giscus.app/zh-CN) 以 GitHub 仓库讨论作为网站评论区。
-3. 使用 [Cloudflare](https://cloudflare.com) 托管域名和其他项目。
+3. 使用 [Cloudflare](https://cloudflare.com) 托管域名。
 4. 使用 [Microsoft Clarity](https://clarity.microsoft.com/) 和 [Google Analytics](https://analytics.google.com/) 分析网站访问情况。
 
 PS：域名在腾讯云购买

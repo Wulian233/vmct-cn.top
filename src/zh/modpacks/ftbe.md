@@ -21,7 +21,7 @@ FTB Evolution 将你带入一个无限的 Minecraft 世界，在这里，先进�
 
 | FTB官网                                                     | 加载器   | 支持整合包版本  | 汉化维护状态 |
 | :---------------------------------------------------------- | :------- | :-------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/125-ftb-evolution> | Neoforge | mc1.21.1 1.27.0 | 翻译中       |
+| <https://www.feed-the-beast.com/modpacks/125-ftb-evolution> | Neoforge | mc1.21.1 1.28.0 | 翻译中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/12144)
 
@@ -35,7 +35,7 @@ FTB Evolution 将你带入一个无限的 Minecraft 世界，在这里，先进�
 
 ### 精研魔法，探索资源奥秘
 
-FTB Evolution 亦是魔法爱好者的天堂。新生魔艺、神秘学与Iron的法术与魔法书让你自由施展自定义法术、召唤灵体、驾驭附魔神器。神秘农业与 Productive Bees 颠覆传统资源采集，让你用全新方式培育并管理珍稀资源，而 Geoores 还原真实地质层，为矿藏生成带来更具沉浸感的体验。深入 Infinity Caves，那些蕴藏丰富矿脉的巨大洞穴将为你提供源源不断的资源。在 NauTec 的加持下，深海之中亦暗藏强大且危险的未知科技，等待勇者探寻。
+FTB Evolution 亦是魔法爱好者的天堂。新生魔艺、神秘学与 Iron 的法术与魔法书让你自由施展自定义法术、召唤灵体、驾驭附魔神器。神秘农业与 Productive Bees 颠覆传统资源采集，让你用全新方式培育并管理珍稀资源，而 Geoores 还原真实地质层，为矿藏生成带来更具沉浸感的体验。深入 Infinity Caves，那些蕴藏丰富矿脉的巨大洞穴将为你提供源源不断的资源。在 NauTec 的加持下，深海之中亦暗藏强大且危险的未知科技，等待勇者探寻。
 
 ### 广阔天地，奇幻生境
 

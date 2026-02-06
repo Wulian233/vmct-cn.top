@@ -3,14 +3,14 @@ layout: doc
 title: Project Architect 2汉化下载
 ---
 
-沉浸于精心打造的整合包，专注于自动化与 EMC 优化。借助 ProjectE 的强大力量，掌握 EMC 管理之道，轻松将原材料转化为珍贵资源。
+沉浸于精心打造的整合包，专注于自动化与 EMC 优化。借助等价交换的强大力量，掌握 EMC 管理之道，轻松将原材料转化为珍贵资源。
 在任务的引导下，通过工业先锋、龙之进化、热力系列、通用机械和 RF 工具：维度自动化资源采集、加工与合成，减少枯燥刷取，提升游戏体验。
 从复杂机械到神秘炼成，这款整合包完美融合科技与魔法，为创新与高效提供无限可能。
 
 ![图片 =450x](https://media.forgecdn.net/attachments/918/742/2024-07-17_23.png)
 
 <DownloadLinks :methods="[
-  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/pa2', quarkLink: '[夸克网盘下载链接](https://pan.quark.cn/s/9c7ff45c84b1)' },
+  { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/pa2', quarkLink: 'https://pan.quark.cn/s/9c7ff45c84b1' },
   { id: 'bilibili', text: '汉化教程与介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1GcNheGE5X/' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/pa2' }

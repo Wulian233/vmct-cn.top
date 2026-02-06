@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `官方深度合作！FTB石頭世界4中文更新檔現已發布！
-      <a href="/modpacks/sb4" target="_blank" rel="noopener noreferrer">（點我了解詳情）</a>`,
+    recruitment: `2月最新成果！FTB天空奧德賽4漢化現已發布！
+      <a href="/modpacks/odyssey" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
   },
   supportUs: {
     text: `<div>
