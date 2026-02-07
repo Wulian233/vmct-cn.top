@@ -13,7 +13,7 @@ const sidebar = {
         { text: "FTB石头世界4", link: "/modpacks/sb4/" },
         // { text: "Submerged 2", link: "/modpacks/submerged-2" },
         // { text: "Ozone Skyblock Reborn 2", link: "/modpacks/ozone-skyblock-reborn-2" },
-        // { text: "科技城3", link: "/modpacks/techopolis3" },
+        { text: "科技城3", link: "/modpacks/techopolis3" },
         { text: "Roguelike冒險與地牢（RAD1）", link: "/modpacks/rad/" },
         { text: "Roguelike冒險與地牢2（RAD2）", link: "/modpacks/rad2" },
         // { text: "永恆的MC 2", link: "/modpacks/mce2" },
