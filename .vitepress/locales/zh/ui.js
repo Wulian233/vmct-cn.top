@@ -8,8 +8,8 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `2月最新成果！FTB天空奥德赛4汉化现已发布！
-      <a href="/modpacks/odyssey" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
+    recruitment: `2月最新成果！科技城3汉化现已发布！
+      <a href="/modpacks/techopolis3" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
   },
   supportUs: {
     text: `<div>

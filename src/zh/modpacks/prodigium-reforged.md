@@ -14,7 +14,7 @@ title: 异域征途汉化下载
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: '/doing', quarkLink: '/doing' },
   { id: 'curseforge', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
-  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Prominence-II-Chinese' },
+  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Prodigium-Reforged-Chinese' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '/doing' }
 ]" />
 

@@ -57,12 +57,12 @@ textureLocaleRedirector = false         # 是否检查安装 Texture Locale Redi
 {
   "modpack": {
     "name": "ExampleModpack", // 整合包名称（暂无用途）
-    "version": "0.1.0",       // 汉化适配的整合包版本，用于提示玩家是否需要升级整合包再安装新版汉化
+    "version": "0.1.0", // 汉化适配的整合包版本，用于提示玩家是否需要升级整合包再安装新版汉化
     "translation": {
-      "id": "example",        // 向云端查询汉化补丁的id（每个整合包汉化id需有唯一性）
+      "id": "example", // 向云端查询汉化补丁的id（每个整合包汉化id需有唯一性）
       "url": "https://vmct-cn.top/modpacks/example/", // 当前汉化对应的官网的页面
-      "language": "zh_cn",    // 支持的语言，用于自动切换语言和汉化更新检测
-      "version": "1.0.0",     // 汉化补丁包版本号，用于设定当前汉化补丁版本
+      "language": "zh_cn", // 支持的语言，用于自动切换语言和汉化更新检测
+      "version": "1.0.0", // 汉化补丁包版本号，用于设定当前汉化补丁版本
       "resourcePackName": "VM汉化组模组汉化包1.19及以上" // VM汉化资源包名称，用于下载汉化资源包
     }
   }

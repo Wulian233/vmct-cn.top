@@ -19,7 +19,7 @@ title: Submerged 2汉化下载
 
 | 整合包下载地址                                                    | 加载器   | 支持整合包版本 | 汉化状态 |
 | :---------------------------------------------------------------- | :------- | :------------- | :------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/submerged-2) | Neoforge | mc1.21.1 B6.1  | 翻译中   |
+| [链接](https://www.curseforge.com/minecraft/modpacks/submerged-2) | Neoforge | mc1.21.1 B9.0  | 翻译中   |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/17732)
 
