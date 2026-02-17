@@ -10,6 +10,17 @@ VMTU 支持自动下载并应用从网络下载的汉化资源包。
 
 ## 自动下载汉化资源包
 
+VM汉化资源包是 VM 汉化组专门为补全模组汉化维护制作的资源包，内含多年来 VM 汉化组及组员全部的整合包模组汉化文件。
+
+目前资源包覆盖的模组数量如下：
+
+- 1.12.2（53个模组）
+- 1.16（52个模组）
+- 1.18（155个模组）
+- 1.19 及以上（214个模组）
+
+---
+
 当 `vmtranslationupdate.toml` 中的 `autoDownloadVMTranslationPack` 启用时，VMTU 将会自动下载并应用 VM 汉化资源包
 
 ```toml
@@ -37,7 +48,7 @@ autoLoadExtraTranslationPack = false    # 是否自动加载扩展汉化资源�
 
 你可以在配置文件中的 `extraPackName` 设置扩展汉化资源包名称（包括后缀名）。
 
-![](/imgs/vmtu/config.png)
+![](/imgs/vmtu/config-resourcepack.png)
 
 `extraPackCustomIndex` 用于设置扩展资源包在资源包列表的顺序。此项更多内容将在自定义资源包顺序讲解。
 

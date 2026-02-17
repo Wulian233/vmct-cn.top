@@ -3,9 +3,7 @@ layout: doc
 title: VM汉化更新模组文档
 ---
 
-# VM汉化更新模组文档
-
-VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉化管理工具，涵盖了绝大部分汉化相关的使用场景。
+VM 汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉化管理工具，涵盖了绝大部分汉化相关的使用场景。
 目前主要为 VM 汉化组内部使用。
 
 > [!IMPORTANT] 重要提示
@@ -14,7 +12,7 @@ VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉�
 <DownloadLinks :methods="[
   { id: 'curseforge', text: 'CurseForge', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vmtranslationupdate' },
   { id: 'modrinth', text: 'Modrinth', icon: '/imgs/svg/modrinth.svg', link: 'https://modrinth.com/mod/vmupdate' },
-  { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTranslationUpdateMod' },
+  { id: 'github', text: '模组主源码仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTranslationUpdateMod' },
   { id: 'github-core', text: '下载核心源码仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/VMTUCore' },
   { id: 'gitee', text: 'Gitee 元数据', icon: '/imgs/svg/gitee.svg', link: 'https://gitee.com/Wulian233/vmtu' }
 ]" />
@@ -34,4 +32,4 @@ VM汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉�
 - 🚦 指定资源包加载顺序
 - 🔍 支持检测 I18nUpdateMod、VaultPatcher、Texture Locale Redirector 模组是否缺失。如未安装将弹出提示页面引导下载
 
-其中，自动下载并激活翻译资源包功能（VMTUCore）的代码源于 i18nUpdateMod3 模组代码，按照上游协议规定使用 AGPL 协议。
+其中，自动下载并激活翻译资源包功能（VMTUCore）的代码源于 i18nUpdateMod3 模组代码修改，按照上游协议规定使用 AGPL 协议。

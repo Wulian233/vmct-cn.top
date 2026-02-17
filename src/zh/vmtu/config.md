@@ -26,16 +26,20 @@ VMTU 共有 3 个配置文件，要使模组正常运行三者缺一不可。
 下方为默认生成的配置文件内容：
 
 ```toml
+[misc]                                  # 其他配置
 devMode = false                         # 供开发者使用的测试模式，会有输出更多日志，并在聊天栏打印整合包信息
-autoSwitchLanguage = true               # 是否自动切换语言（默认启用）
-autoDownloadVMTranslationPack = false   # 是否自动下载VM汉化资源包（默认禁用）
-checkModPackTranslationUpdate = true    # 是否检查整合包汉化更新
+autoSwitchLanguage = false              # 是否自动切换语言（默认禁用）
+checkModPackTranslationUpdate = false   # 是否检查整合包汉化更新
+[resourcePack]                          # 资源包相关配置
+autoDownloadVMTranslationPack = true    # 是否自动下载VM汉化资源包（默认启用）
 autoLoadExtraTranslationPack = false    # 是否自动加载扩展汉化资源包（默认禁用）
-resourcePackIndex = DEFAULT             # 资源包在资源包列表中的位置
+resourcePackIndex = "DEFAULT"           # 资源包在资源包列表中的位置
 extraPackName = ""                      # 扩展汉化资源包名称（包括扩展名）
 extraPackCustomIndex = 0                # 自定义扩展翻译资源包在资源包列表中的位置
-i18nUpdateModCheck = true               # 是否检查是否安装 i18nUpdateMod 模组（默认启用）
-vaultPatcherCheck = false               # 是否检查是否安装 Vault Patch 模组（默认禁用）
+[modInstallCheck]                       # 模组安装检查配置
+i18nUpdateMod = true                    # 是否检查安装 i18nUpdateMod 模组（默认启用）
+vaultPatcher = false                    # 是否检查安装 Vault Patch 模组（默认禁用）
+textureLocaleRedirector = false         # 是否检查安装 Texture Locale Redirector 模组（默认禁用）
 ```
 
 为了方便使用，本配置文件的所有内容均可在游戏内的模组配置界面进行修改。[^1]
@@ -53,12 +57,12 @@ vaultPatcherCheck = false               # 是否检查是否安装 Vault Patch �
 {
   "modpack": {
     "name": "ExampleModpack", // 整合包名称（暂无用途）
-    "version": "0.1.0", // 汉化适配的整合包版本，用于提示玩家是否需要升级整合包再安装新版汉化
+    "version": "0.1.0",       // 汉化适配的整合包版本，用于提示玩家是否需要升级整合包再安装新版汉化
     "translation": {
-      "id": "example", // 向云端查询汉化补丁的id（每个整合包汉化id需有唯一性）
+      "id": "example",        // 向云端查询汉化补丁的id（每个整合包汉化id需有唯一性）
       "url": "https://vmct-cn.top/modpacks/example/", // 当前汉化对应的官网的页面
-      "language": "zh_cn", // 支持的语言，用于自动切换语言和汉化更新检测
-      "version": "1.0.0", // 汉化补丁包版本号，用于设定当前汉化补丁版本
+      "language": "zh_cn",    // 支持的语言，用于自动切换语言和汉化更新检测
+      "version": "1.0.0",     // 汉化补丁包版本号，用于设定当前汉化补丁版本
       "resourcePackName": "VM汉化组模组汉化包1.19及以上" // VM汉化资源包名称，用于下载汉化资源包
     }
   }

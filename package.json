@@ -25,8 +25,8 @@
     "@mdit/plugin-img-mark": "^0.22.3",
     "@mdit/plugin-img-size": "^0.22.5",
     "@mdit/plugin-spoiler": "^0.22.3",
-    "@vueuse/core": "^14.2.0",
-    "@vueuse/integrations": "^14.2.0",
+    "@vueuse/core": "^14.2.1",
+    "@vueuse/integrations": "^14.2.1",
     "js-yaml": "^4.1.1",
     "lodash-es": "4.17.21",
     "markdown-it-footnote": "^4.0.0",
@@ -36,18 +36,18 @@
     "typescript": "^5.9.3",
     "unocss": "^66.6.0",
     "vitepress": "1.6.1",
-    "vue": "^3.5.27",
+    "vue": "^3.5.28",
     "vue-router": "^5.0.2"
   },
   "devDependencies": {
     "@unocss/extractor-mdc": "^66.6.0",
     "husky": "^9.1.7",
-    "markdown-it": "^14.1.0",
-    "pnpm": "^10.28.2",
+    "markdown-it": "^14.1.1",
+    "pnpm": "^10.29.3",
     "prettier": "^3.8.1",
-    "prettier-config-vuepress": "^7.0.4",
+    "prettier-config-vuepress": "^7.1.0",
     "taze": "^19.9.2",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@10.28.2"
+  "packageManager": "pnpm@10.29.3"
 }
