@@ -10,10 +10,19 @@ VM Metadata 是用于实时更新整合包版本和资源包版本数据的文�
 
 VM Metadata 目前有 v1 和 v2 两个版本，文件结构如下：
 
+## VM Metadata v2
+
+VM Metadata v2 重写了版本检测逻辑，使用 json 作为存储版本的文件。
+v2 版本将所有整合包的版本信息写在同一个文件中，并将链接写死在模组代码中，不可由外部修改。
+
+v2 版本的文件地址为：<https://gitee.com/Wulian233/vmtu/blob/main/update/v2/vm-meta.json>
+
+有关 VM Metadata v2 的格式信息，请参见[配置文件](./config#云端汉化信息配置)中的“云端汉化信息配置”章节。
+
 ## VM Metadata v1
 
 > [!IMPORTANT] 重要提示
-> VM Metadata v1 已经弃用，VMTU 后续可能会删除此兼容。建议使用 VM Metadata v2！
+> VM Metadata v1 已经弃用，VMTU 后续可能会删除此兼容。强烈建议使用 VM Metadata v2！
 
 VM Metadata v1 使用 txt 为存储版本的文件，文件结构如下所示：
 
@@ -43,12 +52,3 @@ VM Metadata v1 会根据 txt 的行数判断汉化补丁版本的功能。
   }
 }
 ```
-
-## VM Metadata v2
-
-VM Metadata v2 重写了版本检测逻辑，使用 json 作为存储版本的文件。
-v2 版本将所有整合包的版本信息写在同一个文件中，并将链接写死在模组代码中，不可由外部修改。
-
-v2 版本的文件地址为：<https://gitee.com/Wulian233/vmtu/blob/main/update/v2/vm-meta.json>
-
-有关 VM Metadata v2 的格式信息，请参见[配置文件](./config#云端汉化信息配置)中的“云端汉化信息配置”章节。

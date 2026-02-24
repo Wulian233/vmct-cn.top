@@ -21,11 +21,12 @@ VM汉化资源包是 VM 汉化组专门为补全模组汉化维护制作的资�
 
 ---
 
-当 `vmtranslationupdate.toml` 中的 `autoDownloadVMTranslationPack` 启用时，VMTU 将会自动下载并应用 VM 汉化资源包
+当 `vmtranslationupdate.toml` 中的 `autoDownloadVMTranslationPack` 启用时，VMTU 将会自动下载并应用 VM 汉化资源包，
+此功能默认启用。
 
 ```toml
-autoDownloadVMTranslationPack = false   # 是否自动下载VM汉化资源包（默认禁用）
-autoLoadExtraTranslationPack = false    # 是否自动加载扩展汉化资源包（默认禁用）
+[resourcePack]
+autoDownloadVMTranslationPack = false   # 是否自动下载VM汉化资源包（默认启用）
 ```
 
 你可以在 `modpackinfo.json` 中设置 VM 汉化资源包。汉化资源包名称及其支持版本如下表：
@@ -53,7 +54,9 @@ autoLoadExtraTranslationPack = false    # 是否自动加载扩展汉化资源�
 `extraPackCustomIndex` 用于设置扩展资源包在资源包列表的顺序。此项更多内容将在自定义资源包顺序讲解。
 
 ```toml
-resourcePackIndex = DEFAULT    # 资源包在资源包列表中的位置
+[resourcePack]
+autoLoadExtraTranslationPack = false    # 是否自动加载扩展汉化资源包（默认禁用）
+resourcePackIndex = "DEFAULT"  # 资源包在资源包列表中的位置
 extraPackName = ""             # 扩展汉化资源包名称（包括扩展名）
 extraPackCustomIndex = 0       # 自定义扩展翻译资源包在资源包列表中的位置
 ```

@@ -27,7 +27,7 @@ VMTU 共有 3 个配置文件，要使模组正常运行三者缺一不可。
 
 ```toml
 [misc]                                  # 其他配置
-devMode = false                         # 供开发者使用的测试模式，会有输出更多日志，并在聊天栏打印整合包信息
+devMode = false                         # 供开发者使用的测试模式，会输出更多日志，并在聊天栏打印整合包信息
 autoSwitchLanguage = false              # 是否自动切换语言（默认禁用）
 checkModPackTranslationUpdate = false   # 是否检查整合包汉化更新
 [resourcePack]                          # 资源包相关配置
