@@ -21,10 +21,10 @@
     "upgrade-deps": "taze patch -I"
   },
   "dependencies": {
-    "@mdit/plugin-container": "^0.22.3",
-    "@mdit/plugin-img-mark": "^0.22.3",
-    "@mdit/plugin-img-size": "^0.22.5",
-    "@mdit/plugin-spoiler": "^0.22.3",
+    "@mdit/plugin-container": "^0.23.1",
+    "@mdit/plugin-img-mark": "^0.23.1",
+    "@mdit/plugin-img-size": "^0.23.1",
+    "@mdit/plugin-spoiler": "^0.23.1",
     "@vueuse/core": "^14.2.1",
     "@vueuse/integrations": "^14.2.1",
     "js-yaml": "^4.1.1",
@@ -32,22 +32,22 @@
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
     "qrcode": "^1.5.4",
-    "sweetalert2": "^11.26.20",
+    "sweetalert2": "^11.26.21",
     "typescript": "^5.9.3",
-    "unocss": "^66.6.0",
+    "unocss": "^66.6.6",
     "vitepress": "1.6.1",
     "vue": "^3.5.29",
     "vue-router": "^5.0.3"
   },
   "devDependencies": {
-    "@unocss/extractor-mdc": "^66.6.0",
+    "@unocss/extractor-mdc": "^66.6.6",
     "husky": "^9.1.7",
     "markdown-it": "^14.1.1",
-    "pnpm": "^10.30.2",
+    "pnpm": "^10.31.0",
     "prettier": "^3.8.1",
     "prettier-config-vuepress": "^7.1.0",
-    "taze": "^19.9.2",
+    "taze": "^19.10.0",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@10.30.2"
+  "packageManager": "pnpm@10.31.0"
 }

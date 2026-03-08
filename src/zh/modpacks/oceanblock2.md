@@ -18,8 +18,6 @@ title: FTB Oceanblock 2汉化下载
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/ob2' }
 ]" />
 
----
-
 | FTB官网                                                              | 加载器   | 支持整合包版本  | 汉化维护状态 |
 | :------------------------------------------------------------------- | :------- | :-------------- | :----------- |
 | [链接](https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2) | Neoforge | mc1.21.1 1.16.0 | 维护中       |
