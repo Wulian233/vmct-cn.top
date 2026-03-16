@@ -15,7 +15,7 @@ VM Metadata 目前有 v1 和 v2 两个版本，文件结构如下：
 VM Metadata v2 重写了版本检测逻辑，使用 json 作为存储版本的文件。
 v2 版本将所有整合包的版本信息写在同一个文件中，并将链接写死在模组代码中，不可由外部修改。
 
-v2 版本的文件地址为：<https://gitee.com/Wulian233/vmtu/blob/main/update/v2/vm-meta.json>
+v2 版本的文件地址为：<https://github.com/VM-Chinese-translate-group/VM-Resources/blob/main/update/v2/vm-meta.json>
 
 有关 VM Metadata v2 的格式信息，请参见[配置文件](./config#云端汉化信息配置)中的“云端汉化信息配置”章节。
 
