@@ -33,13 +33,13 @@ autoDownloadVMTranslationPack = false   # 是否自动下载VM汉化资源包（
 
 | 汉化资源包名称               | 支持的Minecraft版本 |
 | ---------------------------- | ------------------- |
-| VM汉化组模组汉化包1.19及以上 | 1.19~               |
-| VM汉化组模组汉化包1.18       | 1.18.x              |
-| VM汉化组模组汉化包1.16       | 1.16.x              |
-| VM汉化组模组汉化包1.12       | 1.12.2              |
+| VMTranslationPack-1.19.x    | 1.19~               |
+| VMTranslationPack-1.18.x       | 1.18.x              |
+| VMTranslationPack-1.16.x       | 1.16.x              |
+| VMTranslationPack-1.12.2       | 1.12.2              |
 
-汉化资源包名称对应的下载链接写死在模组代码中，不可由外部修改。
-资源包文件也位于 [Gitee 仓库中](https://gitee.com/Wulian233/vmtu/tree/main/resourcepack)。
+汉化资源包名称对应的下载链接不可由外部修改。
+资源包文件也位于 [VM-Chinese-translate-group/VM-Resources](https://github.com/VM-Chinese-translate-group/VM-Resources/blob/main/resourcepack)。
 
 另外，VM 汉化资源包也在 [Modrinth](https://modrinth.com/resourcepack/vmct) 和 [CurseForge](https://www.curseforge.com/minecraft/texture-packs/vm-chinese-mods-translation) 有发布。
 

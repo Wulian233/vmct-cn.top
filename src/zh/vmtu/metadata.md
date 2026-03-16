@@ -4,7 +4,7 @@ title: VM Metadata
 ---
 
 VM Metadata 是用于实时更新整合包版本和资源包版本数据的文件，这些文件不保存在本地，
-它们被存放在 [Gitee 仓库内](https://gitee.com/Wulian233/vmtu)。
+它们被存放在 [VM-Chinese-translate-group/VM-Resources](https://github.com/VM-Chinese-translate-group/VM-Resources)。
 
 你可以把它理解为一种“云控”，但是我们只用来提醒更新汉化补丁。
 
@@ -44,10 +44,9 @@ VM Metadata v1 会根据 txt 的行数判断汉化补丁版本的功能。
     "version": "0.1.0",
     "translation": {
       "id": "example",
-      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/blob/main/update/example.txt", // [!code highlight]
+      "updateCheckUrl": "https://github.com/VM-Chinese-translate-group/VM-Resources/blob/main/update/example.txt", // [!code highlight]
       "language": "zh_cn",
-      "version": "1.0.0",
-      "resourcePackName": "VM汉化组模组汉化包1.19及以上"
+      "version": "1.0.0"
     }
   }
 }
