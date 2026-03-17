@@ -81,7 +81,7 @@ textureLocaleRedirector = false         # 是否检查安装 Texture Locale Redi
 | SimpleModpackUpdateChecker Mod     | `config/simple-modpack-update-checker.json` |
 | SimpleUpdateChecker Mod     | `config/simpleupdatechecker_modpack.json` |
 
-## 云端汉化信息配置
+## 云端汉化信息配置 （vm-meta）
 
 `vm-meta` 是存储在云端的汉化补丁信息文件。VMTU 会联网基于此文件内的信息与本地 `modpackinfo.json` 中的汉化信息对比，
 来检测汉化补丁是否需要更新。

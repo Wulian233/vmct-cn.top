@@ -4,7 +4,7 @@ title: VM Metadata
 ---
 
 VM Metadata 是用于实时更新整合包版本和资源包版本数据的文件，这些文件不保存在本地，
-它们被存放在 [VM-Chinese-translate-group/VM-Resources](https://github.com/VM-Chinese-translate-group/VM-Resources)。
+它们被存放在 [GitHub仓库 VM-Chinese-translate-group/VM-Resources](https://github.com/VM-Chinese-translate-group/VM-Resources)。
 
 你可以把它理解为一种“云控”，但是我们只用来提醒更新汉化补丁。
 
