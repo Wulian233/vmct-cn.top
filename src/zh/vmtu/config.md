@@ -61,20 +61,32 @@ textureLocaleRedirector = false         # 是否检查安装 Texture Locale Redi
     "translation": {
       "id": "example", // 向云端查询汉化补丁的id（每个整合包汉化id需有唯一性）
       "url": "https://vmct-cn.top/modpacks/example/", // 当前汉化对应的官网的页面
+      "updateCheckUrl": "https://github.com/VM-Chinese-translate-group/VM-Resources/blob/main/update/example.txt", // vm-meta v1链接，用于检查汉化更新（已在4.0.0及更高版本弃用）
       "language": "zh_cn", // 支持的语言，用于自动切换语言和汉化更新检测
       "version": "1.0.0", // 汉化补丁包版本号，用于设定当前汉化补丁版本
-      "resourcePackName": "VM汉化组模组汉化包1.19及以上" // VM汉化资源包名称，用于下载汉化资源包
+      "resourcePackName": "VM汉化组模组汉化包1.19及以上" // VM汉化资源包名称，用于下载汉化资源包（已在5.0.2及更高版本弃用）
     }
   }
 }
 ```
 
-## 云端汉化信息配置
+### 整合包版本（`modpack.version`）
+
+`modpack.version`用于检测整合包版本，可以从整合包自带的metadata获取整合包本地版本，支持的metadata/整合包更新检测mod如下：
+
+| 名称 | 文件所在位置                      |
+| ---------- | ------------------------------------------ |
+| FTB Modpack Metadata      | `config/metadata.json` |
+| ModpackUpdateChecker Mod   | `config/modpack-update-checker/config.json` |
+| SimpleModpackUpdateChecker Mod     | `config/simple-modpack-update-checker.json` |
+| SimpleUpdateChecker Mod     | `config/simpleupdatechecker_modpack.json` |
+
+## 云端汉化信息配置 （vm-meta）
 
 `vm-meta` 是存储在云端的汉化补丁信息文件。VMTU 会联网基于此文件内的信息与本地 `modpackinfo.json` 中的汉化信息对比，
 来检测汉化补丁是否需要更新。
 
-以 v2 版本为例，此文件位于 <https://gitee.com/Wulian233/vmtu/blob/main/update/v2/vm-meta.json> 。
+以 v2 版本为例，此文件位于 <https://github.com/VM-Chinese-translate-group/VM-Resources/blob/main/update/v2/vm-meta.json> 。
 
 ```json
 {

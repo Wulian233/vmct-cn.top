@@ -19,8 +19,7 @@ title: 汉化更新检测
       "id": "example", // [!code highlight]
       "url": "https://vmct-cn.top/modpacks/example/", // [!code highlight]
       "language": "zh_cn",
-      "version": "1.0.0", // [!code highlight]
-      "resourcePackName": "VM汉化组模组汉化包1.19及以上"
+      "version": "1.0.0" // [!code highlight]
     }
   }
 }
