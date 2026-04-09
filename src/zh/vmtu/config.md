@@ -27,10 +27,10 @@ VMTU 共有 3 个配置文件，要使模组正常运行三者缺一不可。
 
 ```toml
 [misc]                                  # 其他配置
-devMode = false                         # 供开发者使用的测试模式，会输出更多日志，并在聊天栏打印整合包信息
+devMode = false                         # 供开发者使用的测试模式，会输出更多日志，并在聊天栏打印整合包信息（默认禁用）
 autoSwitchLanguage = false              # 是否自动切换语言（默认禁用）
-checkModPackTranslationUpdate = false   # 是否检查整合包汉化更新
-generateExampleModpackInfo = false      # 是否生成示例整合包信息文件
+checkModPackTranslationUpdate = false   # 是否检查整合包汉化更新（默认禁用）
+generateExampleModpackInfo = false      # 是否生成示例整合包信息文件（默认禁用）
 [resourcePack]                          # 资源包相关配置
 autoDownloadVMTranslationPack = true    # 是否自动下载VM汉化资源包（默认启用）
 autoLoadExtraTranslationPack = false    # 是否自动加载扩展汉化资源包（默认禁用）
@@ -44,6 +44,8 @@ textureLocaleRedirector = false         # 是否检查安装 Texture Locale Redi
 ```
 
 为了方便使用，本配置文件的所有内容均可在游戏内的模组配置界面进行修改。[^1]
+
+![](/imgs/vmtu/config-button.png)
 
 ![](/imgs/vmtu/config.png)
 
@@ -60,12 +62,12 @@ textureLocaleRedirector = false         # 是否检查安装 Texture Locale Redi
     "name": "ExampleModpack", // 整合包名称（暂无用途）
     "version": "0.1.0", // 汉化适配的整合包版本，用于提示玩家是否需要升级整合包再安装新版汉化
     "translation": {
-      "id": "example", // 向云端查询汉化补丁的id（每个整合包汉化id需有唯一性）
+      "id": "example", // 向云端查询汉化补丁的id（每个整合包id需唯一）
       "url": "https://vmct-cn.top/modpacks/example/", // 当前汉化对应的官网的页面
-      "updateCheckUrl": "https://github.com/VM-Chinese-translate-group/VM-Resources/blob/main/update/example.txt", // vm-meta v1链接，用于检查汉化更新（已在4.0.0及更高版本弃用）
+      "updateCheckUrl": "https://github.com/VM-Chinese-translate-group/VM-Resources/blob/main/update/example.txt", // vm-meta v1链接，用于检查汉化更新（已从4.0.0起弃用）
       "language": "zh_cn", // 支持的语言，用于自动切换语言和汉化更新检测
       "version": "1.0.0", // 汉化补丁包版本号，用于设定当前汉化补丁版本
-      "resourcePackName": "VM汉化组模组汉化包1.19及以上" // VM汉化资源包名称，用于下载汉化资源包（已在5.0.2及更高版本弃用）
+      "resourcePackName": "VM汉化组模组汉化包1.19及以上" // VM汉化资源包名称，用于下载汉化资源包（已从5.0.2起弃用）
     }
   }
 }
@@ -75,12 +77,12 @@ textureLocaleRedirector = false         # 是否检查安装 Texture Locale Redi
 
 `modpack.version`用于检测整合包版本，可以从整合包自带的metadata获取整合包本地版本，支持的metadata/整合包更新检测mod如下：
 
-| 名称 | 文件所在位置                      |
-| ---------- | ------------------------------------------ |
-| FTB Modpack Metadata      | `config/metadata.json` |
-| ModpackUpdateChecker Mod   | `config/modpack-update-checker/config.json` |
-| SimpleModpackUpdateChecker Mod     | `config/simple-modpack-update-checker.json` |
-| SimpleUpdateChecker Mod     | `config/simpleupdatechecker_modpack.json` |
+| 名称                           | 文件所在位置                                |
+| ------------------------------ | ------------------------------------------- |
+| FTB Modpack Metadata           | `config/metadata.json`                      |
+| ModpackUpdateChecker Mod       | `config/modpack-update-checker/config.json` |
+| SimpleModpackUpdateChecker Mod | `config/simple-modpack-update-checker.json` |
+| SimpleUpdateChecker Mod        | `config/simpleupdatechecker_modpack.json`   |
 
 ## 云端汉化信息配置 （vm-meta）
 
