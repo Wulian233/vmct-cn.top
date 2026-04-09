@@ -7,7 +7,7 @@ VM 汉化更新是一个为 Minecraft 整合包汉化补丁设计的自动化汉
 目前主要为 VM 汉化组内部使用。
 
 > [!IMPORTANT] 重要提示
-> 本文档所有内容基于 VMTU 最新版 5.0.3 编写
+> 本文档所有内容基于 VMTU 5.1.0 编写
 
 <DownloadLinks :methods="[
   { id: 'curseforge', text: 'CurseForge', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/minecraft/mc-mods/vmtranslationupdate' },
