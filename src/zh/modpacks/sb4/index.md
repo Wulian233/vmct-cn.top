@@ -13,8 +13,6 @@ title: FTB石头世界4汉化下载
 
 > [!IMPORTANT] 重要提示
 > 完整汉化体验请下载下方的下载i18n模组，并放在`mods`文件夹！
->
-> 记得在覆盖文件后进入游戏的资源包管理页面，把VM汉化资源包启用并拖到最上方！
 
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/sb4', quarkLink: 'https://pan.quark.cn/s/e7e23e916087' },
@@ -24,11 +22,9 @@ title: FTB石头世界4汉化下载
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/sb4' }
 ]" />
 
----
-
-| 整合包下载地址                                                         | 加载器   | 支持整合包版本 | 汉化维护状态 |
-| :--------------------------------------------------------------------- | :------- | :------------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | Neoforge | mc1.21.1 1.8.0 | 维护中       |
+| 整合包下载地址                                                         | 加载器   | 支持整合包版本  | 汉化维护状态 |
+| :--------------------------------------------------------------------- | :------- | :-------------- | :----------- |
+| [链接](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | Neoforge | mc1.21.1 1.10.0 | 维护中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/16650)
 

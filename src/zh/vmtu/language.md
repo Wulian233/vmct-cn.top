@@ -16,8 +16,7 @@ title: 自动切换语言
       "id": "example",
       "url": "https://vmct-cn.top/modpacks/example/",
       "language": "zh_cn", // [!code highlight]
-      "version": "1.0.0",
-      "resourcePackName": "VM汉化组模组汉化包1.19及以上"
+      "version": "1.0.0"
     }
   }
 }

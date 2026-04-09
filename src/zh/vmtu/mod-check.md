@@ -18,7 +18,7 @@ textureLocaleRedirector = false   # 是否检查安装 Texture Locale Redirector
 
 若相应模组均已安装，则不会出现任何提示；
 
-注：本提示屏幕可由玩家自行跳过，可以按 `esc` 或右下方的`回到标题页面`按钮。
+注：本提示屏幕可以按 `esc` 或右下方的`回到标题页面`按钮由玩家自行跳过。
 
 ---
 

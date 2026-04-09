@@ -19,8 +19,7 @@ title: 汉化更新检测
       "id": "example", // [!code highlight]
       "url": "https://vmct-cn.top/modpacks/example/", // [!code highlight]
       "language": "zh_cn",
-      "version": "1.0.0", // [!code highlight]
-      "resourcePackName": "VM汉化组模组汉化包1.19及以上"
+      "version": "1.0.0" // [!code highlight]
     }
   }
 }
@@ -42,7 +41,7 @@ title: 汉化更新检测
 该指令会忽略 `vmtranslationupdate.toml` 中的 `checkModPackTranslationUpdate` 选项，强制进行更新检测，
 且所有游戏语言都可以使用该指令。
 
-此外，在最新版 5.0.0 中，该指令新增了两个可选参数：`modpack` 和 `translation`。
+此外，指令还拥有两个可选参数：`modpack` 和 `translation`。
 
 通过指定检测参数，可以仅检测汉化适配的整合包或特定汉化补丁的更新。
 此功能仅影响指令返回发在聊天栏的信息，不会影响玩家每次进入世界时的检测行为（全部检测）。
