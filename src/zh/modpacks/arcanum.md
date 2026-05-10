@@ -15,7 +15,7 @@ title: FTB奥术学院汉化下载
 
 | FTB官网                                                                   | 加载器 | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------------------ | :----- | :------------- | :----------- |
-| [链接](https://www.feed-the-beast.com/modpacks/115-ftb-arcanum-institute) | Forge  | mc1.18.2 1.4.0 | **维护中**   |
+| [链接](https://www.feed-the-beast.com/modpacks/115-ftb-arcanum-institute) | Forge  | mc1.18.2 1.4.0 | 停止维护中   |
 
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/asxy-vmct', quarkLink: 'https://pan.quark.cn/s/356f11fbd914' },

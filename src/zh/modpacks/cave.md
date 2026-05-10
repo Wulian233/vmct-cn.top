@@ -18,7 +18,7 @@ title: 洞穴城汉化下载
 
 | 整合包下载地址                                                       | 加载器 | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/caveopolis) | Forge  | 1.18.2 4.1     | **停止维护** |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/caveopolis) | Forge  | 1.18.2 4.1     | 停止维护     |
 
 ## 整合包介绍
 

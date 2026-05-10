@@ -22,7 +22,7 @@ title: 无限协会汉化下载
 
 | 整合包下载地址                                                                 | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :----------------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/infinity-foundation/) | Forge  | 最新版         | 1.18.2 | **停止维护** |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/infinity-foundation/) | Forge  | 最新版         | 1.18.2 | 停止维护     |
 
 ## 整合包下载
 

@@ -43,11 +43,11 @@
     "@unocss/extractor-mdc": "^66.6.8",
     "husky": "^9.1.7",
     "markdown-it": "^14.1.1",
-    "pnpm": "^10.33.0",
+    "pnpm": "^11.0.9",
     "prettier": "^3.8.1",
     "prettier-config-vuepress": "^7.1.0",
     "taze": "^19.11.0",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@11.0.9"
 }

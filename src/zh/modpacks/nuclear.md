@@ -16,7 +16,7 @@ title: 核荒原汉化下载
 
 | 整合包下载地址                                                                  | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :------------------------------------------------------------------------------ | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/the-nuclear-wasteland) | Forge  | 最新版         | 1.12.2 | **停止维护** |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/the-nuclear-wasteland) | Forge  | 最新版         | 1.12.2 | 停止维护     |
 
 ## 整合包下载
 
