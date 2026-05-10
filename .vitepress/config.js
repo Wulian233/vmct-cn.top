@@ -148,8 +148,8 @@ export default defineConfig({
       "link",
       {
         rel: "icon",
-        href: `/imgs/favicon/favicon.png`,
-        type: "image/png",
+        href: `/imgs/favicon/favicon.ico`,
+        type: "image/ico",
       },
     ],
     [
