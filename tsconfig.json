@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "noEmit": true,
+    "rootDir": ".vitepress/theme",
     "module": "ESnext",
     "target": "ESnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "allowJs": true,
     "esModuleInterop": true,
     "strict": true,
@@ -19,6 +20,6 @@
       "vite": ["./node_modules/vite"]
     }
   },
-  "include": ["**/.vitepress/**/*.vue"],
+  "include": [".vitepress/theme/**/*.js", ".vitepress/theme/**/*.vue"],
   "exclude": ["**/node_modules/**", "**/dist/**"]
 }

@@ -78,7 +78,7 @@ theme: medium
 ```card
 title: Modpack汉化合集
 link: https://modpack.top/
-logo: https://modpack.top/logo.png
+logo: https://modpack.top/img/logo.svg
 desc: 一个致力于收集整合包汉化的网站
 theme: medium
 ```
