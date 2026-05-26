@@ -5,7 +5,33 @@ const props = defineProps({
   items: Array,
 });
 
+const getDownloadType = (item) => (item.id === "lazy" ? "lazy" : "normal");
+
+function trackDownloadChoice(stage, item, extra = {}) {
+  if (typeof window === "undefined") return;
+
+  window.gtag?.("event", `download_choice_${stage}`, {
+    download_type: getDownloadType(item),
+    download_method_id: item.id,
+    download_method_name: item.name,
+    ...extra,
+  });
+}
+
+function openTrackedLink(item, url = item.link, extra = {}) {
+  if (!url) return;
+
+  trackDownloadChoice("open", item, {
+    final_download_method_id: item.id,
+    final_download_method_name: item.name,
+    ...extra,
+  });
+  window.open(url, "_blank");
+}
+
 function handleClick(item) {
+  trackDownloadChoice("click", item);
+
   if (item.id === "lanzou") {
     showModal(item);
   } else if (item.id === "lazy") {
@@ -17,7 +43,7 @@ function handleClick(item) {
   } else if (item.id === "lanzou-quark-mapdl") {
     showQuarkMapModal(item);
   } else if (item.link) {
-    window.open(item.link, "_blank");
+    openTrackedLink(item);
   }
 }
 
@@ -209,9 +235,7 @@ function showCorrectAnswersModal(item) {
     reverseButtons: true,
     focusCancel: true,
     preConfirm: () => {
-      if (item.link) {
-        window.open(item.link, "_blank");
-      }
+      openTrackedLink(item);
     },
     didOpen: () => {
       const confirmButton = Swal.getConfirmButton();
@@ -307,11 +331,15 @@ function showQuarkModal(item) {
     },
   }).then((result) => {
     if (result.isConfirmed) {
-      const link = item.quarkLink;
-      if (link) window.open(link, "_blank");
+      openTrackedLink(item, item.quarkLink, {
+        final_download_method_id: "quark",
+        final_download_method_name: "夸克网盘",
+      });
     } else if (result.isDenied) {
-      const link = item.lanzouLink;
-      if (link) window.open(link, "_blank");
+      openTrackedLink(item, item.lanzouLink, {
+        final_download_method_id: "lanzou",
+        final_download_method_name: "蓝奏云",
+      });
     }
   });
 }
@@ -330,9 +358,7 @@ function showModal(item) {
     reverseButtons: true,
     focusCancel: true,
     preConfirm: () => {
-      if (item.link) {
-        window.open(item.link, "_blank");
-      }
+      openTrackedLink(item);
     },
     willOpen: () => {
       // 在弹窗显示后，延迟3秒启用确认按钮
@@ -375,11 +401,15 @@ function showQuarkMapModal(item) {
     },
   }).then((result) => {
     if (result.isConfirmed) {
-      const link = item.quarkLink;
-      if (link) window.open(link, "_blank");
+      openTrackedLink(item, item.quarkLink, {
+        final_download_method_id: "quark",
+        final_download_method_name: "夸克网盘",
+      });
     } else if (result.isDenied) {
-      const link = item.lanzouLink;
-      if (link) window.open(link, "_blank");
+      openTrackedLink(item, item.lanzouLink, {
+        final_download_method_id: "lanzou",
+        final_download_method_name: "蓝奏云",
+      });
     }
   });
 }
@@ -397,9 +427,7 @@ function showMapModal(item) {
     reverseButtons: true,
     focusCancel: true,
     preConfirm: () => {
-      if (item.link) {
-        window.open(item.link, "_blank");
-      }
+      openTrackedLink(item);
     },
     willOpen: () => {
       // 在弹窗显示后，延迟3秒启用确认按钮

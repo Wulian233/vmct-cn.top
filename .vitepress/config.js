@@ -160,14 +160,6 @@ export default defineConfig({
       "link",
       { rel: "alternate", hreflang: "tw", href: "https://vmct-cn.top/tw/" },
     ],
-    [
-      "link",
-      {
-        rel: "alternate",
-        href: `/imgs/favicon/favicon.ico`,
-        type: "image/x-icon",
-      },
-    ],
     ["meta", { name: "referrer", content: "no-referrer-when-downgrade" }],
     ["meta", { property: "og:site", content: "website" }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],

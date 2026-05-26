@@ -3,16 +3,6 @@
   "private": "true",
   "license": "MIT",
   "type": "module",
-  "author": "Wulian233 <admin@vmct-cn.top>",
-  "homepage": "https://github.com/Wulian233/vmct-cn.top",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wulian233/vmct-cn.top"
-  },
-  "bugs": {
-    "url": "https://github.com/Wulian233/vmct-cn.top/issues",
-    "email": "admin@vmct-cn.top"
-  },
   "scripts": {
     "build": "vitepress build --minify --base /",
     "dev": "vitepress",
@@ -25,29 +15,29 @@
     "@mdit/plugin-img-mark": "^0.23.2",
     "@mdit/plugin-img-size": "^0.23.2",
     "@mdit/plugin-spoiler": "^0.23.2",
-    "@vueuse/core": "^14.2.1",
-    "@vueuse/integrations": "^14.2.1",
+    "@vueuse/core": "^14.3.0",
+    "@vueuse/integrations": "^14.3.0",
     "js-yaml": "^4.1.1",
     "lodash-es": "4.17.21",
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
     "qrcode": "^1.5.4",
-    "sweetalert2": "^11.26.24",
-    "typescript": "^6.0.2",
-    "unocss": "^66.6.8",
+    "sweetalert2": "^11.26.25",
+    "typescript": "^6.0.3",
+    "unocss": "^66.7.0",
     "vitepress": "1.6.1",
-    "vue": "^3.5.32",
-    "vue-router": "^5.0.4"
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.7"
   },
   "devDependencies": {
-    "@unocss/extractor-mdc": "^66.6.8",
+    "@unocss/extractor-mdc": "^66.7.0",
     "husky": "^9.1.7",
-    "markdown-it": "^14.1.1",
-    "pnpm": "^11.0.9",
-    "prettier": "^3.8.1",
+    "markdown-it": "^14.2.0",
+    "pnpm": "^11.3.0",
+    "prettier": "^3.8.3",
     "prettier-config-vuepress": "^7.1.0",
-    "taze": "^19.11.0",
+    "taze": "^19.14.1",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@11.0.9"
+  "packageManager": "pnpm@11.3.0"
 }
