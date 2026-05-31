@@ -27,7 +27,7 @@ VMTU 共有 3 个配置文件，要使模组正常运行三者缺一不可。
 
 ```toml
 [misc]                                  # 其他配置
-devMode = false                         # 供开发者使用的测试模式，会输出更多日志，并在聊天栏打印整合包信息（默认禁用）
+devMode = false                         # 供开发者使用的测试模式，会输出更多日志，并在聊天栏输出整合包配置信息（默认禁用）
 autoSwitchLanguage = false              # 是否自动切换语言（默认禁用）
 checkModPackTranslationUpdate = false   # 是否检查整合包汉化更新（默认禁用）
 generateExampleModpackInfo = false      # 是否生成示例整合包信息文件（默认禁用）
@@ -54,7 +54,7 @@ textureLocaleRedirector = false         # 是否检查安装 Texture Locale Redi
 `modpackinfo.json` 是用于标记整合包信息以及汉化包配置的文件，位于游戏的根目录下。
 此文件用于让 VMTU 基于此文件内的信息向云端查询游戏安装的汉化补丁是否需要更新。
 
-下方为默认生成的配置文件内容（需开启“生成示例整合包信息文件”功能）：
+下方为默认生成的配置文件内容（需开启生成示例整合包信息文件 `generateExampleModpackInfo` 功能）：
 
 ```json
 {

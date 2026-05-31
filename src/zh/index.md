@@ -18,7 +18,7 @@ hero:
       link: /map/
     - theme: alt
       text: GitHub
-      link: https://github.com/Wulian233/vmct-cn.top/
+      link: https://github.com/VM-Chinese-translate-group
   image:
     src: /imgs/logo/logo_512.png
     alt: VM 汉化组
