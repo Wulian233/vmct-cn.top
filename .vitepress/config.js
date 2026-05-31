@@ -90,7 +90,7 @@ export default defineConfig({
       options: {
         appId: "GCI0MKFKYA",
         apiKey: "6b86778438eaf70ca177b9652d982c47",
-        indexName: "vmct_cn_top_gci0mkfkya_pages",
+        indexName: "vm_web_pages",
         placeholder: "搜索",
         translations: {
           button: {
