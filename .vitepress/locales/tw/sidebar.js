@@ -134,12 +134,12 @@ const sidebar = {
   "/vmtu": [
     { text: "VM漢化組", link: "index" },
     {
-      text: "入門",
+      text: "VM漢化實用工具模組文檔",
       collapsed: false,
       items: [
         { text: "模組簡介", link: "/vmtu/" },
         { text: "配置檔", link: "/vmtu/config" },
-        { text: "自動切換語言", link: "/vmtu/language" },
+        { text: "語言相關", link: "/vmtu/language" },
         { text: "模組安裝檢測", link: "/vmtu/mod-check" },
         { text: "資源包相關", link: "/vmtu/resourcepack" },
         { text: "漢化補丁更新檢測", link: "/vmtu/translation-update" },
