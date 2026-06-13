@@ -38,7 +38,7 @@ PS：域名在腾讯云购买
 ```vue
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: '蓝奏云下载链接', quarkLink: '夸克网盘下载链接' },
-  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
+  { id: 'modrinth', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://cdn.modrinth.com/data/PWERr14M/versions/4ihDUjWs/I18nUpdateMod-3.7.0-all.jar' },
   { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '蓝奏云下载链接' }
 ]" />

@@ -17,7 +17,7 @@
     "@mdit/plugin-spoiler": "^0.23.2",
     "@vueuse/core": "^14.3.0",
     "@vueuse/integrations": "^14.3.0",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^4.2.0",
     "lodash-es": "4.17.21",
     "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
@@ -26,18 +26,18 @@
     "typescript": "^6.0.3",
     "unocss": "^66.7.0",
     "vitepress": "1.6.1",
-    "vue": "^3.5.35",
+    "vue": "^3.5.38",
     "vue-router": "^5.1.0"
   },
   "devDependencies": {
     "@unocss/extractor-mdc": "^66.7.0",
     "husky": "^9.1.7",
     "markdown-it": "^14.2.0",
-    "pnpm": "^11.5.0",
-    "prettier": "^3.8.3",
+    "pnpm": "^11.6.0",
+    "prettier": "^3.8.4",
     "prettier-config-vuepress": "^7.1.0",
     "taze": "^19.14.1",
     "tsconfig-vuepress": "^7.0.0"
   },
-  "packageManager": "pnpm@11.5.0"
+  "packageManager": "pnpm@11.6.0"
 }

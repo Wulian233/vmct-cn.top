@@ -11,7 +11,7 @@ title: 地狱起源汉化下载
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouo.com/s/infernalorigin', quarkLink: 'https://pan.quark.cn/s/b2becfd4faaa' },
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1tx4y1s7E8/' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1nH4y1w7CQ' },
-  { id: 'curseforge', text: '硬编码汉化VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://mediafilez.forgecdn.net/files/7146/784/vaultpatcher-all-1.4.6.jar' },
+  { id: 'curseforge', text: '硬编码汉化VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://cdn.modrinth.com/data/NLV0Mnpu/versions/Z3IIqvHD/vaultpatcher-all-1.5.2.jar' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouo.com/s/infernalorigin' }
 ]" />
 
@@ -19,7 +19,7 @@ title: 地狱起源汉化下载
 
 | 整合包下载地址                                                         | 加载器 | 支持整合包版本 | MC版本 | 汉化维护状态 |
 | :--------------------------------------------------------------------- | :----- | :------------- | :----- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/infernal-rpg) | Forge  | v2.0.0-Patch 2 | 1.16.5 | _维护中_     |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/infernal-rpg) | Forge  | v2.0.0-Patch 2 | 1.16.5 | 停止维护     |
 
 项目主管 [@Litchiiiiii](https://github.com/Litchiiiiii) [@PigeonFish](https://github.com/PigeonFish)
 

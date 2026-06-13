@@ -16,13 +16,13 @@ title: 破晓之界汉化下载
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzoui.com/s/DawnCraft-VMct', quarkLink: 'https://pan.quark.cn/s/e60d5ec60233' },
   { id: 'bilibili', text: '宣传片', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1Ju4m1T719/' },
   { id: 'bilibili', text: '汉化教程', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/video/BV1ZU411f7FA' },
-  { id: 'curseforge', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://mediafilez.forgecdn.net/files/7146/784/vaultpatcher-all-1.4.6.jar' },
+  { id: 'modrinth', text: '下载VP模组', icon: '/imgs/svg/curseforge.svg', link: 'https://cdn.modrinth.com/data/NLV0Mnpu/versions/B01OjFjZ/vaultpatcher-all-1.4.4+1.jar' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzoui.com/s/DawnCraft-VMct' }
 ]" />
 
-| 整合包下载地址                                                       | 加载器 | 支持整合包版本 | 汉化维护状态 |
-| :------------------------------------------------------------------- | :----- | :------------- | :----------- |
-| [下载链接](https://www.curseforge.com/minecraft/modpacks/dawn-craft) | Forge  | 1.18.2 最新版  | 维护中       |
+| 整合包下载地址                                                       | 加载器 | 支持整合包版本  | 汉化维护状态 |
+| :------------------------------------------------------------------- | :----- | :-------------- | :----------- |
+| [下载链接](https://www.curseforge.com/minecraft/modpacks/dawn-craft) | Forge  | 1.18.2 2.0.16hf | 停止维护     |
 
 ## 整合包介绍
 

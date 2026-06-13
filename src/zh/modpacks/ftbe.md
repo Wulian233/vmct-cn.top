@@ -14,14 +14,14 @@ FTB Evolution 将你带入一个无限的 Minecraft 世界，在这里，先进�
 
 <DownloadLinks :methods="[
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: '/doing', quarkLink: '/doing' },
-  { id: 'curseforge', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://www.curseforge.com/api/v1/mods/297404/files/7173159/download' },
+  { id: 'modrinth', text: '下载i18n模组', icon: '/imgs/svg/curseforge.svg', link: 'https://cdn.modrinth.com/data/PWERr14M/versions/4ihDUjWs/I18nUpdateMod-3.7.0-all.jar' },
   { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/FTB-Evolution-Chinese' },
   { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '/doing' }
 ]" />
 
 | FTB官网                                                     | 加载器   | 支持整合包版本  | 汉化维护状态 |
 | :---------------------------------------------------------- | :------- | :-------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/125-ftb-evolution> | Neoforge | mc1.21.1 1.33.2 | 翻译中       |
+| <https://www.feed-the-beast.com/modpacks/125-ftb-evolution> | Neoforge | mc1.21.1 1.36.0 | 翻译中       |
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/12144)
 
