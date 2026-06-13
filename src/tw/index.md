@@ -30,7 +30,7 @@ features:
   - icon: 🔔
     title: 專用模組
     details: 我們製作了專用的更新模組，讓玩家能夠輕鬆檢查更新，並第一時間在遊戲內收到通知。此外，模組還整合了自動切換語言、下載資源包以及檢查前置模組安裝狀態等功能。
-    link: /vmtu
+    link: https://docs.vmct-cn.top/vmtu/
   - icon: 🤝
     title: 熱愛與團結
     details: VM 漢化組由一群志同道合的小夥伴組成。我們攜手並肩，為愛發電，在相互支持中建立起一個緊密協作的團隊。

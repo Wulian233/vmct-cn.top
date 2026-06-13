@@ -131,23 +131,6 @@ const sidebar = {
       ],
     },
   ],
-  "/vmtu": [
-    { text: "VM汉化组", link: "index" },
-    {
-      text: "VM汉化实用工具模组文档",
-      collapsed: false,
-      items: [
-        { text: "模组简介", link: "/vmtu/" },
-        { text: "配置文件", link: "/vmtu/config" },
-        { text: "语言相关", link: "/vmtu/language" },
-        { text: "模组安装检测", link: "/vmtu/mod-check" },
-        { text: "资源包相关", link: "/vmtu/resourcepack" },
-        { text: "汉化更新检测", link: "/vmtu/translation-update" },
-        { text: "支持的模组加载器及版本", link: "/vmtu/supported-version" },
-        { text: "VM Metadata", link: "/vmtu/metadata" },
-      ],
-    },
-  ],
 };
 
 export default sidebar;

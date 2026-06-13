@@ -45,8 +45,8 @@ const footer = {
           link: "/tw/map/",
         },
         {
-          text: "VM漢化更新模組",
-          link: "/vmtu/",
+          text: "VM漢化實用工具模組",
+          link: "https://docs.vmct-cn.top/vmtu/",
         },
         {
           text: "翻譯工具",

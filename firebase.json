@@ -10,6 +10,16 @@
         "type": 301
       },
       {
+        "source": "/modpacks/example",
+        "destination": "https://v4.vmct-cn.top/modpacks/example",
+        "type": 301
+      },
+      {
+        "source": "/vmtu/:vmtu",
+        "destination": "https://docs.vmct-cn.top/vmtu/:vmtu",
+        "type": 301
+      },
+      {
         "source": "/modpacks/:modpack/update.txt",
         "destination": "https://gitee.com/Wulian233/vmtu/raw/main/update/:modpack.txt",
         "type": 301

@@ -22,6 +22,16 @@
       "permanent": true
     },
     {
+      "source": "/modpacks/example",
+      "destination": "https://v4.vmct-cn.top/modpacks/example",
+      "permanent": true
+    },
+    {
+      "source": "/vmtu/:vmtu",
+      "destination": "https://docs.vmct-cn.top/vmtu/:vmtu",
+      "permanent": true
+    },
+    {
       "source": "/modpacks/:modpack/update.txt",
       "destination": "https://gitee.com/Wulian233/vmtu/raw/main/update/:modpack.txt",
       "permanent": true
