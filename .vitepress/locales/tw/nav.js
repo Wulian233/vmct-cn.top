@@ -13,7 +13,7 @@ const nav = [
   },
   {
     text: "漢化準則",
-    link: "/rule",
+    link: "https://docs.vmct-cn.top/rule/",
   },
   {
     text: "瞭解更多",

@@ -13,7 +13,7 @@ const nav = [
   },
   {
     text: "翻译准则",
-    link: "/rule",
+    link: "https://docs.vmct-cn.top/rule/",
   },
   {
     text: "了解更多",

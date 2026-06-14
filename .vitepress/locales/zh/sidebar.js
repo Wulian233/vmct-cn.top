@@ -104,7 +104,7 @@ const sidebar = {
   "/map": [
     { text: "返回首页", link: "index" },
     { text: "整合包汉化", link: "modpacks" },
-    { text: "汉化准则", link: "rule" },
+    { text: "汉化准则", link: "https://docs.vmct-cn.top/rule/" },
     { text: "双十一事变", link: "what" },
     { text: "用户协议", link: "agreement" },
     { text: "隐私政策", link: "privacy" },
