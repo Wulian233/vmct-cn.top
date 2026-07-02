@@ -3,7 +3,6 @@ const sidebar = {
     { text: "返回首頁", link: "/tw/index" },
     { text: "地圖漢化", link: "/tw/map" },
     { text: "中文更新檔安裝教程", link: "modpacks" },
-    { text: "雙十一事變", link: "what" },
     { text: "用戶協定", link: "/tw/agreement" },
     { text: "隱私政策", link: "/tw/privacy" },
     {
@@ -24,7 +23,7 @@ const sidebar = {
         // { text: "FTB Evolution", link: "/modpacks/ftbe" },
         // { text: "Craftoria", link: "/modpacks/craftoria" },
         // { text: "異域征途", link: "/modpacks/prodigium-reforged" },
-        { text: "亡者世界（DeceasedCraft）", link: "/modpacks/deceasedcraft" },
+        { text: "亡者世界", link: "/modpacks/deceasedcraft" },
         { text: "FTB Skies 2", link: "/modpacks/skies-2" },
         { text: "FTB Neotech", link: "/modpacks/neotech" },
         { text: "FTB Oceanblock 2", link: "/modpacks/oceanblock2" },
