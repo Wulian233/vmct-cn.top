@@ -11,6 +11,7 @@ const sidebar = {
       collapsed: false,
       items: [
         { text: "FTB石头世界4", link: "/modpacks/sb4/" },
+        { text: "吸血鬼的反击", link: "/modpacks/vampires-strike-back" },
         { text: "谜之天空", link: "/modpacks/enigmatic-skies" },
         // { text: "Submerged 2", link: "/modpacks/submerged-2" },
         // { text: "Ozone Skyblock Reborn 2", link: "/modpacks/ozone-skyblock-reborn-2" },

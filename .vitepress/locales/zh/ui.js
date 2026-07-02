@@ -8,7 +8,7 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `5月最新成果！謎之天空汉化现已发布！
+    recruitment: `5月最新成果！谜之天空汉化现已发布！
       <a href="/modpacks/enigmatic-skies" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
   },
   supportUs: {
