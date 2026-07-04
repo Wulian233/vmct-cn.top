@@ -13,7 +13,7 @@ title: 吸血鬼的反击汉化下载
   { id: 'quark-lanzou', text: '下载汉化', icon: '/imgs/logo/logo_64.png', lanzouLink: 'https://vmhanhuazu.lanzouv.com/b009i5g50f', quarkLink: 'https://pan.quark.cn/s/b397bc587ec0' },
   { id: 'modrinth', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/modrinth.svg', link: 'https://cdn.modrinth.com/data/PWERr14M/versions/4ihDUjWs/I18nUpdateMod-3.7.0-all.jar' },
   { id: 'github', text: 'GitHub仓库', icon: '/imgs/svg/github.svg', link: 'https://github.com/VM-Chinese-translate-group/Vampires-Strike-Back-Chinese' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: '[/doing](https://vmhanhuazu.lanzouv.com/b009i5g50f)' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://vmhanhuazu.lanzouv.com/b009i5g50f' }
 ]" />
 
 ## 更多信息
