@@ -10,15 +10,15 @@ title: FTB石头世界3汉化下载
 利用魔法与科技，按你的设计锻造出属于你的领域。
 
 <DownloadLinks :methods="[
-  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wulian233.lanzouu.com/iNLBv38skbxe' },
+  { id: 'lanzou', text: '下载汉化', icon: '/imgs/svg/lanzou.svg', link: 'https://wulian233.lanzouu.com/iClFd3vv8e' },
   { id: 'bilibili', text: '专栏介绍', icon: '/imgs/svg/bilibili.svg', link: 'https://www.bilibili.com/read/cv21772959/' },
   { id: 'modrinth', text: 'i18n自动汉化更新模组', icon: '/imgs/svg/modrinth.svg', link: 'https://cdn.modrinth.com/data/PWERr14M/versions/4ihDUjWs/I18nUpdateMod-3.7.0-all.jar' },
-  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://wulian233.lanzouu.com/iNLBv38skbxe' }
+  { id: 'lazy', text: '懒汉下载', icon: '/imgs/lazydl.png', link: 'https://wulian233.lanzouu.com/iClFd3vv8e' }
 ]" />
 
-| FTB 官网                                                             | 加载器 | 支持整合包版本  | 汉化维护状态 |
-| :------------------------------------------------------------------- | :----- | :-------------- | :----------- |
-| [链接](https://www.feed-the-beast.com/modpacks/100-ftb-stoneblock-3) | Forge  | mc1.18.2 最新版 | 维护完成     |
+| FTB 官网                                                             | 加载器 | 支持整合包版本        | 汉化维护状态 |
+| :------------------------------------------------------------------- | :----- | :-------------------- | :----------- |
+| [链接](https://www.feed-the-beast.com/modpacks/100-ftb-stoneblock-3) | Forge  | mc1.18.2 1.11.6最新版 | 维护完成     |
 
 ## 整合包下载与授权
 
