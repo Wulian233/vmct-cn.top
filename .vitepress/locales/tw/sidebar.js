@@ -9,7 +9,7 @@ const sidebar = {
       text: "模組包漢化",
       collapsed: false,
       items: [
-        { text: "FTB Skies2: Areo", link: "/modpacks/skies2-aero" },
+        { text: "FTB Skies2: Aero", link: "/modpacks/skies2-aero" },
         { text: "FTB石头世界4", link: "/modpacks/sb4/" },
         { text: "謎之天空", link: "/modpacks/enigmatic-skies" },
         { text: "吸血鬼的反擊", link: "/modpacks/vampires-strike-back" },

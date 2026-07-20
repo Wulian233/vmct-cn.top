@@ -8,7 +8,7 @@ const ui = {
     ],
   },
   banner: {
-    recruitment: `7月最新成果！FTB Skies 2 Areo漢化現已發布！
+    recruitment: `7月最新成果！FTB Skies 2 Aero漢化現已發布！
       <a href="/modpacks/skies2-aero" target="_blank" rel="noopener noreferrer">（点我了解详情）</a>`,
   },
   supportUs: {
